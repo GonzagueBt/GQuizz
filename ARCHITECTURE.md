@@ -241,6 +241,7 @@ export const CONFIG = {
   DECK_QUESTION_MIN: 50,
   DECK_QUESTION_MAX: 200,
   SESSION_LENGTH: 10,          // questions par partie
+  AUTO_ADVANCE_DELAY_MS: 550,  // pause avant passage auto (réponse juste)
   MASTERY_STREAK: 3,
   SCORE_BASE: 100,
   SCORE_DIFFICULTY_BONUS: 25,  // × (difficulty - 1)
@@ -263,11 +264,11 @@ jour la config).
 | `src/app/onboarding/index.tsx` | **Bienvenue** — 3 boutons | « Je choisis ce que je veux » / « …ce que je ne veux pas » / « ✨ Tout me va » |
 | `src/app/onboarding/categories.tsx` | Sélection catégories | mode include ou exclude selon le bouton ; **< 30 s** ; skippé si « Tout me va » |
 | `src/app/index.tsx` | **JOUER** | liste des modes : 🌎 Global personnalisé + un item par deck possédé |
-| `src/app/play/[mode].tsx` | Partie | barre de progression, question, réponses, feedback + haptics |
+| `src/app/play/[mode].tsx` | Partie | barre de progression, question, réponses, feedback + haptics ; bouton **✕** (+ retour Android) → pop-up de confirmation avant de quitter ; passage auto si `autoAdvanceOnCorrect` et réponse juste |
 | `src/app/play/result.tsx` | Résultats | score, questions maîtrisées, rejouer, partager |
 | `src/app/decks/index.tsx` | **📚 DECKS** | « Mes decks » (possédés) + « À découvrir » (premium non possédés) |
 | `src/app/decks/[id].tsx` | Détail deck | nom, illustration, description, catégorie, nb questions, difficulté moy., statut ; aperçu de questions ; **[ ACHETER ]** ou **[ JOUER ]** |
-| `src/app/settings/index.tsx` | ⚙️ Réglages | lien « Catégories du quiz », « Restaurer mes achats », thème, à propos |
+| `src/app/settings/index.tsx` | ⚙️ Réglages | « Catégories du quiz », **Passer automatiquement** (toggle `autoAdvanceOnCorrect`, défaut activé), « Restaurer mes achats », réinitialiser, refaire l'intro |
 | `src/app/settings/categories.tsx` | Éditeur de préférences | même composant que l'onboarding ; bouton **Réinitialiser** → toutes les catégories ; prise en compte immédiate |
 
 Composant partagé `CategorySelector` (arbre, cases à cocher tri-état

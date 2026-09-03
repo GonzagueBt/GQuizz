@@ -1,10 +1,11 @@
-import { Alert, View } from 'react-native';
+import { Alert, Switch, View } from 'react-native';
 import Constants from 'expo-constants';
 import { router, Stack } from 'expo-router';
 
 import { Card } from '@/components/Card';
 import { Screen } from '@/components/Screen';
 import { Text } from '@/components/Text';
+import { useTheme } from '@/hooks/useTheme';
 import { useAppStore } from '@/store/appStore';
 import { useOwnershipStore } from '@/store/ownershipStore';
 import { useProgressStore } from '@/store/progressStore';
@@ -13,6 +14,9 @@ export default function SettingsScreen() {
   const restore = useOwnershipStore((s) => s.restore);
   const resetProgress = useProgressStore((s) => s.reset);
   const resetOnboarding = useAppStore((s) => s.resetOnboarding);
+  const autoAdvance = useAppStore((s) => s.autoAdvanceOnCorrect);
+  const setAutoAdvance = useAppStore((s) => s.setAutoAdvanceOnCorrect);
+  const { colors } = useTheme();
 
   const confirmResetProgress = () =>
     Alert.alert('Réinitialiser la progression ?', 'Score et questions maîtrisées seront effacés.', [
@@ -37,6 +41,24 @@ export default function SettingsScreen() {
         <Text variant="caption" muted>
           Choisis ce qui apparaît en mode Global personnalisé.
         </Text>
+      </Card>
+      <Card>
+        <View style={{ flexDirection: 'row', alignItems: 'center', gap: 14 }}>
+          <View style={{ flex: 1, gap: 2 }}>
+            <Text variant="heading">Passer automatiquement</Text>
+            <Text variant="caption" muted>
+              Quand ta réponse est juste, on file à la question suivante après une courte pause.
+              Sur une mauvaise réponse, on reste pour voir la bonne.
+            </Text>
+          </View>
+          <Switch
+            value={autoAdvance}
+            onValueChange={setAutoAdvance}
+            trackColor={{ false: colors.border, true: colors.primary }}
+            thumbColor={colors.surface}
+            accessibilityLabel="Passer automatiquement à la question suivante"
+          />
+        </View>
       </Card>
 
       <Text variant="label" muted style={{ marginTop: 12 }}>

@@ -16,6 +16,10 @@ export const CONFIG = {
   /** Nombre de questions par partie. */
   SESSION_LENGTH: 10,
 
+  /** Délai avant passage auto à la question suivante quand la réponse est juste
+   *  (le temps de voir la réponse s'allumer en vert). Réglage `autoAdvanceOnCorrect`. */
+  AUTO_ADVANCE_DELAY_MS: 550,
+
   /** Bonnes réponses consécutives pour qu'une question soit "maîtrisée". */
   MASTERY_STREAK: 3,
 
