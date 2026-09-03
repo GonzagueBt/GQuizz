@@ -274,6 +274,12 @@ jour la config).
 Composant partagé `CategorySelector` (arbre, cases à cocher tri-état
 parent/enfants) utilisé à la fois en onboarding et en réglages.
 
+**Confirmations** : `Alert.alert` de react-native-web est un no-op — on passe donc
+par `<ConfirmProvider>` (racine) + `useConfirm()` qui rend un `<Modal>` themé et
+renvoie une `Promise<boolean>`. Utilisé pour « Quitter la partie » et
+« Réinitialiser la progression ». Les retours d'achat sont affichés en ligne sur
+l'écran du deck.
+
 ---
 
 ## 9. Première expérience (spec §12)

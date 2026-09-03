@@ -1,9 +1,10 @@
 import { useEffect, useRef, useState } from 'react';
-import { Alert, BackHandler, Pressable, View } from 'react-native';
+import { BackHandler, Pressable, View } from 'react-native';
 import { router, useLocalSearchParams } from 'expo-router';
 
 import { AnswerButton } from '@/components/AnswerButton';
 import { Button } from '@/components/Button';
+import { useConfirm } from '@/components/ConfirmProvider';
 import { ProgressBar } from '@/components/ProgressBar';
 import { Screen } from '@/components/Screen';
 import { Text } from '@/components/Text';
@@ -56,6 +57,7 @@ export default function PlayScreen() {
   const [mode] = useState<GameMode>(() => parseGameMode(modeParam));
   const [session] = useState<InitState>(() => initSession(mode));
   const autoAdvance = useAppStore((s) => s.autoAdvanceOnCorrect);
+  const confirm = useConfirm();
   const { colors } = useTheme();
 
   const [index, setIndex] = useState(0);
@@ -75,24 +77,18 @@ export default function PlayScreen() {
     }
   };
 
-  const confirmQuit = () => {
-    Alert.alert(
-      'Quitter la partie ?',
-      'La progression de cette partie sera perdue.',
-      [
-        { text: 'Continuer à jouer', style: 'cancel' },
-        {
-          text: 'Quitter',
-          style: 'destructive',
-          onPress: () => {
-            leaving.current = true;
-            clearAdvanceTimer();
-            router.replace('/');
-          },
-        },
-      ],
-      { cancelable: true },
-    );
+  const confirmQuit = async () => {
+    const ok = await confirm({
+      title: 'Quitter la partie ?',
+      message: 'La progression de cette partie sera perdue.',
+      confirmLabel: 'Quitter',
+      cancelLabel: 'Continuer à jouer',
+      destructive: true,
+    });
+    if (!ok) return;
+    leaving.current = true;
+    clearAdvanceTimer();
+    router.replace('/');
   };
 
   // Bouton retour matériel Android : demande confirmation au lieu de quitter.
@@ -100,7 +96,7 @@ export default function PlayScreen() {
     if (hasError) return;
     const sub = BackHandler.addEventListener('hardwareBackPress', () => {
       if (leaving.current) return false;
-      confirmQuit();
+      void confirmQuit();
       return true;
     });
     return () => sub.remove();
@@ -156,7 +152,7 @@ export default function PlayScreen() {
       <View style={{ gap: 10 }}>
         <View style={{ flexDirection: 'row', alignItems: 'center', gap: 12 }}>
           <Pressable
-            onPress={confirmQuit}
+            onPress={() => void confirmQuit()}
             hitSlop={12}
             accessibilityRole="button"
             accessibilityLabel="Quitter la partie"

@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { Alert, View } from 'react-native';
+import { View } from 'react-native';
 import { router, Stack, useLocalSearchParams } from 'expo-router';
 
 import { Button } from '@/components/Button';
@@ -22,6 +22,7 @@ export default function DeckDetailScreen() {
   const restore = useOwnershipStore((s) => s.restore);
   const { colors, spacing } = useTheme();
   const [busy, setBusy] = useState(false);
+  const [feedback, setFeedback] = useState<{ tone: 'ok' | 'error'; text: string } | null>(null);
 
   if (!deck) {
     return (
@@ -41,17 +42,19 @@ export default function DeckDetailScreen() {
 
   const onBuy = async () => {
     setBusy(true);
+    setFeedback(null);
     const result = await purchase(deck);
     setBusy(false);
     if (result.ok) {
-      Alert.alert('✓ Deck débloqué', `« ${deck.name} » est maintenant disponible.`);
+      setFeedback({ tone: 'ok', text: '✓ Deck débloqué — les questions sont disponibles.' });
     } else if (result.reason !== 'cancelled') {
-      Alert.alert('Achat impossible', 'Réessaie plus tard.');
+      setFeedback({ tone: 'error', text: 'Achat impossible pour le moment. Réessaie plus tard.' });
     }
   };
 
   const onRestore = async () => {
     setBusy(true);
+    setFeedback(null);
     await restore();
     setBusy(false);
   };
@@ -96,6 +99,16 @@ export default function DeckDetailScreen() {
         </View>
       )}
 
+      {feedback && (
+        <Text
+          variant="label"
+          style={{ textAlign: 'center' }}
+          color={feedback.tone === 'ok' ? colors.success : colors.danger}
+        >
+          {feedback.text}
+        </Text>
+      )}
+
       {owned ? (
         <Button
           label="JOUER"
@@ -108,11 +121,7 @@ export default function DeckDetailScreen() {
           <Text variant="heading" style={{ textAlign: 'center' }} color={colors.accent}>
             {deck.priceHint ?? 'Premium'}
           </Text>
-          <Button
-            label="ACHETER"
-            loading={busy}
-            onPress={onBuy}
-          />
+          <Button label="ACHETER" loading={busy} onPress={onBuy} />
           <Button label="Restaurer mes achats" variant="ghost" onPress={onRestore} />
         </View>
       )}

@@ -6,6 +6,7 @@ import { Stack } from 'expo-router';
 import { StatusBar } from 'expo-status-bar';
 import * as SplashScreen from 'expo-splash-screen';
 
+import { ConfirmProvider } from '@/components/ConfirmProvider';
 import { useHydrated } from '@/hooks/useHydrated';
 import { useTheme } from '@/hooks/useTheme';
 import { useOwnershipStore } from '@/store/ownershipStore';
@@ -28,12 +29,14 @@ export default function RootLayout() {
       <SafeAreaProvider>
         <StatusBar style={dark ? 'light' : 'dark'} />
         {hydrated ? (
-          <Stack
-            screenOptions={{
-              headerShown: false,
-              contentStyle: { backgroundColor: colors.background },
-            }}
-          />
+          <ConfirmProvider>
+            <Stack
+              screenOptions={{
+                headerShown: false,
+                contentStyle: { backgroundColor: colors.background },
+              }}
+            />
+          </ConfirmProvider>
         ) : (
           <View style={{ flex: 1, backgroundColor: colors.background }} />
         )}

@@ -3,7 +3,7 @@ import { ActivityIndicator, Pressable, type PressableProps, StyleSheet, View } f
 import { useTheme } from '@/hooks/useTheme';
 import { Text } from './Text';
 
-type Variant = 'primary' | 'secondary' | 'ghost';
+type Variant = 'primary' | 'secondary' | 'ghost' | 'danger';
 
 interface Props extends Omit<PressableProps, 'style' | 'children'> {
   label: string;
@@ -27,8 +27,14 @@ export function Button({
   const isDisabled = disabled || loading;
 
   const bg =
-    variant === 'primary' ? colors.primary : variant === 'secondary' ? colors.surfaceAlt : 'transparent';
-  const fg = variant === 'primary' ? colors.primaryText : colors.text;
+    variant === 'primary'
+      ? colors.primary
+      : variant === 'danger'
+        ? colors.danger
+        : variant === 'secondary'
+          ? colors.surfaceAlt
+          : 'transparent';
+  const fg = variant === 'primary' || variant === 'danger' ? colors.primaryText : colors.text;
   const border = variant === 'ghost' ? colors.border : 'transparent';
 
   return (

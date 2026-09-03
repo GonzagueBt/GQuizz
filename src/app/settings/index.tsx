@@ -1,8 +1,9 @@
-import { Alert, Switch, View } from 'react-native';
+import { Switch, View } from 'react-native';
 import Constants from 'expo-constants';
 import { router, Stack } from 'expo-router';
 
 import { Card } from '@/components/Card';
+import { useConfirm } from '@/components/ConfirmProvider';
 import { Screen } from '@/components/Screen';
 import { Text } from '@/components/Text';
 import { useTheme } from '@/hooks/useTheme';
@@ -16,13 +17,18 @@ export default function SettingsScreen() {
   const resetOnboarding = useAppStore((s) => s.resetOnboarding);
   const autoAdvance = useAppStore((s) => s.autoAdvanceOnCorrect);
   const setAutoAdvance = useAppStore((s) => s.setAutoAdvanceOnCorrect);
+  const confirm = useConfirm();
   const { colors } = useTheme();
 
-  const confirmResetProgress = () =>
-    Alert.alert('Réinitialiser la progression ?', 'Score et questions maîtrisées seront effacés.', [
-      { text: 'Annuler', style: 'cancel' },
-      { text: 'Réinitialiser', style: 'destructive', onPress: resetProgress },
-    ]);
+  const confirmResetProgress = async () => {
+    const ok = await confirm({
+      title: 'Réinitialiser la progression ?',
+      message: 'Score et questions maîtrisées seront effacés.',
+      confirmLabel: 'Réinitialiser',
+      destructive: true,
+    });
+    if (ok) resetProgress();
+  };
 
   const redoIntro = () => {
     resetOnboarding();
@@ -74,7 +80,7 @@ export default function SettingsScreen() {
       <Text variant="label" muted style={{ marginTop: 12 }}>
         DONNÉES
       </Text>
-      <Card onPress={confirmResetProgress}>
+      <Card onPress={() => void confirmResetProgress()}>
         <Text variant="heading">Réinitialiser ma progression</Text>
       </Card>
       <Card onPress={redoIntro}>
