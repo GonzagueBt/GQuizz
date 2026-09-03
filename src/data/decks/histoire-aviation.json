@@ -1,0 +1,74 @@
+{
+  "id": "histoire-aviation",
+  "name": "Histoire de l'aviation",
+  "description": "Des frères Wright au supersonique : pionniers, avions mythiques, records.",
+  "emoji": "✈️",
+  "categoryId": "aeronautique",
+  "subcategoryId": "aeronautique.histoire",
+  "tier": "premium",
+  "productId": "gquizz.deck.histoire_aviation",
+  "priceHint": "1,99 €",
+  "questionCount": 150,
+  "averageDifficulty": 3,
+  "releasedAt": "2026-02-01",
+  "previewQuestionIds": ["av-001", "av-002"],
+  "questions": [
+    {
+      "id": "av-001",
+      "categoryId": "aeronautique",
+      "subcategoryId": "aeronautique.histoire",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "En quelle année les frères Wright réalisent-ils le premier vol motorisé contrôlé ?",
+      "answers": [
+        { "id": "a", "text": "1903", "correct": true },
+        { "id": "b", "text": "1909", "correct": false },
+        { "id": "c", "text": "1895", "correct": false },
+        { "id": "d", "text": "1912", "correct": false }
+      ],
+      "explanation": "17 décembre 1903 à Kitty Hawk, Caroline du Nord."
+    },
+    {
+      "id": "av-002",
+      "categoryId": "aeronautique",
+      "subcategoryId": "aeronautique.histoire",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Qui réalise la première traversée de la Manche en avion, en 1909 ?",
+      "answers": [
+        { "id": "a", "text": "Louis Blériot", "correct": true },
+        { "id": "b", "text": "Charles Lindbergh", "correct": false },
+        { "id": "c", "text": "Roland Garros", "correct": false },
+        { "id": "d", "text": "Clément Ader", "correct": false }
+      ]
+    },
+    {
+      "id": "av-003",
+      "categoryId": "aeronautique",
+      "subcategoryId": "aeronautique.avions",
+      "difficulty": 4,
+      "type": "single",
+      "prompt": "Quel avion de ligne supersonique a été exploité par Air France et British Airways ?",
+      "answers": [
+        { "id": "a", "text": "Le Boeing 747", "correct": false },
+        { "id": "b", "text": "Le Concorde", "correct": true },
+        { "id": "c", "text": "Le Tupolev Tu-144", "correct": false },
+        { "id": "d", "text": "L'Airbus A380", "correct": false }
+      ],
+      "explanation": "En service de 1976 à 2003."
+    },
+    {
+      "id": "av-004",
+      "categoryId": "aeronautique",
+      "subcategoryId": "aeronautique.histoire",
+      "difficulty": 3,
+      "type": "boolean",
+      "prompt": "Charles Lindbergh a traversé l'Atlantique en solitaire et sans escale en 1927.",
+      "answers": [
+        { "id": "a", "text": "Vrai", "correct": true },
+        { "id": "b", "text": "Faux", "correct": false }
+      ],
+      "explanation": "New York - Paris à bord du « Spirit of St. Louis », 33 h 30 de vol."
+    }
+  ]
+}

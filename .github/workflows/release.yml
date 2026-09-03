@@ -1,0 +1,59 @@
+name: Release
+
+# Tague une version (`git tag v0.2.0 && git push --tags`) pour :
+#  - lancer les builds stores via EAS ;
+#  - déployer la démo web sur le VPS.
+#
+# Secrets requis : EXPO_TOKEN (toujours), VPS_HOST + VPS_PASSWORD (démo web).
+
+on:
+  push:
+    tags: ['v*']
+
+jobs:
+  mobile:
+    runs-on: ubuntu-latest
+    if: ${{ vars.ENABLE_EAS == 'true' }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+      - uses: expo/expo-github-action@v8
+        with:
+          eas-version: latest
+          token: ${{ secrets.EXPO_TOKEN }}
+      - run: npm ci
+      - name: EAS build (iOS + Android)
+        run: eas build --profile production --platform all --non-interactive --no-wait
+      # `eas submit` est lancé manuellement après vérification du build.
+
+  web-demo:
+    runs-on: ubuntu-latest
+    if: ${{ vars.ENABLE_WEB_DEMO == 'true' }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+      - run: npm ci
+      - name: Export web
+        run: npm run export:web
+      - name: Copy to VPS
+        uses: appleboy/scp-action@v0.1.7
+        with:
+          host: ${{ secrets.VPS_HOST }}
+          username: root
+          password: ${{ secrets.VPS_PASSWORD }}
+          source: 'dist/*'
+          target: '/opt/gquizz/app'
+          strip_components: 1
+      - name: Reload nginx
+        uses: appleboy/ssh-action@v1.0.3
+        with:
+          host: ${{ secrets.VPS_HOST }}
+          username: root
+          password: ${{ secrets.VPS_PASSWORD }}
+          script: docker exec gquizz-nginx nginx -s reload && echo "Deploy OK"

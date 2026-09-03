@@ -1,0 +1,73 @@
+{
+  "id": "conquete-spatiale",
+  "name": "Conquête spatiale",
+  "description": "Les grandes missions, les astronautes, les fusées et les événements majeurs.",
+  "emoji": "🚀",
+  "categoryId": "espace",
+  "subcategoryId": "espace.conquete",
+  "tier": "premium",
+  "productId": "gquizz.deck.conquete_spatiale",
+  "priceHint": "1,99 €",
+  "questionCount": 120,
+  "averageDifficulty": 3,
+  "releasedAt": "2026-02-01",
+  "previewQuestionIds": ["cs-001", "cs-002"],
+  "questions": [
+    {
+      "id": "cs-001",
+      "categoryId": "espace",
+      "subcategoryId": "espace.conquete",
+      "difficulty": 1,
+      "type": "single",
+      "prompt": "Qui est le premier homme à avoir marché sur la Lune ?",
+      "answers": [
+        { "id": "a", "text": "Buzz Aldrin", "correct": false },
+        { "id": "b", "text": "Neil Armstrong", "correct": true },
+        { "id": "c", "text": "Youri Gagarine", "correct": false },
+        { "id": "d", "text": "Michael Collins", "correct": false }
+      ],
+      "explanation": "21 juillet 1969, mission Apollo 11."
+    },
+    {
+      "id": "cs-002",
+      "categoryId": "espace",
+      "subcategoryId": "espace.conquete",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quel est le nom du premier satellite artificiel, lancé en 1957 ?",
+      "answers": [
+        { "id": "a", "text": "Spoutnik 1", "correct": true },
+        { "id": "b", "text": "Explorer 1", "correct": false },
+        { "id": "c", "text": "Vostok 1", "correct": false },
+        { "id": "d", "text": "Apollo 1", "correct": false }
+      ]
+    },
+    {
+      "id": "cs-003",
+      "categoryId": "espace",
+      "subcategoryId": "espace.conquete",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Quelle sonde a survolé Pluton en 2015 ?",
+      "answers": [
+        { "id": "a", "text": "Voyager 2", "correct": false },
+        { "id": "b", "text": "New Horizons", "correct": true },
+        { "id": "c", "text": "Cassini", "correct": false },
+        { "id": "d", "text": "Juno", "correct": false }
+      ]
+    },
+    {
+      "id": "cs-004",
+      "categoryId": "espace",
+      "subcategoryId": "espace.conquete",
+      "difficulty": 4,
+      "type": "boolean",
+      "prompt": "La station spatiale internationale (ISS) est en orbite depuis 1998.",
+      "answers": [
+        { "id": "a", "text": "Vrai", "correct": true },
+        { "id": "b", "text": "Faux", "correct": false }
+      ],
+      "explanation": "Le premier module, Zarya, a été lancé en novembre 1998."
+    }
+  ]
+}

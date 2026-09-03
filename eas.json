@@ -1,0 +1,25 @@
+{
+  "cli": {
+    "version": ">= 12.0.0",
+    "appVersionSource": "remote"
+  },
+  "build": {
+    "development": {
+      "developmentClient": true,
+      "distribution": "internal",
+      "env": { "EXPO_PUBLIC_PURCHASES_STUB": "1" }
+    },
+    "preview": {
+      "distribution": "internal",
+      "channel": "preview",
+      "env": { "EXPO_PUBLIC_PURCHASES_STUB": "1" }
+    },
+    "production": {
+      "channel": "production",
+      "autoIncrement": true
+    }
+  },
+  "submit": {
+    "production": {}
+  }
+}

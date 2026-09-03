@@ -1,0 +1,86 @@
+{
+  "id": "sport",
+  "name": "Sport",
+  "description": "Football, tennis, rugby, F1, cyclisme… les grands moments.",
+  "emoji": "⚽",
+  "categoryId": "sport",
+  "tier": "free",
+  "questionCount": 5,
+  "averageDifficulty": 2,
+  "releasedAt": "2026-01-01",
+  "questions": [
+    {
+      "id": "spo-001",
+      "categoryId": "sport",
+      "subcategoryId": "sport.football",
+      "difficulty": 1,
+      "type": "single",
+      "prompt": "Combien de joueurs composent une équipe de football sur le terrain ?",
+      "answers": [
+        { "id": "a", "text": "9", "correct": false },
+        { "id": "b", "text": "11", "correct": true },
+        { "id": "c", "text": "12", "correct": false },
+        { "id": "d", "text": "10", "correct": false }
+      ]
+    },
+    {
+      "id": "spo-002",
+      "categoryId": "sport",
+      "subcategoryId": "sport.football",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quel pays a remporté la Coupe du monde de football 2018 ?",
+      "answers": [
+        { "id": "a", "text": "Croatie", "correct": false },
+        { "id": "b", "text": "France", "correct": true },
+        { "id": "c", "text": "Allemagne", "correct": false },
+        { "id": "d", "text": "Brésil", "correct": false }
+      ],
+      "explanation": "La France bat la Croatie 4-2 en finale à Moscou."
+    },
+    {
+      "id": "spo-003",
+      "categoryId": "sport",
+      "subcategoryId": "sport.tennis",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Sur quelle surface se joue le tournoi de Wimbledon ?",
+      "answers": [
+        { "id": "a", "text": "Terre battue", "correct": false },
+        { "id": "b", "text": "Gazon", "correct": true },
+        { "id": "c", "text": "Dur", "correct": false },
+        { "id": "d", "text": "Moquette", "correct": false }
+      ]
+    },
+    {
+      "id": "spo-004",
+      "categoryId": "sport",
+      "subcategoryId": "sport.cyclisme",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Quel maillot porte le leader du classement général du Tour de France ?",
+      "answers": [
+        { "id": "a", "text": "Le maillot vert", "correct": false },
+        { "id": "b", "text": "Le maillot jaune", "correct": true },
+        { "id": "c", "text": "Le maillot à pois", "correct": false },
+        { "id": "d", "text": "Le maillot blanc", "correct": false }
+      ],
+      "explanation": "Le vert récompense le classement par points, les pois le meilleur grimpeur."
+    },
+    {
+      "id": "spo-005",
+      "categoryId": "sport",
+      "subcategoryId": "sport.f1",
+      "difficulty": 4,
+      "type": "single",
+      "prompt": "Quel pilote détient le record de titres de champion du monde de Formule 1 (à égalité) ?",
+      "answers": [
+        { "id": "a", "text": "Ayrton Senna", "correct": false },
+        { "id": "b", "text": "Michael Schumacher", "correct": true },
+        { "id": "c", "text": "Alain Prost", "correct": false },
+        { "id": "d", "text": "Sebastian Vettel", "correct": false }
+      ],
+      "explanation": "Schumacher et Hamilton comptent chacun 7 titres."
+    }
+  ]
+}

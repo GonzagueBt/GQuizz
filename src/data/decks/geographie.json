@@ -1,0 +1,85 @@
+{
+  "id": "geographie",
+  "name": "Géographie",
+  "description": "Pays, capitales, fleuves, reliefs et records de la planète.",
+  "emoji": "🗺️",
+  "categoryId": "geographie",
+  "tier": "free",
+  "questionCount": 5,
+  "averageDifficulty": 2,
+  "releasedAt": "2026-01-01",
+  "questions": [
+    {
+      "id": "geo-001",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.monde",
+      "difficulty": 1,
+      "type": "single",
+      "prompt": "Quel est le plus grand pays du monde par superficie ?",
+      "answers": [
+        { "id": "a", "text": "Canada", "correct": false },
+        { "id": "b", "text": "Russie", "correct": true },
+        { "id": "c", "text": "Chine", "correct": false },
+        { "id": "d", "text": "États-Unis", "correct": false }
+      ],
+      "explanation": "La Russie couvre environ 17 millions de km²."
+    },
+    {
+      "id": "geo-002",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.physique",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quel est le plus long fleuve du monde ?",
+      "answers": [
+        { "id": "a", "text": "Le Nil", "correct": false },
+        { "id": "b", "text": "L'Amazone", "correct": true },
+        { "id": "c", "text": "Le Yangtsé", "correct": false },
+        { "id": "d", "text": "Le Mississippi", "correct": false }
+      ],
+      "explanation": "Les mesures récentes donnent l'Amazone légèrement plus long que le Nil ; le sujet reste débattu."
+    },
+    {
+      "id": "geo-003",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.monde",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "De quel pays Lisbonne est-elle la capitale ?",
+      "answers": [
+        { "id": "a", "text": "Espagne", "correct": false },
+        { "id": "b", "text": "Portugal", "correct": true },
+        { "id": "c", "text": "Italie", "correct": false },
+        { "id": "d", "text": "Grèce", "correct": false }
+      ]
+    },
+    {
+      "id": "geo-004",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.physique",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Quel désert est le plus vaste désert chaud du monde ?",
+      "answers": [
+        { "id": "a", "text": "Le Kalahari", "correct": false },
+        { "id": "b", "text": "Le Sahara", "correct": true },
+        { "id": "c", "text": "Le Gobi", "correct": false },
+        { "id": "d", "text": "L'Atacama", "correct": false }
+      ],
+      "explanation": "Le Sahara couvre plus de 9 millions de km². L'Antarctique est un désert froid plus grand encore."
+    },
+    {
+      "id": "geo-005",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.monde",
+      "difficulty": 3,
+      "type": "boolean",
+      "prompt": "L'Everest est le point le plus élevé du monde par rapport au centre de la Terre.",
+      "answers": [
+        { "id": "a", "text": "Vrai", "correct": false },
+        { "id": "b", "text": "Faux", "correct": true }
+      ],
+      "explanation": "C'est le Chimborazo (Équateur) qui est le plus éloigné du centre de la Terre, à cause du renflement équatorial."
+    }
+  ]
+}

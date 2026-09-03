@@ -1,0 +1,85 @@
+{
+  "id": "culture-generale",
+  "name": "Culture générale",
+  "description": "Un peu de tout pour commencer : histoire, géo, sciences, arts.",
+  "emoji": "🧠",
+  "categoryId": "histoire",
+  "tier": "free",
+  "questionCount": 5,
+  "averageDifficulty": 2,
+  "releasedAt": "2026-01-01",
+  "questions": [
+    {
+      "id": "cg-001",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.monde",
+      "difficulty": 1,
+      "type": "single",
+      "prompt": "Quelle est la capitale de l'Australie ?",
+      "answers": [
+        { "id": "a", "text": "Sydney", "correct": false },
+        { "id": "b", "text": "Canberra", "correct": true },
+        { "id": "c", "text": "Melbourne", "correct": false },
+        { "id": "d", "text": "Perth", "correct": false }
+      ],
+      "explanation": "Canberra a été choisie comme capitale en 1908 comme compromis entre Sydney et Melbourne."
+    },
+    {
+      "id": "cg-002",
+      "categoryId": "sciences",
+      "subcategoryId": "sciences.physique",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quel est le symbole chimique de l'or ?",
+      "answers": [
+        { "id": "a", "text": "Ag", "correct": false },
+        { "id": "b", "text": "Au", "correct": true },
+        { "id": "c", "text": "Or", "correct": false },
+        { "id": "d", "text": "Go", "correct": false }
+      ],
+      "explanation": "Au vient du latin « aurum »."
+    },
+    {
+      "id": "cg-003",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.xxe",
+      "difficulty": 2,
+      "type": "boolean",
+      "prompt": "Le mur de Berlin est tombé en 1989.",
+      "answers": [
+        { "id": "a", "text": "Vrai", "correct": true },
+        { "id": "b", "text": "Faux", "correct": false }
+      ],
+      "explanation": "La chute a commencé dans la nuit du 9 novembre 1989."
+    },
+    {
+      "id": "cg-004",
+      "categoryId": "litterature",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Qui a écrit « Les Misérables » ?",
+      "answers": [
+        { "id": "a", "text": "Émile Zola", "correct": false },
+        { "id": "b", "text": "Victor Hugo", "correct": true },
+        { "id": "c", "text": "Gustave Flaubert", "correct": false },
+        { "id": "d", "text": "Honoré de Balzac", "correct": false }
+      ],
+      "explanation": "Victor Hugo publie « Les Misérables » en 1862."
+    },
+    {
+      "id": "cg-005",
+      "categoryId": "espace",
+      "subcategoryId": "espace.systeme-solaire",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quelle est la plus grande planète du système solaire ?",
+      "answers": [
+        { "id": "a", "text": "Saturne", "correct": false },
+        { "id": "b", "text": "Jupiter", "correct": true },
+        { "id": "c", "text": "Neptune", "correct": false },
+        { "id": "d", "text": "La Terre", "correct": false }
+      ],
+      "explanation": "Jupiter fait environ 11 fois le diamètre de la Terre."
+    }
+  ]
+}

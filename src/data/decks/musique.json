@@ -1,0 +1,83 @@
+{
+  "id": "musique",
+  "name": "Musique",
+  "description": "Classique, rock, chanson française : compositeurs, groupes, tubes.",
+  "emoji": "🎵",
+  "categoryId": "musique",
+  "tier": "free",
+  "questionCount": 5,
+  "averageDifficulty": 3,
+  "releasedAt": "2026-01-01",
+  "questions": [
+    {
+      "id": "mus-001",
+      "categoryId": "musique",
+      "subcategoryId": "musique.classique",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quel compositeur, devenu sourd, a écrit la « 9e Symphonie » ?",
+      "answers": [
+        { "id": "a", "text": "Mozart", "correct": false },
+        { "id": "b", "text": "Beethoven", "correct": true },
+        { "id": "c", "text": "Bach", "correct": false },
+        { "id": "d", "text": "Chopin", "correct": false }
+      ],
+      "explanation": "Créée en 1824, elle contient « l'Ode à la joie »."
+    },
+    {
+      "id": "mus-002",
+      "categoryId": "musique",
+      "subcategoryId": "musique.rock",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "De quel pays est originaire le groupe Queen ?",
+      "answers": [
+        { "id": "a", "text": "États-Unis", "correct": false },
+        { "id": "b", "text": "Royaume-Uni", "correct": true },
+        { "id": "c", "text": "Australie", "correct": false },
+        { "id": "d", "text": "Canada", "correct": false }
+      ]
+    },
+    {
+      "id": "mus-003",
+      "categoryId": "musique",
+      "subcategoryId": "musique.chanson-fr",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Qui a chanté « Ne me quitte pas » ?",
+      "answers": [
+        { "id": "a", "text": "Jacques Brel", "correct": true },
+        { "id": "b", "text": "Georges Brassens", "correct": false },
+        { "id": "c", "text": "Charles Aznavour", "correct": false },
+        { "id": "d", "text": "Léo Ferré", "correct": false }
+      ],
+      "explanation": "Chanson de 1959, l'une des plus reprises au monde."
+    },
+    {
+      "id": "mus-004",
+      "categoryId": "musique",
+      "subcategoryId": "musique.rock",
+      "difficulty": 3,
+      "type": "boolean",
+      "prompt": "Les Beatles sont originaires de Liverpool.",
+      "answers": [
+        { "id": "a", "text": "Vrai", "correct": true },
+        { "id": "b", "text": "Faux", "correct": false }
+      ]
+    },
+    {
+      "id": "mus-005",
+      "categoryId": "musique",
+      "subcategoryId": "musique.classique",
+      "difficulty": 4,
+      "type": "single",
+      "prompt": "Quel instrument Frédéric Chopin a-t-il quasi exclusivement composé pour ?",
+      "answers": [
+        { "id": "a", "text": "Le violon", "correct": false },
+        { "id": "b", "text": "Le piano", "correct": true },
+        { "id": "c", "text": "Le violoncelle", "correct": false },
+        { "id": "d", "text": "La flûte", "correct": false }
+      ]
+    }
+  ]
+}

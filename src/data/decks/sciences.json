@@ -1,0 +1,85 @@
+{
+  "id": "sciences",
+  "name": "Sciences",
+  "description": "Physique, chimie, biologie et maths, niveau curieux.",
+  "emoji": "🔬",
+  "categoryId": "sciences",
+  "tier": "free",
+  "questionCount": 5,
+  "averageDifficulty": 3,
+  "releasedAt": "2026-01-01",
+  "questions": [
+    {
+      "id": "sci-001",
+      "categoryId": "sciences",
+      "subcategoryId": "sciences.bio",
+      "difficulty": 1,
+      "type": "single",
+      "prompt": "Combien de chromosomes possède une cellule humaine normale ?",
+      "answers": [
+        { "id": "a", "text": "23", "correct": false },
+        { "id": "b", "text": "46", "correct": true },
+        { "id": "c", "text": "48", "correct": false },
+        { "id": "d", "text": "64", "correct": false }
+      ],
+      "explanation": "23 paires, soit 46 chromosomes."
+    },
+    {
+      "id": "sci-002",
+      "categoryId": "sciences",
+      "subcategoryId": "sciences.physique",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quelle est la vitesse approximative de la lumière dans le vide ?",
+      "answers": [
+        { "id": "a", "text": "300 km/s", "correct": false },
+        { "id": "b", "text": "3 000 km/s", "correct": false },
+        { "id": "c", "text": "300 000 km/s", "correct": true },
+        { "id": "d", "text": "30 000 km/s", "correct": false }
+      ],
+      "explanation": "Environ 299 792 km/s."
+    },
+    {
+      "id": "sci-003",
+      "categoryId": "sciences",
+      "subcategoryId": "sciences.maths",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Quelle est la valeur de π arrondie au centième ?",
+      "answers": [
+        { "id": "a", "text": "3,14", "correct": true },
+        { "id": "b", "text": "3,16", "correct": false },
+        { "id": "c", "text": "3,12", "correct": false },
+        { "id": "d", "text": "3,15", "correct": false }
+      ]
+    },
+    {
+      "id": "sci-004",
+      "categoryId": "sciences",
+      "subcategoryId": "sciences.bio",
+      "difficulty": 3,
+      "type": "boolean",
+      "prompt": "L'ADN est présent uniquement dans le noyau de la cellule.",
+      "answers": [
+        { "id": "a", "text": "Vrai", "correct": false },
+        { "id": "b", "text": "Faux", "correct": true }
+      ],
+      "explanation": "Les mitochondries (et les chloroplastes chez les plantes) possèdent aussi leur propre ADN."
+    },
+    {
+      "id": "sci-005",
+      "categoryId": "sciences",
+      "subcategoryId": "sciences.physique",
+      "difficulty": 4,
+      "type": "single",
+      "prompt": "Quel scientifique a formulé les trois lois du mouvement ?",
+      "answers": [
+        { "id": "a", "text": "Galilée", "correct": false },
+        { "id": "b", "text": "Isaac Newton", "correct": true },
+        { "id": "c", "text": "Albert Einstein", "correct": false },
+        { "id": "d", "text": "Nikola Tesla", "correct": false }
+      ],
+      "explanation": "Publiées dans les « Principia » en 1687."
+    }
+  ]
+}

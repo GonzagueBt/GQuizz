@@ -1,0 +1,73 @@
+{
+  "id": "revolution-francaise",
+  "name": "La Révolution française",
+  "description": "1789-1799 : les journées, les figures, les idées qui ont tout changé.",
+  "emoji": "🇫🇷",
+  "categoryId": "histoire",
+  "subcategoryId": "histoire.france",
+  "tier": "premium",
+  "productId": "gquizz.deck.revolution_francaise",
+  "priceHint": "1,99 €",
+  "questionCount": 100,
+  "averageDifficulty": 3,
+  "releasedAt": "2026-02-01",
+  "tags": ["nouveau"],
+  "previewQuestionIds": ["rf-001", "rf-002"],
+  "questions": [
+    {
+      "id": "rf-001",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.france",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quel document est adopté par l'Assemblée le 26 août 1789 ?",
+      "answers": [
+        { "id": "a", "text": "La Constitution civile du clergé", "correct": false },
+        { "id": "b", "text": "La Déclaration des droits de l'homme et du citoyen", "correct": true },
+        { "id": "c", "text": "Le Code civil", "correct": false },
+        { "id": "d", "text": "L'Édit de Nantes", "correct": false }
+      ]
+    },
+    {
+      "id": "rf-002",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.france",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Comment s'appelle la période de 1793-1794 marquée par les exécutions massives ?",
+      "answers": [
+        { "id": "a", "text": "Le Directoire", "correct": false },
+        { "id": "b", "text": "La Terreur", "correct": true },
+        { "id": "c", "text": "La Fronde", "correct": false },
+        { "id": "d", "text": "Le Consulat", "correct": false }
+      ]
+    },
+    {
+      "id": "rf-003",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.france",
+      "difficulty": 4,
+      "type": "single",
+      "prompt": "Qui est surnommé « l'Incorruptible » ?",
+      "answers": [
+        { "id": "a", "text": "Danton", "correct": false },
+        { "id": "b", "text": "Robespierre", "correct": true },
+        { "id": "c", "text": "Marat", "correct": false },
+        { "id": "d", "text": "Saint-Just", "correct": false }
+      ]
+    },
+    {
+      "id": "rf-004",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.france",
+      "difficulty": 3,
+      "type": "boolean",
+      "prompt": "Le coup d'État du 18 brumaire an VIII porte Napoléon Bonaparte au pouvoir.",
+      "answers": [
+        { "id": "a", "text": "Vrai", "correct": true },
+        { "id": "b", "text": "Faux", "correct": false }
+      ],
+      "explanation": "9-10 novembre 1799 : fin du Directoire, début du Consulat."
+    }
+  ]
+}

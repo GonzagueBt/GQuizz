@@ -1,0 +1,87 @@
+{
+  "id": "histoire-de-france",
+  "name": "Histoire de France",
+  "description": "Des Gaulois à la Ve République, les grands repères.",
+  "emoji": "🇫🇷",
+  "categoryId": "histoire",
+  "subcategoryId": "histoire.france",
+  "tier": "free",
+  "questionCount": 5,
+  "averageDifficulty": 2,
+  "releasedAt": "2026-01-01",
+  "questions": [
+    {
+      "id": "hf-001",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.france",
+      "difficulty": 1,
+      "type": "single",
+      "prompt": "En quelle année a eu lieu la prise de la Bastille ?",
+      "answers": [
+        { "id": "a", "text": "1789", "correct": true },
+        { "id": "b", "text": "1799", "correct": false },
+        { "id": "c", "text": "1792", "correct": false },
+        { "id": "d", "text": "1815", "correct": false }
+      ],
+      "explanation": "Le 14 juillet 1789, devenu fête nationale."
+    },
+    {
+      "id": "hf-002",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.france",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quel roi est surnommé le « Roi-Soleil » ?",
+      "answers": [
+        { "id": "a", "text": "Louis XIII", "correct": false },
+        { "id": "b", "text": "Louis XIV", "correct": true },
+        { "id": "c", "text": "Louis XV", "correct": false },
+        { "id": "d", "text": "François Ier", "correct": false }
+      ],
+      "explanation": "Louis XIV règne de 1643 à 1715, le plus long règne de l'histoire de France."
+    },
+    {
+      "id": "hf-003",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.france",
+      "difficulty": 2,
+      "type": "boolean",
+      "prompt": "Napoléon Bonaparte est né en Corse.",
+      "answers": [
+        { "id": "a", "text": "Vrai", "correct": true },
+        { "id": "b", "text": "Faux", "correct": false }
+      ],
+      "explanation": "Né à Ajaccio le 15 août 1769."
+    },
+    {
+      "id": "hf-004",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.france",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Qui était président de la République française en mai 1968 ?",
+      "answers": [
+        { "id": "a", "text": "Georges Pompidou", "correct": false },
+        { "id": "b", "text": "Charles de Gaulle", "correct": true },
+        { "id": "c", "text": "Valéry Giscard d'Estaing", "correct": false },
+        { "id": "d", "text": "François Mitterrand", "correct": false }
+      ],
+      "explanation": "De Gaulle est président de 1959 à 1969 ; Pompidou était Premier ministre en 1968."
+    },
+    {
+      "id": "hf-005",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.antiquite",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Quel chef gaulois s'est rendu à Alésia en 52 av. J.-C. ?",
+      "answers": [
+        { "id": "a", "text": "Brennus", "correct": false },
+        { "id": "b", "text": "Vercingétorix", "correct": true },
+        { "id": "c", "text": "Ambiorix", "correct": false },
+        { "id": "d", "text": "Astérix", "correct": false }
+      ],
+      "explanation": "Vercingétorix se rend à Jules César après le siège d'Alésia."
+    }
+  ]
+}

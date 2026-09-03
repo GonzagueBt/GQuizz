@@ -1,0 +1,142 @@
+import { useState } from 'react';
+import { View } from 'react-native';
+import { router, useLocalSearchParams } from 'expo-router';
+
+import { AnswerButton } from '@/components/AnswerButton';
+import { Button } from '@/components/Button';
+import { ProgressBar } from '@/components/ProgressBar';
+import { Screen } from '@/components/Screen';
+import { Text } from '@/components/Text';
+import { CATALOG, getDeck } from '@/data/catalog';
+import { parseGameMode } from '@/domain/gameMode';
+import type { AnswerOutcome } from '@/domain/mastery';
+import { pickSession } from '@/domain/mastery';
+import { buildQuestionPool, PoolError } from '@/domain/questionPool';
+import type { GameMode, Question } from '@/domain/types';
+import { feedback } from '@/lib/haptics';
+import { useOwnershipStore } from '@/store/ownershipStore';
+import { usePreferencesStore } from '@/store/preferencesStore';
+import { useProgressStore } from '@/store/progressStore';
+import { useSessionStore } from '@/store/sessionStore';
+
+function modeLabel(mode: GameMode): string {
+  if (mode.kind === 'deck') return getDeck(mode.deckId)?.name ?? 'Deck';
+  if (mode.kind === 'global') return '🌎 Global personnalisé';
+  return mode.kind;
+}
+
+interface InitState {
+  questions: Question[];
+  error: string | null;
+}
+
+function initSession(mode: GameMode): InitState {
+  const prefs = usePreferencesStore.getState().prefs;
+  const isDeckOwned = useOwnershipStore.getState().isDeckOwned;
+  const progress = useProgressStore.getState().progress;
+  try {
+    const pool = buildQuestionPool({
+      mode,
+      questions: CATALOG.questions,
+      categories: CATALOG.categories,
+      prefs,
+      isDeckOwned,
+    });
+    return { questions: pickSession(pool, progress), error: null };
+  } catch (e) {
+    return { questions: [], error: e instanceof PoolError ? e.message : String(e) };
+  }
+}
+
+export default function PlayScreen() {
+  const { mode: modeParam } = useLocalSearchParams<{ mode: string }>();
+  const [mode] = useState<GameMode>(() => parseGameMode(modeParam));
+  const [session] = useState<InitState>(() => initSession(mode));
+
+  const [index, setIndex] = useState(0);
+  const [chosenId, setChosenId] = useState<string | null>(null);
+  const [outcomes, setOutcomes] = useState<AnswerOutcome[]>([]);
+
+  if (session.error) {
+    return (
+      <Screen contentStyle={{ justifyContent: 'center' }}>
+        <Text variant="heading">Impossible de lancer la partie</Text>
+        <Text muted>{session.error}</Text>
+        <Button label="Retour" onPress={() => router.back()} />
+      </Screen>
+    );
+  }
+
+  const question = session.questions[index];
+  const total = session.questions.length;
+  const revealed = chosenId !== null;
+  const isLast = index >= total - 1;
+
+  const answer = (answerId: string) => {
+    if (revealed) return;
+    const correct = question.answers.find((a) => a.id === answerId)?.correct ?? false;
+    setChosenId(answerId);
+    feedback(correct);
+    setOutcomes((prev) => [
+      ...prev,
+      { questionId: question.id, correct, difficulty: question.difficulty },
+    ]);
+  };
+
+  const next = () => {
+    if (!isLast) {
+      setIndex((i) => i + 1);
+      setChosenId(null);
+      return;
+    }
+    const summary = useProgressStore.getState().applySession(outcomes);
+    useSessionStore.getState().setResult(summary, modeLabel(mode), modeParam);
+    router.replace('/play/result');
+  };
+
+  return (
+    <Screen scroll>
+      <View style={{ gap: 8 }}>
+        <View style={{ flexDirection: 'row', justifyContent: 'space-between' }}>
+          <Text variant="caption" muted>
+            {modeLabel(mode)}
+          </Text>
+          <Text variant="caption" muted>
+            {index + 1} / {total}
+          </Text>
+        </View>
+        <ProgressBar value={total ? index / total : 0} />
+      </View>
+
+      <Text variant="heading">{question.prompt}</Text>
+
+      <View style={{ gap: 10 }}>
+        {question.answers.map((a) => {
+          const status = !revealed
+            ? 'idle'
+            : a.correct
+              ? 'correct'
+              : a.id === chosenId
+                ? 'wrong'
+                : 'idle';
+          return (
+            <AnswerButton
+              key={a.id}
+              label={a.text}
+              status={status}
+              disabled={revealed}
+              onPress={() => answer(a.id)}
+            />
+          );
+        })}
+      </View>
+
+      {revealed && (
+        <View style={{ gap: 12 }}>
+          {question.explanation ? <Text muted>{question.explanation}</Text> : null}
+          <Button label={isLast ? 'Voir les résultats' : 'Suivant'} onPress={next} />
+        </View>
+      )}
+    </Screen>
+  );
+}

@@ -1,0 +1,69 @@
+import { Alert, View } from 'react-native';
+import Constants from 'expo-constants';
+import { router, Stack } from 'expo-router';
+
+import { Card } from '@/components/Card';
+import { Screen } from '@/components/Screen';
+import { Text } from '@/components/Text';
+import { useAppStore } from '@/store/appStore';
+import { useOwnershipStore } from '@/store/ownershipStore';
+import { useProgressStore } from '@/store/progressStore';
+
+export default function SettingsScreen() {
+  const restore = useOwnershipStore((s) => s.restore);
+  const resetProgress = useProgressStore((s) => s.reset);
+  const resetOnboarding = useAppStore((s) => s.resetOnboarding);
+
+  const confirmResetProgress = () =>
+    Alert.alert('Réinitialiser la progression ?', 'Score et questions maîtrisées seront effacés.', [
+      { text: 'Annuler', style: 'cancel' },
+      { text: 'Réinitialiser', style: 'destructive', onPress: resetProgress },
+    ]);
+
+  const redoIntro = () => {
+    resetOnboarding();
+    router.replace('/onboarding');
+  };
+
+  return (
+    <Screen scroll>
+      <Stack.Screen options={{ headerShown: true, title: '⚙️ Réglages' }} />
+
+      <Text variant="label" muted>
+        QUIZ
+      </Text>
+      <Card onPress={() => router.push('/settings/categories')}>
+        <Text variant="heading">Catégories du quiz</Text>
+        <Text variant="caption" muted>
+          Choisis ce qui apparaît en mode Global personnalisé.
+        </Text>
+      </Card>
+
+      <Text variant="label" muted style={{ marginTop: 12 }}>
+        ACHATS
+      </Text>
+      <Card onPress={() => restore()}>
+        <Text variant="heading">Restaurer mes achats</Text>
+        <Text variant="caption" muted>
+          Récupère les decks déjà achetés avec ce compte.
+        </Text>
+      </Card>
+
+      <Text variant="label" muted style={{ marginTop: 12 }}>
+        DONNÉES
+      </Text>
+      <Card onPress={confirmResetProgress}>
+        <Text variant="heading">Réinitialiser ma progression</Text>
+      </Card>
+      <Card onPress={redoIntro}>
+        <Text variant="heading">Refaire l&apos;introduction</Text>
+      </Card>
+
+      <View style={{ alignItems: 'center', marginTop: 16 }}>
+        <Text variant="caption" muted>
+          GQuizz v{Constants.expoConfig?.version ?? '0.1.0'}
+        </Text>
+      </View>
+    </Screen>
+  );
+}
