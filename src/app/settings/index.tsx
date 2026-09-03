@@ -48,6 +48,12 @@ export default function SettingsScreen() {
           Choisis ce qui apparaît en mode Global personnalisé.
         </Text>
       </Card>
+      <Card onPress={() => router.push('/mastery')}>
+        <Text variant="heading">Questions maîtrisées</Text>
+        <Text variant="caption" muted>
+          Consulte, ajoute ou retire des questions de ta liste de maîtrise.
+        </Text>
+      </Card>
       <Card>
         <View style={{ flexDirection: 'row', alignItems: 'center', gap: 14 }}>
           <View style={{ flex: 1, gap: 2 }}>

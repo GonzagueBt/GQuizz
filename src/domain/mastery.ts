@@ -7,6 +7,31 @@ export function isMastered(p: QuestionProgress | undefined): boolean {
   return !!p?.masteredAt;
 }
 
+/**
+ * Marque / démarque manuellement une question comme maîtrisée (écran dédié).
+ * Marquer : pose `masteredAt` et remonte le streak au seuil.
+ * Démarquer : efface `masteredAt` et remet le streak à zéro (l'historique
+ * `seen` / `correct` est conservé).
+ */
+export function setMastery(
+  prev: QuestionProgress | undefined,
+  questionId: string,
+  mastered: boolean,
+  now: () => string = () => new Date().toISOString(),
+): QuestionProgress {
+  const base: QuestionProgress = prev ?? { questionId, seen: 0, correct: 0, streak: 0 };
+  if (mastered) {
+    return {
+      ...base,
+      masteredAt: base.masteredAt ?? now(),
+      streak: Math.max(base.streak, CONFIG.MASTERY_STREAK),
+    };
+  }
+  const next = { ...base, streak: 0 };
+  delete next.masteredAt;
+  return next;
+}
+
 /** Poids de tirage : jamais vues > vues non maîtrisées > maîtrisées (rappel espacé léger). */
 function samplingWeight(p: QuestionProgress | undefined): number {
   if (!p || p.seen === 0) return 6;

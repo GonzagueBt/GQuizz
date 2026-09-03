@@ -1,8 +1,10 @@
 import { CONFIG } from '@/data/config';
 import {
   applyOutcome,
+  isMastered,
   pickSession,
   scoreForAnswer,
+  setMastery,
   summarizeSession,
   type ProgressMap,
 } from '../mastery';
@@ -28,6 +30,32 @@ describe('applyOutcome', () => {
     p = applyOutcome(p, { questionId: 'q1', correct: false, difficulty: 1 }, NOW);
     expect(p.streak).toBe(0);
     expect(p.masteredAt).toBe(NOW());
+  });
+});
+
+describe('setMastery', () => {
+  it('marks an unseen question as mastered and lifts the streak to the threshold', () => {
+    const p = setMastery(undefined, 'q1', true, NOW);
+    expect(isMastered(p)).toBe(true);
+    expect(p.masteredAt).toBe(NOW());
+    expect(p.streak).toBe(CONFIG.MASTERY_STREAK);
+    expect(p.seen).toBe(0);
+  });
+
+  it('unmarks a mastered question, resets the streak, keeps history', () => {
+    const mastered = { questionId: 'q1', seen: 8, correct: 6, streak: 4, masteredAt: NOW() };
+    const p = setMastery(mastered, 'q1', false);
+    expect(isMastered(p)).toBe(false);
+    expect(p.masteredAt).toBeUndefined();
+    expect(p.streak).toBe(0);
+    expect(p.seen).toBe(8);
+    expect(p.correct).toBe(6);
+  });
+
+  it('does not move masteredAt when already mastered', () => {
+    const first = setMastery(undefined, 'q1', true, () => '2026-01-01T00:00:00.000Z');
+    const again = setMastery(first, 'q1', true, () => '2026-09-03T00:00:00.000Z');
+    expect(again.masteredAt).toBe('2026-01-01T00:00:00.000Z');
   });
 });
 

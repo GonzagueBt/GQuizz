@@ -56,20 +56,23 @@ export default function HomeScreen() {
         <Text muted>Teste ta culture générale.</Text>
       </View>
 
-      <Card style={{ flexDirection: 'row', justifyContent: 'space-around' }}>
-        <View style={{ alignItems: 'center' }}>
+      <View style={{ flexDirection: 'row', gap: spacing.md }}>
+        <Card style={{ flex: 1, alignItems: 'center' }}>
           <Text variant="heading">{totalScore}</Text>
           <Text variant="caption" muted>
             Score total
           </Text>
-        </View>
-        <View style={{ alignItems: 'center' }}>
+        </Card>
+        <Card
+          style={{ flex: 1, alignItems: 'center' }}
+          onPress={() => router.push('/mastery')}
+        >
           <Text variant="heading">{masteredCount}</Text>
-          <Text variant="caption" muted>
-            Questions maîtrisées
+          <Text variant="caption" muted style={{ textAlign: 'center' }}>
+            Questions maîtrisées ›
           </Text>
-        </View>
-      </Card>
+        </Card>
+      </View>
 
       <Text variant="label" muted>
         JOUER

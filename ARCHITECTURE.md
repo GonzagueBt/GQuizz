@@ -222,7 +222,11 @@ interface QuestionProgress {
 }
 ```
 
-- `MASTERY_STREAK` dans `src/data/config.ts`.
+- `MASTERY_STREAK` dans `src/data/config.ts` : une question passe « maîtrisée »
+  après ce nombre de bonnes réponses d'affilée.
+- Ajustement manuel : `setMastery()` (pur) / `progressStore.setMastered(id, bool)` —
+  écran `src/app/mastery.tsx`. Marquer pose `masteredAt` + remonte le streak au
+  seuil ; démarquer efface `masteredAt` + streak à 0 (l'historique est gardé).
 - Sélection de session : privilégier les questions non vues > vues non maîtrisées,
   réinjecter les maîtrisées avec une faible probabilité (révision espacée simple).
 - Score : voir `config.ts` (points par bonne réponse, bonus difficulté, bonus streak).
@@ -268,7 +272,8 @@ jour la config).
 | `src/app/play/result.tsx` | Résultats | score, questions maîtrisées, rejouer, partager |
 | `src/app/decks/index.tsx` | **📚 DECKS** | « Mes decks » (possédés) + « À découvrir » (premium non possédés) |
 | `src/app/decks/[id].tsx` | Détail deck | nom, illustration, description, catégorie, nb questions, difficulté moy., statut ; aperçu de questions ; **[ ACHETER ]** ou **[ JOUER ]** |
-| `src/app/settings/index.tsx` | ⚙️ Réglages | « Catégories du quiz », **Passer automatiquement** (toggle `autoAdvanceOnCorrect`, défaut activé), « Restaurer mes achats », réinitialiser, refaire l'intro |
+| `src/app/mastery.tsx` | Questions maîtrisées | onglets **Maîtrisées / À maîtriser**, filtre par deck, chaque ligne se déplie (réponse + explication) et se coche/décoche → `progressStore.setMastered` |
+| `src/app/settings/index.tsx` | ⚙️ Réglages | « Catégories du quiz », « Questions maîtrisées », **Passer automatiquement** (toggle `autoAdvanceOnCorrect`, défaut activé), « Restaurer mes achats », réinitialiser, refaire l'intro |
 | `src/app/settings/categories.tsx` | Éditeur de préférences | même composant que l'onboarding ; bouton **Réinitialiser** → toutes les catégories ; prise en compte immédiate |
 
 Composant partagé `CategorySelector` (arbre, cases à cocher tri-état
