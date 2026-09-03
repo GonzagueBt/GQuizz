@@ -8,6 +8,10 @@ catégories choisies par le joueur.
 > Placeholders assumés : nom de marque, bundle id, illustrations, contenu réel des
 > decks. Voir `ARCHITECTURE.md` §12.
 
+**Démo web jouable** (si le repo est public) : https://gonzaguebt.github.io/GQuizz/
+— build SPA déployé par `.github/workflows/deploy-pages.yml` à chaque push sur `main`,
+achats en mode stub.
+
 ## Démarrer
 
 ```bash

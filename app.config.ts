@@ -4,6 +4,11 @@ import type { ExpoConfig } from 'expo/config';
  * Config Expo dynamique.
  * Le nom de marque et le bundle id sont des placeholders — voir ARCHITECTURE.md §12.
  */
+
+// Sous-chemin de la démo web. Vide en local et sur le VPS (racine) ;
+// "/GQuizz" pour GitHub Pages (gonzaguebt.github.io/GQuizz/).
+const webBaseUrl = process.env.EXPO_WEB_BASE_URL ?? '';
+
 const config: ExpoConfig = {
   name: 'GQuizz',
   slug: 'gquizz',
@@ -45,6 +50,7 @@ const config: ExpoConfig = {
   ],
   experiments: {
     typedRoutes: true,
+    ...(webBaseUrl ? { baseUrl: webBaseUrl } : {}),
   },
   extra: {
     // Passé à l'app via expo-constants. Activé automatiquement hors production.

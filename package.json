@@ -1,6 +1,7 @@
 {
   "name": "gquizz",
   "version": "0.1.0",
+  "homepage": "https://gonzaguebt.github.io/GQuizz/",
   "main": "expo-router/entry",
   "private": true,
   "scripts": {
