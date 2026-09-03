@@ -1,8 +1,8 @@
 import { View } from 'react-native';
 import { Redirect, router } from 'expo-router';
 
-import { Button } from '@/components/Button';
 import { Card } from '@/components/Card';
+import { IconButton } from '@/components/IconButton';
 import { Screen } from '@/components/Screen';
 import { Text } from '@/components/Text';
 import { CATALOG } from '@/data/catalog';
@@ -51,9 +51,15 @@ export default function HomeScreen() {
 
   return (
     <Screen scroll>
-      <View style={{ gap: 4 }}>
-        <Text variant="title">GQuizz</Text>
-        <Text muted>Teste ta culture générale.</Text>
+      <View style={{ flexDirection: 'row', alignItems: 'flex-start', gap: spacing.md }}>
+        <View style={{ flex: 1, gap: 4 }}>
+          <Text variant="title">GQuizz</Text>
+          <Text muted>Teste ta culture générale.</Text>
+        </View>
+        <View style={{ flexDirection: 'row', gap: spacing.sm }}>
+          <IconButton emoji="📚" label="Explorer les decks" onPress={() => router.push('/decks')} />
+          <IconButton emoji="⚙️" label="Réglages" onPress={() => router.push('/settings')} />
+        </View>
       </View>
 
       <View style={{ flexDirection: 'row', gap: spacing.md }}>
@@ -101,16 +107,11 @@ export default function HomeScreen() {
         </Card>
       ))}
 
-      <View style={{ gap: spacing.sm, marginTop: spacing.md }}>
-        <Button
-          label="📚 Explorer les decks"
-          variant="secondary"
-          onPress={() => router.push('/decks')}
-        />
-        <Button label="⚙️ Réglages" variant="ghost" onPress={() => router.push('/settings')} />
-      </View>
-
-      <Text variant="caption" color={colors.textMuted} style={{ textAlign: 'center' }}>
+      <Text
+        variant="caption"
+        color={colors.textMuted}
+        style={{ textAlign: 'center', marginTop: spacing.sm }}
+      >
         {CATALOG.decks.filter((d) => d.tier === 'free').length} decks gratuits ·{' '}
         {CATALOG.questions.length} questions embarquées
       </Text>

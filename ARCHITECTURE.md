@@ -267,7 +267,7 @@ jour la config).
 | `src/app/_layout.tsx` | Providers + garde onboarding | redirige vers `/onboarding` si non terminé |
 | `src/app/onboarding/index.tsx` | **Bienvenue** — 3 boutons | « Je choisis ce que je veux » / « …ce que je ne veux pas » / « ✨ Tout me va » |
 | `src/app/onboarding/categories.tsx` | Sélection catégories | mode include ou exclude selon le bouton ; **< 30 s** ; skippé si « Tout me va » |
-| `src/app/index.tsx` | **JOUER** | liste des modes : 🌎 Global personnalisé + un item par deck possédé |
+| `src/app/index.tsx` | **JOUER** | liste des modes (🌎 Global personnalisé + un item par deck possédé) ; en-tête avec deux boutons émoji en haut à droite → 📚 decks, ⚙️ réglages ; cartes score / questions maîtrisées |
 | `src/app/play/[mode].tsx` | Partie | barre de progression, question, réponses, feedback + haptics ; bouton **✕** (+ retour Android) → pop-up de confirmation avant de quitter ; passage auto si `autoAdvanceOnCorrect` et réponse juste |
 | `src/app/play/result.tsx` | Résultats | score, questions maîtrisées, rejouer, partager |
 | `src/app/decks/index.tsx` | **📚 DECKS** | « Mes decks » (possédés) + « À découvrir » (premium non possédés) |
