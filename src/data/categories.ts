@@ -38,6 +38,7 @@ export const CATEGORIES: Category[] = [
   // --- Espace -------------------------------------------------------
   { id: 'espace.systeme-solaire', parentId: 'espace', name: 'Système solaire', emoji: '🪐', order: 10 },
   { id: 'espace.conquete', parentId: 'espace', name: 'Conquête spatiale', emoji: '👨‍🚀', order: 20 },
+  { id: 'espace.astronomie', parentId: 'espace', name: 'Astronomie', emoji: '🔭', order: 30 },
 
   // --- Sport -------------------------------------------------------
   { id: 'sport.football', parentId: 'sport', name: 'Football', emoji: '⚽', order: 10 },

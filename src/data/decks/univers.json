@@ -1,0 +1,5919 @@
+{
+  "id": "univers",
+  "name": "L'Univers",
+  "description": "Soleil, planètes, étoiles, galaxies, trous noirs : un grand tour de l'astronomie.",
+  "emoji": "🌌",
+  "categoryId": "espace",
+  "tier": "free",
+  "productId": "gquizz.deck.univers",
+  "priceHint": "1,99 €",
+  "questionCount": 200,
+  "averageDifficulty": 3,
+  "releasedAt": "2026-05-01",
+  "previewQuestionIds": [
+    "uni-001",
+    "uni-122"
+  ],
+  "questions": [
+    {
+      "id": "uni-001",
+      "categoryId": "espace",
+      "subcategoryId": "espace.systeme-solaire",
+      "difficulty": 1,
+      "type": "single",
+      "prompt": "Quel est le nom de l'étoile autour de laquelle tourne la Terre ?",
+      "answers": [
+        {
+          "text": "Proxima du Centaure",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "Sirius",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "Le Soleil",
+          "correct": true,
+          "id": "c"
+        },
+        {
+          "text": "Alpha du Centaure",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "uni-002",
+      "categoryId": "espace",
+      "subcategoryId": "espace.systeme-solaire",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "De quel type d'étoile le Soleil est-il un exemple ?",
+      "answers": [
+        {
+          "text": "Une naine jaune",
+          "correct": true,
+          "id": "a"
+        },
+        {
+          "text": "Une supergéante bleue",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "Une naine blanche",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "Une géante rouge",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "uni-003",
+      "categoryId": "espace",
+      "subcategoryId": "espace.systeme-solaire",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "De quels deux éléments chimiques le Soleil est-il presque entièrement composé ?",
+      "answers": [
+        {
+          "text": "Fer et nickel",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "Azote et hydrogène",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "Oxygène et carbone",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "Hydrogène et hélium",
+          "correct": true,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "uni-004",
+      "categoryId": "espace",
+      "subcategoryId": "espace.systeme-solaire",
+      "difficulty": 1,
+      "type": "single",
+      "prompt": "Quel phénomène physique produit l'énergie du Soleil ?",
+      "answers": [
+        {
+          "text": "La combustion chimique",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "La fusion nucléaire",
+          "correct": true,
+          "id": "b"
+        },
+        {
+          "text": "La radioactivité",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "La fission nucléaire",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "uni-005",
+      "categoryId": "espace",
+      "subcategoryId": "espace.systeme-solaire",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Quelle est, environ, la température de surface du Soleil ?",
+      "answers": [
+        {
+          "text": "Environ 100 °C",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "Environ 5 500 °C",
+          "correct": true,
+          "id": "b"
+        },
+        {
+          "text": "Environ 15 millions °C",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "Environ 1 000 °C",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "uni-006",
+      "categoryId": "espace",
+      "subcategoryId": "espace.systeme-solaire",
+      "difficulty": 4,
+      "type": "single",
+      "prompt": "Quelle est, environ, la température au cœur du Soleil ?",
+      "answers": [
+        {
+          "text": "Environ 1 million °C",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "Environ 5 500 °C",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "Environ 15 millions de °C",
+          "correct": true,
+          "id": "c"
+        },
+        {
+          "text": "Environ 100 millions °C",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "uni-007",
+      "categoryId": "espace",
+      "subcategoryId": "espace.systeme-solaire",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Comment appelle-t-on l'unité de distance correspondant à la distance moyenne Terre-Soleil ?",
+      "answers": [
+        {
+          "text": "L'année-lumière",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "Le rayon solaire",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "Le parsec",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "L'unité astronomique (UA)",
+          "correct": true,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "uni-008",
+      "categoryId": "espace",
+      "subcategoryId": "espace.systeme-solaire",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Quel pourcentage de la masse totale du système solaire le Soleil représente-t-il, à peu près ?",
+      "answers": [
+        {
+          "text": "Plus de 99 %",
+          "correct": true,
+          "id": "a"
+        },
+        {
+          "text": "Environ 50 %",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "Environ 75 %",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "Environ 10 %",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "uni-009",
+      "categoryId": "espace",
+      "subcategoryId": "espace.systeme-solaire",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Comment appelle-t-on l'enveloppe externe très chaude du Soleil, visible lors des éclipses totales ?",
+      "answers": [
+        {
+          "text": "La chromosphère",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "L'héliosphère",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "La photosphère",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "La couronne solaire",
+          "correct": true,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "uni-010",
+      "categoryId": "espace",
+      "subcategoryId": "espace.systeme-solaire",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Comment appelle-t-on les taches sombres et plus froides qui apparaissent parfois à la surface du Soleil ?",
+      "answers": [
+        {
+          "text": "Les failles solaires",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "Les taches solaires",
+          "correct": true,
+          "id": "b"
+        },
+        {
+          "text": "Les cratères solaires",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "Les geysers solaires",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "uni-011",
+      "categoryId": "espace",
+      "subcategoryId": "espace.systeme-solaire",
+      "difficulty": 2,
+      "type": "boolean",
+      "prompt": "Le Soleil est une étoile parmi des centaines de milliards dans la Voie lactée.",
+      "answers": [
+        {
+          "text": "Faux",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "Vrai",
+          "correct": true,
+          "id": "b"
+        }
+      ]
+    },
+    {
+      "id": "uni-012",
+      "categoryId": "espace",
+      "subcategoryId": "espace.systeme-solaire",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Dans combien de milliards d'années environ le Soleil devrait-il épuiser son hydrogène et devenir une géante rouge ?",
+      "answers": [
+        {
+          "text": "Environ 50 milliards d'années",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "Environ 500 millions d'années",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "Environ 5 milliards d'années",
+          "correct": true,
+          "id": "c"
+        },
+        {
+          "text": "Environ 1 milliard d'années",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "uni-013",
+      "categoryId": "espace",
+      "subcategoryId": "espace.systeme-solaire",
+      "difficulty": 1,
+      "type": "single",
+      "prompt": "Quelle est la planète la plus proche du Soleil ?",
+      "answers": [
+        {
+          "text": "Mercure",
+          "correct": true,
+          "id": "a"
+        },
+        {
+          "text": "Vénus",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "la Terre",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "Mars",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "uni-014",
+      "categoryId": "espace",
+      "subcategoryId": "espace.systeme-solaire",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Combien Mercure possède-t-elle de satellites naturels ?",
+      "answers": [
+        {
+          "text": "Aucun",
+          "correct": true,
+          "id": "a"
+        },
+        {
+          "text": "Un",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "Deux",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "Trois",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "uni-015",
+      "categoryId": "espace",
+      "subcategoryId": "espace.systeme-solaire",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Comparée à la Lune, quelle est la taille de Mercure ?",
+      "answers": [
+        {
+          "text": "Elle est dix fois plus grande",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "Elle est légèrement plus grande",
+          "correct": true,
+          "id": "b"
+        },
+        {
+          "text": "Elle est beaucoup plus petite",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "Elle est identique",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "uni-016",
+      "categoryId": "espace",
+      "subcategoryId": "espace.systeme-solaire",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Pourquoi les écarts de température sont-ils extrêmes entre le jour et la nuit sur Mercure ?",
+      "answers": [
+        {
+          "text": "Parce qu'elle est entièrement recouverte de glace",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "Parce qu'elle est très éloignée du Soleil",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "Parce qu'elle n'a quasiment pas d'atmosphère",
+          "correct": true,
+          "id": "c"
+        },
+        {
+          "text": "Parce qu'elle tourne très vite sur elle-même",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "uni-017",
+      "categoryId": "espace",
+      "subcategoryId": "espace.systeme-solaire",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Est-ce Mercure ou Vénus qui est en réalité la planète la plus chaude du système solaire ?",
+      "answers": [
+        {
+          "text": "Les deux ont la même température",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "Aucune des deux, c'est Mars",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "Mercure, car elle est la plus proche du Soleil",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "Vénus, à cause de son atmosphère",
+          "correct": true,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "uni-018",
+      "categoryId": "espace",
+      "subcategoryId": "espace.systeme-solaire",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "En combien de jours terrestres Mercure fait-elle le tour du Soleil ?",
+      "answers": [
+        {
+          "text": "Environ 700 jours",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "Environ 88 jours",
+          "correct": true,
+          "id": "b"
+        },
+        {
+          "text": "Environ 365 jours",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "Environ 225 jours",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "uni-019",
+      "categoryId": "espace",
+      "subcategoryId": "espace.systeme-solaire",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quelle planète est souvent surnommée « l'étoile du berger » ou « étoile du matin » ?",
+      "answers": [
+        {
+          "text": "Vénus",
+          "correct": true,
+          "id": "a"
+        },
+        {
+          "text": "Jupiter",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "Mercure",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "Mars",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "uni-020",
+      "categoryId": "espace",
+      "subcategoryId": "espace.systeme-solaire",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quelle est la planète la plus chaude du système solaire ?",
+      "answers": [
+        {
+          "text": "Mars",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "Mercure",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "Jupiter",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "Vénus",
+          "correct": true,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "uni-021",
+      "categoryId": "espace",
+      "subcategoryId": "espace.systeme-solaire",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Qu'est-ce qui rend l'atmosphère de Vénus si étouffante ?",
+      "answers": [
+        {
+          "text": "Des vents d'azote liquide",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "L'absence totale d'atmosphère",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "Un effet de serre extrême dû au CO₂",
+          "correct": true,
+          "id": "c"
+        },
+        {
+          "text": "Une épaisse couche de glace",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "uni-022",
+      "categoryId": "espace",
+      "subcategoryId": "espace.systeme-solaire",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Combien Vénus a-t-elle de satellites naturels ?",
+      "answers": [
+        {
+          "text": "Un",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "Deux",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "Aucun",
+          "correct": true,
+          "id": "c"
+        },
+        {
+          "text": "Quatre",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "uni-023",
+      "categoryId": "espace",
+      "subcategoryId": "espace.systeme-solaire",
+      "difficulty": 4,
+      "type": "single",
+      "prompt": "Dans quel sens Vénus tourne-t-elle sur elle-même, à l'inverse de la plupart des planètes ?",
+      "answers": [
+        {
+          "text": "Un sens rétrograde",
+          "correct": true,
+          "id": "a"
+        },
+        {
+          "text": "Un sens aléatoire et changeant",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "Elle ne tourne pas sur elle-même",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "Un sens identique à la Terre",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "uni-024",
+      "categoryId": "espace",
+      "subcategoryId": "espace.systeme-solaire",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Quelle planète est la plus proche de la Terre en taille et en masse, surnommée sa « planète jumelle » ?",
+      "answers": [
+        {
+          "text": "Mars",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "Vénus",
+          "correct": true,
+          "id": "b"
+        },
+        {
+          "text": "Mercure",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "Neptune",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "uni-025",
+      "categoryId": "espace",
+      "subcategoryId": "espace.systeme-solaire",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quel pays a envoyé les premières sondes à s'être posées avec succès sur Vénus, dans les années 1970 ?",
+      "answers": [
+        {
+          "text": "La France",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "Le Japon",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "Les États-Unis",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "L'URSS (programme Venera)",
+          "correct": true,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "uni-026",
+      "categoryId": "espace",
+      "subcategoryId": "espace.systeme-solaire",
+      "difficulty": 1,
+      "type": "single",
+      "prompt": "Combien la Terre a-t-elle de satellites naturels ?",
+      "answers": [
+        {
+          "text": "Aucun",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "Un seul, la Lune",
+          "correct": true,
+          "id": "b"
+        },
+        {
+          "text": "Deux",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "Quatre",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "uni-027",
+      "categoryId": "espace",
+      "subcategoryId": "espace.systeme-solaire",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Quel phénomène est à l'origine des saisons sur Terre ?",
+      "answers": [
+        {
+          "text": "La distance variable au Soleil",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "La vitesse de rotation de la Terre",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "L'attraction de la Lune",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "L'inclinaison de son axe de rotation",
+          "correct": true,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "uni-028",
+      "categoryId": "espace",
+      "subcategoryId": "espace.systeme-solaire",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "En combien de temps environ la Lune orbite-t-elle une fois autour de la Terre ?",
+      "answers": [
+        {
+          "text": "Environ 27 à 29 jours",
+          "correct": true,
+          "id": "a"
+        },
+        {
+          "text": "Environ 7 jours",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "Environ 365 jours",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "Environ 100 jours",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "uni-029",
+      "categoryId": "espace",
+      "subcategoryId": "espace.systeme-solaire",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Quelle est la théorie la plus admise sur l'origine de la Lune ?",
+      "answers": [
+        {
+          "text": "Elle a été capturée telle quelle par la gravité terrestre",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "Elle est un fragment du Soleil",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "La collision de la jeune Terre avec un corps de la taille de Mars",
+          "correct": true,
+          "id": "c"
+        },
+        {
+          "text": "Elle s'est formée en même temps et loin de la Terre",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "uni-030",
+      "categoryId": "espace",
+      "subcategoryId": "espace.systeme-solaire",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Quel phénomène provoque les marées océaniques sur Terre ?",
+      "answers": [
+        {
+          "text": "Les vents dominants",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "La rotation de la Terre sur elle-même",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "Le champ magnétique terrestre",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "L'attraction gravitationnelle de la Lune (et du Soleil)",
+          "correct": true,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "uni-031",
+      "categoryId": "espace",
+      "subcategoryId": "espace.systeme-solaire",
+      "difficulty": 3,
+      "type": "boolean",
+      "prompt": "La Lune tourne librement sur elle-même, si bien qu'elle montre une face différente à la Terre chaque nuit.",
+      "answers": [
+        {
+          "text": "Faux",
+          "correct": true,
+          "id": "a"
+        },
+        {
+          "text": "Vrai",
+          "correct": false,
+          "id": "b"
+        }
+      ],
+      "explanation": "Sa rotation est au contraire synchronisée avec son orbite : elle montre toujours la même face à la Terre."
+    },
+    {
+      "id": "uni-032",
+      "categoryId": "espace",
+      "subcategoryId": "espace.systeme-solaire",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Comment appelle-t-on le champ qui protège la Terre d'une partie du rayonnement solaire nocif ?",
+      "answers": [
+        {
+          "text": "Le champ magnétique terrestre (magnétosphère)",
+          "correct": true,
+          "id": "a"
+        },
+        {
+          "text": "La ceinture d'astéroïdes",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "La ceinture de Van Allen inversée",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "L'ionosphère seule",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "uni-033",
+      "categoryId": "espace",
+      "subcategoryId": "espace.systeme-solaire",
+      "difficulty": 1,
+      "type": "single",
+      "prompt": "Quelle planète est surnommée la « planète rouge » ?",
+      "answers": [
+        {
+          "text": "Vénus",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "Jupiter",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "Mars",
+          "correct": true,
+          "id": "c"
+        },
+        {
+          "text": "Mercure",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "uni-034",
+      "categoryId": "espace",
+      "subcategoryId": "espace.systeme-solaire",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Pourquoi Mars apparaît-elle rougeâtre ?",
+      "answers": [
+        {
+          "text": "La lumière du Soleil qui la traverse",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "L'oxyde de fer (rouille) présent dans son sol",
+          "correct": true,
+          "id": "b"
+        },
+        {
+          "text": "Son atmosphère très dense",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "Des volcans actifs en permanence",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "uni-035",
+      "categoryId": "espace",
+      "subcategoryId": "espace.systeme-solaire",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Combien Mars a-t-elle de satellites naturels ?",
+      "answers": [
+        {
+          "text": "Aucun",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "Deux (Phobos et Déimos)",
+          "correct": true,
+          "id": "b"
+        },
+        {
+          "text": "Quatre",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "Un",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "uni-036",
+      "categoryId": "espace",
+      "subcategoryId": "espace.systeme-solaire",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Comment s'appelle le plus grand volcan connu du système solaire, situé sur Mars ?",
+      "answers": [
+        {
+          "text": "Mauna Kea",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "Maxwell Montes",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "Olympus Mons",
+          "correct": true,
+          "id": "c"
+        },
+        {
+          "text": "Mons Huygens",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "uni-037",
+      "categoryId": "espace",
+      "subcategoryId": "espace.systeme-solaire",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Comment s'appelle l'immense système de canyons martien, l'un des plus grands du système solaire ?",
+      "answers": [
+        {
+          "text": "Mariana Trench",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "Hellas Planitia",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "Herschel Crater",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "Valles Marineris",
+          "correct": true,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "uni-038",
+      "categoryId": "espace",
+      "subcategoryId": "espace.systeme-solaire",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Combien de temps dure environ une année martienne, en jours terrestres ?",
+      "answers": [
+        {
+          "text": "Environ 687 jours",
+          "correct": true,
+          "id": "a"
+        },
+        {
+          "text": "Environ 1 000 jours",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "Environ 365 jours",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "Environ 200 jours",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "uni-039",
+      "categoryId": "espace",
+      "subcategoryId": "espace.systeme-solaire",
+      "difficulty": 3,
+      "type": "boolean",
+      "prompt": "Des traces d'eau liquide passée ont été identifiées à la surface de Mars.",
+      "answers": [
+        {
+          "text": "Faux",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "Vrai",
+          "correct": true,
+          "id": "b"
+        }
+      ],
+      "explanation": "Lits de rivières asséchées et minéraux formés en présence d'eau en sont des indices."
+    },
+    {
+      "id": "uni-040",
+      "categoryId": "espace",
+      "subcategoryId": "espace.systeme-solaire",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Entre quelles deux planètes se trouve la principale ceinture d'astéroïdes ?",
+      "answers": [
+        {
+          "text": "Mars et Jupiter",
+          "correct": true,
+          "id": "a"
+        },
+        {
+          "text": "Terre et Mars",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "Jupiter et Saturne",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "Vénus et la Terre",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "uni-041",
+      "categoryId": "espace",
+      "subcategoryId": "espace.systeme-solaire",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Quel est le plus grand objet de la ceinture principale d'astéroïdes, aussi classé planète naine ?",
+      "answers": [
+        {
+          "text": "Hygie",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "Vesta",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "Cérès",
+          "correct": true,
+          "id": "c"
+        },
+        {
+          "text": "Pallas",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "uni-042",
+      "categoryId": "espace",
+      "subcategoryId": "espace.systeme-solaire",
+      "difficulty": 3,
+      "type": "boolean",
+      "prompt": "La ceinture d'astéroïdes principale contient assez de matière pour former une planète de la taille de la Terre.",
+      "answers": [
+        {
+          "text": "Faux",
+          "correct": true,
+          "id": "a"
+        },
+        {
+          "text": "Vrai",
+          "correct": false,
+          "id": "b"
+        }
+      ],
+      "explanation": "Sa masse totale est estimée à moins de 5 % de celle de la Lune."
+    },
+    {
+      "id": "uni-043",
+      "categoryId": "espace",
+      "subcategoryId": "espace.systeme-solaire",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Comment appelle-t-on un astéroïde qui pénètre dans l'atmosphère terrestre et atteint le sol ?",
+      "answers": [
+        {
+          "text": "Une comète",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "Une météorite",
+          "correct": true,
+          "id": "b"
+        },
+        {
+          "text": "Un bolide stellaire",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "Un planétoïde",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "uni-044",
+      "categoryId": "espace",
+      "subcategoryId": "espace.systeme-solaire",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Quel événement, il y a environ 66 millions d'années, est attribué à la chute d'un astéroïde géant sur Terre ?",
+      "answers": [
+        {
+          "text": "La formation de la Lune",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "La dernière glaciation",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "L'apparition de l'oxygène atmosphérique",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "L'extinction des dinosaures",
+          "correct": true,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "uni-045",
+      "categoryId": "espace",
+      "subcategoryId": "espace.systeme-solaire",
+      "difficulty": 1,
+      "type": "single",
+      "prompt": "Quelle est la plus grande planète du système solaire ?",
+      "answers": [
+        {
+          "text": "Saturne",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "Neptune",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "Jupiter",
+          "correct": true,
+          "id": "c"
+        },
+        {
+          "text": "Uranus",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "uni-046",
+      "categoryId": "espace",
+      "subcategoryId": "espace.systeme-solaire",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "De quels gaz Jupiter est-elle principalement composée ?",
+      "answers": [
+        {
+          "text": "Hydrogène et hélium",
+          "correct": true,
+          "id": "a"
+        },
+        {
+          "text": "Méthane et ammoniac",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "Dioxyde de carbone",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "Azote et oxygène",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "uni-047",
+      "categoryId": "espace",
+      "subcategoryId": "espace.systeme-solaire",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Comment s'appelle la gigantesque tempête rougeâtre visible sur Jupiter depuis des siècles ?",
+      "answers": [
+        {
+          "text": "L'Œil de Jupiter",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "Le Cyclone jovien",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "La Tache noire",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "La Grande Tache rouge",
+          "correct": true,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "uni-048",
+      "categoryId": "espace",
+      "subcategoryId": "espace.systeme-solaire",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quel est le plus grand satellite naturel du système solaire, satellite de Jupiter ?",
+      "answers": [
+        {
+          "text": "Callisto",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "Ganymède",
+          "correct": true,
+          "id": "b"
+        },
+        {
+          "text": "Titan",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "Io",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "uni-049",
+      "categoryId": "espace",
+      "subcategoryId": "espace.systeme-solaire",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Lequel des satellites galiléens de Jupiter est le plus volcaniquement actif du système solaire ?",
+      "answers": [
+        {
+          "text": "Callisto",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "Io",
+          "correct": true,
+          "id": "b"
+        },
+        {
+          "text": "Ganymède",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "Europe",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "uni-050",
+      "categoryId": "espace",
+      "subcategoryId": "espace.systeme-solaire",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Quel satellite de Jupiter est recouvert d'une croûte de glace sous laquelle un océan liquide est soupçonné ?",
+      "answers": [
+        {
+          "text": "Io",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "Amalthée",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "Callisto",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "Europe",
+          "correct": true,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "uni-051",
+      "categoryId": "espace",
+      "subcategoryId": "espace.systeme-solaire",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Comment appelle-t-on les quatre plus grands satellites de Jupiter, découverts par Galilée en 1610 ?",
+      "answers": [
+        {
+          "text": "Les satellites galiléens",
+          "correct": true,
+          "id": "a"
+        },
+        {
+          "text": "Les lunes joviennes majeures",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "Les satellites de premier rang",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "Les lunes de Herschel",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "uni-052",
+      "categoryId": "espace",
+      "subcategoryId": "espace.systeme-solaire",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Environ combien de temps Jupiter met-elle à faire le tour du Soleil ?",
+      "answers": [
+        {
+          "text": "Environ 30 ans",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "Environ 84 ans",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "Environ 12 ans",
+          "correct": true,
+          "id": "c"
+        },
+        {
+          "text": "Environ 1 an",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "uni-053",
+      "categoryId": "espace",
+      "subcategoryId": "espace.systeme-solaire",
+      "difficulty": 2,
+      "type": "boolean",
+      "prompt": "Jupiter est totalement dépourvue d'anneaux, contrairement à Saturne.",
+      "answers": [
+        {
+          "text": "Faux",
+          "correct": true,
+          "id": "a"
+        },
+        {
+          "text": "Vrai",
+          "correct": false,
+          "id": "b"
+        }
+      ],
+      "explanation": "Elle en possède, mais beaucoup plus ténus et discrets que ceux de Saturne."
+    },
+    {
+      "id": "uni-054",
+      "categoryId": "espace",
+      "subcategoryId": "espace.systeme-solaire",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "En combien d'heures Jupiter effectue-t-elle une rotation complète sur elle-même — la plus rapide du système solaire ?",
+      "answers": [
+        {
+          "text": "Environ 24 heures",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "Environ 10 heures",
+          "correct": true,
+          "id": "b"
+        },
+        {
+          "text": "Environ 48 heures",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "Environ 5 heures",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "uni-055",
+      "categoryId": "espace",
+      "subcategoryId": "espace.systeme-solaire",
+      "difficulty": 1,
+      "type": "single",
+      "prompt": "Quelle planète est célèbre pour son système d'anneaux spectaculaire ?",
+      "answers": [
+        {
+          "text": "Jupiter",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "Neptune",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "Uranus",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "Saturne",
+          "correct": true,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "uni-056",
+      "categoryId": "espace",
+      "subcategoryId": "espace.systeme-solaire",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "De quoi sont principalement composés les anneaux de Saturne ?",
+      "answers": [
+        {
+          "text": "De lave solidifiée",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "De gaz uniquement",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "De glace et de poussières rocheuses",
+          "correct": true,
+          "id": "c"
+        },
+        {
+          "text": "De métal liquide",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "uni-057",
+      "categoryId": "espace",
+      "subcategoryId": "espace.systeme-solaire",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Comment s'appelle le plus grand satellite de Saturne, doté d'une atmosphère épaisse ?",
+      "answers": [
+        {
+          "text": "Titan",
+          "correct": true,
+          "id": "a"
+        },
+        {
+          "text": "Encelade",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "Rhéa",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "Mimas",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "uni-058",
+      "categoryId": "espace",
+      "subcategoryId": "espace.systeme-solaire",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Quel petit satellite de Saturne projette des geysers de glace depuis son pôle Sud ?",
+      "answers": [
+        {
+          "text": "Téthys",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "Japet",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "Titan",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "Encelade",
+          "correct": true,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "uni-059",
+      "categoryId": "espace",
+      "subcategoryId": "espace.systeme-solaire",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Quelle mission spatiale a étudié Saturne et ses lunes de 2004 à 2017, avec un module qui s'est posé sur Titan ?",
+      "answers": [
+        {
+          "text": "New Horizons",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "Juno",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "Cassini-Huygens",
+          "correct": true,
+          "id": "c"
+        },
+        {
+          "text": "Voyager 1",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "uni-060",
+      "categoryId": "espace",
+      "subcategoryId": "espace.systeme-solaire",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Environ combien d'années Saturne met-elle à orbiter autour du Soleil ?",
+      "answers": [
+        {
+          "text": "Environ 12 ans",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "Environ 29 ans",
+          "correct": true,
+          "id": "b"
+        },
+        {
+          "text": "Environ 84 ans",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "Environ 165 ans",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "uni-061",
+      "categoryId": "espace",
+      "subcategoryId": "espace.systeme-solaire",
+      "difficulty": 3,
+      "type": "boolean",
+      "prompt": "Saturne est la planète la plus dense du système solaire.",
+      "answers": [
+        {
+          "text": "Vrai",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "Faux",
+          "correct": true,
+          "id": "b"
+        }
+      ],
+      "explanation": "C'est l'inverse : Saturne est moins dense que l'eau, elle flotterait dans un océan assez grand."
+    },
+    {
+      "id": "uni-062",
+      "categoryId": "espace",
+      "subcategoryId": "espace.systeme-solaire",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "En quelle décennie les sondes Voyager 1 et 2 ont-elles survolé Saturne pour la première fois ?",
+      "answers": [
+        {
+          "text": "Les années 1980",
+          "correct": true,
+          "id": "a"
+        },
+        {
+          "text": "Les années 1960",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "Les années 2000",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "Les années 1950",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "uni-063",
+      "categoryId": "espace",
+      "subcategoryId": "espace.systeme-solaire",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Après Jupiter, quelle est la deuxième plus grande planète du système solaire ?",
+      "answers": [
+        {
+          "text": "la Terre",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "Uranus",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "Neptune",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "Saturne",
+          "correct": true,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "uni-064",
+      "categoryId": "espace",
+      "subcategoryId": "espace.systeme-solaire",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quelle planète a la particularité d'avoir un axe de rotation presque couché sur le côté ?",
+      "answers": [
+        {
+          "text": "Mars",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "Uranus",
+          "correct": true,
+          "id": "b"
+        },
+        {
+          "text": "Saturne",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "Mercure",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "uni-065",
+      "categoryId": "espace",
+      "subcategoryId": "espace.systeme-solaire",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quel astronome découvre Uranus en 1781 ?",
+      "answers": [
+        {
+          "text": "Galilée",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "Johannes Kepler",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "William Herschel",
+          "correct": true,
+          "id": "c"
+        },
+        {
+          "text": "Edwin Hubble",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "uni-066",
+      "categoryId": "espace",
+      "subcategoryId": "espace.systeme-solaire",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Quel gaz donne à Uranus sa couleur bleu-vert caractéristique ?",
+      "answers": [
+        {
+          "text": "Le méthane",
+          "correct": true,
+          "id": "a"
+        },
+        {
+          "text": "L'ammoniac",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "L'hydrogène pur",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "L'azote",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "uni-067",
+      "categoryId": "espace",
+      "subcategoryId": "espace.systeme-solaire",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Comment appelle-t-on la catégorie de planètes à laquelle appartiennent Uranus et Neptune, distincte des géantes gazeuses ?",
+      "answers": [
+        {
+          "text": "Les telluriques externes",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "Les naines bleues",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "Les géantes de glace",
+          "correct": true,
+          "id": "c"
+        },
+        {
+          "text": "Les astres glacés",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "uni-068",
+      "categoryId": "espace",
+      "subcategoryId": "espace.systeme-solaire",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Quelle unique sonde spatiale a survolé Uranus, en 1986 ?",
+      "answers": [
+        {
+          "text": "Cassini",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "Voyager 2",
+          "correct": true,
+          "id": "b"
+        },
+        {
+          "text": "New Horizons",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "Voyager 1",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "uni-069",
+      "categoryId": "espace",
+      "subcategoryId": "espace.systeme-solaire",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Environ combien d'années Uranus met-elle à faire le tour du Soleil ?",
+      "answers": [
+        {
+          "text": "Environ 84 ans",
+          "correct": true,
+          "id": "a"
+        },
+        {
+          "text": "Environ 165 ans",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "Environ 12 ans",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "Environ 29 ans",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "uni-070",
+      "categoryId": "espace",
+      "subcategoryId": "espace.systeme-solaire",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Uranus possède-t-elle des anneaux, comme Saturne ?",
+      "answers": [
+        {
+          "text": "Oui, mais uniquement composés de gaz",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "Non, seule Saturne en a",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "Non, aucun anneau n'a jamais été détecté",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "Oui, un système d'anneaux plus fins et sombres",
+          "correct": true,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "uni-071",
+      "categoryId": "espace",
+      "subcategoryId": "espace.systeme-solaire",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quelle est la planète la plus éloignée du Soleil dans le système solaire ?",
+      "answers": [
+        {
+          "text": "Neptune",
+          "correct": true,
+          "id": "a"
+        },
+        {
+          "text": "Saturne",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "Uranus",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "Pluton",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "uni-072",
+      "categoryId": "espace",
+      "subcategoryId": "espace.systeme-solaire",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Comment Neptune a-t-elle été découverte, en 1846, plutôt que par simple observation directe ?",
+      "answers": [
+        {
+          "text": "Par hasard lors d'une éclipse",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "Par une lunette amateur",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "Grâce à une sonde spatiale",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "Par le calcul, à partir des perturbations observées dans l'orbite d'Uranus",
+          "correct": true,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "uni-073",
+      "categoryId": "espace",
+      "subcategoryId": "espace.systeme-solaire",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Quelle planète est connue pour ses vents parmi les plus violents du système solaire, dépassant 2 000 km/h ?",
+      "answers": [
+        {
+          "text": "Vénus",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "Neptune",
+          "correct": true,
+          "id": "b"
+        },
+        {
+          "text": "Mars",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "Mercure",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "uni-074",
+      "categoryId": "espace",
+      "subcategoryId": "espace.systeme-solaire",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Comment s'appelle le plus grand satellite de Neptune, à l'orbite rétrograde ?",
+      "answers": [
+        {
+          "text": "Nérée",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "Titan",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "Triton",
+          "correct": true,
+          "id": "c"
+        },
+        {
+          "text": "Charon",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "uni-075",
+      "categoryId": "espace",
+      "subcategoryId": "espace.systeme-solaire",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Quelle unique sonde a survolé Neptune, en 1989 ?",
+      "answers": [
+        {
+          "text": "Voyager 1",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "Voyager 2",
+          "correct": true,
+          "id": "b"
+        },
+        {
+          "text": "Cassini",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "New Horizons",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "uni-076",
+      "categoryId": "espace",
+      "subcategoryId": "espace.systeme-solaire",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Environ combien d'années terrestres Neptune met-elle à orbiter le Soleil ?",
+      "answers": [
+        {
+          "text": "Environ 84 ans",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "Environ 29 ans",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "Environ 165 ans",
+          "correct": true,
+          "id": "c"
+        },
+        {
+          "text": "Environ 248 ans",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "uni-077",
+      "categoryId": "espace",
+      "subcategoryId": "espace.systeme-solaire",
+      "difficulty": 4,
+      "type": "boolean",
+      "prompt": "Triton, le plus grand satellite de Neptune, tourne en sens inverse de la rotation de la planète.",
+      "answers": [
+        {
+          "text": "Vrai",
+          "correct": true,
+          "id": "a"
+        },
+        {
+          "text": "Faux",
+          "correct": false,
+          "id": "b"
+        }
+      ],
+      "explanation": "Une orbite rétrograde qui suggère que Triton a été capturé plutôt que formé sur place."
+    },
+    {
+      "id": "uni-078",
+      "categoryId": "espace",
+      "subcategoryId": "espace.systeme-solaire",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "De quelle couleur Neptune apparaît-elle principalement ?",
+      "answers": [
+        {
+          "text": "Bleue",
+          "correct": true,
+          "id": "a"
+        },
+        {
+          "text": "Jaune pâle",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "Rouge",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "Verte",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "uni-079",
+      "categoryId": "espace",
+      "subcategoryId": "espace.systeme-solaire",
+      "difficulty": 1,
+      "type": "single",
+      "prompt": "Quelle ancienne « neuvième planète » a été reclassée « planète naine » en 2006 ?",
+      "answers": [
+        {
+          "text": "Neptune",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "Éris",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "Cérès",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "Pluton",
+          "correct": true,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "uni-080",
+      "categoryId": "espace",
+      "subcategoryId": "espace.systeme-solaire",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Quelle organisation scientifique a officiellement retiré à Pluton son statut de planète en 2006 ?",
+      "answers": [
+        {
+          "text": "L'Agence spatiale européenne",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "La NASA",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "L'Union astronomique internationale (UAI)",
+          "correct": true,
+          "id": "c"
+        },
+        {
+          "text": "L'ONU",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "uni-081",
+      "categoryId": "espace",
+      "subcategoryId": "espace.systeme-solaire",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quel critère manque à Pluton pour être classée planète à part entière ?",
+      "answers": [
+        {
+          "text": "Elle n'a pas « fait place nette » sur son orbite",
+          "correct": true,
+          "id": "a"
+        },
+        {
+          "text": "Elle ne tourne pas autour du Soleil",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "Elle n'est pas sphérique",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "Elle n'a pas de satellite",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "uni-082",
+      "categoryId": "espace",
+      "subcategoryId": "espace.systeme-solaire",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Comment s'appelle le plus grand satellite de Pluton, presque de la même taille qu'elle ?",
+      "answers": [
+        {
+          "text": "Triton",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "Charon",
+          "correct": true,
+          "id": "b"
+        },
+        {
+          "text": "Nix",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "Titan",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "uni-083",
+      "categoryId": "espace",
+      "subcategoryId": "espace.systeme-solaire",
+      "difficulty": 4,
+      "type": "single",
+      "prompt": "Quelle planète naine, découverte en 2005, est plus massive que Pluton et a motivé la redéfinition de 2006 ?",
+      "answers": [
+        {
+          "text": "Cérès",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "Makémaké",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "Hauméa",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "Éris",
+          "correct": true,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "uni-084",
+      "categoryId": "espace",
+      "subcategoryId": "espace.systeme-solaire",
+      "difficulty": 5,
+      "type": "single",
+      "prompt": "Quelle planète naine a la particularité d'avoir une forme allongée, due à sa rotation très rapide ?",
+      "answers": [
+        {
+          "text": "Makémaké",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "Éris",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "Cérès",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "Hauméa",
+          "correct": true,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "uni-085",
+      "categoryId": "espace",
+      "subcategoryId": "espace.systeme-solaire",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Dans quelle région du système solaire la plupart des planètes naines (hors Cérès) se trouvent-elles ?",
+      "answers": [
+        {
+          "text": "La ceinture de Kuiper",
+          "correct": true,
+          "id": "a"
+        },
+        {
+          "text": "Le nuage d'Oort",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "Entre Mars et Jupiter",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "La ceinture d'astéroïdes",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "uni-086",
+      "categoryId": "espace",
+      "subcategoryId": "espace.systeme-solaire",
+      "difficulty": 2,
+      "type": "boolean",
+      "prompt": "Cérès, situé dans la ceinture d'astéroïdes, est classée à la fois astéroïde et planète naine.",
+      "answers": [
+        {
+          "text": "Faux",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "Vrai",
+          "correct": true,
+          "id": "b"
+        }
+      ]
+    },
+    {
+      "id": "uni-087",
+      "categoryId": "espace",
+      "subcategoryId": "espace.systeme-solaire",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Comment appelle-t-on la traînée lumineuse qu'une comète laisse derrière elle en s'approchant du Soleil ?",
+      "answers": [
+        {
+          "text": "Une auréole",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "Une traînée de Kuiper",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "Une queue cométaire",
+          "correct": true,
+          "id": "c"
+        },
+        {
+          "text": "Un halo solaire",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "uni-088",
+      "categoryId": "espace",
+      "subcategoryId": "espace.systeme-solaire",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quelle est la comète la plus célèbre, visible à l'œil nu tous les 76 ans environ ?",
+      "answers": [
+        {
+          "text": "La comète Encke",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "La comète de Halley",
+          "correct": true,
+          "id": "b"
+        },
+        {
+          "text": "La comète Shoemaker-Levy 9",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "La comète Hale-Bopp",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "uni-089",
+      "categoryId": "espace",
+      "subcategoryId": "espace.systeme-solaire",
+      "difficulty": 4,
+      "type": "single",
+      "prompt": "De quoi une comète est-elle principalement composée, ce qui lui vaut le surnom de « boule de neige sale » ?",
+      "answers": [
+        {
+          "text": "De gaz uniquement",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "De glace, de poussière et de roche",
+          "correct": true,
+          "id": "b"
+        },
+        {
+          "text": "De sable et de fer",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "De métal pur",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "uni-090",
+      "categoryId": "espace",
+      "subcategoryId": "espace.systeme-solaire",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Comment appelle-t-on la région glacée au-delà de l'orbite de Neptune, où se trouvent Pluton et de nombreux petits corps ?",
+      "answers": [
+        {
+          "text": "Le nuage d'Oort",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "La ceinture d'astéroïdes",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "La ceinture de Kuiper",
+          "correct": true,
+          "id": "c"
+        },
+        {
+          "text": "L'héliopause",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "uni-091",
+      "categoryId": "espace",
+      "subcategoryId": "espace.systeme-solaire",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Comment appelle-t-on la vaste région hypothétique, bien au-delà de Neptune, considérée comme la source des comètes à longue période ?",
+      "answers": [
+        {
+          "text": "Le nuage d'Oort",
+          "correct": true,
+          "id": "a"
+        },
+        {
+          "text": "Le disque protoplanétaire",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "L'héliosphère",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "La ceinture de Kuiper",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "uni-092",
+      "categoryId": "espace",
+      "subcategoryId": "espace.systeme-solaire",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Quelle comète, en juillet 1994, est entrée en collision spectaculaire avec Jupiter ?",
+      "answers": [
+        {
+          "text": "Tchourioumov-Guérassimenko",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "Hale-Bopp",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "Halley",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "Shoemaker-Levy 9",
+          "correct": true,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "uni-093",
+      "categoryId": "espace",
+      "subcategoryId": "espace.systeme-solaire",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quelle mission spatiale européenne a fait atterrir un petit robot sur le noyau d'une comète en 2014 ?",
+      "answers": [
+        {
+          "text": "Cassini-Huygens",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "Juno",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "New Horizons",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "Rosetta (avec l'atterrisseur Philae)",
+          "correct": true,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "uni-094",
+      "categoryId": "espace",
+      "subcategoryId": "espace.systeme-solaire",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Comment appelle-t-on la limite où le vent solaire cesse de dominer face au milieu interstellaire ?",
+      "answers": [
+        {
+          "text": "L'ellipsoïde de Hill",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "L'héliopause",
+          "correct": true,
+          "id": "b"
+        },
+        {
+          "text": "La magnétosphère",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "La ceinture de Kuiper",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "uni-095",
+      "categoryId": "espace",
+      "subcategoryId": "espace.systeme-solaire",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Quel phénomène céleste régulier, comme les Perséides, se produit quand la Terre traverse les débris laissés par une comète ?",
+      "answers": [
+        {
+          "text": "Une pluie d'étoiles filantes",
+          "correct": true,
+          "id": "a"
+        },
+        {
+          "text": "Un transit planétaire",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "Une aurore boréale",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "Une éclipse solaire",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "uni-096",
+      "categoryId": "espace",
+      "subcategoryId": "espace.astronomie",
+      "difficulty": 1,
+      "type": "single",
+      "prompt": "Comment appelle-t-on l'étoile la plus proche de la Terre (hors le Soleil) ?",
+      "answers": [
+        {
+          "text": "Sirius",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "Bételgeuse",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "Proxima du Centaure",
+          "correct": true,
+          "id": "c"
+        },
+        {
+          "text": "Alpha du Centaure B",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "uni-097",
+      "categoryId": "espace",
+      "subcategoryId": "espace.astronomie",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quelle est l'étoile la plus brillante du ciel nocturne (hors Soleil) ?",
+      "answers": [
+        {
+          "text": "Bételgeuse",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "Polaris",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "Proxima du Centaure",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "Sirius",
+          "correct": true,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "uni-098",
+      "categoryId": "espace",
+      "subcategoryId": "espace.astronomie",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "De quoi une étoile tire-t-elle son énergie durant l'essentiel de sa vie ?",
+      "answers": [
+        {
+          "text": "La combustion de carbone",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "La fusion de l'hydrogène en hélium dans son cœur",
+          "correct": true,
+          "id": "b"
+        },
+        {
+          "text": "L'énergie gravitationnelle seule",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "Des réactions chimiques de surface",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "uni-099",
+      "categoryId": "espace",
+      "subcategoryId": "espace.astronomie",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Comment appelle-t-on la longue phase stable durant laquelle une étoile fusionne son hydrogène ?",
+      "answers": [
+        {
+          "text": "La phase de supergéante",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "Le stade protostellaire",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "La séquence principale",
+          "correct": true,
+          "id": "c"
+        },
+        {
+          "text": "La phase de nova",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "uni-100",
+      "categoryId": "espace",
+      "subcategoryId": "espace.astronomie",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Que devient une étoile comme le Soleil en fin de vie, après avoir épuisé son hydrogène ?",
+      "answers": [
+        {
+          "text": "Une géante rouge, puis une naine blanche",
+          "correct": true,
+          "id": "a"
+        },
+        {
+          "text": "Une étoile à neutrons",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "Une supernova obligatoirement",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "Un trou noir",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "uni-101",
+      "categoryId": "espace",
+      "subcategoryId": "espace.astronomie",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Que devient le cœur d'une étoile très massive après son explosion en supernova ?",
+      "answers": [
+        {
+          "text": "Une planète naine",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "Une naine blanche",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "Une géante rouge",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "Une étoile à neutrons ou un trou noir",
+          "correct": true,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "uni-102",
+      "categoryId": "espace",
+      "subcategoryId": "espace.astronomie",
+      "difficulty": 4,
+      "type": "single",
+      "prompt": "Comment appelle-t-on l'explosion cataclysmique qui marque la mort d'une étoile massive ?",
+      "answers": [
+        {
+          "text": "Une supernova",
+          "correct": true,
+          "id": "a"
+        },
+        {
+          "text": "Une nova",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "Un sursaut gamma seul",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "Une éruption solaire",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "uni-103",
+      "categoryId": "espace",
+      "subcategoryId": "espace.astronomie",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Que reflètent les types spectraux des étoiles (O, B, A, F, G, K, M) ?",
+      "answers": [
+        {
+          "text": "Leur distance à la Terre",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "Leur température de surface",
+          "correct": true,
+          "id": "b"
+        },
+        {
+          "text": "Leur âge exact",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "Leur masse uniquement",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "uni-104",
+      "categoryId": "espace",
+      "subcategoryId": "espace.astronomie",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "De quelle couleur sont les étoiles les plus chaudes, de type spectral O ou B ?",
+      "answers": [
+        {
+          "text": "Vertes",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "Rouges",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "Bleues",
+          "correct": true,
+          "id": "c"
+        },
+        {
+          "text": "Jaunes",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "uni-105",
+      "categoryId": "espace",
+      "subcategoryId": "espace.astronomie",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "De quel type spectral le Soleil relève-t-il ?",
+      "answers": [
+        {
+          "text": "Type O",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "Type A",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "Type G",
+          "correct": true,
+          "id": "c"
+        },
+        {
+          "text": "Type M",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "uni-106",
+      "categoryId": "espace",
+      "subcategoryId": "espace.astronomie",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "De quelle couleur sont typiquement les étoiles les plus froides, de type M, comme Bételgeuse ?",
+      "answers": [
+        {
+          "text": "Blanche",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "Verte",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "Bleue",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "Rouge",
+          "correct": true,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "uni-107",
+      "categoryId": "espace",
+      "subcategoryId": "espace.astronomie",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Qu'est-ce qu'une naine blanche ?",
+      "answers": [
+        {
+          "text": "Une étoile qui vient de naître",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "Le résidu très dense et refroidi d'une étoile comme le Soleil",
+          "correct": true,
+          "id": "b"
+        },
+        {
+          "text": "Un nuage de gaz interstellaire",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "Une planète glacée",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "uni-108",
+      "categoryId": "espace",
+      "subcategoryId": "espace.astronomie",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Qu'est-ce qu'une étoile à neutrons ?",
+      "answers": [
+        {
+          "text": "Le résidu ultra-dense d'une étoile massive après supernova",
+          "correct": true,
+          "id": "a"
+        },
+        {
+          "text": "Une étoile composée uniquement d'hydrogène",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "Une jeune étoile en formation",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "Un type de naine blanche",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "uni-109",
+      "categoryId": "espace",
+      "subcategoryId": "espace.astronomie",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Comment appelle-t-on une étoile à neutrons qui émet des faisceaux réguliers d'ondes radio ?",
+      "answers": [
+        {
+          "text": "Un blazar",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "Une magnétar",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "Un pulsar",
+          "correct": true,
+          "id": "c"
+        },
+        {
+          "text": "Un quasar",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "uni-110",
+      "categoryId": "espace",
+      "subcategoryId": "espace.astronomie",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Environ combien d'années le Soleil doit-il encore vivre avant d'épuiser son hydrogène ?",
+      "answers": [
+        {
+          "text": "Environ 5 milliards d'années",
+          "correct": true,
+          "id": "a"
+        },
+        {
+          "text": "Environ 500 ans",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "Environ 50 milliards d'années",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "Environ 100 millions d'années",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "uni-111",
+      "categoryId": "espace",
+      "subcategoryId": "espace.astronomie",
+      "difficulty": 4,
+      "type": "single",
+      "prompt": "Entre quelles masses (en masses solaires) se situent la plupart des étoiles connues ?",
+      "answers": [
+        {
+          "text": "Toujours exactement 1 masse solaire",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "Entre 1 000 et 10 000 masses solaires",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "Moins de 0,001 masse solaire",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "Entre 0,08 et environ 300 masses solaires",
+          "correct": true,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "uni-112",
+      "categoryId": "espace",
+      "subcategoryId": "espace.astronomie",
+      "difficulty": 3,
+      "type": "boolean",
+      "prompt": "Les étoiles les plus massives vivent en général plus longtemps que les étoiles peu massives.",
+      "answers": [
+        {
+          "text": "Faux",
+          "correct": true,
+          "id": "a"
+        },
+        {
+          "text": "Vrai",
+          "correct": false,
+          "id": "b"
+        }
+      ],
+      "explanation": "C'est l'inverse : elles brûlent leur combustible bien plus vite, malgré des réserves plus grandes."
+    },
+    {
+      "id": "uni-113",
+      "categoryId": "espace",
+      "subcategoryId": "espace.astronomie",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Comment appelle-t-on un nuage de gaz et de poussière où naissent les étoiles ?",
+      "answers": [
+        {
+          "text": "Une ceinture stellaire",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "Une nébuleuse",
+          "correct": true,
+          "id": "b"
+        },
+        {
+          "text": "Une galaxie naine",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "Un amas globulaire",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "uni-114",
+      "categoryId": "espace",
+      "subcategoryId": "espace.astronomie",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Quelle étoile géante rouge, visible dans la constellation d'Orion, deviendra un jour une supernova ?",
+      "answers": [
+        {
+          "text": "Sirius",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "Véga",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "Rigel",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "Bételgeuse",
+          "correct": true,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "uni-115",
+      "categoryId": "espace",
+      "subcategoryId": "espace.astronomie",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Comment appelle-t-on un regroupement compact de dizaines de milliers à quelques millions d'étoiles très anciennes ?",
+      "answers": [
+        {
+          "text": "Une nébuleuse planétaire",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "Un amas globulaire",
+          "correct": true,
+          "id": "b"
+        },
+        {
+          "text": "Une galaxie naine",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "Un amas ouvert",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "uni-116",
+      "categoryId": "espace",
+      "subcategoryId": "espace.astronomie",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Comment appelle-t-on un regroupement plus lâche de jeunes étoiles nées ensemble, comme les Pléiades ?",
+      "answers": [
+        {
+          "text": "Un amas ouvert",
+          "correct": true,
+          "id": "a"
+        },
+        {
+          "text": "Un superamas",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "Un amas globulaire",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "Une constellation",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "uni-117",
+      "categoryId": "espace",
+      "subcategoryId": "espace.astronomie",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Quel est le nom de la célèbre supernova observée en 1987, la plus proche observée depuis des siècles ?",
+      "answers": [
+        {
+          "text": "La supernova du Crabe",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "SN 1006",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "SN 1987A",
+          "correct": true,
+          "id": "c"
+        },
+        {
+          "text": "La nova de Tycho",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "uni-118",
+      "categoryId": "espace",
+      "subcategoryId": "espace.astronomie",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Quelle nébuleuse est le résidu visible d'une explosion de supernova observée par des astronomes chinois en 1054 ?",
+      "answers": [
+        {
+          "text": "La nébuleuse du Crabe",
+          "correct": true,
+          "id": "a"
+        },
+        {
+          "text": "La nébuleuse d'Orion",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "La nébuleuse de la Lyre",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "La nébuleuse de l'Aigle",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "uni-119",
+      "categoryId": "espace",
+      "subcategoryId": "espace.astronomie",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Comment appelle-t-on une étoile qui explose brutalement en augmentant fortement d'éclat, sans être totalement détruite ?",
+      "answers": [
+        {
+          "text": "Une supernova",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "Un pulsar",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "Une nova",
+          "correct": true,
+          "id": "c"
+        },
+        {
+          "text": "Une géante rouge",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "uni-120",
+      "categoryId": "espace",
+      "subcategoryId": "espace.astronomie",
+      "difficulty": 4,
+      "type": "single",
+      "prompt": "Quelle est, à ce jour, la limite de masse théorique au-delà de laquelle une naine blanche s'effondre inévitablement ?",
+      "answers": [
+        {
+          "text": "Le rayon de Schwarzschild",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "La limite de Chandrasekhar",
+          "correct": true,
+          "id": "b"
+        },
+        {
+          "text": "La limite d'Eddington",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "La limite de Roche",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "uni-121",
+      "categoryId": "espace",
+      "subcategoryId": "espace.astronomie",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Quelle étoile polaire sert traditionnellement de repère pour trouver le nord dans l'hémisphère nord ?",
+      "answers": [
+        {
+          "text": "Bételgeuse",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "Sirius",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "Véga",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "L'étoile Polaire",
+          "correct": true,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "uni-122",
+      "categoryId": "espace",
+      "subcategoryId": "espace.astronomie",
+      "difficulty": 1,
+      "type": "single",
+      "prompt": "Quel est le nom de la galaxie dans laquelle se trouve le système solaire ?",
+      "answers": [
+        {
+          "text": "La Voie lactée",
+          "correct": true,
+          "id": "a"
+        },
+        {
+          "text": "La galaxie du Tourbillon",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "Andromède",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "Le Grand Nuage de Magellan",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "uni-123",
+      "categoryId": "espace",
+      "subcategoryId": "espace.astronomie",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Quel type de galaxie est la Voie lactée ?",
+      "answers": [
+        {
+          "text": "Une galaxie naine",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "Une galaxie irrégulière",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "Une galaxie elliptique",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "Une galaxie spirale barrée",
+          "correct": true,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "uni-124",
+      "categoryId": "espace",
+      "subcategoryId": "espace.astronomie",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Environ combien d'étoiles la Voie lactée contient-elle, selon les estimations ?",
+      "answers": [
+        {
+          "text": "Une centaine seulement",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "Environ 10 000 milliards",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "Entre 200 et 400 milliards",
+          "correct": true,
+          "id": "c"
+        },
+        {
+          "text": "Environ un million",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "uni-125",
+      "categoryId": "espace",
+      "subcategoryId": "espace.astronomie",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Comment s'appelle le trou noir supermassif situé au centre de la Voie lactée ?",
+      "answers": [
+        {
+          "text": "M87*",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "Sagittarius A*",
+          "correct": true,
+          "id": "b"
+        },
+        {
+          "text": "TON 618",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "Cygnus X-1",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "uni-126",
+      "categoryId": "espace",
+      "subcategoryId": "espace.astronomie",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Environ à quelle distance le Soleil se trouve-t-il du centre de la Voie lactée ?",
+      "answers": [
+        {
+          "text": "Environ 100 années-lumière",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "Au centre exact",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "Environ 27 000 années-lumière",
+          "correct": true,
+          "id": "c"
+        },
+        {
+          "text": "Environ 1 million d'années-lumière",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "uni-127",
+      "categoryId": "espace",
+      "subcategoryId": "espace.astronomie",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quelle est la galaxie voisine la plus proche de la Voie lactée, visible à l'œil nu ?",
+      "answers": [
+        {
+          "text": "M87",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "Le Grand Nuage de Magellan",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "La galaxie du Sombrero",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "La galaxie d'Andromède",
+          "correct": true,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "uni-128",
+      "categoryId": "espace",
+      "subcategoryId": "espace.astronomie",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Environ à quelle distance se trouve la galaxie d'Andromède ?",
+      "answers": [
+        {
+          "text": "Environ 2,5 millions d'années-lumière",
+          "correct": true,
+          "id": "a"
+        },
+        {
+          "text": "Environ 100 années-lumière",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "Environ 27 000 années-lumière",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "Environ 4 années-lumière",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "uni-129",
+      "categoryId": "espace",
+      "subcategoryId": "espace.astronomie",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Que devrait-il se passer entre la Voie lactée et Andromède dans environ 4 milliards d'années ?",
+      "answers": [
+        {
+          "text": "Elles s'éloigneront définitivement l'une de l'autre",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "Une collision et fusion des deux galaxies",
+          "correct": true,
+          "id": "b"
+        },
+        {
+          "text": "Rien, elles resteront figées",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "Andromède sera engloutie par un trou noir",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "uni-130",
+      "categoryId": "espace",
+      "subcategoryId": "espace.astronomie",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Comment appelle-t-on un regroupement de galaxies proches, comme celui qui inclut la Voie lactée et Andromède ?",
+      "answers": [
+        {
+          "text": "Laniakea",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "L'amas de la Chevelure de Bérénice",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "Le Groupe local",
+          "correct": true,
+          "id": "c"
+        },
+        {
+          "text": "Le Superamas de la Vierge",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "uni-131",
+      "categoryId": "espace",
+      "subcategoryId": "espace.astronomie",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Quels sont, avec les spirales, les deux autres grands types morphologiques de galaxies ?",
+      "answers": [
+        {
+          "text": "Actives et passives",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "Elliptiques et irrégulières",
+          "correct": true,
+          "id": "b"
+        },
+        {
+          "text": "Barrées et rondes",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "Naines et géantes uniquement",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "uni-132",
+      "categoryId": "espace",
+      "subcategoryId": "espace.astronomie",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quelles sont les deux petites galaxies satellites de la Voie lactée, visibles depuis l'hémisphère sud ?",
+      "answers": [
+        {
+          "text": "Les Nuages d'Orion",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "Andromède et le Triangle",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "M87 et M31",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "Le Grand et le Petit Nuage de Magellan",
+          "correct": true,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "uni-133",
+      "categoryId": "espace",
+      "subcategoryId": "espace.astronomie",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Quel type de galaxie possède, en son centre, un noyau extrêmement lumineux appelé quasar ?",
+      "answers": [
+        {
+          "text": "Une galaxie active",
+          "correct": true,
+          "id": "a"
+        },
+        {
+          "text": "Une galaxie elliptique naine",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "Une galaxie naine",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "Une galaxie irrégulière",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "uni-134",
+      "categoryId": "espace",
+      "subcategoryId": "espace.astronomie",
+      "difficulty": 1,
+      "type": "single",
+      "prompt": "Quel nom donne-t-on à la théorie de l'origine et de l'expansion de l'univers ?",
+      "answers": [
+        {
+          "text": "Le Big Bang",
+          "correct": true,
+          "id": "a"
+        },
+        {
+          "text": "La théorie du régime stationnaire",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "La théorie de la relativité",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "La théorie de la dérive des continents",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "uni-135",
+      "categoryId": "espace",
+      "subcategoryId": "espace.astronomie",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quel est l'âge estimé de l'univers depuis le Big Bang ?",
+      "answers": [
+        {
+          "text": "Environ 4,6 milliards d'années",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "Environ 13,8 milliards d'années",
+          "correct": true,
+          "id": "b"
+        },
+        {
+          "text": "Environ 100 millions d'années",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "Environ 1 000 milliards d'années",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "uni-136",
+      "categoryId": "espace",
+      "subcategoryId": "espace.astronomie",
+      "difficulty": 2,
+      "type": "boolean",
+      "prompt": "Le système solaire (4,6 milliards d'années) est plus ancien que l'univers observable (13,8 milliards d'années).",
+      "answers": [
+        {
+          "text": "Vrai",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "Faux",
+          "correct": true,
+          "id": "b"
+        }
+      ],
+      "explanation": "C'est l'inverse : l'univers est bien plus vieux que notre système solaire."
+    },
+    {
+      "id": "uni-137",
+      "categoryId": "espace",
+      "subcategoryId": "espace.astronomie",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Comment appelle-t-on le rayonnement résiduel, encore détectable aujourd'hui, issu du Big Bang ?",
+      "answers": [
+        {
+          "text": "L'énergie noire",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "Le rayonnement solaire fossile",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "Le vent stellaire primordial",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "Le fond diffus cosmologique",
+          "correct": true,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "uni-138",
+      "categoryId": "espace",
+      "subcategoryId": "espace.astronomie",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Que fait l'univers, selon les observations, depuis le Big Bang ?",
+      "answers": [
+        {
+          "text": "Il oscille entre expansion et contraction chaque année",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "Il reste parfaitement stable",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "Il est en expansion",
+          "correct": true,
+          "id": "c"
+        },
+        {
+          "text": "Il se contracte",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "uni-139",
+      "categoryId": "espace",
+      "subcategoryId": "espace.astronomie",
+      "difficulty": 4,
+      "type": "single",
+      "prompt": "Quel astronome a démontré dans les années 1920 que l'univers est en expansion ?",
+      "answers": [
+        {
+          "text": "Nicolas Copernic",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "Isaac Newton",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "Edwin Hubble",
+          "correct": true,
+          "id": "c"
+        },
+        {
+          "text": "Albert Einstein",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "uni-140",
+      "categoryId": "espace",
+      "subcategoryId": "espace.astronomie",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Comment appelle-t-on la composante mystérieuse qui accélérerait l'expansion de l'univers ?",
+      "answers": [
+        {
+          "text": "L'énergie noire",
+          "correct": true,
+          "id": "a"
+        },
+        {
+          "text": "Le champ de Higgs",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "La force nucléaire faible",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "La matière noire",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "uni-141",
+      "categoryId": "espace",
+      "subcategoryId": "espace.astronomie",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Comment appelle-t-on la matière invisible, détectée seulement par ses effets gravitationnels, qui composerait une grande part de l'univers ?",
+      "answers": [
+        {
+          "text": "L'énergie noire",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "Le plasma primordial",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "L'antimatière",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "La matière noire",
+          "correct": true,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "uni-142",
+      "categoryId": "espace",
+      "subcategoryId": "espace.astronomie",
+      "difficulty": 4,
+      "type": "single",
+      "prompt": "Matière noire et énergie noire mises ensemble représenteraient environ quelle proportion du contenu de l'univers ?",
+      "answers": [
+        {
+          "text": "Environ 50 %",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "Environ 95 %",
+          "correct": true,
+          "id": "b"
+        },
+        {
+          "text": "Moins de 1 %",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "Environ 5 %",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "uni-143",
+      "categoryId": "espace",
+      "subcategoryId": "espace.astronomie",
+      "difficulty": 5,
+      "type": "single",
+      "prompt": "Quel physicien allemand a proposé la première solution exacte des équations de la relativité générale d'Einstein, dès 1916 ?",
+      "answers": [
+        {
+          "text": "Max Planck",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "Karl Schwarzschild",
+          "correct": true,
+          "id": "b"
+        },
+        {
+          "text": "Werner Heisenberg",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "Niels Bohr",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "uni-144",
+      "categoryId": "espace",
+      "subcategoryId": "espace.astronomie",
+      "difficulty": 3,
+      "type": "boolean",
+      "prompt": "Selon la théorie du Big Bang, l'univers n'a pas de centre identifiable où l'explosion se serait produite.",
+      "answers": [
+        {
+          "text": "Vrai",
+          "correct": true,
+          "id": "a"
+        },
+        {
+          "text": "Faux",
+          "correct": false,
+          "id": "b"
+        }
+      ],
+      "explanation": "L'expansion se produit partout à la fois, comme la surface d'un ballon qui gonfle."
+    },
+    {
+      "id": "uni-145",
+      "categoryId": "espace",
+      "subcategoryId": "espace.astronomie",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Comment appelle-t-on l'idée qu'avant le Big Bang, tout l'univers observable était concentré en un point extrêmement dense et chaud ?",
+      "answers": [
+        {
+          "text": "Le vide quantique stable",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "La nébuleuse primordiale",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "La singularité initiale",
+          "correct": true,
+          "id": "c"
+        },
+        {
+          "text": "L'état stationnaire",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "uni-146",
+      "categoryId": "espace",
+      "subcategoryId": "espace.astronomie",
+      "difficulty": 4,
+      "type": "single",
+      "prompt": "Quel physicien belge, prêtre catholique, est parmi les premiers à formuler l'idée d'un univers en expansion issu d'un « atome primitif » ?",
+      "answers": [
+        {
+          "text": "Georges Lemaître",
+          "correct": true,
+          "id": "a"
+        },
+        {
+          "text": "Stephen Hawking",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "Fred Hoyle",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "Edwin Hubble",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "uni-147",
+      "categoryId": "espace",
+      "subcategoryId": "espace.astronomie",
+      "difficulty": 1,
+      "type": "single",
+      "prompt": "Qu'est-ce qu'un trou noir ?",
+      "answers": [
+        {
+          "text": "Un trou physique dans l'espace-temps sans masse",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "Une étoile éteinte visible la nuit",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "Une planète très sombre",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "Un objet si dense que rien, pas même la lumière, ne peut s'en échapper",
+          "correct": true,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "uni-148",
+      "categoryId": "espace",
+      "subcategoryId": "espace.astronomie",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Comment appelle-t-on la limite au-delà de laquelle rien ne peut s'échapper d'un trou noir ?",
+      "answers": [
+        {
+          "text": "La singularité",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "La ceinture de Kuiper",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "L'ergosphère absolue",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "L'horizon des événements",
+          "correct": true,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "uni-149",
+      "categoryId": "espace",
+      "subcategoryId": "espace.astronomie",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "En quelle année a été publiée la première image directe d'un trou noir (M87*) ?",
+      "answers": [
+        {
+          "text": "2019",
+          "correct": true,
+          "id": "a"
+        },
+        {
+          "text": "2005",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "2022",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "1990",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "uni-150",
+      "categoryId": "espace",
+      "subcategoryId": "espace.astronomie",
+      "difficulty": 4,
+      "type": "single",
+      "prompt": "Quelle collaboration scientifique internationale a produit la première image d'un trou noir ?",
+      "answers": [
+        {
+          "text": "Le CERN",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "La NASA seule",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "L'Event Horizon Telescope",
+          "correct": true,
+          "id": "c"
+        },
+        {
+          "text": "Le télescope Hubble",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "uni-151",
+      "categoryId": "espace",
+      "subcategoryId": "espace.astronomie",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "En quelle année une image du trou noir supermassif de notre propre galaxie, Sagittarius A*, a-t-elle été révélée ?",
+      "answers": [
+        {
+          "text": "2019",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "2022",
+          "correct": true,
+          "id": "b"
+        },
+        {
+          "text": "2010",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "2015",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "uni-152",
+      "categoryId": "espace",
+      "subcategoryId": "espace.astronomie",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "À partir de quelle masse (en masses solaires), environ, un trou noir est-il qualifié de « stellaire » ?",
+      "answers": [
+        {
+          "text": "Exactement 1 masse solaire",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "Au moins 1 000 masses solaires",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "Au moins environ 3 masses solaires",
+          "correct": true,
+          "id": "c"
+        },
+        {
+          "text": "Moins de 0,1 masse solaire",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "uni-153",
+      "categoryId": "espace",
+      "subcategoryId": "espace.astronomie",
+      "difficulty": 4,
+      "type": "single",
+      "prompt": "Quelle découverte de 2015, confirmée par le détecteur LIGO, a validé une prédiction d'Einstein liée à la fusion de trous noirs ?",
+      "answers": [
+        {
+          "text": "La détection du boson de Higgs",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "La détection des ondes gravitationnelles",
+          "correct": true,
+          "id": "b"
+        },
+        {
+          "text": "La preuve de l'existence de la matière noire",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "La première photo d'exoplanète",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "uni-154",
+      "categoryId": "espace",
+      "subcategoryId": "espace.astronomie",
+      "difficulty": 5,
+      "type": "single",
+      "prompt": "Quel événement, nommé GW150914, correspond à la toute première détection d'ondes gravitationnelles en 2015 ?",
+      "answers": [
+        {
+          "text": "La fusion de deux trous noirs",
+          "correct": true,
+          "id": "a"
+        },
+        {
+          "text": "L'explosion d'une supernova proche",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "La collision de deux étoiles à neutrons",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "Le passage d'une comète géante",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "uni-155",
+      "categoryId": "espace",
+      "subcategoryId": "espace.astronomie",
+      "difficulty": 4,
+      "type": "single",
+      "prompt": "Comment appelle-t-on une étoile à neutrons dotée d'un champ magnétique extrêmement puissant ?",
+      "answers": [
+        {
+          "text": "Un pulsar milliseconde",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "Un quasar",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "Une naine brune",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "Une magnétar",
+          "correct": true,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "uni-156",
+      "categoryId": "espace",
+      "subcategoryId": "espace.astronomie",
+      "difficulty": 5,
+      "type": "single",
+      "prompt": "Quel physicien théoricien britannique a beaucoup contribué à la théorie des trous noirs et à leur rayonnement thermique ?",
+      "answers": [
+        {
+          "text": "Richard Feynman",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "Paul Dirac",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "Werner Heisenberg",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "Stephen Hawking",
+          "correct": true,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "uni-157",
+      "categoryId": "espace",
+      "subcategoryId": "espace.astronomie",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Qu'est-ce qui distingue une naine brune d'une véritable étoile ?",
+      "answers": [
+        {
+          "text": "Elle orbite toujours autour d'une planète",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "Elle n'est pas assez massive pour entretenir la fusion de l'hydrogène ordinaire",
+          "correct": true,
+          "id": "b"
+        },
+        {
+          "text": "Elle est plus grosse que le Soleil",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "Elle n'émet aucune lumière du tout",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "uni-158",
+      "categoryId": "espace",
+      "subcategoryId": "espace.astronomie",
+      "difficulty": 4,
+      "type": "single",
+      "prompt": "Comment appelle-t-on la théorie d'Einstein qui décrit la gravitation comme une déformation de l'espace-temps ?",
+      "answers": [
+        {
+          "text": "La relativité générale",
+          "correct": true,
+          "id": "a"
+        },
+        {
+          "text": "La mécanique quantique",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "La théorie des cordes",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "La relativité restreinte",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "uni-159",
+      "categoryId": "espace",
+      "subcategoryId": "espace.astronomie",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quel instrument optique a permis à Galilée d'observer le ciel dès 1609-1610 ?",
+      "answers": [
+        {
+          "text": "Le sextant",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "Le télescope spatial",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "La lunette astronomique",
+          "correct": true,
+          "id": "c"
+        },
+        {
+          "text": "Le radiotélescope",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "uni-160",
+      "categoryId": "espace",
+      "subcategoryId": "espace.astronomie",
+      "difficulty": 1,
+      "type": "single",
+      "prompt": "Comment s'appelle le célèbre télescope spatial de la NASA, lancé en 1990 ?",
+      "answers": [
+        {
+          "text": "Le télescope spatial Hubble",
+          "correct": true,
+          "id": "a"
+        },
+        {
+          "text": "Le télescope James Webb",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "Le télescope Kepler",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "Le télescope Spitzer",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "uni-161",
+      "categoryId": "espace",
+      "subcategoryId": "espace.astronomie",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Comment s'appelle le télescope spatial successeur de Hubble, lancé fin 2021 ?",
+      "answers": [
+        {
+          "text": "Le télescope Gaia",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "Le télescope Hubble II",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "Le télescope Euclid",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "Le télescope spatial James Webb",
+          "correct": true,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "uni-162",
+      "categoryId": "espace",
+      "subcategoryId": "espace.astronomie",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Dans quel domaine du spectre lumineux le télescope James Webb observe-t-il principalement l'univers ?",
+      "answers": [
+        {
+          "text": "Les ondes radio",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "L'infrarouge",
+          "correct": true,
+          "id": "b"
+        },
+        {
+          "text": "L'ultraviolet",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "Les rayons X",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "uni-163",
+      "categoryId": "espace",
+      "subcategoryId": "espace.astronomie",
+      "difficulty": 4,
+      "type": "single",
+      "prompt": "En quelle année une mission de la navette spatiale a-t-elle corrigé un défaut du miroir du télescope Hubble ?",
+      "answers": [
+        {
+          "text": "1985",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "1990",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "1993",
+          "correct": true,
+          "id": "c"
+        },
+        {
+          "text": "2000",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "uni-164",
+      "categoryId": "espace",
+      "subcategoryId": "espace.astronomie",
+      "difficulty": 4,
+      "type": "single",
+      "prompt": "Depuis quel point stratégique de l'espace, à 1,5 million de km de la Terre, le télescope James Webb observe-t-il l'univers ?",
+      "answers": [
+        {
+          "text": "Le point de Lagrange L1 du Soleil",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "L'orbite de la Lune",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "Le point de Lagrange L2",
+          "correct": true,
+          "id": "c"
+        },
+        {
+          "text": "L'orbite basse terrestre",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "uni-165",
+      "categoryId": "espace",
+      "subcategoryId": "espace.astronomie",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Comment appelle-t-on un télescope qui capte les ondes radio plutôt que la lumière visible ?",
+      "answers": [
+        {
+          "text": "Un coronographe",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "Un radiotélescope",
+          "correct": true,
+          "id": "b"
+        },
+        {
+          "text": "Un spectroscope",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "Un interféromètre optique",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "uni-166",
+      "categoryId": "espace",
+      "subcategoryId": "espace.astronomie",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Quelle mission spatiale de la NASA, lancée en 2009, a permis de découvrir des milliers d'exoplanètes par la méthode des transits ?",
+      "answers": [
+        {
+          "text": "Le télescope spatial Kepler",
+          "correct": true,
+          "id": "a"
+        },
+        {
+          "text": "Le télescope Hubble",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "La sonde Voyager 1",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "Le télescope James Webb",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "uni-167",
+      "categoryId": "espace",
+      "subcategoryId": "espace.astronomie",
+      "difficulty": 4,
+      "type": "single",
+      "prompt": "Quelle fusée a mis en orbite le télescope spatial James Webb, depuis la Guyane française ?",
+      "answers": [
+        {
+          "text": "Une fusée Saturn V",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "Une fusée Falcon 9",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "Une fusée Soyouz",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "Une fusée Ariane 5",
+          "correct": true,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "uni-168",
+      "categoryId": "espace",
+      "subcategoryId": "espace.astronomie",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quel astronome polonais propose au XVIe siècle un modèle héliocentrique du système solaire ?",
+      "answers": [
+        {
+          "text": "Johannes Kepler",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "Tycho Brahe",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "Nicolas Copernic",
+          "correct": true,
+          "id": "c"
+        },
+        {
+          "text": "Galilée",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "uni-169",
+      "categoryId": "espace",
+      "subcategoryId": "espace.astronomie",
+      "difficulty": 1,
+      "type": "single",
+      "prompt": "Quel astronome italien perfectionne la lunette astronomique et découvre les satellites de Jupiter en 1610 ?",
+      "answers": [
+        {
+          "text": "Isaac Newton",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "Nicolas Copernic",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "Johannes Kepler",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "Galilée",
+          "correct": true,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "uni-170",
+      "categoryId": "espace",
+      "subcategoryId": "espace.astronomie",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Quelle institution juge et condamne Galilée en 1633 pour son soutien à l'héliocentrisme ?",
+      "answers": [
+        {
+          "text": "Le Parlement anglais",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "L'Inquisition",
+          "correct": true,
+          "id": "b"
+        },
+        {
+          "text": "L'université de Padoue",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "L'Académie des sciences",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "uni-171",
+      "categoryId": "espace",
+      "subcategoryId": "espace.astronomie",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Quel astronome allemand formule au début du XVIIe siècle les lois du mouvement des planètes autour du Soleil ?",
+      "answers": [
+        {
+          "text": "Johannes Kepler",
+          "correct": true,
+          "id": "a"
+        },
+        {
+          "text": "William Herschel",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "Nicolas Copernic",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "Galilée",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "uni-172",
+      "categoryId": "espace",
+      "subcategoryId": "espace.astronomie",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Quelle forme Kepler attribue-t-il, le premier, aux orbites des planètes, contre l'idée reçue de cercles parfaits ?",
+      "answers": [
+        {
+          "text": "Une spirale",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "Un cercle parfait",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "Une parabole",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "Une ellipse",
+          "correct": true,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "uni-173",
+      "categoryId": "espace",
+      "subcategoryId": "espace.astronomie",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quel scientifique anglais formule la loi de la gravitation universelle à la fin du XVIIe siècle ?",
+      "answers": [
+        {
+          "text": "Galilée",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "Isaac Newton",
+          "correct": true,
+          "id": "b"
+        },
+        {
+          "text": "Edwin Hubble",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "Johannes Kepler",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "uni-174",
+      "categoryId": "espace",
+      "subcategoryId": "espace.astronomie",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quel astronome, aidé de sa sœur Caroline, découvre la planète Uranus en 1781 ?",
+      "answers": [
+        {
+          "text": "Edwin Hubble",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "Nicolas Copernic",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "William Herschel",
+          "correct": true,
+          "id": "c"
+        },
+        {
+          "text": "Urbain Le Verrier",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "uni-175",
+      "categoryId": "espace",
+      "subcategoryId": "espace.astronomie",
+      "difficulty": 4,
+      "type": "single",
+      "prompt": "Quel astronome français a prédit par le calcul l'existence de Neptune avant sa découverte en 1846 ?",
+      "answers": [
+        {
+          "text": "Urbain Le Verrier",
+          "correct": true,
+          "id": "a"
+        },
+        {
+          "text": "Pierre-Simon de Laplace",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "Camille Flammarion",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "William Herschel",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "uni-176",
+      "categoryId": "espace",
+      "subcategoryId": "espace.astronomie",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quel astronome américain démontre dans les années 1920 que certaines « nébuleuses » sont en réalité des galaxies distinctes de la nôtre ?",
+      "answers": [
+        {
+          "text": "Clyde Tombaugh",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "Carl Sagan",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "Percival Lowell",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "Edwin Hubble",
+          "correct": true,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "uni-177",
+      "categoryId": "espace",
+      "subcategoryId": "espace.astronomie",
+      "difficulty": 4,
+      "type": "single",
+      "prompt": "Quel astronome américain découvre Pluton en 1930 ?",
+      "answers": [
+        {
+          "text": "William Herschel",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "Clyde Tombaugh",
+          "correct": true,
+          "id": "b"
+        },
+        {
+          "text": "Edwin Hubble",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "Percival Lowell",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "uni-178",
+      "categoryId": "espace",
+      "subcategoryId": "espace.astronomie",
+      "difficulty": 4,
+      "type": "single",
+      "prompt": "Quel astronome danois du XVIe siècle a réalisé, avant l'invention du télescope, des observations d'une précision inégalée à l'œil nu ?",
+      "answers": [
+        {
+          "text": "Tycho Brahe",
+          "correct": true,
+          "id": "a"
+        },
+        {
+          "text": "Nicolas Copernic",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "Johannes Kepler",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "Christian Huygens",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "uni-179",
+      "categoryId": "espace",
+      "subcategoryId": "espace.astronomie",
+      "difficulty": 4,
+      "type": "single",
+      "prompt": "Quel astronome néerlandais découvre l'anneau de Saturne et son satellite Titan au XVIIe siècle ?",
+      "answers": [
+        {
+          "text": "Tycho Brahe",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "Galilée",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "Christian Huygens",
+          "correct": true,
+          "id": "c"
+        },
+        {
+          "text": "Giovanni Cassini",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "uni-180",
+      "categoryId": "espace",
+      "subcategoryId": "espace.astronomie",
+      "difficulty": 4,
+      "type": "single",
+      "prompt": "Quel astronome italo-français donne son nom à la sonde qui a exploré Saturne, et découvre plusieurs de ses satellites au XVIIe siècle ?",
+      "answers": [
+        {
+          "text": "Giovanni Cassini",
+          "correct": true,
+          "id": "a"
+        },
+        {
+          "text": "Galilée",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "Christian Huygens",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "William Herschel",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "uni-181",
+      "categoryId": "espace",
+      "subcategoryId": "espace.astronomie",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Quel astronome suisse partage le prix Nobel de physique 2019 avec Didier Queloz, pour la découverte de la première exoplanète ?",
+      "answers": [
+        {
+          "text": "Kip Thorne",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "James Peebles",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "Michel Mayor",
+          "correct": true,
+          "id": "c"
+        },
+        {
+          "text": "Adam Riess",
+          "correct": false,
+          "id": "d"
+        }
+      ],
+      "explanation": "James Peebles reçoit la même année une part du prix, mais pour ses travaux en cosmologie physique."
+    },
+    {
+      "id": "uni-182",
+      "categoryId": "espace",
+      "subcategoryId": "espace.astronomie",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Qu'appelle-t-on une exoplanète ?",
+      "answers": [
+        {
+          "text": "Une étoile trop petite pour briller",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "Une planète naine du système solaire",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "Une lune géante",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "Une planète située en dehors du système solaire",
+          "correct": true,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "uni-183",
+      "categoryId": "espace",
+      "subcategoryId": "espace.astronomie",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "En quelle année la première exoplanète autour d'une étoile semblable au Soleil est-elle confirmée ?",
+      "answers": [
+        {
+          "text": "2015",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "1995",
+          "correct": true,
+          "id": "b"
+        },
+        {
+          "text": "1969",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "2009",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "uni-184",
+      "categoryId": "espace",
+      "subcategoryId": "espace.astronomie",
+      "difficulty": 4,
+      "type": "single",
+      "prompt": "Comment se nomme la première exoplanète découverte autour d'une étoile de type solaire, en 1995 ?",
+      "answers": [
+        {
+          "text": "Kepler-186f",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "Proxima b",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "TRAPPIST-1b",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "51 Pegasi b",
+          "correct": true,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "uni-185",
+      "categoryId": "espace",
+      "subcategoryId": "espace.astronomie",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Quelle méthode de détection consiste à mesurer la légère baisse de luminosité d'une étoile quand une planète passe devant elle ?",
+      "answers": [
+        {
+          "text": "La méthode du micro-lentillage",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "La méthode des transits",
+          "correct": true,
+          "id": "b"
+        },
+        {
+          "text": "La méthode des vitesses radiales",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "L'imagerie directe",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "uni-186",
+      "categoryId": "espace",
+      "subcategoryId": "espace.astronomie",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Quelle méthode de détection consiste à mesurer les infimes oscillations d'une étoile causées par la planète qui l'attire ?",
+      "answers": [
+        {
+          "text": "La méthode des transits",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "L'imagerie directe",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "La méthode des vitesses radiales",
+          "correct": true,
+          "id": "c"
+        },
+        {
+          "text": "La spectroscopie d'absorption",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "uni-187",
+      "categoryId": "espace",
+      "subcategoryId": "espace.astronomie",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Comment appelle-t-on la zone autour d'une étoile où une planète pourrait abriter de l'eau liquide en surface ?",
+      "answers": [
+        {
+          "text": "La zone habitable",
+          "correct": true,
+          "id": "a"
+        },
+        {
+          "text": "La ceinture de Kuiper stellaire",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "La zone d'accrétion",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "L'ellipsoïde de Roche",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "uni-188",
+      "categoryId": "espace",
+      "subcategoryId": "espace.astronomie",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quel système d'exoplanètes, découvert en 2017, compte sept planètes rocheuses autour d'une même petite étoile ?",
+      "answers": [
+        {
+          "text": "TRAPPIST-1",
+          "correct": true,
+          "id": "a"
+        },
+        {
+          "text": "Kepler-186",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "51 Pegasi",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "Gliese 581",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "uni-189",
+      "categoryId": "espace",
+      "subcategoryId": "espace.astronomie",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quelle unité de distance correspond à la distance parcourue par la lumière en un an ?",
+      "answers": [
+        {
+          "text": "L'unité astronomique",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "L'année-lumière",
+          "correct": true,
+          "id": "b"
+        },
+        {
+          "text": "Le parsec",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "Le rayon solaire",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "uni-190",
+      "categoryId": "espace",
+      "subcategoryId": "espace.astronomie",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "À combien de kilomètres correspond environ une unité astronomique (UA), distance moyenne Terre-Soleil ?",
+      "answers": [
+        {
+          "text": "Environ 10 milliards de km",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "Environ 384 000 km",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "Environ 150 millions de km",
+          "correct": true,
+          "id": "c"
+        },
+        {
+          "text": "Environ 1 million de km",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "uni-191",
+      "categoryId": "espace",
+      "subcategoryId": "espace.astronomie",
+      "difficulty": 4,
+      "type": "single",
+      "prompt": "Quelle unité de distance astronomique, plus grande que l'année-lumière, est souvent utilisée par les astronomes professionnels ?",
+      "answers": [
+        {
+          "text": "Le rayon galactique",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "Le mètre étalon",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "L'unité astronomique",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "Le parsec",
+          "correct": true,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "uni-192",
+      "categoryId": "espace",
+      "subcategoryId": "espace.astronomie",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "À quelle vitesse la lumière se déplace-t-elle dans le vide, environ ?",
+      "answers": [
+        {
+          "text": "300 000 km par seconde",
+          "correct": true,
+          "id": "a"
+        },
+        {
+          "text": "300 km par seconde",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "3 000 km par seconde",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "3 millions de km par seconde",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "uni-193",
+      "categoryId": "espace",
+      "subcategoryId": "espace.astronomie",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Combien de temps la lumière du Soleil met-elle environ pour atteindre la Terre ?",
+      "answers": [
+        {
+          "text": "Instantanément",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "Environ 8 secondes",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "Environ 8 heures",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "Environ 8 minutes",
+          "correct": true,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "uni-194",
+      "categoryId": "espace",
+      "subcategoryId": "espace.astronomie",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Que signifie observer un objet céleste situé à plusieurs millions d'années-lumière ?",
+      "answers": [
+        {
+          "text": "On le voit tel qu'il est aujourd'hui",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "On voit son futur",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "On le voit tel qu'il était il y a plusieurs millions d'années",
+          "correct": true,
+          "id": "c"
+        },
+        {
+          "text": "La distance n'a aucun effet sur ce qu'on observe",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "uni-195",
+      "categoryId": "espace",
+      "subcategoryId": "espace.astronomie",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quelle constellation, en forme de casserole, est utilisée pour repérer l'étoile Polaire ?",
+      "answers": [
+        {
+          "text": "Le Cygne",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "La Grande Ourse",
+          "correct": true,
+          "id": "b"
+        },
+        {
+          "text": "Orion",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "Cassiopée",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "uni-196",
+      "categoryId": "espace",
+      "subcategoryId": "espace.astronomie",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Quelle constellation, très reconnaissable en hiver dans l'hémisphère nord, contient l'étoile Bételgeuse ?",
+      "answers": [
+        {
+          "text": "Le Taureau",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "Orion",
+          "correct": true,
+          "id": "b"
+        },
+        {
+          "text": "Le Lion",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "Les Gémeaux",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "uni-197",
+      "categoryId": "espace",
+      "subcategoryId": "espace.astronomie",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Environ combien de constellations sont officiellement reconnues par l'Union astronomique internationale ?",
+      "answers": [
+        {
+          "text": "88",
+          "correct": true,
+          "id": "a"
+        },
+        {
+          "text": "12",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "200",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "1 000",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "uni-198",
+      "categoryId": "espace",
+      "subcategoryId": "espace.astronomie",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Combien de constellations composent traditionnellement le zodiaque utilisé en astrologie ?",
+      "answers": [
+        {
+          "text": "7",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "88",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "24",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "12",
+          "correct": true,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "uni-199",
+      "categoryId": "espace",
+      "subcategoryId": "espace.astronomie",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Comment appelle-t-on un phénomène lumineux visible dans les régions polaires, causé par des particules solaires interagissant avec l'atmosphère ?",
+      "answers": [
+        {
+          "text": "Une pluie de météores",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "Un halo lunaire",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "Une aurore polaire (boréale ou australe)",
+          "correct": true,
+          "id": "c"
+        },
+        {
+          "text": "Une éclipse partielle",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "uni-200",
+      "categoryId": "espace",
+      "subcategoryId": "espace.astronomie",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Quel phénomène se produit quand la Lune passe exactement entre le Soleil et la Terre ?",
+      "answers": [
+        {
+          "text": "Une éclipse lunaire",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "Une éclipse solaire",
+          "correct": true,
+          "id": "b"
+        },
+        {
+          "text": "Une occultation stellaire",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "Une syzygie sans effet visible",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    }
+  ]
+}

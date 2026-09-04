@@ -11,6 +11,7 @@ import charlemagne from './charlemagne.json';
 import henriIv from './henri-iv.json';
 import histoireAviation from './histoire-aviation.json';
 import conqueteSpatiale from './conquete-spatiale.json';
+import univers from './univers.json';
 
 /** Forme d'une question dans un fichier de deck (le `deckId` est injecté au chargement). */
 export interface RawQuestion {
@@ -62,4 +63,5 @@ export const RAW_DECKS: RawDeck[] = [
   henriIv as RawDeck,
   histoireAviation as RawDeck,
   conqueteSpatiale as RawDeck,
+  univers as RawDeck,
 ];
