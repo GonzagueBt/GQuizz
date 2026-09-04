@@ -29,6 +29,7 @@ export const CATEGORIES: Category[] = [
   // --- Géographie -----------------------------------------------------
   { id: 'geographie.monde', parentId: 'geographie', name: 'Pays & capitales', emoji: '🌍', order: 10 },
   { id: 'geographie.physique', parentId: 'geographie', name: 'Géographie physique', emoji: '⛰️', order: 20 },
+  { id: 'geographie.france', parentId: 'geographie', name: 'France', emoji: '🇫🇷', order: 30 },
 
   // --- Sciences ------------------------------------------------------
   { id: 'sciences.physique', parentId: 'sciences', name: 'Physique', emoji: '⚛️', order: 10 },
