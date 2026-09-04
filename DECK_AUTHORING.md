@@ -84,8 +84,13 @@ gérés par l'écran de jeu** — s'en tenir à `single` et `boolean`.
 - Difficile = date exacte, nom propre secondaire, citation, chiffre précis.
 
 ### Réponses
-- `single` : **exactement 4 réponses, une seule correcte**.
-- `boolean` : `[{ "Vrai", correct }, { "Faux", correct }]` — **varier** laquelle est vraie.
+- `single` : **exactement 4 réponses, une seule correcte**. C'est le type par défaut —
+  **préférer `single` à `boolean`** sauf besoin explicite.
+- `boolean` : à éviter en général (retour d'expérience : plus difficile à équilibrer —
+  un premier jet a facilement 90 % de bonnes réponses sur le même côté « Vrai »,
+  ce qui laisse deviner la réponse sans rien savoir). Si on en utilise malgré tout,
+  vérifier après coup la répartition **Vrai correct / Faux correct** (viser du 50/50)
+  et reformuler au négatif les questions qui penchent trop d'un côté.
 - **Varier la position de la bonne réponse** (a/b/c/d) — ne pas toujours mettre `a`.
 - Les mauvaises réponses (distracteurs) doivent être **plausibles** : même
   catégorie, même époque, même type d'entité. Un bon distracteur est une erreur

@@ -12,122 +12,4509 @@
   "averageDifficulty": 3,
   "releasedAt": "2026-02-01",
   "previewQuestionIds": [
-    "av-001",
-    "av-002"
+    "av-009",
+    "av-015"
   ],
   "questions": [
     {
       "id": "av-001",
       "categoryId": "aeronautique",
       "subcategoryId": "aeronautique.histoire",
-      "difficulty": 2,
+      "difficulty": 1,
       "type": "single",
-      "prompt": "En quelle année les frères Wright réalisent-ils le premier vol motorisé contrôlé ?",
+      "prompt": "Quels frères réalisent le premier vol humain, à bord d'une montgolfière, en 1783 ?",
       "answers": [
         {
-          "id": "a",
-          "text": "1903",
-          "correct": true
+          "text": "Les frères Wright",
+          "correct": false,
+          "id": "a"
         },
         {
-          "id": "b",
-          "text": "1909",
-          "correct": false
+          "text": "Les frères Caudron",
+          "correct": false,
+          "id": "b"
         },
         {
-          "id": "c",
-          "text": "1895",
-          "correct": false
+          "text": "Les frères Montgolfier",
+          "correct": true,
+          "id": "c"
         },
         {
-          "id": "d",
-          "text": "1912",
-          "correct": false
+          "text": "Les frères Voisin",
+          "correct": false,
+          "id": "d"
         }
-      ],
-      "explanation": "17 décembre 1903 à Kitty Hawk, Caroline du Nord."
+      ]
     },
     {
       "id": "av-002",
       "categoryId": "aeronautique",
       "subcategoryId": "aeronautique.histoire",
-      "difficulty": 3,
+      "difficulty": 2,
       "type": "single",
-      "prompt": "Qui réalise la première traversée de la Manche en avion, en 1909 ?",
+      "prompt": "Comment fonctionne une montgolfière, contrairement à un ballon à gaz ?",
       "answers": [
         {
-          "id": "a",
-          "text": "Louis Blériot",
-          "correct": true
+          "text": "Elle utilise de l'air chaud pour s'élever",
+          "correct": true,
+          "id": "a"
         },
         {
-          "id": "b",
-          "text": "Charles Lindbergh",
-          "correct": false
+          "text": "Elle utilise de l'hydrogène",
+          "correct": false,
+          "id": "b"
         },
         {
-          "id": "c",
-          "text": "Roland Garros",
-          "correct": false
+          "text": "Elle utilise de l'hélium comprimé",
+          "correct": false,
+          "id": "c"
         },
         {
-          "id": "d",
-          "text": "Clément Ader",
-          "correct": false
+          "text": "Elle utilise un moteur à hélice",
+          "correct": false,
+          "id": "d"
         }
       ]
     },
     {
       "id": "av-003",
       "categoryId": "aeronautique",
-      "subcategoryId": "aeronautique.avions",
-      "difficulty": 4,
+      "subcategoryId": "aeronautique.histoire",
+      "difficulty": 2,
       "type": "single",
-      "prompt": "Quel avion de ligne supersonique a été exploité par Air France et British Airways ?",
+      "prompt": "Quel physicien français fait voler, la même année 1783, un ballon gonflé à l'hydrogène ?",
       "answers": [
         {
-          "id": "a",
-          "text": "Le Boeing 747",
-          "correct": false
+          "text": "Clément Ader",
+          "correct": false,
+          "id": "a"
         },
         {
-          "id": "b",
-          "text": "Le Concorde",
-          "correct": true
+          "text": "Otto Lilienthal",
+          "correct": false,
+          "id": "b"
         },
         {
-          "id": "c",
-          "text": "Le Tupolev Tu-144",
-          "correct": false
+          "text": "Louis Blériot",
+          "correct": false,
+          "id": "c"
         },
         {
-          "id": "d",
-          "text": "L'Airbus A380",
-          "correct": false
+          "text": "Jacques Charles",
+          "correct": true,
+          "id": "d"
         }
-      ],
-      "explanation": "En service de 1976 à 2003."
+      ]
     },
     {
       "id": "av-004",
       "categoryId": "aeronautique",
       "subcategoryId": "aeronautique.histoire",
       "difficulty": 3,
-      "type": "boolean",
-      "prompt": "Charles Lindbergh a traversé l'Atlantique en solitaire et sans escale en 1927.",
+      "type": "single",
+      "prompt": "Quel ingénieur anglais du XIXe siècle identifie le premier les quatre forces qui régissent le vol (portance, poids, poussée, traînée) ?",
       "answers": [
         {
-          "id": "a",
-          "text": "Vrai",
-          "correct": true
+          "text": "Alphonse Pénaud",
+          "correct": false,
+          "id": "a"
         },
         {
-          "id": "b",
-          "text": "Faux",
-          "correct": false
+          "text": "George Cayley",
+          "correct": true,
+          "id": "b"
+        },
+        {
+          "text": "Clément Ader",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "Otto Lilienthal",
+          "correct": false,
+          "id": "d"
         }
-      ],
-      "explanation": "New York - Paris à bord du « Spirit of St. Louis », 33 h 30 de vol."
+      ]
+    },
+    {
+      "id": "av-005",
+      "categoryId": "aeronautique",
+      "subcategoryId": "aeronautique.histoire",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Quel pionnier allemand du vol plané, mort en 1896, réalise environ 2 000 vols contrôlés en planeur ?",
+      "answers": [
+        {
+          "text": "Louis Blériot",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "Alberto Santos-Dumont",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "Clément Ader",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "Otto Lilienthal",
+          "correct": true,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "av-006",
+      "categoryId": "aeronautique",
+      "subcategoryId": "aeronautique.histoire",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Quel ingénieur français fait décoller son appareil « Éole », doté d'un moteur, en 1890 ?",
+      "answers": [
+        {
+          "text": "Gabriel Voisin",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "Clément Ader",
+          "correct": true,
+          "id": "b"
+        },
+        {
+          "text": "Louis Blériot",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "Henri Farman",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "av-007",
+      "categoryId": "aeronautique",
+      "subcategoryId": "aeronautique.histoire",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quel écrivain français emploie le mot « aviation » pour la première fois, dès 1863 ?",
+      "answers": [
+        {
+          "text": "Gabriel de La Landelle",
+          "correct": true,
+          "id": "a"
+        },
+        {
+          "text": "Jules Verne",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "Jean-Marie Le Bris",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "Victor Hugo",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "av-008",
+      "categoryId": "aeronautique",
+      "subcategoryId": "aeronautique.histoire",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Avant l'invention de l'avion, quel type d'appareil « plus léger que l'air » permet déjà l'exploration aérienne ?",
+      "answers": [
+        {
+          "text": "La fusée",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "Le planeur uniquement",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "Le ballon (et le dirigeable)",
+          "correct": true,
+          "id": "c"
+        },
+        {
+          "text": "Le cerf-volant géant habité",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "av-009",
+      "categoryId": "aeronautique",
+      "subcategoryId": "aeronautique.histoire",
+      "difficulty": 1,
+      "type": "single",
+      "prompt": "Quels frères américains réalisent le premier vol motorisé et contrôlé de l'histoire ?",
+      "answers": [
+        {
+          "text": "Les frères Montgolfier",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "Les frères Voisin",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "Les frères Wright",
+          "correct": true,
+          "id": "c"
+        },
+        {
+          "text": "Les frères Farman",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "av-010",
+      "categoryId": "aeronautique",
+      "subcategoryId": "aeronautique.histoire",
+      "difficulty": 1,
+      "type": "single",
+      "prompt": "En quelle année les frères Wright réalisent-ils leur premier vol motorisé ?",
+      "answers": [
+        {
+          "text": "1909",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "1903",
+          "correct": true,
+          "id": "b"
+        },
+        {
+          "text": "1914",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "1890",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "av-011",
+      "categoryId": "aeronautique",
+      "subcategoryId": "aeronautique.histoire",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Dans quelle localité américaine les frères Wright effectuent-ils leur vol historique du 17 décembre 1903 ?",
+      "answers": [
+        {
+          "text": "Kitty Hawk (Caroline du Nord)",
+          "correct": true,
+          "id": "a"
+        },
+        {
+          "text": "Los Angeles (Californie)",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "Cap Canaveral (Floride)",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "Dayton (Ohio)",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "av-012",
+      "categoryId": "aeronautique",
+      "subcategoryId": "aeronautique.histoire",
+      "difficulty": 4,
+      "type": "single",
+      "prompt": "Quelle distance parcourt, environ, le plus long des quatre vols des frères Wright ce jour-là ?",
+      "answers": [
+        {
+          "text": "Environ 60 mètres",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "Environ 5 kilomètres",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "Environ 12 mètres",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "Environ 284 mètres",
+          "correct": true,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "av-013",
+      "categoryId": "aeronautique",
+      "subcategoryId": "aeronautique.histoire",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quel aviateur brésilien réalise en 1906, à Paris, l'un des tout premiers vols motorisés reconnus en Europe, à bord du « 14-bis » ?",
+      "answers": [
+        {
+          "text": "Alberto Santos-Dumont",
+          "correct": true,
+          "id": "a"
+        },
+        {
+          "text": "Henri Farman",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "Gabriel Voisin",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "Louis Blériot",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "av-014",
+      "categoryId": "aeronautique",
+      "subcategoryId": "aeronautique.histoire",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Dans quel parc parisien Santos-Dumont réalise-t-il son vol du 14-bis en octobre 1906 ?",
+      "answers": [
+        {
+          "text": "Le bois de Vincennes",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "Le parc de Bagatelle",
+          "correct": true,
+          "id": "b"
+        },
+        {
+          "text": "Le parc Montsouris",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "Le Champ-de-Mars",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "av-015",
+      "categoryId": "aeronautique",
+      "subcategoryId": "aeronautique.histoire",
+      "difficulty": 1,
+      "type": "single",
+      "prompt": "Quel aviateur français réussit le premier la traversée de la Manche en avion, en 1909 ?",
+      "answers": [
+        {
+          "text": "Roland Garros",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "Santos-Dumont",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "Henri Farman",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "Louis Blériot",
+          "correct": true,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "av-016",
+      "categoryId": "aeronautique",
+      "subcategoryId": "aeronautique.histoire",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "En quelle année Louis Blériot traverse-t-il la Manche en avion ?",
+      "answers": [
+        {
+          "text": "1903",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "1919",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "1909",
+          "correct": true,
+          "id": "c"
+        },
+        {
+          "text": "1914",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "av-017",
+      "categoryId": "aeronautique",
+      "subcategoryId": "aeronautique.avions",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quel modèle d'avion Louis Blériot pilote-t-il lors de sa traversée de la Manche ?",
+      "answers": [
+        {
+          "text": "Le Voisin III",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "Le 14-bis",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "Le Blériot XI",
+          "correct": true,
+          "id": "c"
+        },
+        {
+          "text": "Le Wright Flyer",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "av-018",
+      "categoryId": "aeronautique",
+      "subcategoryId": "aeronautique.histoire",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Quel ingénieur français invente l'aileron et le manche à balai au milieu des années 1900 ?",
+      "answers": [
+        {
+          "text": "Henri Farman",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "Robert Esnault-Pelterie",
+          "correct": true,
+          "id": "b"
+        },
+        {
+          "text": "Louis Blériot",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "Gabriel Voisin",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "av-019",
+      "categoryId": "aeronautique",
+      "subcategoryId": "aeronautique.histoire",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Quelle aviatrice française devient, le 8 mars 1910, la première femme à obtenir un brevet de pilote ?",
+      "answers": [
+        {
+          "text": "Hélène Boucher",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "Adrienne Bolland",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "Marie Marvingt",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "Élisa Deroche (baronne de Laroche)",
+          "correct": true,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "av-020",
+      "categoryId": "aeronautique",
+      "subcategoryId": "aeronautique.histoire",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Quel ingénieur fait décoller, en mars 1910 près de l'étang de Berre, le premier hydravion de l'histoire ?",
+      "answers": [
+        {
+          "text": "Henri Fabre",
+          "correct": true,
+          "id": "a"
+        },
+        {
+          "text": "Louis Paulhan",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "Louis Blériot",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "Roland Garros",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "av-021",
+      "categoryId": "aeronautique",
+      "subcategoryId": "aeronautique.histoire",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quelle grande manifestation aéronautique, en août 1909 à Reims, attire plus d'un million de visiteurs ?",
+      "answers": [
+        {
+          "text": "Le meeting de Deauville",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "La Coupe Gordon Bennett",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "La Grande Semaine d'aviation de la Champagne",
+          "correct": true,
+          "id": "c"
+        },
+        {
+          "text": "Le Salon du Bourget",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "av-022",
+      "categoryId": "aeronautique",
+      "subcategoryId": "aeronautique.histoire",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Quel aviateur français franchit, le 30 octobre 1908, une distance de 27 km entre deux villes de la Marne, un exploit pour l'époque ?",
+      "answers": [
+        {
+          "text": "Gabriel Voisin",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "Henri Farman",
+          "correct": true,
+          "id": "b"
+        },
+        {
+          "text": "Roland Garros",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "Louis Blériot",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "av-023",
+      "categoryId": "aeronautique",
+      "subcategoryId": "aeronautique.histoire",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Quel roumain, avec son « Coandă-1910 », construit un appareil pionnier considéré comme un ancêtre lointain de l'avion à réaction ?",
+      "answers": [
+        {
+          "text": "Henri Coandă",
+          "correct": true,
+          "id": "a"
+        },
+        {
+          "text": "Gabriel Voisin",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "Robert Esnault-Pelterie",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "Traian Vuia",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "av-024",
+      "categoryId": "aeronautique",
+      "subcategoryId": "aeronautique.histoire",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quelle ville du sud-ouest de la France accueille, dès 1909, l'une des toutes premières écoles d'aviation, fondée avec l'aide des frères Wright ?",
+      "answers": [
+        {
+          "text": "Biarritz",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "Toulouse",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "Bordeaux",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "Pau",
+          "correct": true,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "av-025",
+      "categoryId": "aeronautique",
+      "subcategoryId": "aeronautique.avions",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Combien de chevaux développait, environ, le moteur du Wright Flyer de 1903 ?",
+      "answers": [
+        {
+          "text": "Environ 100 chevaux",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "Environ 1 000 chevaux",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "Environ 2 chevaux",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "Environ 12 chevaux",
+          "correct": true,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "av-026",
+      "categoryId": "aeronautique",
+      "subcategoryId": "aeronautique.histoire",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quel est le surnom donné à l'as de l'aviation allemand Manfred von Richthofen ?",
+      "answers": [
+        {
+          "text": "Le Faucon de fer",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "L'Aigle noir",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "Le Baron rouge",
+          "correct": true,
+          "id": "c"
+        },
+        {
+          "text": "Le Chevalier du ciel",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "av-027",
+      "categoryId": "aeronautique",
+      "subcategoryId": "aeronautique.histoire",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quel est l'as français de la Première Guerre mondiale ayant remporté le plus de victoires homologuées ?",
+      "answers": [
+        {
+          "text": "René Fonck",
+          "correct": true,
+          "id": "a"
+        },
+        {
+          "text": "Charles Nungesser",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "Georges Guynemer",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "Roland Garros",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "av-028",
+      "categoryId": "aeronautique",
+      "subcategoryId": "aeronautique.histoire",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Quel célèbre aviateur français, mort au combat en 1917, donne son nom à un aéroport parisien et à un tournoi de tennis ?",
+      "answers": [
+        {
+          "text": "René Fonck",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "Roland Garros",
+          "correct": true,
+          "id": "b"
+        },
+        {
+          "text": "Jean Mermoz",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "Georges Guynemer",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "av-029",
+      "categoryId": "aeronautique",
+      "subcategoryId": "aeronautique.histoire",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Quelle innovation de Roland Garros permet, dès 1915, de tirer à la mitrailleuse à travers l'hélice en vol ?",
+      "answers": [
+        {
+          "text": "Le train d'atterrissage rétractable",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "Les hélices blindées",
+          "correct": true,
+          "id": "b"
+        },
+        {
+          "text": "Le radar embarqué",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "Le parachute automatique",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "av-030",
+      "categoryId": "aeronautique",
+      "subcategoryId": "aeronautique.histoire",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Quel autre grand as français de la Première Guerre mondiale disparaît en combat aérien en 1917, très populaire à l'époque ?",
+      "answers": [
+        {
+          "text": "Jean Mermoz",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "Roland Garros",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "René Fonck",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "Georges Guynemer",
+          "correct": true,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "av-031",
+      "categoryId": "aeronautique",
+      "subcategoryId": "aeronautique.histoire",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quelle aviatrice française est à l'origine, dès 1914, du concept d'aviation sanitaire (évacuation des blessés par les airs) ?",
+      "answers": [
+        {
+          "text": "Hélène Boucher",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "Adrienne Bolland",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "Marie Marvingt",
+          "correct": true,
+          "id": "c"
+        },
+        {
+          "text": "Élisa Deroche",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "av-032",
+      "categoryId": "aeronautique",
+      "subcategoryId": "aeronautique.histoire",
+      "difficulty": 4,
+      "type": "single",
+      "prompt": "En quelle année a lieu le premier combat aérien de l'histoire, près de Reims ?",
+      "answers": [
+        {
+          "text": "1914",
+          "correct": true,
+          "id": "a"
+        },
+        {
+          "text": "1918",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "1912",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "1916",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "av-033",
+      "categoryId": "aeronautique",
+      "subcategoryId": "aeronautique.histoire",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Quel rôle principal jouent les avions au tout début de la Première Guerre mondiale, avant de devenir des chasseurs armés ?",
+      "answers": [
+        {
+          "text": "La lutte anti-sous-marine",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "Le bombardement stratégique massif",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "La reconnaissance et l'observation",
+          "correct": true,
+          "id": "c"
+        },
+        {
+          "text": "Le transport de troupes",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "av-034",
+      "categoryId": "aeronautique",
+      "subcategoryId": "aeronautique.histoire",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Quel équipement, développé pendant la Première Guerre mondiale, devient progressivement essentiel pour la sécurité des aviateurs ?",
+      "answers": [
+        {
+          "text": "Le parachute",
+          "correct": true,
+          "id": "a"
+        },
+        {
+          "text": "Le altimètre électronique",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "Le siège éjectable",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "Le radar",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "av-035",
+      "categoryId": "aeronautique",
+      "subcategoryId": "aeronautique.avions",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Quel pays aligne, à la fin de la Première Guerre mondiale, le plus grand nombre d'avions parmi les grandes puissances (environ 4 500) ?",
+      "answers": [
+        {
+          "text": "Les États-Unis",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "La France",
+          "correct": true,
+          "id": "b"
+        },
+        {
+          "text": "Le Royaume-Uni",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "L'Allemagne",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "av-036",
+      "categoryId": "aeronautique",
+      "subcategoryId": "aeronautique.histoire",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quel type de mitrailleuse invention change la donne des combats aériens en permettant de tirer sans toucher l'hélice ?",
+      "answers": [
+        {
+          "text": "La mitrailleuse rotative",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "Le lance-roquettes",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "Le canon sans recul",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "La mitrailleuse synchronisée",
+          "correct": true,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "av-037",
+      "categoryId": "aeronautique",
+      "subcategoryId": "aeronautique.histoire",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Quel pilote allemand, deuxième as le plus titré de la Première Guerre mondiale après le Baron rouge, survit au conflit ?",
+      "answers": [
+        {
+          "text": "Manfred von Richthofen",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "Ernst Udet",
+          "correct": true,
+          "id": "b"
+        },
+        {
+          "text": "Werner Voss",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "Max Immelmann",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "av-038",
+      "categoryId": "aeronautique",
+      "subcategoryId": "aeronautique.histoire",
+      "difficulty": 1,
+      "type": "single",
+      "prompt": "Quel aviateur américain traverse l'Atlantique en solitaire et sans escale en 1927 ?",
+      "answers": [
+        {
+          "text": "Howard Hughes",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "Charles Nungesser",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "Charles Lindbergh",
+          "correct": true,
+          "id": "c"
+        },
+        {
+          "text": "Alcock et Brown",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "av-039",
+      "categoryId": "aeronautique",
+      "subcategoryId": "aeronautique.histoire",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quel est le nom de l'avion à bord duquel Charles Lindbergh traverse l'Atlantique en 1927 ?",
+      "answers": [
+        {
+          "text": "Le Winnie Mae",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "Le Point d'Interrogation",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "L'Enola Gay",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "Le Spirit of St. Louis",
+          "correct": true,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "av-040",
+      "categoryId": "aeronautique",
+      "subcategoryId": "aeronautique.histoire",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Entre quelles deux villes Charles Lindbergh relie-t-il l'Atlantique en mai 1927 ?",
+      "answers": [
+        {
+          "text": "New York et Paris (Le Bourget)",
+          "correct": true,
+          "id": "a"
+        },
+        {
+          "text": "Paris et Lisbonne",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "Chicago et Londres",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "Londres et New York",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "av-041",
+      "categoryId": "aeronautique",
+      "subcategoryId": "aeronautique.histoire",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Quel équipage britannique réalise, dès juin 1919, la toute première traversée de l'Atlantique nord sans escale, avant Lindbergh ?",
+      "answers": [
+        {
+          "text": "Coutinho et Cabral",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "Costes et Bellonte",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "Alcock et Brown",
+          "correct": true,
+          "id": "c"
+        },
+        {
+          "text": "Köhl et Fitzmaurice",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "av-042",
+      "categoryId": "aeronautique",
+      "subcategoryId": "aeronautique.histoire",
+      "difficulty": 1,
+      "type": "single",
+      "prompt": "Quelle aviatrice américaine devient en 1932 la première femme à traverser l'Atlantique en solitaire ?",
+      "answers": [
+        {
+          "text": "Jacqueline Cochran",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "Amelia Earhart",
+          "correct": true,
+          "id": "b"
+        },
+        {
+          "text": "Hélène Boucher",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "Adrienne Bolland",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "av-043",
+      "categoryId": "aeronautique",
+      "subcategoryId": "aeronautique.histoire",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Que devient Amelia Earhart en 1937, événement resté un mystère ?",
+      "answers": [
+        {
+          "text": "Elle devient ministre de l'Air",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "Elle prend sa retraite en Floride",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "Elle bat le record de vitesse absolue",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "Elle disparaît lors d'une tentative de tour du monde",
+          "correct": true,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "av-044",
+      "categoryId": "aeronautique",
+      "subcategoryId": "aeronautique.histoire",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Quel aviateur français, pionnier de l'Aéropostale, ouvre les lignes vers l'Amérique du Sud dans les années 1920-1930 ?",
+      "answers": [
+        {
+          "text": "Jean Mermoz",
+          "correct": true,
+          "id": "a"
+        },
+        {
+          "text": "Didier Daurat",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "Antoine de Saint-Exupéry",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "Henri Guillaumet",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "av-045",
+      "categoryId": "aeronautique",
+      "subcategoryId": "aeronautique.histoire",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Quel écrivain-aviateur français, auteur du « Petit Prince », a lui aussi volé pour l'Aéropostale ?",
+      "answers": [
+        {
+          "text": "André Malraux",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "Antoine de Saint-Exupéry",
+          "correct": true,
+          "id": "b"
+        },
+        {
+          "text": "Jean Giraudoux",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "Jean Mermoz",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "av-046",
+      "categoryId": "aeronautique",
+      "subcategoryId": "aeronautique.histoire",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Comment s'appelle la compagnie française d'aviation postale qui ouvre des lignes vers l'Afrique puis l'Amérique du Sud dans les années 1920 ?",
+      "answers": [
+        {
+          "text": "Air Bleu",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "Air France",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "La Compagnie générale aéropostale du désert",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "L'Aéropostale",
+          "correct": true,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "av-047",
+      "categoryId": "aeronautique",
+      "subcategoryId": "aeronautique.histoire",
+      "difficulty": 4,
+      "type": "single",
+      "prompt": "Quel équipage français relie Paris à New York sans escale en septembre 1930, à bord du « Point d'Interrogation » ?",
+      "answers": [
+        {
+          "text": "Dieudonné Costes et Maurice Bellonte",
+          "correct": true,
+          "id": "a"
+        },
+        {
+          "text": "Köhl et Fitzmaurice",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "Nungesser et Coli",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "Alcock et Brown",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "av-048",
+      "categoryId": "aeronautique",
+      "subcategoryId": "aeronautique.histoire",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Quels deux aviateurs français disparaissent en mai 1927 en tentant la traversée de l'Atlantique dans l'autre sens, juste avant Lindbergh ?",
+      "answers": [
+        {
+          "text": "Costes et Bellonte",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "Alcock et Brown",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "Charles Nungesser et François Coli",
+          "correct": true,
+          "id": "c"
+        },
+        {
+          "text": "Mermoz et Guillaumet",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "av-049",
+      "categoryId": "aeronautique",
+      "subcategoryId": "aeronautique.histoire",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quelle aviatrice française bat plusieurs records de vitesse dans les années 1930 avant de mourir en essai en 1934 ?",
+      "answers": [
+        {
+          "text": "Marie Marvingt",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "Élisa Deroche",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "Hélène Boucher",
+          "correct": true,
+          "id": "c"
+        },
+        {
+          "text": "Adrienne Bolland",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "av-050",
+      "categoryId": "aeronautique",
+      "subcategoryId": "aeronautique.histoire",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Quelle aviatrice française devient en 1921 la première femme à survoler la cordillère des Andes ?",
+      "answers": [
+        {
+          "text": "Hélène Boucher",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "Adrienne Bolland",
+          "correct": true,
+          "id": "b"
+        },
+        {
+          "text": "Marie Marvingt",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "Amelia Earhart",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "av-051",
+      "categoryId": "aeronautique",
+      "subcategoryId": "aeronautique.avions",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Quel gigantesque dirigeable allemand prend feu en mai 1937 à son arrivée aux États-Unis, marquant la fin de l'ère des dirigeables commerciaux ?",
+      "answers": [
+        {
+          "text": "L'Akron",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "Le Graf Zeppelin",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "Le R101",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "Le Hindenburg",
+          "correct": true,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "av-052",
+      "categoryId": "aeronautique",
+      "subcategoryId": "aeronautique.histoire",
+      "difficulty": 4,
+      "type": "single",
+      "prompt": "Quel milliardaire et aviateur américain établit dans les années 1930 un record du tour du monde en avion ?",
+      "answers": [
+        {
+          "text": "Howard Hughes",
+          "correct": true,
+          "id": "a"
+        },
+        {
+          "text": "Jimmy Doolittle",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "Charles Lindbergh",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "Wiley Post",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "av-053",
+      "categoryId": "aeronautique",
+      "subcategoryId": "aeronautique.histoire",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Quel aviateur américain réalise, en 1933, le premier tour du monde en solitaire en avion ?",
+      "answers": [
+        {
+          "text": "Charles Lindbergh",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "Howard Hughes",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "Amelia Earhart",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "Wiley Post",
+          "correct": true,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "av-054",
+      "categoryId": "aeronautique",
+      "subcategoryId": "aeronautique.avions",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quel type d'appareil, entre avion et ballon, connaît son âge d'or dans les années 1920-1930 avant de décliner ?",
+      "answers": [
+        {
+          "text": "L'autogire",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "L'hydravion",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "Le dirigeable",
+          "correct": true,
+          "id": "c"
+        },
+        {
+          "text": "Le planeur",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "av-055",
+      "categoryId": "aeronautique",
+      "subcategoryId": "aeronautique.histoire",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Quel pilote français, coéquipier de Mermoz sur les lignes de l'Aéropostale, est réputé pour avoir survécu à un accident dans la cordillère des Andes ?",
+      "answers": [
+        {
+          "text": "Didier Daurat",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "Henri Guillaumet",
+          "correct": true,
+          "id": "b"
+        },
+        {
+          "text": "Jean Mermoz",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "Antoine de Saint-Exupéry",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "av-056",
+      "categoryId": "aeronautique",
+      "subcategoryId": "aeronautique.avions",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quel chasseur britannique, avec le Hurricane, remporte la bataille d'Angleterre en 1940 ?",
+      "answers": [
+        {
+          "text": "Le Spitfire",
+          "correct": true,
+          "id": "a"
+        },
+        {
+          "text": "Le Typhoon",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "Le Lancaster",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "Le Mosquito",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "av-057",
+      "categoryId": "aeronautique",
+      "subcategoryId": "aeronautique.avions",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Quel constructeur britannique conçoit le Spitfire, avec l'ingénieur R. J. Mitchell ?",
+      "answers": [
+        {
+          "text": "Avro",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "Supermarine",
+          "correct": true,
+          "id": "b"
+        },
+        {
+          "text": "Hawker",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "de Havilland",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "av-058",
+      "categoryId": "aeronautique",
+      "subcategoryId": "aeronautique.avions",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quel est le principal chasseur allemand de la Seconde Guerre mondiale, adversaire du Spitfire ?",
+      "answers": [
+        {
+          "text": "Le Junkers Ju 87",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "Le Heinkel He 111",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "Le Messerschmitt Bf 109",
+          "correct": true,
+          "id": "c"
+        },
+        {
+          "text": "Le Focke-Wulf Fw 190",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "av-059",
+      "categoryId": "aeronautique",
+      "subcategoryId": "aeronautique.avions",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Quel bombardier américain massif, surnommé « forteresse volante », est emblématique des raids sur l'Allemagne ?",
+      "answers": [
+        {
+          "text": "Le Lancaster",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "Le B-52",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "Le B-29 Superfortress",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "Le B-17 Flying Fortress",
+          "correct": true,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "av-060",
+      "categoryId": "aeronautique",
+      "subcategoryId": "aeronautique.avions",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quel chasseur embarqué japonais, redouté au début de la guerre du Pacifique, est surnommé « Zero » ?",
+      "answers": [
+        {
+          "text": "Le Mitsubishi A6M Zero",
+          "correct": true,
+          "id": "a"
+        },
+        {
+          "text": "Le Kawasaki Ki-61",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "Le Nakajima Ki-43",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "L'Aichi D3A",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "av-061",
+      "categoryId": "aeronautique",
+      "subcategoryId": "aeronautique.histoire",
+      "difficulty": 4,
+      "type": "single",
+      "prompt": "Quelle grande bataille aérienne de 1940 oppose la chasse britannique à la Luftwaffe allemande ?",
+      "answers": [
+        {
+          "text": "La bataille des Ardennes",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "La bataille de Midway",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "La bataille de Dunkerque",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "La bataille d'Angleterre",
+          "correct": true,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "av-062",
+      "categoryId": "aeronautique",
+      "subcategoryId": "aeronautique.avions",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Quel bombardier allemand sans pilote, ancêtre des missiles de croisière, bombarde Londres à partir de 1944 ?",
+      "answers": [
+        {
+          "text": "Le Stuka",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "Le V1",
+          "correct": true,
+          "id": "b"
+        },
+        {
+          "text": "Le Messerschmitt Me 163",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "Le Ju 88",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "av-063",
+      "categoryId": "aeronautique",
+      "subcategoryId": "aeronautique.avions",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Quel bombardier américain lâche la première bombe atomique sur Hiroshima en 1945 ?",
+      "answers": [
+        {
+          "text": "Le B-29 Superfortress (« Enola Gay »)",
+          "correct": true,
+          "id": "a"
+        },
+        {
+          "text": "Le B-25 Mitchell",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "Le B-24 Liberator",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "Le B-17",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "av-064",
+      "categoryId": "aeronautique",
+      "subcategoryId": "aeronautique.histoire",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Quelle technologie de détection à distance, cruciale durant la bataille d'Angleterre, se développe fortement pendant la guerre ?",
+      "answers": [
+        {
+          "text": "Le GPS",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "Le sonar aérien",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "Le radar",
+          "correct": true,
+          "id": "c"
+        },
+        {
+          "text": "L'infrarouge thermique",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "av-065",
+      "categoryId": "aeronautique",
+      "subcategoryId": "aeronautique.avions",
+      "difficulty": 4,
+      "type": "single",
+      "prompt": "Quel avion allemand devient, en 1944, le premier chasseur à réaction opérationnel de l'histoire ?",
+      "answers": [
+        {
+          "text": "Le Heinkel He 178",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "Le Messerschmitt Me 262",
+          "correct": true,
+          "id": "b"
+        },
+        {
+          "text": "Le Gloster Meteor",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "Le Focke-Wulf Ta 152",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "av-066",
+      "categoryId": "aeronautique",
+      "subcategoryId": "aeronautique.histoire",
+      "difficulty": 5,
+      "type": "single",
+      "prompt": "Quel ingénieur britannique dépose dès 1930 un brevet clé pour le moteur à réaction, avant son adversaire allemand Hans von Ohain ?",
+      "answers": [
+        {
+          "text": "R. J. Mitchell",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "Geoffrey de Havilland",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "Barnes Wallis",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "Frank Whittle",
+          "correct": true,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "av-067",
+      "categoryId": "aeronautique",
+      "subcategoryId": "aeronautique.avions",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quel bombardier lourd britannique de la RAF mène l'essentiel des raids nocturnes sur l'Allemagne ?",
+      "answers": [
+        {
+          "text": "Le Hurricane",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "Le Spitfire",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "L'Avro Lancaster",
+          "correct": true,
+          "id": "c"
+        },
+        {
+          "text": "Le Mosquito",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "av-068",
+      "categoryId": "aeronautique",
+      "subcategoryId": "aeronautique.avions",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Quel avion de transport américain, très robuste, devient un pilier logistique des Alliés pendant la guerre ?",
+      "answers": [
+        {
+          "text": "Le Douglas DC-3 (C-47)",
+          "correct": true,
+          "id": "a"
+        },
+        {
+          "text": "Le Lockheed Constellation",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "Le Boeing 307",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "Le Junkers Ju 52",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "av-069",
+      "categoryId": "aeronautique",
+      "subcategoryId": "aeronautique.avions",
+      "difficulty": 5,
+      "type": "single",
+      "prompt": "Quel bombardier en piqué allemand, muni de sirènes terrifiantes, symbolise le Blitzkrieg au début de la guerre ?",
+      "answers": [
+        {
+          "text": "Le Messerschmitt Bf 110",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "Le Dornier Do 17",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "Le Junkers Ju 87 Stuka",
+          "correct": true,
+          "id": "c"
+        },
+        {
+          "text": "Le Heinkel He 111",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "av-070",
+      "categoryId": "aeronautique",
+      "subcategoryId": "aeronautique.histoire",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Quel type de pilotes, dont beaucoup de femmes, transfèrent les avions neufs des usines aux bases aériennes britanniques sans combattre ?",
+      "answers": [
+        {
+          "text": "Les pilotes de la RAF Bomber Command",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "Les pilotes d'essai militaires",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "Les pilotes kamikazes",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "Les pilotes de l'Air Transport Auxiliary (ATA)",
+          "correct": true,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "av-071",
+      "categoryId": "aeronautique",
+      "subcategoryId": "aeronautique.avions",
+      "difficulty": 5,
+      "type": "single",
+      "prompt": "Quel avion-fusée allemand, très rapide mais dangereux à piloter, est le seul chasseur à propulsion-fusée opérationnel de la guerre ?",
+      "answers": [
+        {
+          "text": "Le Messerschmitt Me 163 Komet",
+          "correct": true,
+          "id": "a"
+        },
+        {
+          "text": "Le Me 262",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "Le He 162",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "Le Ar 234",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "av-072",
+      "categoryId": "aeronautique",
+      "subcategoryId": "aeronautique.histoire",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Qui devient, en 1947, le premier pilote à franchir le mur du son en vol officiellement homologué ?",
+      "answers": [
+        {
+          "text": "Charles Lindbergh",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "Chuck Yeager",
+          "correct": true,
+          "id": "b"
+        },
+        {
+          "text": "Neil Armstrong",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "Howard Hughes",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "av-073",
+      "categoryId": "aeronautique",
+      "subcategoryId": "aeronautique.histoire",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "À bord de quel avion-fusée Chuck Yeager franchit-il le mur du son en 1947 ?",
+      "answers": [
+        {
+          "text": "Le Bell X-1",
+          "correct": true,
+          "id": "a"
+        },
+        {
+          "text": "Le Concorde",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "Le Me 262",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "Le X-15",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "av-074",
+      "categoryId": "aeronautique",
+      "subcategoryId": "aeronautique.histoire",
+      "difficulty": 4,
+      "type": "single",
+      "prompt": "En quelle année précise Chuck Yeager franchit-il le mur du son ?",
+      "answers": [
+        {
+          "text": "1969",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "1947",
+          "correct": true,
+          "id": "b"
+        },
+        {
+          "text": "1939",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "1953",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "av-075",
+      "categoryId": "aeronautique",
+      "subcategoryId": "aeronautique.avions",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quel est le premier avion de ligne à réaction commercial au monde, mis en service en 1952 ?",
+      "answers": [
+        {
+          "text": "Le Boeing 707",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "Le Douglas DC-8",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "Le de Havilland Comet",
+          "correct": true,
+          "id": "c"
+        },
+        {
+          "text": "Le Concorde",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "av-076",
+      "categoryId": "aeronautique",
+      "subcategoryId": "aeronautique.histoire",
+      "difficulty": 4,
+      "type": "single",
+      "prompt": "Quel problème technique majeur, lié à la fatigue du métal, provoque plusieurs accidents mortels du Comet dans les années 1950 ?",
+      "answers": [
+        {
+          "text": "Un défaut de câblage électrique",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "Un défaut de moteur récurrent",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "Une mauvaise étanchéité du train d'atterrissage",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "Des fissures de fatigue autour des hublots",
+          "correct": true,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "av-077",
+      "categoryId": "aeronautique",
+      "subcategoryId": "aeronautique.avions",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quel avion de ligne à réaction américain, mis en service en 1958, lance véritablement l'ère du jet commercial ?",
+      "answers": [
+        {
+          "text": "Le Concorde",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "Le Boeing 707",
+          "correct": true,
+          "id": "b"
+        },
+        {
+          "text": "Le Boeing 747",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "L'Airbus A300",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "av-078",
+      "categoryId": "aeronautique",
+      "subcategoryId": "aeronautique.avions",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Quel chasseur britannique devient, en 1943, le premier avion à réaction opérationnel des Alliés ?",
+      "answers": [
+        {
+          "text": "Le Gloster Meteor",
+          "correct": true,
+          "id": "a"
+        },
+        {
+          "text": "Le Hawker Typhoon",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "Le de Havilland Vampire",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "Le Spitfire",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "av-079",
+      "categoryId": "aeronautique",
+      "subcategoryId": "aeronautique.avions",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Quel avion-fusée expérimental américain établit dans les années 1960 des records de vitesse et d'altitude aux confins de l'espace ?",
+      "answers": [
+        {
+          "text": "Le SR-71 Blackbird",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "Le Concorde",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "Le Bell X-1",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "Le North American X-15",
+          "correct": true,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "av-080",
+      "categoryId": "aeronautique",
+      "subcategoryId": "aeronautique.histoire",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Quel physicien allemand met au point, indépendamment de Frank Whittle, un moteur à réaction utilisé par le premier avion à réaction du monde en 1939 ?",
+      "answers": [
+        {
+          "text": "Wernher von Braun",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "Kurt Tank",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "Hans von Ohain",
+          "correct": true,
+          "id": "c"
+        },
+        {
+          "text": "Willy Messerschmitt",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "av-081",
+      "categoryId": "aeronautique",
+      "subcategoryId": "aeronautique.avions",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quel est le tout premier avion à réaction à avoir volé, en Allemagne en 1939 ?",
+      "answers": [
+        {
+          "text": "Le Messerschmitt Me 262",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "Le Heinkel He 178",
+          "correct": true,
+          "id": "b"
+        },
+        {
+          "text": "Le Gloster Meteor",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "Le Bell XP-59",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "av-082",
+      "categoryId": "aeronautique",
+      "subcategoryId": "aeronautique.avions",
+      "difficulty": 1,
+      "type": "single",
+      "prompt": "Quel surnom donne-t-on au Boeing 747, en raison de sa taille imposante lors de son lancement en 1969 ?",
+      "answers": [
+        {
+          "text": "Le Superliner",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "Le Sky King",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "Le Jumbo Jet",
+          "correct": true,
+          "id": "c"
+        },
+        {
+          "text": "Le Grand Nuage",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "av-083",
+      "categoryId": "aeronautique",
+      "subcategoryId": "aeronautique.avions",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Quelle compagnie américaine met en service la première le Boeing 747, en 1970 ?",
+      "answers": [
+        {
+          "text": "Pan Am",
+          "correct": true,
+          "id": "a"
+        },
+        {
+          "text": "TWA",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "United Airlines",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "American Airlines",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "av-084",
+      "categoryId": "aeronautique",
+      "subcategoryId": "aeronautique.avions",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Quel avion de transport américain à hélices, très répandu après-guerre, est surnommé « la Dame gracieuse » ?",
+      "answers": [
+        {
+          "text": "Le Convair 240",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "Le Douglas DC-3",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "Le Boeing 307",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "Le Lockheed Constellation",
+          "correct": true,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "av-085",
+      "categoryId": "aeronautique",
+      "subcategoryId": "aeronautique.avions",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Quel avion de ligne à hélices, produit à des milliers d'exemplaires, reste un symbole du transport aérien des années 1930-1950 ?",
+      "answers": [
+        {
+          "text": "Le Boeing 707",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "L'Airbus A320",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "Le Concorde",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "Le Douglas DC-3",
+          "correct": true,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "av-086",
+      "categoryId": "aeronautique",
+      "subcategoryId": "aeronautique.avions",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quel étage caractéristique distingue le pont supérieur du Boeing 747 dans sa silhouette ?",
+      "answers": [
+        {
+          "text": "Une bosse à l'avant du fuselage",
+          "correct": true,
+          "id": "a"
+        },
+        {
+          "text": "Un nez basculant comme le Concorde",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "Quatre dérives verticales",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "Des ailes en flèche inversée",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "av-087",
+      "categoryId": "aeronautique",
+      "subcategoryId": "aeronautique.histoire",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Quel ingénieur est souvent surnommé le « père du Boeing 747 » pour avoir dirigé sa conception ?",
+      "answers": [
+        {
+          "text": "R. J. Mitchell",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "Kelly Johnson",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "Joe Sutter",
+          "correct": true,
+          "id": "c"
+        },
+        {
+          "text": "William Boeing",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "av-088",
+      "categoryId": "aeronautique",
+      "subcategoryId": "aeronautique.avions",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Quelle famille de courts et moyens courriers de Boeing devient l'avion de ligne le plus vendu de l'histoire ?",
+      "answers": [
+        {
+          "text": "Le Boeing 787",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "Le Boeing 737",
+          "correct": true,
+          "id": "b"
+        },
+        {
+          "text": "Le Boeing 747",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "Le Boeing 727",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "av-089",
+      "categoryId": "aeronautique",
+      "subcategoryId": "aeronautique.histoire",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Quel jeune ingénieur ou industriel fonde en 1916, aux États-Unis, l'entreprise qui deviendra Boeing ?",
+      "answers": [
+        {
+          "text": "Howard Hughes",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "Glenn Curtiss",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "William Boeing",
+          "correct": true,
+          "id": "c"
+        },
+        {
+          "text": "Donald Douglas",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "av-090",
+      "categoryId": "aeronautique",
+      "subcategoryId": "aeronautique.avions",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quel avion de ligne moderne américain, entré en service en 2011, est surnommé « Dreamliner » ?",
+      "answers": [
+        {
+          "text": "Le Boeing 777",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "Le Boeing 747-8",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "L'Airbus A350",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "Le Boeing 787",
+          "correct": true,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "av-091",
+      "categoryId": "aeronautique",
+      "subcategoryId": "aeronautique.avions",
+      "difficulty": 1,
+      "type": "single",
+      "prompt": "Quel avion de ligne supersonique franco-britannique a volé de 1976 à 2003 ?",
+      "answers": [
+        {
+          "text": "Le Concorde",
+          "correct": true,
+          "id": "a"
+        },
+        {
+          "text": "Le Boeing 2707",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "Le de Havilland Comet",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "Le Tupolev Tu-144",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "av-092",
+      "categoryId": "aeronautique",
+      "subcategoryId": "aeronautique.avions",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Environ à quelle vitesse de croisière (en Mach) le Concorde volait-il ?",
+      "answers": [
+        {
+          "text": "Mach 0,8",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "Mach 2 (environ deux fois la vitesse du son)",
+          "correct": true,
+          "id": "b"
+        },
+        {
+          "text": "Mach 1",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "Mach 5",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "av-093",
+      "categoryId": "aeronautique",
+      "subcategoryId": "aeronautique.avions",
+      "difficulty": 4,
+      "type": "single",
+      "prompt": "En quelle année le Concorde effectue-t-il son premier vol d'essai ?",
+      "answers": [
+        {
+          "text": "1969",
+          "correct": true,
+          "id": "a"
+        },
+        {
+          "text": "1976",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "1985",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "1962",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "av-094",
+      "categoryId": "aeronautique",
+      "subcategoryId": "aeronautique.avions",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Quelles étaient les deux compagnies aériennes à exploiter commercialement le Concorde ?",
+      "answers": [
+        {
+          "text": "British Airways et Pan Am",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "Air France et British Airways",
+          "correct": true,
+          "id": "b"
+        },
+        {
+          "text": "Air France et Alitalia",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "Air France et Lufthansa",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "av-095",
+      "categoryId": "aeronautique",
+      "subcategoryId": "aeronautique.avions",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "En quelle année le dernier vol commercial du Concorde a-t-il lieu ?",
+      "answers": [
+        {
+          "text": "1999",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "2010",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "1990",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "2003",
+          "correct": true,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "av-096",
+      "categoryId": "aeronautique",
+      "subcategoryId": "aeronautique.histoire",
+      "difficulty": 4,
+      "type": "single",
+      "prompt": "Quel accident, survenu en juillet 2000 près de Paris, précipite le déclin puis le retrait du Concorde ?",
+      "answers": [
+        {
+          "text": "Un accident lors d'un vol d'essai",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "Une collision en vol au-dessus de l'Atlantique",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "Le crash du vol Air France 4590 à Gonesse",
+          "correct": true,
+          "id": "c"
+        },
+        {
+          "text": "Un incendie au sol au Bourget",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "av-097",
+      "categoryId": "aeronautique",
+      "subcategoryId": "aeronautique.avions",
+      "difficulty": 4,
+      "type": "single",
+      "prompt": "Quel concurrent soviétique du Concorde, surnommé « Concordski », vole même un peu avant lui, fin 1968 ?",
+      "answers": [
+        {
+          "text": "Le Boeing 2707",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "Le MiG-25",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "Le Tupolev Tu-144",
+          "correct": true,
+          "id": "c"
+        },
+        {
+          "text": "L'Iliouchine Il-62",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "av-098",
+      "categoryId": "aeronautique",
+      "subcategoryId": "aeronautique.avions",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quelle particularité du nez du Concorde permettait au pilote de mieux voir la piste au décollage et à l'atterrissage ?",
+      "answers": [
+        {
+          "text": "Il pouvait s'incliner vers le bas (nez basculant)",
+          "correct": true,
+          "id": "a"
+        },
+        {
+          "text": "Il se rétractait entièrement",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "Il changeait de couleur selon la vitesse",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "Il s'illuminait la nuit",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "av-099",
+      "categoryId": "aeronautique",
+      "subcategoryId": "aeronautique.histoire",
+      "difficulty": 5,
+      "type": "single",
+      "prompt": "Quel projet américain concurrent du Concorde, un avion de ligne supersonique, est abandonné avant même son premier vol dans les années 1970 ?",
+      "answers": [
+        {
+          "text": "Le Convair Model 58-9",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "Le Lockheed L-2000",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "Le McDonnell Douglas SST",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "Le Boeing 2707",
+          "correct": true,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "av-100",
+      "categoryId": "aeronautique",
+      "subcategoryId": "aeronautique.avions",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Combien de passagers le Concorde pouvait-il transporter, environ, par vol ?",
+      "answers": [
+        {
+          "text": "Plus de 400",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "Une centaine",
+          "correct": true,
+          "id": "b"
+        },
+        {
+          "text": "Une dizaine",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "Environ 850",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "av-101",
+      "categoryId": "aeronautique",
+      "subcategoryId": "aeronautique.avions",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "En quelle année le constructeur européen Airbus est-il fondé ?",
+      "answers": [
+        {
+          "text": "1958",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "2000",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "1970",
+          "correct": true,
+          "id": "c"
+        },
+        {
+          "text": "1985",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "av-102",
+      "categoryId": "aeronautique",
+      "subcategoryId": "aeronautique.avions",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Quels pays sont à l'origine du consortium Airbus, à sa création ?",
+      "answers": [
+        {
+          "text": "La France et l'Italie",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "L'Espagne et le Portugal",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "L'Allemagne et le Royaume-Uni seuls",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "La France et l'Allemagne",
+          "correct": true,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "av-103",
+      "categoryId": "aeronautique",
+      "subcategoryId": "aeronautique.avions",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quel est le premier avion de ligne équipé de commandes de vol entièrement électriques (fly-by-wire), en 1988 ?",
+      "answers": [
+        {
+          "text": "L'Airbus A320",
+          "correct": true,
+          "id": "a"
+        },
+        {
+          "text": "L'Airbus A380",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "Le Boeing 747",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "Le Concorde",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "av-104",
+      "categoryId": "aeronautique",
+      "subcategoryId": "aeronautique.avions",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quel est le plus gros avion de ligne commercial jamais construit, doté de deux ponts complets ?",
+      "answers": [
+        {
+          "text": "Le Boeing 777",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "L'Airbus A380",
+          "correct": true,
+          "id": "b"
+        },
+        {
+          "text": "Le Boeing 747",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "L'Antonov An-225",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "av-105",
+      "categoryId": "aeronautique",
+      "subcategoryId": "aeronautique.avions",
+      "difficulty": 4,
+      "type": "single",
+      "prompt": "En quelle décennie l'Airbus A380 effectue-t-il son premier vol ?",
+      "answers": [
+        {
+          "text": "Les années 1990",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "Les années 1970",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "Les années 2000 (2005)",
+          "correct": true,
+          "id": "c"
+        },
+        {
+          "text": "Les années 2010",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "av-106",
+      "categoryId": "aeronautique",
+      "subcategoryId": "aeronautique.histoire",
+      "difficulty": 4,
+      "type": "single",
+      "prompt": "Quelle décision commerciale Airbus annonce-t-elle en 2019, mettant fin à la production de l'A380 ?",
+      "answers": [
+        {
+          "text": "Son interdiction de vol",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "L'arrêt de sa production",
+          "correct": true,
+          "id": "b"
+        },
+        {
+          "text": "Sa nationalisation",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "Sa transformation en avion cargo exclusif",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "av-107",
+      "categoryId": "aeronautique",
+      "subcategoryId": "aeronautique.avions",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Quel avion cargo ukrainien, dérivé d'un modèle soviétique, est resté longtemps le plus grand avion du monde en service ?",
+      "answers": [
+        {
+          "text": "L'Antonov An-225 Mriya",
+          "correct": true,
+          "id": "a"
+        },
+        {
+          "text": "Le Boeing 747-8F",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "Le C-5 Galaxy",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "L'Airbus A380",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "av-108",
+      "categoryId": "aeronautique",
+      "subcategoryId": "aeronautique.avions",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quelle ville française est historiquement le siège du constructeur Airbus ?",
+      "answers": [
+        {
+          "text": "Marseille",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "Paris",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "Bordeaux",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "Toulouse",
+          "correct": true,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "av-109",
+      "categoryId": "aeronautique",
+      "subcategoryId": "aeronautique.histoire",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quel ingénieur d'origine russe met au point, en 1939, le premier hélicoptère pratique et exploitable ?",
+      "answers": [
+        {
+          "text": "Anton Flettner",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "Juan de la Cierva",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "Igor Sikorsky",
+          "correct": true,
+          "id": "c"
+        },
+        {
+          "text": "Paul Cornu",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "av-110",
+      "categoryId": "aeronautique",
+      "subcategoryId": "aeronautique.avions",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Comment se nomme le premier hélicoptère pratique de Sikorsky, en 1939 ?",
+      "answers": [
+        {
+          "text": "Le R-4",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "L'Alouette II",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "Le Bell 47",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "Le VS-300",
+          "correct": true,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "av-111",
+      "categoryId": "aeronautique",
+      "subcategoryId": "aeronautique.histoire",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Quel Français réalise en 1907, brièvement, ce qui est considéré comme le tout premier vol d'un engin à voilure tournante piloté ?",
+      "answers": [
+        {
+          "text": "Louis Charles Breguet",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "Paul Cornu",
+          "correct": true,
+          "id": "b"
+        },
+        {
+          "text": "Louis Blériot",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "Gabriel Voisin",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "av-112",
+      "categoryId": "aeronautique",
+      "subcategoryId": "aeronautique.avions",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Quel usage militaire majeur les hélicoptères connaissent-ils à grande échelle pour la première fois, dans les années 1950-1960 ?",
+      "answers": [
+        {
+          "text": "L'évacuation sanitaire et le transport de troupes (guerre de Corée puis du Vietnam)",
+          "correct": true,
+          "id": "a"
+        },
+        {
+          "text": "Le ravitaillement en vol",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "La surveillance spatiale",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "Le bombardement stratégique",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "av-113",
+      "categoryId": "aeronautique",
+      "subcategoryId": "aeronautique.avions",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Comment appelle-t-on la grande pale qui tourne au-dessus d'un hélicoptère et assure sa portance ?",
+      "answers": [
+        {
+          "text": "Le flap",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "L'aile tournante fixe",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "Le stabilisateur",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "Le rotor principal",
+          "correct": true,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "av-114",
+      "categoryId": "aeronautique",
+      "subcategoryId": "aeronautique.avions",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "À quoi sert principalement le petit rotor situé à l'arrière de la plupart des hélicoptères ?",
+      "answers": [
+        {
+          "text": "À freiner à l'atterrissage",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "À augmenter la vitesse maximale",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "À contrer l'effet de couple et contrôler la direction",
+          "correct": true,
+          "id": "c"
+        },
+        {
+          "text": "À refroidir le moteur",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "av-115",
+      "categoryId": "aeronautique",
+      "subcategoryId": "aeronautique.avions",
+      "difficulty": 4,
+      "type": "single",
+      "prompt": "Quel avion militaire américain de reconnaissance, capable de voler à plus de Mach 3, reste l'un des plus rapides jamais construits ?",
+      "answers": [
+        {
+          "text": "Le B-58 Hustler",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "Le Lockheed SR-71 Blackbird",
+          "correct": true,
+          "id": "b"
+        },
+        {
+          "text": "Le U-2",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "Le F-104",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "av-116",
+      "categoryId": "aeronautique",
+      "subcategoryId": "aeronautique.histoire",
+      "difficulty": 5,
+      "type": "single",
+      "prompt": "Quel ingénieur américain, surnommé « Kelly », dirige la conception du SR-71 et de nombreux avions célèbres chez Lockheed ?",
+      "answers": [
+        {
+          "text": "Kelly Johnson",
+          "correct": true,
+          "id": "a"
+        },
+        {
+          "text": "Frank Whittle",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "Joe Sutter",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "Igor Sikorsky",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "av-117",
+      "categoryId": "aeronautique",
+      "subcategoryId": "aeronautique.histoire",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Quel aviateur devient, en 1938, le premier à réaliser un tour du monde en avion en un temps record, avec un équipage réduit ?",
+      "answers": [
+        {
+          "text": "Jimmy Doolittle",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "Wiley Post",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "Howard Hughes",
+          "correct": true,
+          "id": "c"
+        },
+        {
+          "text": "Charles Lindbergh",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "av-118",
+      "categoryId": "aeronautique",
+      "subcategoryId": "aeronautique.avions",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Quel type d'avion militaire, apparu dans les années 1980, est conçu pour échapper aux radars grâce à sa forme et ses matériaux ?",
+      "answers": [
+        {
+          "text": "Un avion supersonique classique",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "Un hydravion militaire",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "Un avion à hélice contrarotative",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "Un avion furtif (stealth)",
+          "correct": true,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "av-119",
+      "categoryId": "aeronautique",
+      "subcategoryId": "aeronautique.avions",
+      "difficulty": 4,
+      "type": "single",
+      "prompt": "Quel est le premier avion de combat furtif opérationnel de l'histoire, entré en service en 1983 ?",
+      "answers": [
+        {
+          "text": "Le Lockheed F-117 Nighthawk",
+          "correct": true,
+          "id": "a"
+        },
+        {
+          "text": "Le B-2 Spirit",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "Le F-22 Raptor",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "Le F-35",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "av-120",
+      "categoryId": "aeronautique",
+      "subcategoryId": "aeronautique.histoire",
+      "difficulty": 4,
+      "type": "single",
+      "prompt": "Quel exploit réalise l'équipage du Breitling Orbiter 3 en 1999, une première pour un aéronef de ce type ?",
+      "answers": [
+        {
+          "text": "Le premier tour du monde en avion solaire",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "Le premier tour du monde en ballon sans escale",
+          "correct": true,
+          "id": "b"
+        },
+        {
+          "text": "La première traversée du Pacifique en montgolfière",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "Le record d'altitude en ballon stratosphérique",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "av-121",
+      "categoryId": "aeronautique",
+      "subcategoryId": "aeronautique.avions",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quel avion expérimental à énergie solaire réalise, entre 2015 et 2016, un tour du monde sans carburant ?",
+      "answers": [
+        {
+          "text": "Le Voyager de Rutan",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "L'Opener BlackFly",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "Le Breitling Orbiter",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "Solar Impulse 2",
+          "correct": true,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "av-122",
+      "categoryId": "aeronautique",
+      "subcategoryId": "aeronautique.histoire",
+      "difficulty": 4,
+      "type": "single",
+      "prompt": "Quel avion expérimental américain réalise en 1986 le tour du monde sans escale et sans ravitaillement, une première ?",
+      "answers": [
+        {
+          "text": "Le Spirit of St. Louis",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "Le Rutan Voyager",
+          "correct": true,
+          "id": "b"
+        },
+        {
+          "text": "Le Solar Impulse",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "Le Concorde",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "av-123",
+      "categoryId": "aeronautique",
+      "subcategoryId": "aeronautique.avions",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Quel bombardier américain à réaction, encore en service aujourd'hui, a été mis en service dès la fin des années 1950 ?",
+      "answers": [
+        {
+          "text": "Le B-58 Hustler",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "Le B-2 Spirit",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "Le Boeing B-52 Stratofortress",
+          "correct": true,
+          "id": "c"
+        },
+        {
+          "text": "Le B-1 Lancer",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "av-124",
+      "categoryId": "aeronautique",
+      "subcategoryId": "aeronautique.histoire",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Quel officier américain dirige en 1942 un raid aérien surprise sur le Japon, décollant depuis un porte-avions avec des bombardiers terrestres ?",
+      "answers": [
+        {
+          "text": "Jimmy Doolittle",
+          "correct": true,
+          "id": "a"
+        },
+        {
+          "text": "Kelly Johnson",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "Curtis LeMay",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "Chuck Yeager",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "av-125",
+      "categoryId": "aeronautique",
+      "subcategoryId": "aeronautique.histoire",
+      "difficulty": 4,
+      "type": "single",
+      "prompt": "Quelle aviatrice afro-américaine, contrainte d'apprendre à piloter en France faute d'école l'acceptant aux États-Unis, obtient son brevet en 1921 ?",
+      "answers": [
+        {
+          "text": "Amelia Earhart",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "Jacqueline Cochran",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "Bessie Coleman",
+          "correct": true,
+          "id": "c"
+        },
+        {
+          "text": "Harriet Quimby",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "av-126",
+      "categoryId": "aeronautique",
+      "subcategoryId": "aeronautique.histoire",
+      "difficulty": 4,
+      "type": "single",
+      "prompt": "Quelle aviatrice américaine devient en 1953 la première femme à franchir le mur du son ?",
+      "answers": [
+        {
+          "text": "Amelia Earhart",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "Sally Ride",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "Bessie Coleman",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "Jacqueline Cochran",
+          "correct": true,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "av-127",
+      "categoryId": "aeronautique",
+      "subcategoryId": "aeronautique.histoire",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Quelle Américaine devient en 1911 la première femme titulaire d'un brevet de pilote aux États-Unis ?",
+      "answers": [
+        {
+          "text": "Harriet Quimby",
+          "correct": true,
+          "id": "a"
+        },
+        {
+          "text": "Amelia Earhart",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "Bessie Coleman",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "Jacqueline Cochran",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "av-128",
+      "categoryId": "aeronautique",
+      "subcategoryId": "aeronautique.histoire",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quelle aviatrice française, pionnière méconnue, invente le concept d'aviation sanitaire dès 1914 (déjà citée en Première Guerre mondiale) ?",
+      "answers": [
+        {
+          "text": "Élisa Deroche",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "Marie Marvingt",
+          "correct": true,
+          "id": "b"
+        },
+        {
+          "text": "Hélène Boucher",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "Adrienne Bolland",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "av-129",
+      "categoryId": "aeronautique",
+      "subcategoryId": "aeronautique.histoire",
+      "difficulty": 5,
+      "type": "single",
+      "prompt": "Comment appelle-t-on le corps de femmes pilotes américaines qui convoient des avions militaires aux États-Unis pendant la Seconde Guerre mondiale ?",
+      "answers": [
+        {
+          "text": "Les WASP (Women Airforce Service Pilots)",
+          "correct": true,
+          "id": "a"
+        },
+        {
+          "text": "Les Night Witches",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "Les ATA",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "Les WAVES",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "av-130",
+      "categoryId": "aeronautique",
+      "subcategoryId": "aeronautique.histoire",
+      "difficulty": 5,
+      "type": "single",
+      "prompt": "Comment surnomme-t-on le régiment féminin soviétique de bombardement de nuit pendant la Seconde Guerre mondiale ?",
+      "answers": [
+        {
+          "text": "Les Anges gardiens",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "Les Walkyries rouges",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "Les Faucons d'acier",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "Les « Sorcières de la nuit »",
+          "correct": true,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "av-131",
+      "categoryId": "aeronautique",
+      "subcategoryId": "aeronautique.histoire",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Quel ingénieur australien invente, dans les années 1950, le principe de la « boîte noire » enregistreur de vol ?",
+      "answers": [
+        {
+          "text": "Kelly Johnson",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "David Warren",
+          "correct": true,
+          "id": "b"
+        },
+        {
+          "text": "Frank Whittle",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "Igor Sikorsky",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "av-132",
+      "categoryId": "aeronautique",
+      "subcategoryId": "aeronautique.avions",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "De quelle couleur est en réalité peinte une « boîte noire » d'avion, pour faciliter sa localisation après un accident ?",
+      "answers": [
+        {
+          "text": "Noire",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "Rouge",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "Orange vif",
+          "correct": true,
+          "id": "c"
+        },
+        {
+          "text": "Jaune fluo",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "av-133",
+      "categoryId": "aeronautique",
+      "subcategoryId": "aeronautique.histoire",
+      "difficulty": 4,
+      "type": "single",
+      "prompt": "Quel accident aérien, en 1977 sur l'aéroport de Tenerife, reste le plus meurtrier de l'histoire de l'aviation civile ?",
+      "answers": [
+        {
+          "text": "L'explosion en vol du vol TWA 800",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "La collision de deux Boeing 747 sur la piste",
+          "correct": true,
+          "id": "b"
+        },
+        {
+          "text": "Le crash du Concorde à Gonesse",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "L'accident du vol Air France 447",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "av-134",
+      "categoryId": "aeronautique",
+      "subcategoryId": "aeronautique.histoire",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Quel appel radio international de détresse, d'origine française, est utilisé en aviation comme en marine ?",
+      "answers": [
+        {
+          "text": "« Roger »",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "« Pan-pan »",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "« SOS »",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "« Mayday » (déformation de « m'aidez »)",
+          "correct": true,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "av-135",
+      "categoryId": "aeronautique",
+      "subcategoryId": "aeronautique.avions",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quelle association professionnelle regroupe les compagnies aériennes du monde entier et attribue les codes à trois lettres des aéroports ?",
+      "answers": [
+        {
+          "text": "L'IATA (Association du transport aérien international)",
+          "correct": true,
+          "id": "a"
+        },
+        {
+          "text": "Eurocontrol",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "La FAA",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "L'OACI",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "av-136",
+      "categoryId": "aeronautique",
+      "subcategoryId": "aeronautique.avions",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Quel avion de combat français, produit par Dassault, équipe aujourd'hui l'armée de l'air française et plusieurs pays étrangers ?",
+      "answers": [
+        {
+          "text": "Le Mirage 2000",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "L'Alpha Jet",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "Le Rafale",
+          "correct": true,
+          "id": "c"
+        },
+        {
+          "text": "Le Jaguar",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "av-137",
+      "categoryId": "aeronautique",
+      "subcategoryId": "aeronautique.avions",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Quelle célèbre famille d'avions de chasse français, utilisée pendant des décennies, précède le Rafale chez Dassault ?",
+      "answers": [
+        {
+          "text": "L'Étendard",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "Le Mirage",
+          "correct": true,
+          "id": "b"
+        },
+        {
+          "text": "Le Jaguar",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "Le Rafale",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "av-138",
+      "categoryId": "aeronautique",
+      "subcategoryId": "aeronautique.avions",
+      "difficulty": 4,
+      "type": "single",
+      "prompt": "Quel avion de chasse furtif américain de dernière génération, très coûteux, est utilisé par de nombreux pays de l'OTAN ?",
+      "answers": [
+        {
+          "text": "L'Eurofighter Typhoon",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "Le F-16",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "Le F-22 Raptor",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "Le F-35 Lightning II",
+          "correct": true,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "av-139",
+      "categoryId": "aeronautique",
+      "subcategoryId": "aeronautique.avions",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Quel bombardier furtif américain, en forme d'aile volante, est capable de transporter l'arme nucléaire ?",
+      "answers": [
+        {
+          "text": "Le B-52",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "Le B-1 Lancer",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "Le B-2 Spirit",
+          "correct": true,
+          "id": "c"
+        },
+        {
+          "text": "Le F-117 Nighthawk",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "av-140",
+      "categoryId": "aeronautique",
+      "subcategoryId": "aeronautique.avions",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quelle grande famille de chasseurs soviétiques puis russes a été produite à des milliers d'exemplaires pendant la Guerre froide ?",
+      "answers": [
+        {
+          "text": "Le MiG",
+          "correct": true,
+          "id": "a"
+        },
+        {
+          "text": "Le Sukhoï",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "Le Tupolev",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "L'Iliouchine",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "av-141",
+      "categoryId": "aeronautique",
+      "subcategoryId": "aeronautique.avions",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Quel avion de chasse américain, très produit depuis les années 1970, reste l'un des chasseurs les plus répandus au monde ?",
+      "answers": [
+        {
+          "text": "Le F-16 Fighting Falcon",
+          "correct": true,
+          "id": "a"
+        },
+        {
+          "text": "L'A-10 Thunderbolt",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "Le F-4 Phantom",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "Le F-14 Tomcat",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "av-142",
+      "categoryId": "aeronautique",
+      "subcategoryId": "aeronautique.avions",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Quel avion d'attaque au sol américain, surnommé « Warthog », est reconnaissable à son canon rotatif géant ?",
+      "answers": [
+        {
+          "text": "Le F-15",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "L'AV-8 Harrier",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "L'A-10 Thunderbolt II",
+          "correct": true,
+          "id": "c"
+        },
+        {
+          "text": "Le F-16",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "av-143",
+      "categoryId": "aeronautique",
+      "subcategoryId": "aeronautique.avions",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Quel avion de combat britanno-européen à décollage vertical est utilisé notamment sur de petits porte-aéronefs ?",
+      "answers": [
+        {
+          "text": "Le Jaguar",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "Le Tornado",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "L'Eurofighter Typhoon",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "Le Harrier",
+          "correct": true,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "av-144",
+      "categoryId": "aeronautique",
+      "subcategoryId": "aeronautique.histoire",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quel aéroport parisien, ancien terrain d'aviation historique, accueille chaque année le grand salon international de l'aéronautique ?",
+      "answers": [
+        {
+          "text": "Beauvais",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "Le Bourget",
+          "correct": true,
+          "id": "b"
+        },
+        {
+          "text": "Roissy-Charles de Gaulle",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "Orly",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "av-145",
+      "categoryId": "aeronautique",
+      "subcategoryId": "aeronautique.histoire",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quel aéroport, le plus grand de Paris, porte le nom d'un ancien président et général français ?",
+      "answers": [
+        {
+          "text": "Orly",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "Le Bourget",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "Beauvais-Tillé",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "L'aéroport Charles-de-Gaulle (Roissy)",
+          "correct": true,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "av-146",
+      "categoryId": "aeronautique",
+      "subcategoryId": "aeronautique.avions",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Combien de lettres comportent les codes d'aéroport attribués par l'IATA (comme CDG ou JFK) ?",
+      "answers": [
+        {
+          "text": "Quatre",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "Trois",
+          "correct": true,
+          "id": "b"
+        },
+        {
+          "text": "Deux",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "Cinq",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "av-147",
+      "categoryId": "aeronautique",
+      "subcategoryId": "aeronautique.histoire",
+      "difficulty": 4,
+      "type": "single",
+      "prompt": "Quel aéroport newyorkais porte le nom d'un président américain assassiné en 1963 ?",
+      "answers": [
+        {
+          "text": "L'aéroport de Newark",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "L'aéroport de Boston-Logan",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "L'aéroport John F. Kennedy (JFK)",
+          "correct": true,
+          "id": "c"
+        },
+        {
+          "text": "L'aéroport LaGuardia",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "av-148",
+      "categoryId": "aeronautique",
+      "subcategoryId": "aeronautique.histoire",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Quelle compagnie aérienne française, née après la Seconde Guerre mondiale, devient le transporteur national du pays ?",
+      "answers": [
+        {
+          "text": "Air France",
+          "correct": true,
+          "id": "a"
+        },
+        {
+          "text": "Air Bleu",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "UTA",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "L'Aéropostale",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "av-149",
+      "categoryId": "aeronautique",
+      "subcategoryId": "aeronautique.avions",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Quel document officiel est nécessaire à un pilote pour être autorisé à commander légalement un avion ?",
+      "answers": [
+        {
+          "text": "Un simple certificat médical",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "Une licence de pilote",
+          "correct": true,
+          "id": "b"
+        },
+        {
+          "text": "Un visa international",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "Une carte d'identité renforcée",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "av-150",
+      "categoryId": "aeronautique",
+      "subcategoryId": "aeronautique.histoire",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quelle guerre du XXe siècle voit, pour la première fois, un usage massif et généralisé de l'aviation civile réquisitionnée pour le transport de troupes ?",
+      "answers": [
+        {
+          "text": "La Seconde Guerre mondiale",
+          "correct": true,
+          "id": "a"
+        },
+        {
+          "text": "La guerre du Golfe",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "La Première Guerre mondiale",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "La guerre de Corée",
+          "correct": false,
+          "id": "d"
+        }
+      ]
     }
   ]
 }
