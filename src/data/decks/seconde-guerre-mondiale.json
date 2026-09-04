@@ -1,0 +1,4520 @@
+{
+  "id": "seconde-guerre-mondiale",
+  "name": "La Seconde Guerre mondiale",
+  "description": "1939-1945 : les fronts, les batailles décisives, les dirigeants et la mémoire du conflit.",
+  "emoji": "🎖️",
+  "categoryId": "histoire",
+  "subcategoryId": "histoire.xxe",
+  "tier": "free",
+  "productId": "gquizz.deck.seconde_guerre_mondiale",
+  "priceHint": "1,99 €",
+  "questionCount": 150,
+  "averageDifficulty": 3,
+  "releasedAt": "2026-06-01",
+  "previewQuestionIds": [
+    "ww2-001",
+    "ww2-084"
+  ],
+  "questions": [
+    {
+      "id": "ww2-001",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.xxe",
+      "difficulty": 1,
+      "type": "single",
+      "prompt": "En quelle année la Seconde Guerre mondiale débute-t-elle ?",
+      "answers": [
+        {
+          "text": "1939",
+          "correct": true,
+          "id": "a"
+        },
+        {
+          "text": "1929",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "1914",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "1945",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "ww2-002",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.xxe",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quel traité, signé en 1919, impose à l'Allemagne de lourdes réparations après la Première Guerre mondiale ?",
+      "answers": [
+        {
+          "text": "Le traité de Munich",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "Le traité de Locarno",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "Le traité de Versailles",
+          "correct": true,
+          "id": "c"
+        },
+        {
+          "text": "Le traité de Rapallo",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "ww2-003",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.xxe",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quelle crise économique mondiale, débutant en 1929, favorise la montée des extrémismes en Europe ?",
+      "answers": [
+        {
+          "text": "Le choc pétrolier",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "La crise de 1873",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "La crise des subprimes",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "La Grande Dépression (crise de 1929)",
+          "correct": true,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "ww2-004",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.xxe",
+      "difficulty": 1,
+      "type": "single",
+      "prompt": "Qui devient chancelier d'Allemagne le 30 janvier 1933 ?",
+      "answers": [
+        {
+          "text": "Joseph Goebbels",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "Adolf Hitler",
+          "correct": true,
+          "id": "b"
+        },
+        {
+          "text": "Paul von Hindenburg",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "Hermann Göring",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "ww2-005",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.xxe",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Comment appelle-t-on le parti politique dirigé par Hitler ?",
+      "answers": [
+        {
+          "text": "Le parti social-démocrate",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "Le parti communiste allemand",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "Le Zentrum",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "Le parti national-socialiste (NSDAP)",
+          "correct": true,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "ww2-006",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.xxe",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Comment appelle-t-on l'annexion de l'Autriche par l'Allemagne nazie en mars 1938 ?",
+      "answers": [
+        {
+          "text": "L'Anschluss",
+          "correct": true,
+          "id": "a"
+        },
+        {
+          "text": "Le Blitzkrieg",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "Le Lebensraum",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "Le Putsch",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "ww2-007",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.xxe",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Quels accords de septembre 1938 cèdent les Sudètes tchécoslovaques à l'Allemagne, dans l'espoir d'éviter la guerre ?",
+      "answers": [
+        {
+          "text": "Le traité de Locarno",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "Les accords de Rapallo",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "Les accords de Munich",
+          "correct": true,
+          "id": "c"
+        },
+        {
+          "text": "Le pacte germano-soviétique",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "ww2-008",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.xxe",
+      "difficulty": 4,
+      "type": "single",
+      "prompt": "Quel Premier ministre britannique, signataire des accords de Munich, croit avoir assuré « la paix pour notre temps » ?",
+      "answers": [
+        {
+          "text": "Winston Churchill",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "Neville Chamberlain",
+          "correct": true,
+          "id": "b"
+        },
+        {
+          "text": "Clement Attlee",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "Stanley Baldwin",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "ww2-009",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.xxe",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Quel pacte de non-agression, signé en août 1939, surprend le monde en rapprochant Hitler et Staline ?",
+      "answers": [
+        {
+          "text": "Le pacte d'acier",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "Le pacte germano-soviétique (Molotov-Ribbentrop)",
+          "correct": true,
+          "id": "b"
+        },
+        {
+          "text": "L'accord de Munich",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "Le pacte anti-Komintern",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "ww2-010",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.xxe",
+      "difficulty": 4,
+      "type": "single",
+      "prompt": "Quels sont les deux ministres des Affaires étrangères qui donnent leur nom au pacte germano-soviétique de 1939 ?",
+      "answers": [
+        {
+          "text": "Molotov et Ribbentrop",
+          "correct": true,
+          "id": "a"
+        },
+        {
+          "text": "Halifax et Hull",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "Litvinov et Ciano",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "Chamberlain et Daladier",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "ww2-011",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.xxe",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quelle alliance militaire lie l'Allemagne nazie et l'Italie fasciste avant même le début de la guerre ?",
+      "answers": [
+        {
+          "text": "Le pacte anti-Komintern seul",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "L'Axe Rome-Tokyo",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "Le pacte d'acier",
+          "correct": true,
+          "id": "c"
+        },
+        {
+          "text": "Le traité de Rapallo",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "ww2-012",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.xxe",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Qui dirige l'Italie fasciste pendant la Seconde Guerre mondiale ?",
+      "answers": [
+        {
+          "text": "Italo Balbo",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "Victor-Emmanuel III",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "Pietro Badoglio",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "Benito Mussolini",
+          "correct": true,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "ww2-013",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.xxe",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Quel dirigeant japonais militariste, Premier ministre, mène le pays dans la guerre aux côtés de l'Axe ?",
+      "answers": [
+        {
+          "text": "Hideki Tōjō",
+          "correct": true,
+          "id": "a"
+        },
+        {
+          "text": "Fumimaro Konoe",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "Isoroku Yamamoto",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "Hirohito",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "ww2-014",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.xxe",
+      "difficulty": 1,
+      "type": "single",
+      "prompt": "Quel pays l'Allemagne envahit-elle le 1er septembre 1939, déclenchant la Seconde Guerre mondiale ?",
+      "answers": [
+        {
+          "text": "Le Danemark",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "La Belgique",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "La Pologne",
+          "correct": true,
+          "id": "c"
+        },
+        {
+          "text": "La France",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "ww2-015",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.xxe",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quels deux pays déclarent la guerre à l'Allemagne le 3 septembre 1939 ?",
+      "answers": [
+        {
+          "text": "La Belgique et les Pays-Bas",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "Les États-Unis et l'URSS",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "L'Italie et le Japon",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "La France et le Royaume-Uni",
+          "correct": true,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "ww2-016",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.xxe",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Comment appelle-t-on la période d'inactivité militaire relative sur le front occidental, de septembre 1939 à mai 1940 ?",
+      "answers": [
+        {
+          "text": "La bataille des frontières",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "La drôle de guerre",
+          "correct": true,
+          "id": "b"
+        },
+        {
+          "text": "Le Blitzkrieg",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "L'armistice",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "ww2-017",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.xxe",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Depuis l'est, quel pays envahit aussi la Pologne en septembre 1939, en vertu du pacte germano-soviétique ?",
+      "answers": [
+        {
+          "text": "La Roumanie",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "L'URSS",
+          "correct": true,
+          "id": "b"
+        },
+        {
+          "text": "La Hongrie",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "La Slovaquie",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "ww2-018",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.xxe",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quel petit pays nordique résiste plusieurs mois à une invasion soviétique lors de la « guerre d'Hiver » (1939-1940) ?",
+      "answers": [
+        {
+          "text": "La Norvège",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "La Suède",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "La Finlande",
+          "correct": true,
+          "id": "c"
+        },
+        {
+          "text": "Le Danemark",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "ww2-019",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.xxe",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Quelle tactique militaire allemande, fondée sur la rapidité et la combinaison chars-aviation, marque le début de la guerre ?",
+      "answers": [
+        {
+          "text": "La guerre d'usure",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "Le siège classique",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "La guerre de tranchées",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "Le Blitzkrieg (« guerre éclair »)",
+          "correct": true,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "ww2-020",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.xxe",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quels deux pays scandinaves l'Allemagne envahit-elle au printemps 1940 ?",
+      "answers": [
+        {
+          "text": "Le Danemark et la Norvège",
+          "correct": true,
+          "id": "a"
+        },
+        {
+          "text": "L'Islande et le Groenland",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "La Suède et la Finlande",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "Les Pays-Bas et la Belgique",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "ww2-021",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.xxe",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "En quel mois de 1940 l'Allemagne lance-t-elle son offensive contre la France ?",
+      "answers": [
+        {
+          "text": "Août 1940",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "Janvier 1940",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "Septembre 1939",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "Mai 1940",
+          "correct": true,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "ww2-022",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.xxe",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Par quelle région boisée, jugée infranchissable par l'état-major français, les chars allemands surprennent-ils les Alliés en mai 1940 ?",
+      "answers": [
+        {
+          "text": "Les Vosges",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "Les Ardennes",
+          "correct": true,
+          "id": "b"
+        },
+        {
+          "text": "Les Pyrénées",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "Le Jura",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "ww2-023",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.xxe",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Quelle ville française est le théâtre d'une percée décisive de l'armée allemande en mai 1940 ?",
+      "answers": [
+        {
+          "text": "Reims",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "Verdun",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "Sedan",
+          "correct": true,
+          "id": "c"
+        },
+        {
+          "text": "Amiens",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "ww2-024",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.xxe",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quelle opération permet l'évacuation vers l'Angleterre de centaines de milliers de soldats alliés encerclés en mai-juin 1940 ?",
+      "answers": [
+        {
+          "text": "L'évacuation de Dunkerque",
+          "correct": true,
+          "id": "a"
+        },
+        {
+          "text": "Le débarquement de Normandie",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "L'opération Torch",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "L'opération Market Garden",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "ww2-025",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.xxe",
+      "difficulty": 1,
+      "type": "single",
+      "prompt": "À quelle date la France signe-t-elle l'armistice avec l'Allemagne en 1940 ?",
+      "answers": [
+        {
+          "text": "Le 3 septembre 1939",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "Le 8 mai 1945",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "Le 22 juin 1940",
+          "correct": true,
+          "id": "c"
+        },
+        {
+          "text": "Le 14 juillet 1940",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "ww2-026",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.xxe",
+      "difficulty": 1,
+      "type": "single",
+      "prompt": "Quel maréchal français dirige le régime de Vichy à partir de 1940 ?",
+      "answers": [
+        {
+          "text": "Philippe Pétain",
+          "correct": true,
+          "id": "a"
+        },
+        {
+          "text": "Pierre Laval",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "Maxime Weygand",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "Charles de Gaulle",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "ww2-027",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.xxe",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quelle ville thermale française donne son nom au régime collaborationniste dirigé par Pétain ?",
+      "answers": [
+        {
+          "text": "Évian",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "Vichy",
+          "correct": true,
+          "id": "b"
+        },
+        {
+          "text": "Royat",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "Vittel",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "ww2-028",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.xxe",
+      "difficulty": 1,
+      "type": "single",
+      "prompt": "Quel général français lance, le 18 juin 1940 depuis Londres, un appel à continuer le combat ?",
+      "answers": [
+        {
+          "text": "Philippe Pétain",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "Jean Moulin",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "Maxime Weygand",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "Charles de Gaulle",
+          "correct": true,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "ww2-029",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.xxe",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Depuis quelle ville Charles de Gaulle lance-t-il son appel du 18 juin 1940 ?",
+      "answers": [
+        {
+          "text": "Alger",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "New York",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "Londres",
+          "correct": true,
+          "id": "c"
+        },
+        {
+          "text": "Vichy",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "ww2-030",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.xxe",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Quel chef du gouvernement de Vichy, plus tard exécuté pour collaboration, négocie activement avec l'Allemagne ?",
+      "answers": [
+        {
+          "text": "François Darlan",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "Pierre Laval",
+          "correct": true,
+          "id": "b"
+        },
+        {
+          "text": "Édouard Daladier",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "Maxime Weygand",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "ww2-031",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.xxe",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Quelle grande bataille aérienne de l'été-automne 1940 oppose la RAF britannique à la Luftwaffe allemande ?",
+      "answers": [
+        {
+          "text": "La bataille d'Angleterre",
+          "correct": true,
+          "id": "a"
+        },
+        {
+          "text": "La bataille de Midway",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "La bataille de Koursk",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "La bataille des Ardennes",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "ww2-032",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.xxe",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Quel Premier ministre britannique dirige le pays durant la bataille d'Angleterre, promettant « du sang, du labeur, des larmes et de la sueur » ?",
+      "answers": [
+        {
+          "text": "Anthony Eden",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "Clement Attlee",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "Neville Chamberlain",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "Winston Churchill",
+          "correct": true,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "ww2-033",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.xxe",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quelle bataille navale de juillet 1940 voit la flotte britannique attaquer la flotte française pour l'empêcher de tomber aux mains allemandes ?",
+      "answers": [
+        {
+          "text": "La bataille de Mers el-Kébir",
+          "correct": true,
+          "id": "a"
+        },
+        {
+          "text": "La bataille de Tarente",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "La bataille du cap Matapan",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "La bataille de la mer de Corail",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "ww2-034",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.xxe",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Quel surnom est donné au maréchal allemand Erwin Rommel, en raison de ses succès en Afrique du Nord ?",
+      "answers": [
+        {
+          "text": "L'Aigle d'Afrique",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "Le Renard du désert",
+          "correct": true,
+          "id": "b"
+        },
+        {
+          "text": "Le Lion des sables",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "Le Loup du désert",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "ww2-035",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.xxe",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Quelle bataille de novembre 1942, en Égypte, marque un tournant décisif en faveur des Britanniques en Afrique du Nord ?",
+      "answers": [
+        {
+          "text": "La bataille de Koursk",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "La bataille de Tobrouk",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "La bataille de Bir Hakeim",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "La bataille d'El Alamein",
+          "correct": true,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "ww2-036",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.xxe",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Quel général britannique commande la 8e armée victorieuse à El Alamein ?",
+      "answers": [
+        {
+          "text": "Archibald Wavell",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "Dwight Eisenhower",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "Bernard Montgomery",
+          "correct": true,
+          "id": "c"
+        },
+        {
+          "text": "Harold Alexander",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "ww2-037",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.xxe",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Comment se nomme le débarquement allié en Afrique du Nord française, en novembre 1942 ?",
+      "answers": [
+        {
+          "text": "L'opération Torch",
+          "correct": true,
+          "id": "a"
+        },
+        {
+          "text": "L'opération Overlord",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "L'opération Dragoon",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "L'opération Market Garden",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "ww2-038",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.xxe",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Quelle position fortifiée libyenne, assiégée puis prise par les Alliés, symbolise la résistance face à Rommel en 1941-1942 ?",
+      "answers": [
+        {
+          "text": "Benghazi",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "El Alamein",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "Tobrouk",
+          "correct": true,
+          "id": "c"
+        },
+        {
+          "text": "Tripoli",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "ww2-039",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.xxe",
+      "difficulty": 5,
+      "type": "single",
+      "prompt": "Quelle unité de la France libre résiste héroïquement face à Rommel à Bir Hakeim, en Libye, en 1942 ?",
+      "answers": [
+        {
+          "text": "La division Charlemagne",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "La 1re brigade française libre du général Kœnig",
+          "correct": true,
+          "id": "b"
+        },
+        {
+          "text": "Les commandos Kieffer",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "La 2e DB de Leclerc",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "ww2-040",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.xxe",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Quel corps d'armée allemand, envoyé pour soutenir les Italiens en Afrique du Nord, est commandé par Rommel ?",
+      "answers": [
+        {
+          "text": "Les Panzerdivisionen de l'Est",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "La Wehrmacht seule",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "La Waffen-SS",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "L'Afrika Korps",
+          "correct": true,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "ww2-041",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.xxe",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Comment se nomme l'invasion allemande de l'URSS, lancée le 22 juin 1941 ?",
+      "answers": [
+        {
+          "text": "L'opération Overlord",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "L'opération Citadelle",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "L'opération Torch",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "L'opération Barbarossa",
+          "correct": true,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "ww2-042",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.xxe",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Quel long siège allemand, de 1941 à 1944, provoque une famine dramatique dans une grande ville soviétique ?",
+      "answers": [
+        {
+          "text": "Le siège de Léningrad",
+          "correct": true,
+          "id": "a"
+        },
+        {
+          "text": "Le siège de Sébastopol",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "Le siège de Moscou",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "Le siège de Stalingrad",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "ww2-043",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.xxe",
+      "difficulty": 1,
+      "type": "single",
+      "prompt": "Quelle bataille, de 1942 à 1943, marque le tournant majeur de la guerre sur le front de l'Est ?",
+      "answers": [
+        {
+          "text": "L'opération Barbarossa",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "La bataille de Koursk",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "La bataille de Stalingrad",
+          "correct": true,
+          "id": "c"
+        },
+        {
+          "text": "La bataille de Berlin",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "ww2-044",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.xxe",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quel maréchal allemand capitule à Stalingrad en février 1943, un choc pour le régime nazi ?",
+      "answers": [
+        {
+          "text": "Heinz Guderian",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "Friedrich Paulus",
+          "correct": true,
+          "id": "b"
+        },
+        {
+          "text": "Erich von Manstein",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "Erwin Rommel",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "ww2-045",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.xxe",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Quelle immense bataille de chars, en juillet 1943, permet à l'Armée rouge de reprendre durablement l'initiative à l'Est ?",
+      "answers": [
+        {
+          "text": "La bataille de Berlin",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "La bataille de Moscou",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "La bataille de Stalingrad",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "La bataille de Koursk",
+          "correct": true,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "ww2-046",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.xxe",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Quel maréchal soviétique, l'un des plus décorés de la guerre, commande les grandes offensives victorieuses de l'Armée rouge ?",
+      "answers": [
+        {
+          "text": "Semion Timochenko",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "Ivan Koniev",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "Gueorgui Joukov",
+          "correct": true,
+          "id": "c"
+        },
+        {
+          "text": "Constantin Rokossovski",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "ww2-047",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.xxe",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Quelle ville, capitale soviétique, résiste à l'avancée allemande fin 1941 malgré une offensive massive ?",
+      "answers": [
+        {
+          "text": "Moscou",
+          "correct": true,
+          "id": "a"
+        },
+        {
+          "text": "Stalingrad",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "Kiev",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "Léningrad",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "ww2-048",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.xxe",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quel plan allemand, jamais totalement mis en œuvre, envisageait la colonisation et l'exploitation des territoires de l'Est conquis ?",
+      "answers": [
+        {
+          "text": "Le plan Sea Lion",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "Le Generalplan Ost",
+          "correct": true,
+          "id": "b"
+        },
+        {
+          "text": "Le plan Barbarossa",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "Le plan Schlieffen",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "ww2-049",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.xxe",
+      "difficulty": 4,
+      "type": "single",
+      "prompt": "Comment appelle-t-on les unités mobiles allemandes chargées de massacres de masse (notamment de Juifs) derrière le front de l'Est ?",
+      "answers": [
+        {
+          "text": "La Wehrmacht",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "Les SA",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "Les Einsatzgruppen",
+          "correct": true,
+          "id": "c"
+        },
+        {
+          "text": "La Gestapo seule",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "ww2-050",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.xxe",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Environ combien de temps dure le siège de Léningrad, l'un des plus longs et meurtriers de l'histoire ?",
+      "answers": [
+        {
+          "text": "Environ 30 jours",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "Environ 90 jours",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "Environ 5 ans",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "Environ 900 jours",
+          "correct": true,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "ww2-051",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.xxe",
+      "difficulty": 5,
+      "type": "single",
+      "prompt": "Quelle route sur le lac Ladoga gelé permet un ravitaillement vital de Léningrad assiégée ?",
+      "answers": [
+        {
+          "text": "Le pont aérien de Berlin",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "La « route de la vie »",
+          "correct": true,
+          "id": "b"
+        },
+        {
+          "text": "La route Ho Chi Minh",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "La voie birmane",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "ww2-052",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.xxe",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Quelle grande bataille de fin 1941-1942 stoppe l'avancée allemande devant la capitale soviétique ?",
+      "answers": [
+        {
+          "text": "La bataille de Moscou",
+          "correct": true,
+          "id": "a"
+        },
+        {
+          "text": "La bataille de Stalingrad",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "La bataille de Kiev",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "La bataille de Koursk",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "ww2-053",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.xxe",
+      "difficulty": 1,
+      "type": "single",
+      "prompt": "Quelle attaque japonaise surprise, le 7 décembre 1941, provoque l'entrée en guerre des États-Unis ?",
+      "answers": [
+        {
+          "text": "L'attaque de Pearl Harbor",
+          "correct": true,
+          "id": "a"
+        },
+        {
+          "text": "L'attaque de Guadalcanal",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "L'attaque d'Okinawa",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "L'attaque de Midway",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "ww2-054",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.xxe",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Où se situe la base navale américaine attaquée par surprise en décembre 1941 ?",
+      "answers": [
+        {
+          "text": "Aux Philippines",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "En Californie",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "À Guam",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "À Hawaï",
+          "correct": true,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "ww2-055",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.xxe",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quelle bataille navale de juin 1942 marque un tournant décisif en faveur des Américains dans le Pacifique ?",
+      "answers": [
+        {
+          "text": "La bataille de la mer de Corail",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "La bataille de Leyte",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "La bataille de Midway",
+          "correct": true,
+          "id": "c"
+        },
+        {
+          "text": "La bataille des îles Salomon",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "ww2-056",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.xxe",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quelle nouvelle arme, embarquée sur porte-avions, joue un rôle décisif à Midway, sans quasiment aucun combat de navires de surface ?",
+      "answers": [
+        {
+          "text": "Le porte-hélicoptères",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "L'aviation embarquée",
+          "correct": true,
+          "id": "b"
+        },
+        {
+          "text": "Le sous-marin",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "Le cuirassé",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "ww2-057",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.xxe",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Quelle île du Pacifique Sud voit les premières victoires terrestres américaines contre le Japon, en 1942-1943 ?",
+      "answers": [
+        {
+          "text": "Okinawa",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "Guadalcanal",
+          "correct": true,
+          "id": "b"
+        },
+        {
+          "text": "Iwo Jima",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "Tarawa",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "ww2-058",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.xxe",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Comment surnomme-t-on la stratégie américaine consistant à reprendre les îles du Pacifique une à une pour approcher du Japon ?",
+      "answers": [
+        {
+          "text": "La stratégie du « saute-mouton » (île en île)",
+          "correct": true,
+          "id": "a"
+        },
+        {
+          "text": "La guerre de tranchées",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "Le blocus continental",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "La guerre éclair",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "ww2-059",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.xxe",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Quelle bataille de février-mars 1945, très meurtrière, est marquée par la célèbre photo de soldats américains hissant un drapeau ?",
+      "answers": [
+        {
+          "text": "La bataille de Guadalcanal",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "La bataille d'Okinawa",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "La bataille d'Iwo Jima",
+          "correct": true,
+          "id": "c"
+        },
+        {
+          "text": "La bataille de Midway",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "ww2-060",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.xxe",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quelle dernière grande bataille terrestre du Pacifique, au printemps 1945, précède directement la capitulation japonaise ?",
+      "answers": [
+        {
+          "text": "La bataille d'Iwo Jima",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "La bataille de Guam",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "La bataille de Midway",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "La bataille d'Okinawa",
+          "correct": true,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "ww2-061",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.xxe",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Quel amiral japonais, qui avait pourtant averti des risques d'une longue guerre contre les États-Unis, planifie l'attaque de Pearl Harbor ?",
+      "answers": [
+        {
+          "text": "Isoroku Yamamoto",
+          "correct": true,
+          "id": "a"
+        },
+        {
+          "text": "Chūichi Nagumo",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "Osami Nagano",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "Hideki Tōjō",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "ww2-062",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.xxe",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Quelle tactique désespérée, employée par des pilotes japonais en fin de guerre, consiste à écraser volontairement son avion sur une cible ?",
+      "answers": [
+        {
+          "text": "Le harcèlement sous-marin",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "L'attaque en meute de nuit",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "Les attaques kamikazes",
+          "correct": true,
+          "id": "c"
+        },
+        {
+          "text": "Le bombardement en piqué classique",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "ww2-063",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.xxe",
+      "difficulty": 4,
+      "type": "single",
+      "prompt": "Quel archipel philippin est le théâtre d'une gigantesque bataille navale en octobre 1944, l'une des plus grandes de l'histoire ?",
+      "answers": [
+        {
+          "text": "Iwo Jima",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "Guadalcanal",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "Midway",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "Le golfe de Leyte",
+          "correct": true,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "ww2-064",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.xxe",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Quel général américain, célèbre pour sa promesse « je reviendrai », dirige les forces alliées dans le Pacifique Sud-Ouest ?",
+      "answers": [
+        {
+          "text": "George Patton",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "Douglas MacArthur",
+          "correct": true,
+          "id": "b"
+        },
+        {
+          "text": "Chester Nimitz",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "Dwight Eisenhower",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "ww2-065",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.xxe",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quel amiral américain commande la flotte du Pacifique après Pearl Harbor et dirige la contre-offensive navale ?",
+      "answers": [
+        {
+          "text": "William Halsey",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "Douglas MacArthur",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "Chester Nimitz",
+          "correct": true,
+          "id": "c"
+        },
+        {
+          "text": "Ernest King",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "ww2-066",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.xxe",
+      "difficulty": 1,
+      "type": "single",
+      "prompt": "Comment appelle-t-on l'extermination systématique des Juifs d'Europe par l'Allemagne nazie ?",
+      "answers": [
+        {
+          "text": "L'épuration",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "La Shoah (ou l'Holocauste)",
+          "correct": true,
+          "id": "b"
+        },
+        {
+          "text": "La déportation civile",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "La Grande Terreur",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "ww2-067",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.xxe",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Quel camp, situé en Pologne occupée, est le principal lieu de mise en œuvre de l'extermination de masse ?",
+      "answers": [
+        {
+          "text": "Theresienstadt",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "Buchenwald",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "Dachau",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "Auschwitz-Birkenau",
+          "correct": true,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "ww2-068",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.xxe",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Environ combien de Juifs européens sont assassinés pendant la Shoah, selon les estimations historiques ?",
+      "answers": [
+        {
+          "text": "Environ six millions",
+          "correct": true,
+          "id": "a"
+        },
+        {
+          "text": "Environ 60 000",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "Environ 600 000",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "Environ 60 millions",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "ww2-069",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.xxe",
+      "difficulty": 4,
+      "type": "single",
+      "prompt": "Quelle conférence de janvier 1942, tenue près de Berlin, organise administrativement l'extermination des Juifs d'Europe ?",
+      "answers": [
+        {
+          "text": "La conférence de Wannsee",
+          "correct": true,
+          "id": "a"
+        },
+        {
+          "text": "La conférence de Munich",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "La conférence de Potsdam",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "La conférence de Yalta",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "ww2-070",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.xxe",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Comment appelle-t-on les quartiers où les autorités nazies enferment et isolent les populations juives dans les villes occupées ?",
+      "answers": [
+        {
+          "text": "Les camps de transit",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "Les zones franches",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "Les ghettos",
+          "correct": true,
+          "id": "c"
+        },
+        {
+          "text": "Les cités interdites",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "ww2-071",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.xxe",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quel grand ghetto polonais, le plus vaste d'Europe, connaît un soulèvement armé désespéré en 1943 ?",
+      "answers": [
+        {
+          "text": "Le ghetto de Łódź",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "Le ghetto de Cracovie",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "Le ghetto de Lublin",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "Le ghetto de Varsovie",
+          "correct": true,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "ww2-072",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.xxe",
+      "difficulty": 4,
+      "type": "single",
+      "prompt": "Outre les Juifs, quels autres groupes sont visés par les persécutions et exterminations nazies ?",
+      "answers": [
+        {
+          "text": "Aucun autre groupe",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "Les Roms, les opposants politiques, les personnes handicapées, les homosexuels",
+          "correct": true,
+          "id": "b"
+        },
+        {
+          "text": "Uniquement les prisonniers de guerre",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "Uniquement les résistants armés",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "ww2-073",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.xxe",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Comment appelle-t-on, en France, la grande rafle de juillet 1942 visant des milliers de Juifs parisiens ?",
+      "answers": [
+        {
+          "text": "La rafle de la gare de l'Est",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "La rafle du Marais",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "La rafle de Marseille",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "La rafle du Vel' d'Hiv",
+          "correct": true,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "ww2-074",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.xxe",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Quel journal intime, tenu par une adolescente juive cachée à Amsterdam puis déportée, devient un témoignage mondialement connu ?",
+      "answers": [
+        {
+          "text": "Si c'est un homme",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "Le Journal de Varsovie",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "Le Journal d'Anne Frank",
+          "correct": true,
+          "id": "c"
+        },
+        {
+          "text": "La Nuit",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "ww2-075",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.xxe",
+      "difficulty": 5,
+      "type": "single",
+      "prompt": "Quel diplomate suédois sauve des dizaines de milliers de Juifs hongrois en leur délivrant de faux passeports, en 1944 ?",
+      "answers": [
+        {
+          "text": "Oskar Schindler",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "Raoul Wallenberg",
+          "correct": true,
+          "id": "b"
+        },
+        {
+          "text": "Aristides de Sousa Mendes",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "Chiune Sugihara",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "ww2-076",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.xxe",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Comment appelle-t-on le mouvement clandestin qui lutte contre l'occupant allemand et le régime de Vichy en France ?",
+      "answers": [
+        {
+          "text": "La Résistance",
+          "correct": true,
+          "id": "a"
+        },
+        {
+          "text": "La Milice",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "Le Maquis seul",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "La Ligue",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "ww2-077",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.xxe",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Quel résistant, envoyé par de Gaulle, unifie les différents mouvements de résistance intérieure en 1943 ?",
+      "answers": [
+        {
+          "text": "Jean Moulin",
+          "correct": true,
+          "id": "a"
+        },
+        {
+          "text": "Charles Tillon",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "Henri Frenay",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "Pierre Brossolette",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "ww2-078",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.xxe",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Comment appelle-t-on l'organe créé en 1943 pour unifier la Résistance française sous l'autorité de la France libre ?",
+      "answers": [
+        {
+          "text": "Le Gouvernement provisoire",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "Le Comité français de Libération nationale",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "Le Conseil national de la Résistance (CNR)",
+          "correct": true,
+          "id": "c"
+        },
+        {
+          "text": "L'Assemblée consultative provisoire",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "ww2-079",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.xxe",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Comment appelle-t-on les combattants résistants réfugiés dans des zones rurales ou montagneuses pour échapper à l'occupant ?",
+      "answers": [
+        {
+          "text": "Les gardes mobiles",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "Les partisans urbains",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "Les francs-tireurs coloniaux",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "Les maquisards (le maquis)",
+          "correct": true,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "ww2-080",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.xxe",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Quelle milice française collaborationniste, créée en 1943, traque activement les résistants aux côtés des Allemands ?",
+      "answers": [
+        {
+          "text": "Les Waffen-SS français",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "La Milice française",
+          "correct": true,
+          "id": "b"
+        },
+        {
+          "text": "La Garde nationale de Vichy",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "La Gestapo française",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "ww2-081",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.xxe",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Comment appelle-t-on les Français qui, dès 1940, rejoignent Londres pour continuer le combat aux côtés de de Gaulle ?",
+      "answers": [
+        {
+          "text": "Les Français libres",
+          "correct": true,
+          "id": "a"
+        },
+        {
+          "text": "Les pieds-noirs",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "Les collaborateurs",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "Les zouaves",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "ww2-082",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.xxe",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quel plateau est le théâtre d'une insurrection maquisarde durement réprimée par les Allemands en 1944, aux côtés de celui des Glières ?",
+      "answers": [
+        {
+          "text": "Le plateau de Millevaches",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "Le Vercors",
+          "correct": true,
+          "id": "b"
+        },
+        {
+          "text": "Le Larzac",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "Le Massif central",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "ww2-083",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.xxe",
+      "difficulty": 4,
+      "type": "single",
+      "prompt": "Quel service de renseignement britannique appuie logistiquement de nombreux réseaux de résistance en Europe occupée ?",
+      "answers": [
+        {
+          "text": "Le Mossad",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "Le MI5",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "Le SOE (Special Operations Executive)",
+          "correct": true,
+          "id": "c"
+        },
+        {
+          "text": "La CIA",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "ww2-084",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.xxe",
+      "difficulty": 1,
+      "type": "single",
+      "prompt": "À quelle date a lieu le débarquement allié en Normandie ?",
+      "answers": [
+        {
+          "text": "Le 25 août 1944",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "Le 8 mai 1945",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "Le 15 août 1944",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "Le 6 juin 1944",
+          "correct": true,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "ww2-085",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.xxe",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Comment appelle-t-on le débarquement de Normandie dans le jargon militaire allié ?",
+      "answers": [
+        {
+          "text": "L'opération Torch",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "L'opération Dragoon",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "L'opération Market Garden",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "L'opération Overlord",
+          "correct": true,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "ww2-086",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.xxe",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Combien de plages principales sont visées lors du débarquement de Normandie ?",
+      "answers": [
+        {
+          "text": "Huit",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "Cinq",
+          "correct": true,
+          "id": "b"
+        },
+        {
+          "text": "Trois",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "Deux",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "ww2-087",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.xxe",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Laquelle de ces plages du débarquement de Normandie est un secteur américain particulièrement meurtrier ?",
+      "answers": [
+        {
+          "text": "Gold Beach",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "Sword Beach",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "Omaha Beach",
+          "correct": true,
+          "id": "c"
+        },
+        {
+          "text": "Juno Beach",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "ww2-088",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.xxe",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Quelle plage du débarquement de Normandie est confiée aux troupes canadiennes ?",
+      "answers": [
+        {
+          "text": "Juno Beach",
+          "correct": true,
+          "id": "a"
+        },
+        {
+          "text": "Sword Beach",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "Utah Beach",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "Omaha Beach",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "ww2-089",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.xxe",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quel général américain commande l'ensemble des forces alliées lors du débarquement de Normandie ?",
+      "answers": [
+        {
+          "text": "George Patton",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "Dwight D. Eisenhower",
+          "correct": true,
+          "id": "b"
+        },
+        {
+          "text": "Douglas MacArthur",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "Omar Bradley",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "ww2-090",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.xxe",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Comment se nomme le débarquement allié en Provence, en août 1944 ?",
+      "answers": [
+        {
+          "text": "L'opération Torch",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "L'opération Cobra",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "L'opération Dragoon",
+          "correct": true,
+          "id": "c"
+        },
+        {
+          "text": "L'opération Overlord",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "ww2-091",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.xxe",
+      "difficulty": 1,
+      "type": "single",
+      "prompt": "À quelle date Paris est-elle libérée en 1944 ?",
+      "answers": [
+        {
+          "text": "Le 25 août 1944",
+          "correct": true,
+          "id": "a"
+        },
+        {
+          "text": "Le 11 novembre 1944",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "Le 6 juin 1944",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "Le 8 mai 1945",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "ww2-092",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.xxe",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Quelle division blindée française, commandée par le général Leclerc, entre la première dans Paris libérée ?",
+      "answers": [
+        {
+          "text": "La Légion étrangère",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "La division Charlemagne",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "La 1re armée française",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "La 2e division blindée (2e DB)",
+          "correct": true,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "ww2-093",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.xxe",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Quel commando français, intégré aux troupes britanniques, débarque en Normandie dès le 6 juin 1944 ?",
+      "answers": [
+        {
+          "text": "Le commando Kieffer",
+          "correct": true,
+          "id": "a"
+        },
+        {
+          "text": "La division Leclerc",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "Les Forces françaises de l'intérieur",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "La 2e DB",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "ww2-094",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.xxe",
+      "difficulty": 4,
+      "type": "single",
+      "prompt": "Quelle vaste opération aéroportée alliée, aux Pays-Bas en septembre 1944, se solde par un échec coûteux ?",
+      "answers": [
+        {
+          "text": "L'opération Cobra",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "L'opération Dragoon",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "L'opération Overlord",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "L'opération Market Garden",
+          "correct": true,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "ww2-095",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.xxe",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Quel port belge stratégique, très disputé, permet aux Alliés d'améliorer leur ravitaillement fin 1944 ?",
+      "answers": [
+        {
+          "text": "Calais",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "Anvers",
+          "correct": true,
+          "id": "b"
+        },
+        {
+          "text": "Ostende",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "Rotterdam",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "ww2-096",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.xxe",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quel officier allemand pose la bombe de l'attentat manqué contre Hitler, le 20 juillet 1944 ?",
+      "answers": [
+        {
+          "text": "Wilhelm Keitel",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "Erwin Rommel",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "Claus von Stauffenberg",
+          "correct": true,
+          "id": "c"
+        },
+        {
+          "text": "Heinz Guderian",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "ww2-097",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.xxe",
+      "difficulty": 5,
+      "type": "single",
+      "prompt": "Comment se nomme le plan de coup d'État qui accompagne la tentative d'assassinat d'Hitler du 20 juillet 1944 ?",
+      "answers": [
+        {
+          "text": "L'opération Sea Lion",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "L'opération Citadelle",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "L'opération Barbarossa",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "L'opération Walkyrie",
+          "correct": true,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "ww2-098",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.xxe",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Comment appelle-t-on la dernière grande contre-offensive allemande à l'Ouest, en décembre 1944 ?",
+      "answers": [
+        {
+          "text": "L'opération Market Garden",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "La bataille de Berlin",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "La bataille des Ardennes",
+          "correct": true,
+          "id": "c"
+        },
+        {
+          "text": "La bataille de Normandie",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "ww2-099",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.xxe",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Quelle ville belge, encerclée puis défendue avec ténacité par les Américains, devient un symbole de la bataille des Ardennes ?",
+      "answers": [
+        {
+          "text": "Bastogne",
+          "correct": true,
+          "id": "a"
+        },
+        {
+          "text": "Namur",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "Liège",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "Anvers",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "ww2-100",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.xxe",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Quel général américain, à la tête de la 3e armée, dégage rapidement Bastogne assiégée fin 1944 ?",
+      "answers": [
+        {
+          "text": "Courtney Hodges",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "George Patton",
+          "correct": true,
+          "id": "b"
+        },
+        {
+          "text": "Anthony McAuliffe",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "Omar Bradley",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "ww2-101",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.xxe",
+      "difficulty": 5,
+      "type": "single",
+      "prompt": "Quel général américain répond par un simple « Nuts! » (« des clous ! ») à la demande de reddition allemande à Bastogne ?",
+      "answers": [
+        {
+          "text": "George Patton",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "Anthony McAuliffe",
+          "correct": true,
+          "id": "b"
+        },
+        {
+          "text": "Dwight Eisenhower",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "Omar Bradley",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "ww2-102",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.xxe",
+      "difficulty": 1,
+      "type": "single",
+      "prompt": "À quelle date le Troisième Reich capitule-t-il sans condition ?",
+      "answers": [
+        {
+          "text": "Le 6 juin 1944",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "Le 25 août 1944",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "Le 8 mai 1945",
+          "correct": true,
+          "id": "c"
+        },
+        {
+          "text": "Le 2 septembre 1945",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "ww2-103",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.xxe",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Que fait Adolf Hitler le 30 avril 1945, alors que Berlin est encerclée par l'Armée rouge ?",
+      "answers": [
+        {
+          "text": "Il se suicide dans son bunker",
+          "correct": true,
+          "id": "a"
+        },
+        {
+          "text": "Il fuit en Amérique du Sud",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "Il négocie sa reddition",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "Il est capturé par les Soviétiques",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "ww2-104",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.xxe",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Quelle capitale allemande est prise par l'Armée rouge au terme d'une bataille acharnée en avril-mai 1945 ?",
+      "answers": [
+        {
+          "text": "Hambourg",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "Dresde",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "Munich",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "Berlin",
+          "correct": true,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "ww2-105",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.xxe",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quel dictateur italien est capturé et exécuté par des partisans en avril 1945 ?",
+      "answers": [
+        {
+          "text": "Heinrich Himmler",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "Benito Mussolini",
+          "correct": true,
+          "id": "b"
+        },
+        {
+          "text": "Adolf Hitler",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "Hermann Göring",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "ww2-106",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.xxe",
+      "difficulty": 4,
+      "type": "single",
+      "prompt": "Quel camp de concentration allemand, l'un des premiers ouverts par les nazis, est libéré par les troupes américaines en 1945 ?",
+      "answers": [
+        {
+          "text": "Sobibor",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "Treblinka",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "Dachau",
+          "correct": true,
+          "id": "c"
+        },
+        {
+          "text": "Auschwitz",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "ww2-107",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.xxe",
+      "difficulty": 4,
+      "type": "single",
+      "prompt": "Quel camp, libéré par les troupes britanniques en avril 1945, révèle au monde l'ampleur des atrocités nazies par des images marquantes ?",
+      "answers": [
+        {
+          "text": "Auschwitz-Birkenau",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "Majdanek",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "Sachsenhausen",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "Bergen-Belsen",
+          "correct": true,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "ww2-108",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.xxe",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Quel pays libère le camp d'Auschwitz-Birkenau en janvier 1945 ?",
+      "answers": [
+        {
+          "text": "L'URSS (l'Armée rouge)",
+          "correct": true,
+          "id": "a"
+        },
+        {
+          "text": "La France libre",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "Les États-Unis",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "Le Royaume-Uni",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "ww2-109",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.xxe",
+      "difficulty": 1,
+      "type": "single",
+      "prompt": "Sur quelle ville japonaise la première bombe atomique de l'histoire est-elle larguée, le 6 août 1945 ?",
+      "answers": [
+        {
+          "text": "Tokyo",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "Kyoto",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "Nagasaki",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "Hiroshima",
+          "correct": true,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "ww2-110",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.xxe",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Sur quelle seconde ville japonaise une bombe atomique est-elle larguée le 9 août 1945 ?",
+      "answers": [
+        {
+          "text": "Nagasaki",
+          "correct": true,
+          "id": "a"
+        },
+        {
+          "text": "Kobe",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "Osaka",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "Hiroshima",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "ww2-111",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.xxe",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Comment se nomme l'avion américain qui largue la bombe atomique sur Hiroshima ?",
+      "answers": [
+        {
+          "text": "Le Spirit of St. Louis",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "L'Enola Gay",
+          "correct": true,
+          "id": "b"
+        },
+        {
+          "text": "Le Memphis Belle",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "Le Bockscar",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "ww2-112",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.xxe",
+      "difficulty": 1,
+      "type": "single",
+      "prompt": "À quelle date le Japon signe-t-il officiellement sa capitulation, mettant fin à la Seconde Guerre mondiale ?",
+      "answers": [
+        {
+          "text": "Le 6 août 1945",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "Le 8 mai 1945",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "Le 2 septembre 1945",
+          "correct": true,
+          "id": "c"
+        },
+        {
+          "text": "Le 15 août 1945",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "ww2-113",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.xxe",
+      "difficulty": 4,
+      "type": "single",
+      "prompt": "Quel empereur japonais annonce, le 15 août 1945, la capitulation de son pays à la radio ?",
+      "answers": [
+        {
+          "text": "Meiji",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "Hirohito",
+          "correct": true,
+          "id": "b"
+        },
+        {
+          "text": "Hideki Tōjō",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "Isoroku Yamamoto",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "ww2-114",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.xxe",
+      "difficulty": 4,
+      "type": "single",
+      "prompt": "Sur le pont de quel navire de guerre américain la capitulation japonaise est-elle officiellement signée, en septembre 1945 ?",
+      "answers": [
+        {
+          "text": "Le cuirassé USS Missouri",
+          "correct": true,
+          "id": "a"
+        },
+        {
+          "text": "Le cuirassé USS Arizona",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "Le porte-avions USS Enterprise",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "Le croiseur USS Indianapolis",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "ww2-115",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.xxe",
+      "difficulty": 4,
+      "type": "single",
+      "prompt": "Quel projet secret américain développe la bombe atomique pendant la guerre ?",
+      "answers": [
+        {
+          "text": "Le projet Ultra",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "Le projet Overlord",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "Le projet Manhattan Beach",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "Le projet Manhattan",
+          "correct": true,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "ww2-116",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.xxe",
+      "difficulty": 5,
+      "type": "single",
+      "prompt": "Quel physicien dirige scientifiquement le projet Manhattan de mise au point de la bombe atomique ?",
+      "answers": [
+        {
+          "text": "Enrico Fermi",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "Niels Bohr",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "J. Robert Oppenheimer",
+          "correct": true,
+          "id": "c"
+        },
+        {
+          "text": "Albert Einstein",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "ww2-117",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.xxe",
+      "difficulty": 1,
+      "type": "single",
+      "prompt": "Qui dirige le Royaume-Uni pendant la majeure partie de la Seconde Guerre mondiale ?",
+      "answers": [
+        {
+          "text": "Winston Churchill",
+          "correct": true,
+          "id": "a"
+        },
+        {
+          "text": "Anthony Eden",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "Neville Chamberlain",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "Clement Attlee",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "ww2-118",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.xxe",
+      "difficulty": 1,
+      "type": "single",
+      "prompt": "Qui dirige les États-Unis lorsque le pays entre en guerre fin 1941 ?",
+      "answers": [
+        {
+          "text": "Dwight Eisenhower",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "Franklin D. Roosevelt",
+          "correct": true,
+          "id": "b"
+        },
+        {
+          "text": "Herbert Hoover",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "Harry Truman",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "ww2-119",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.xxe",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Quel président américain succède à Roosevelt en avril 1945 et décide de l'usage de la bombe atomique ?",
+      "answers": [
+        {
+          "text": "Dwight Eisenhower",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "Douglas MacArthur",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "Harry Truman",
+          "correct": true,
+          "id": "c"
+        },
+        {
+          "text": "George Marshall",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "ww2-120",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.xxe",
+      "difficulty": 1,
+      "type": "single",
+      "prompt": "Qui dirige l'Union soviétique pendant la Seconde Guerre mondiale ?",
+      "answers": [
+        {
+          "text": "Léon Trotski",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "Nikita Khrouchtchev",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "Vladimir Lénine",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "Joseph Staline",
+          "correct": true,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "ww2-121",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.xxe",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quel général français dirige la France libre depuis Londres puis Alger ?",
+      "answers": [
+        {
+          "text": "Jean Moulin",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "Charles de Gaulle",
+          "correct": true,
+          "id": "b"
+        },
+        {
+          "text": "Philippe Pétain",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "Maxime Weygand",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "ww2-122",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.xxe",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quel général américain, chef d'état-major, organise l'effort de guerre américain et donne son nom à un plan de reconstruction d'après-guerre ?",
+      "answers": [
+        {
+          "text": "George Marshall",
+          "correct": true,
+          "id": "a"
+        },
+        {
+          "text": "Dwight Eisenhower",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "Omar Bradley",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "Douglas MacArthur",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "ww2-123",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.xxe",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Quel maréchal du Reich, chef de la Luftwaffe et haut dignitaire nazi, est jugé à Nuremberg ?",
+      "answers": [
+        {
+          "text": "Rudolf Hess",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "Heinrich Himmler",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "Joseph Goebbels",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "Hermann Göring",
+          "correct": true,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "ww2-124",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.xxe",
+      "difficulty": 4,
+      "type": "single",
+      "prompt": "Quel dignitaire nazi, chef de la SS, organise administrativement une grande partie de la répression et des camps ?",
+      "answers": [
+        {
+          "text": "Hermann Göring",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "Martin Bormann",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "Heinrich Himmler",
+          "correct": true,
+          "id": "c"
+        },
+        {
+          "text": "Joseph Goebbels",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "ww2-125",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.xxe",
+      "difficulty": 4,
+      "type": "single",
+      "prompt": "Quel ministre de la Propagande nazi se suicide avec sa famille à Berlin en 1945 ?",
+      "answers": [
+        {
+          "text": "Hermann Göring",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "Albert Speer",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "Joseph Goebbels",
+          "correct": true,
+          "id": "c"
+        },
+        {
+          "text": "Heinrich Himmler",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "ww2-126",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.xxe",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Quelle conférence de février 1945, en Crimée, réunit Roosevelt, Churchill et Staline pour organiser l'après-guerre ?",
+      "answers": [
+        {
+          "text": "La conférence de Yalta",
+          "correct": true,
+          "id": "a"
+        },
+        {
+          "text": "La conférence de Téhéran",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "La conférence de Munich",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "La conférence de Potsdam",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "ww2-127",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.xxe",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Quelle conférence de juillet 1945, en Allemagne, fixe les modalités d'occupation et de réparations après la capitulation allemande ?",
+      "answers": [
+        {
+          "text": "La conférence de Yalta",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "La conférence de San Francisco",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "La conférence de Téhéran",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "La conférence de Potsdam",
+          "correct": true,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "ww2-128",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.xxe",
+      "difficulty": 4,
+      "type": "single",
+      "prompt": "Quelle conférence de 1943, en Iran, réunit pour la première fois les trois grands chefs alliés (Roosevelt, Churchill, Staline) ?",
+      "answers": [
+        {
+          "text": "La conférence de Casablanca",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "La conférence de Téhéran",
+          "correct": true,
+          "id": "b"
+        },
+        {
+          "text": "La conférence de Yalta",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "La conférence de Potsdam",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "ww2-129",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.xxe",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quelle organisation internationale est fondée en 1945, dans la foulée de la guerre, pour préserver la paix mondiale ?",
+      "answers": [
+        {
+          "text": "L'OTAN",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "L'Organisation des Nations unies (ONU)",
+          "correct": true,
+          "id": "b"
+        },
+        {
+          "text": "La Société des Nations",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "L'Union européenne",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "ww2-130",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.xxe",
+      "difficulty": 4,
+      "type": "single",
+      "prompt": "Dans quelle ville américaine la charte fondatrice de l'ONU est-elle signée en juin 1945 ?",
+      "answers": [
+        {
+          "text": "San Francisco",
+          "correct": true,
+          "id": "a"
+        },
+        {
+          "text": "New York",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "Philadelphie",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "Washington",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "ww2-131",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.xxe",
+      "difficulty": 4,
+      "type": "single",
+      "prompt": "Quel procès international, tenu de 1945 à 1946, juge les grands criminels de guerre nazis ?",
+      "answers": [
+        {
+          "text": "Le procès de La Haye",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "Le procès de Berlin",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "Le procès de Nuremberg",
+          "correct": true,
+          "id": "c"
+        },
+        {
+          "text": "Le procès de Tokyo",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "ww2-132",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.xxe",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Environ combien de morts, militaires et civils confondus, la Seconde Guerre mondiale a-t-elle causés dans le monde ?",
+      "answers": [
+        {
+          "text": "Plus de 200 millions",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "Environ 10 millions",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "Environ 1 million",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "Entre 60 et 70 millions",
+          "correct": true,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "ww2-133",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.xxe",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Quelle organisation internationale de l'entre-deux-guerres, jugée impuissante, est remplacée par l'ONU après 1945 ?",
+      "answers": [
+        {
+          "text": "Le Komintern",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "La Croix-Rouge",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "L'Union latine",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "La Société des Nations (SDN)",
+          "correct": true,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "ww2-134",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.xxe",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Quel plan américain d'aide économique massive contribue à la reconstruction de l'Europe occidentale après 1947 ?",
+      "answers": [
+        {
+          "text": "Le plan Marshall",
+          "correct": true,
+          "id": "a"
+        },
+        {
+          "text": "Le plan Schuman",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "Le new deal",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "Le plan Beveridge",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "ww2-135",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.xxe",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quel processus politique majeur, accéléré par l'affaiblissement des puissances coloniales européennes, s'engage dans les décennies suivant 1945 ?",
+      "answers": [
+        {
+          "text": "La guerre froide seule",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "L'unification allemande",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "La décolonisation",
+          "correct": true,
+          "id": "c"
+        },
+        {
+          "text": "La reconstruction seule",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "ww2-136",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.xxe",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Quelle machine de chiffrement allemande, dont le code est percé par les Alliés, joue un rôle clé dans le renseignement militaire ?",
+      "answers": [
+        {
+          "text": "Le télégraphe Morse",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "La machine Enigma",
+          "correct": true,
+          "id": "b"
+        },
+        {
+          "text": "La machine à écrire Lorenz",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "Le système radar Chain Home",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "ww2-137",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.xxe",
+      "difficulty": 4,
+      "type": "single",
+      "prompt": "Quel mathématicien britannique dirige, à Bletchley Park, les efforts pour décrypter le code Enigma ?",
+      "answers": [
+        {
+          "text": "Bernard Montgomery",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "Alan Turing",
+          "correct": true,
+          "id": "b"
+        },
+        {
+          "text": "R. V. Jones",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "Winston Churchill",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "ww2-138",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.xxe",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Comment appelle-t-on le nom de code des renseignements alliés issus du décryptage des communications allemandes ?",
+      "answers": [
+        {
+          "text": "Ultra",
+          "correct": true,
+          "id": "a"
+        },
+        {
+          "text": "Overlord",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "Enigma",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "Magic",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "ww2-139",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.xxe",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Comment appelle-t-on la longue bataille navale opposant sous-marins allemands (U-Boot) et convois alliés dans l'Atlantique ?",
+      "answers": [
+        {
+          "text": "La bataille du Pacifique",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "La bataille de la mer de Corail",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "La bataille de l'Atlantique",
+          "correct": true,
+          "id": "c"
+        },
+        {
+          "text": "La bataille de la Baltique",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "ww2-140",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.xxe",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quelle campagne alliée, débutant en 1943 en Sicile, ouvre un nouveau front au sud de l'Europe ?",
+      "answers": [
+        {
+          "text": "La campagne de Norvège",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "La campagne d'Afrique de l'Est",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "La campagne des Balkans",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "La campagne d'Italie",
+          "correct": true,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "ww2-141",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.xxe",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Quel dictateur italien est destitué par le roi en juillet 1943, avant d'être brièvement remis au pouvoir par les Allemands dans le nord du pays ?",
+      "answers": [
+        {
+          "text": "Victor-Emmanuel III",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "Pietro Badoglio",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "Italo Balbo",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "Benito Mussolini",
+          "correct": true,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "ww2-142",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.xxe",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Comment appelle-t-on les bombardements aériens allemands massifs sur Londres et d'autres villes britanniques en 1940-1941 ?",
+      "answers": [
+        {
+          "text": "L'opération Sea Lion",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "Le Blitz",
+          "correct": true,
+          "id": "b"
+        },
+        {
+          "text": "Le Blitzkrieg",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "L'opération Cobra",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "ww2-143",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.xxe",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Quelle politique d'évacuation massive protège des milliers d'enfants britanniques des bombardements en les envoyant à la campagne ?",
+      "answers": [
+        {
+          "text": "L'opération Dynamo",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "L'opération Jubilee",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "L'opération Pied Piper",
+          "correct": true,
+          "id": "c"
+        },
+        {
+          "text": "L'opération Chastise",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "ww2-144",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.xxe",
+      "difficulty": 4,
+      "type": "single",
+      "prompt": "Quel massacre de milliers d'officiers polonais par les autorités soviétiques, en 1940, reste longtemps caché ou attribué aux nazis ?",
+      "answers": [
+        {
+          "text": "Le massacre de Katyń",
+          "correct": true,
+          "id": "a"
+        },
+        {
+          "text": "Le massacre de Babi Yar",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "Le massacre de Lidice",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "Le massacre d'Oradour-sur-Glane",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "ww2-145",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.xxe",
+      "difficulty": 4,
+      "type": "single",
+      "prompt": "Quel village français est entièrement détruit et sa population massacrée par une unité SS en juin 1944 ?",
+      "answers": [
+        {
+          "text": "Vercors",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "Oradour-sur-Glane",
+          "correct": true,
+          "id": "b"
+        },
+        {
+          "text": "Maillé",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "Ascq",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "ww2-146",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.xxe",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Dans quelle ville néerlandaise Anne Frank et sa famille se cachent-ils avant d'être découverts et déportés ?",
+      "answers": [
+        {
+          "text": "Rotterdam",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "Utrecht",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "La Haye",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "Amsterdam",
+          "correct": true,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "ww2-147",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.xxe",
+      "difficulty": 5,
+      "type": "single",
+      "prompt": "Quel industriel allemand sauve environ 1 200 Juifs en les employant dans ses usines, une histoire popularisée par un film de Spielberg ?",
+      "answers": [
+        {
+          "text": "Oskar Schindler",
+          "correct": true,
+          "id": "a"
+        },
+        {
+          "text": "Albert Göring",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "Raoul Wallenberg",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "Chiune Sugihara",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "ww2-148",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.xxe",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Quel diplomate japonais délivre des visas de transit à des milliers de Juifs fuyant l'Europe, au mépris des ordres de son gouvernement ?",
+      "answers": [
+        {
+          "text": "Isoroku Yamamoto",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "Hideki Tōjō",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "Chiune Sugihara",
+          "correct": true,
+          "id": "c"
+        },
+        {
+          "text": "Fumimaro Konoe",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "ww2-149",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.xxe",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "De quelle nationalité sont les aviatrices militaires surnommées « les sorcières de la nuit » par leurs adversaires allemands ?",
+      "answers": [
+        {
+          "text": "Française",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "Soviétique",
+          "correct": true,
+          "id": "b"
+        },
+        {
+          "text": "Britannique",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "Américaine",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "ww2-150",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.xxe",
+      "difficulty": 4,
+      "type": "single",
+      "prompt": "Quel nom de code désigne les opérations alliées de désinformation destinées à tromper les Allemands sur le lieu du débarquement de Normandie ?",
+      "answers": [
+        {
+          "text": "L'opération Fortitude",
+          "correct": true,
+          "id": "a"
+        },
+        {
+          "text": "L'opération Cobra",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "L'opération Neptune",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "L'opération Overlord",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    }
+  ]
+}

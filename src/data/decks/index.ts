@@ -12,6 +12,7 @@ import henriIv from './henri-iv.json';
 import histoireAviation from './histoire-aviation.json';
 import conqueteSpatiale from './conquete-spatiale.json';
 import univers from './univers.json';
+import secondeGuerreMondiale from './seconde-guerre-mondiale.json';
 
 /** Forme d'une question dans un fichier de deck (le `deckId` est injecté au chargement). */
 export interface RawQuestion {
@@ -64,4 +65,5 @@ export const RAW_DECKS: RawDeck[] = [
   histoireAviation as RawDeck,
   conqueteSpatiale as RawDeck,
   univers as RawDeck,
+  secondeGuerreMondiale as RawDeck,
 ];
