@@ -1,531 +1,949 @@
 {
-  "id": "charlemagne",
-  "name": "Charlemagne",
-  "description": "Le sacre, les conquêtes, Aix-la-Chapelle et la renaissance carolingienne.",
-  "emoji": "👑",
+  "id": "henri-iv",
+  "name": "Henri IV",
+  "description": "Le Vert Galant : guerres de Religion, édit de Nantes, Sully et le bon roi Henri.",
+  "emoji": "🤴",
   "categoryId": "histoire",
   "subcategoryId": "histoire.france",
   "tier": "free",
-  "productId": "gquizz.deck.charlemagne",
+  "productId": "gquizz.deck.henri_iv",
   "priceHint": "1,99 €",
   "questionCount": 120,
   "averageDifficulty": 3,
-  "releasedAt": "2026-03-01",
+  "releasedAt": "2026-04-01",
   "previewQuestionIds": [
-    "chl-001",
-    "chl-064"
+    "h4-011",
+    "h4-083"
   ],
   "questions": [
     {
-      "id": "chl-001",
+      "id": "h4-001",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.france",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Qui est le père d'Henri IV ?",
+      "answers": [
+        {
+          "text": "Charles de Bourbon",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "François de Guise",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "Louis de Condé",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "Antoine de Bourbon",
+          "correct": true,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "h4-002",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.france",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Qui est la mère d'Henri IV, reine de Navarre ?",
+      "answers": [
+        {
+          "text": "Marie de Médicis",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "Jeanne d'Albret",
+          "correct": true,
+          "id": "b"
+        },
+        {
+          "text": "Marguerite de Valois",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "Catherine de Médicis",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "h4-003",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.france",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "En quelle année Henri IV naît-il ?",
+      "answers": [
+        {
+          "text": "1563",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "1543",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "1553",
+          "correct": true,
+          "id": "c"
+        },
+        {
+          "text": "1572",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "h4-004",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.france",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Dans quelle ville Henri IV naît-il, le 13 décembre 1553 ?",
+      "answers": [
+        {
+          "text": "Pau",
+          "correct": true,
+          "id": "a"
+        },
+        {
+          "text": "Nérac",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "Toulouse",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "Bordeaux",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "h4-005",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.france",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Dans quelle religion Henri est-il élevé par sa mère ?",
+      "answers": [
+        {
+          "text": "Le catholicisme",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "L'anglicanisme",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "Le luthéranisme allemand",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "Le protestantisme (calvinisme)",
+          "correct": true,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "h4-006",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.france",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "De quel royaume Henri devient-il roi en 1572, à la mort de sa mère ?",
+      "answers": [
+        {
+          "text": "Le royaume de Navarre",
+          "correct": true,
+          "id": "a"
+        },
+        {
+          "text": "Le royaume d'Aragon",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "Le royaume de Castille",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "Le royaume de France",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "h4-007",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.france",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Sous quel nom Henri règne-t-il alors comme roi de Navarre ?",
+      "answers": [
+        {
+          "text": "Henri Ier de Navarre",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "Henri le Grand",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "Henri III de Navarre",
+          "correct": true,
+          "id": "c"
+        },
+        {
+          "text": "Henri de Béarn",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "h4-008",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.france",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Quel roi de France appelle le jeune Henri à sa cour en 1561 ?",
+      "answers": [
+        {
+          "text": "Henri II",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "Charles IX",
+          "correct": true,
+          "id": "b"
+        },
+        {
+          "text": "Henri III",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "François II",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "h4-009",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.france",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "À quelle dynastie Henri IV appartient-il, la première à régner sur la France après les Valois ?",
+      "answers": [
+        {
+          "text": "La dynastie des Bourbons",
+          "correct": true,
+          "id": "a"
+        },
+        {
+          "text": "Les Capétiens directs",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "Les Valois-Angoulême",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "Les Orléans",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "h4-010",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.france",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Quel surnom populaire garde-t-on de l'enfance d'Henri, élevé simplement au château de Coarraze ?",
+      "answers": [
+        {
+          "text": "« Le page du roi »",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "« L'enfant de Pau »",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "« Le meunier de Barbaste »",
+          "correct": true,
+          "id": "c"
+        },
+        {
+          "text": "« Le petit berger »",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "h4-011",
       "categoryId": "histoire",
       "subcategoryId": "histoire.france",
       "difficulty": 1,
       "type": "single",
-      "prompt": "À quelle dynastie appartient Charlemagne ?",
+      "prompt": "Qui épouse Henri de Navarre le 18 août 1572 ?",
       "answers": [
         {
-          "text": "La dynastie ottonienne",
+          "text": "Marie de Médicis",
           "correct": false,
           "id": "a"
         },
         {
-          "text": "La dynastie carolingienne",
+          "text": "Marguerite de Valois",
           "correct": true,
           "id": "b"
         },
         {
-          "text": "La dynastie mérovingienne",
+          "text": "Gabrielle d'Estrées",
           "correct": false,
           "id": "c"
         },
         {
-          "text": "La dynastie capétienne",
+          "text": "Catherine de Bourbon",
           "correct": false,
           "id": "d"
         }
-      ],
-      "explanation": "Cette dynastie tient justement son nom de « Carolus Magnus », Charles le Grand."
+      ]
     },
     {
-      "id": "chl-002",
+      "id": "h4-012",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.france",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quel surnom garde l'histoire pour Marguerite de Valois ?",
+      "answers": [
+        {
+          "text": "« La Dame de Beauté »",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "« La Grande Mademoiselle »",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "« La Reine Blanche »",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "« La reine Margot »",
+          "correct": true,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "h4-013",
       "categoryId": "histoire",
       "subcategoryId": "histoire.france",
       "difficulty": 1,
       "type": "single",
-      "prompt": "Qui est le père de Charlemagne ?",
+      "prompt": "Quel massacre a lieu quelques jours après ce mariage, en août 1572 ?",
       "answers": [
         {
-          "text": "Louis le Pieux",
-          "correct": false,
+          "text": "Le massacre de la Saint-Barthélemy",
+          "correct": true,
           "id": "a"
         },
         {
-          "text": "Carloman Ier",
+          "text": "La Fronde",
           "correct": false,
           "id": "b"
         },
         {
-          "text": "Pépin le Bref",
-          "correct": true,
+          "text": "Les dragonnades",
+          "correct": false,
           "id": "c"
         },
         {
-          "text": "Charles Martel",
+          "text": "Le sac de Rome",
           "correct": false,
           "id": "d"
         }
       ]
     },
     {
-      "id": "chl-003",
+      "id": "h4-014",
       "categoryId": "histoire",
       "subcategoryId": "histoire.france",
       "difficulty": 2,
       "type": "single",
-      "prompt": "Comment se nomme la mère de Charlemagne, surnommée « au Grand Pied » ?",
+      "prompt": "À quelle date précise a lieu le massacre de la Saint-Barthélemy ?",
       "answers": [
         {
-          "text": "Berthe (Bertrade de Laon)",
-          "correct": true,
+          "text": "Le 13 décembre 1553",
+          "correct": false,
           "id": "a"
         },
         {
-          "text": "Fastrade",
+          "text": "Le 14 mai 1610",
           "correct": false,
           "id": "b"
         },
         {
-          "text": "Judith",
+          "text": "Le 1er août 1589",
           "correct": false,
           "id": "c"
         },
         {
-          "text": "Hildegarde",
+          "text": "Le 24 août 1572",
+          "correct": true,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "h4-015",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.france",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Pourquoi Henri de Navarre échappe-t-il au massacre de la Saint-Barthélemy ?",
+      "answers": [
+        {
+          "text": "Il est protégé par le pape",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "Il se trouve alors à l'étranger",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "Son rang de prince du sang lui vaut d'être épargné",
+          "correct": true,
+          "id": "c"
+        },
+        {
+          "text": "Il avait déjà fui vers la Navarre",
           "correct": false,
           "id": "d"
         }
       ]
     },
     {
-      "id": "chl-004",
+      "id": "h4-016",
       "categoryId": "histoire",
       "subcategoryId": "histoire.france",
       "difficulty": 2,
       "type": "single",
-      "prompt": "Quel est le nom du frère de Charlemagne, avec qui il partage d'abord le royaume franc ?",
+      "prompt": "Que doit faire Henri de Navarre pour avoir la vie sauve après le massacre ?",
       "answers": [
         {
-          "text": "Lothaire",
+          "text": "Quitter définitivement la France",
           "correct": false,
           "id": "a"
         },
         {
-          "text": "Pépin",
-          "correct": false,
-          "id": "b"
-        },
-        {
-          "text": "Drogon",
-          "correct": false,
-          "id": "c"
-        },
-        {
-          "text": "Carloman",
-          "correct": true,
-          "id": "d"
-        }
-      ]
-    },
-    {
-      "id": "chl-005",
-      "categoryId": "histoire",
-      "subcategoryId": "histoire.france",
-      "difficulty": 2,
-      "type": "single",
-      "prompt": "Quel grand-père de Charlemagne avait arrêté une armée arabe à Poitiers en 732 ?",
-      "answers": [
-        {
-          "text": "Charles Martel",
-          "correct": true,
-          "id": "a"
-        },
-        {
-          "text": "Pépin le Bref",
-          "correct": false,
-          "id": "b"
-        },
-        {
-          "text": "Clovis",
-          "correct": false,
-          "id": "c"
-        },
-        {
-          "text": "Childéric III",
-          "correct": false,
-          "id": "d"
-        }
-      ],
-      "explanation": "Charles Martel est le grand-père, et non le petit-fils, de Charlemagne."
-    },
-    {
-      "id": "chl-006",
-      "categoryId": "histoire",
-      "subcategoryId": "histoire.france",
-      "difficulty": 3,
-      "type": "single",
-      "prompt": "Quelle année est traditionnellement retenue pour la naissance de Charlemagne, bien que débattue ?",
-      "answers": [
-        {
-          "text": "768",
-          "correct": false,
-          "id": "a"
-        },
-        {
-          "text": "712",
-          "correct": false,
-          "id": "b"
-        },
-        {
-          "text": "756",
-          "correct": false,
-          "id": "c"
-        },
-        {
-          "text": "742",
-          "correct": true,
-          "id": "d"
-        }
-      ]
-    },
-    {
-      "id": "chl-007",
-      "categoryId": "histoire",
-      "subcategoryId": "histoire.france",
-      "difficulty": 2,
-      "type": "single",
-      "prompt": "Qui rédige la biographie de référence « Vita Karoli Magni » ?",
-      "answers": [
-        {
-          "text": "Alcuin",
-          "correct": false,
-          "id": "a"
-        },
-        {
-          "text": "Éginhard",
+          "text": "Se convertir au catholicisme",
           "correct": true,
           "id": "b"
         },
         {
-          "text": "Grégoire de Tours",
+          "text": "Abdiquer son trône de Navarre",
           "correct": false,
           "id": "c"
         },
         {
-          "text": "Notker le Bègue",
+          "text": "Épouser une princesse catholique italienne",
           "correct": false,
           "id": "d"
         }
       ]
     },
     {
-      "id": "chl-008",
-      "categoryId": "histoire",
-      "subcategoryId": "histoire.france",
-      "difficulty": 3,
-      "type": "single",
-      "prompt": "D'après Éginhard, quel type de physique avait Charlemagne ?",
-      "answers": [
-        {
-          "text": "Petit et frêle",
-          "correct": false,
-          "id": "a"
-        },
-        {
-          "text": "Chétif et malade",
-          "correct": false,
-          "id": "b"
-        },
-        {
-          "text": "Grand et robuste",
-          "correct": true,
-          "id": "c"
-        },
-        {
-          "text": "Obèse et impotent",
-          "correct": false,
-          "id": "d"
-        }
-      ]
-    },
-    {
-      "id": "chl-009",
-      "categoryId": "histoire",
-      "subcategoryId": "histoire.france",
-      "difficulty": 3,
-      "type": "single",
-      "prompt": "Quelle langue Charlemagne parlait-il comme langue maternelle ?",
-      "answers": [
-        {
-          "text": "Le gaulois",
-          "correct": false,
-          "id": "a"
-        },
-        {
-          "text": "Le vieux-francien",
-          "correct": false,
-          "id": "b"
-        },
-        {
-          "text": "Le latin classique",
-          "correct": false,
-          "id": "c"
-        },
-        {
-          "text": "Le francique rhénan",
-          "correct": true,
-          "id": "d"
-        }
-      ]
-    },
-    {
-      "id": "chl-010",
-      "categoryId": "histoire",
-      "subcategoryId": "histoire.france",
-      "difficulty": 3,
-      "type": "boolean",
-      "prompt": "Éginhard, biographe de Charlemagne, s'inspire des « Vies des douze Césars » de Suétone.",
-      "answers": [
-        {
-          "text": "Vrai",
-          "correct": true,
-          "id": "a"
-        },
-        {
-          "text": "Faux",
-          "correct": false,
-          "id": "b"
-        }
-      ],
-      "explanation": "Il en reprend jusqu'à des formulations entières, ce qui interroge sur la fiabilité de certains détails."
-    },
-    {
-      "id": "chl-011",
-      "categoryId": "histoire",
-      "subcategoryId": "histoire.france",
-      "difficulty": 2,
-      "type": "single",
-      "prompt": "En quelle année meurt Pépin le Bref, père de Charlemagne ?",
-      "answers": [
-        {
-          "text": "751",
-          "correct": false,
-          "id": "a"
-        },
-        {
-          "text": "768",
-          "correct": true,
-          "id": "b"
-        },
-        {
-          "text": "800",
-          "correct": false,
-          "id": "c"
-        },
-        {
-          "text": "771",
-          "correct": false,
-          "id": "d"
-        }
-      ]
-    },
-    {
-      "id": "chl-012",
-      "categoryId": "histoire",
-      "subcategoryId": "histoire.france",
-      "difficulty": 3,
-      "type": "single",
-      "prompt": "Où Charlemagne est-il sacré roi des Francs en 768 ?",
-      "answers": [
-        {
-          "text": "À Noyon",
-          "correct": true,
-          "id": "a"
-        },
-        {
-          "text": "À Reims",
-          "correct": false,
-          "id": "b"
-        },
-        {
-          "text": "À Soissons",
-          "correct": false,
-          "id": "c"
-        },
-        {
-          "text": "À Aix-la-Chapelle",
-          "correct": false,
-          "id": "d"
-        }
-      ]
-    },
-    {
-      "id": "chl-013",
-      "categoryId": "histoire",
-      "subcategoryId": "histoire.france",
-      "difficulty": 3,
-      "type": "single",
-      "prompt": "Où son frère Carloman est-il sacré roi la même année ?",
-      "answers": [
-        {
-          "text": "À Noyon",
-          "correct": false,
-          "id": "a"
-        },
-        {
-          "text": "À Metz",
-          "correct": false,
-          "id": "b"
-        },
-        {
-          "text": "À Soissons",
-          "correct": true,
-          "id": "c"
-        },
-        {
-          "text": "À Paris",
-          "correct": false,
-          "id": "d"
-        }
-      ]
-    },
-    {
-      "id": "chl-014",
-      "categoryId": "histoire",
-      "subcategoryId": "histoire.france",
-      "difficulty": 2,
-      "type": "single",
-      "prompt": "En quelle année Carloman meurt-il, laissant Charlemagne seul roi des Francs ?",
-      "answers": [
-        {
-          "text": "768",
-          "correct": false,
-          "id": "a"
-        },
-        {
-          "text": "778",
-          "correct": false,
-          "id": "b"
-        },
-        {
-          "text": "771",
-          "correct": true,
-          "id": "c"
-        },
-        {
-          "text": "774",
-          "correct": false,
-          "id": "d"
-        }
-      ]
-    },
-    {
-      "id": "chl-015",
+      "id": "h4-017",
       "categoryId": "histoire",
       "subcategoryId": "histoire.france",
       "difficulty": 4,
       "type": "single",
-      "prompt": "Que devient la veuve de Carloman après la mort de celui-ci ?",
+      "prompt": "Dans quelle forteresse Henri de Navarre est-il retenu prisonnier à partir de 1574 ?",
       "answers": [
         {
-          "text": "Elle se retire dans un couvent en Francie",
+          "text": "Le château d'If",
           "correct": false,
           "id": "a"
         },
         {
-          "text": "Elle se réfugie auprès du roi lombard Didier",
-          "correct": true,
+          "text": "La Bastille",
+          "correct": false,
           "id": "b"
         },
         {
-          "text": "Elle devient régente pour ses fils",
-          "correct": false,
+          "text": "Le donjon de Vincennes",
+          "correct": true,
           "id": "c"
         },
         {
-          "text": "Elle épouse Charlemagne",
+          "text": "Le Louvre",
           "correct": false,
           "id": "d"
         }
       ]
     },
     {
-      "id": "chl-016",
+      "id": "h4-018",
       "categoryId": "histoire",
       "subcategoryId": "histoire.france",
       "difficulty": 3,
       "type": "single",
-      "prompt": "Sur combien d'années s'étend au total le règne de Charlemagne (768-814) ?",
+      "prompt": "En quelle année Henri de Navarre parvient-il à s'évader de la cour de France ?",
       "answers": [
         {
-          "text": "46 ans",
-          "correct": true,
+          "text": "1584",
+          "correct": false,
           "id": "a"
         },
         {
-          "text": "60 ans",
+          "text": "1589",
           "correct": false,
           "id": "b"
         },
         {
-          "text": "35 ans",
+          "text": "1572",
           "correct": false,
           "id": "c"
         },
         {
-          "text": "25 ans",
+          "text": "1576",
+          "correct": true,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "h4-019",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.france",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Que fait Henri dès qu'il retrouve sa liberté en 1576 ?",
+      "answers": [
+        {
+          "text": "Il part en croisade",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "Il abjure le catholicisme et redevient protestant",
+          "correct": true,
+          "id": "b"
+        },
+        {
+          "text": "Il se rallie immédiatement à la Ligue",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "Il se retire définitivement de la vie politique",
           "correct": false,
           "id": "d"
         }
       ]
     },
     {
-      "id": "chl-017",
+      "id": "h4-020",
       "categoryId": "histoire",
       "subcategoryId": "histoire.france",
       "difficulty": 2,
       "type": "single",
-      "prompt": "Quel titre porte Charlemagne avant de devenir empereur, en 768 ?",
+      "prompt": "Quel château gascon devient sa résidence principale après son évasion ?",
       "answers": [
         {
-          "text": "Empereur d'Occident",
-          "correct": false,
+          "text": "Le château de Nérac",
+          "correct": true,
           "id": "a"
         },
         {
-          "text": "Duc d'Aquitaine",
+          "text": "Le château de Pau",
           "correct": false,
           "id": "b"
         },
         {
-          "text": "Roi des Lombards",
+          "text": "Le château de Cadillac",
           "correct": false,
           "id": "c"
         },
         {
-          "text": "Roi des Francs",
+          "text": "Le château de Chambord",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "h4-021",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.france",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Quelle ville du Sud-Ouest Henri de Navarre prend-il en 1580, en évitant tout pillage malgré des combats acharnés ?",
+      "answers": [
+        {
+          "text": "Cahors",
+          "correct": true,
+          "id": "a"
+        },
+        {
+          "text": "Bergerac",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "Périgueux",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "Agen",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "h4-022",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.france",
+      "difficulty": 3,
+      "type": "boolean",
+      "prompt": "Henri de Navarre reste marié à Marguerite de Valois jusqu'à la fin de sa vie.",
+      "answers": [
+        {
+          "text": "Faux",
+          "correct": true,
+          "id": "a"
+        },
+        {
+          "text": "Vrai",
+          "correct": false,
+          "id": "b"
+        }
+      ],
+      "explanation": "Leur mariage est annulé en 1599, sans enfant."
+    },
+    {
+      "id": "h4-023",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.france",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Comment appelle-t-on le conflit opposant Henri de Navarre, Henri III et Henri de Guise ?",
+      "answers": [
+        {
+          "text": "La Fronde",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "La guerre des Trois Henri",
+          "correct": true,
+          "id": "b"
+        },
+        {
+          "text": "La guerre folle",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "La Ligue du Bien public",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "h4-024",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.france",
+      "difficulty": 4,
+      "type": "single",
+      "prompt": "Quel événement de 1584 fait d'Henri de Navarre l'héritier légitime du trône de France ?",
+      "answers": [
+        {
+          "text": "La mort de Catherine de Médicis",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "L'annulation de son mariage",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "Le sacre de Henri III",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "La mort du duc d'Anjou, frère du roi Henri III",
           "correct": true,
           "id": "d"
         }
       ]
     },
     {
-      "id": "chl-018",
+      "id": "h4-025",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.france",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "À quelle bataille de 1587 Henri de Navarre bat-il une armée royale ?",
+      "answers": [
+        {
+          "text": "La bataille de Dreux",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "La bataille d'Ivry",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "La bataille de Coutras",
+          "correct": true,
+          "id": "c"
+        },
+        {
+          "text": "La bataille d'Arques",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "h4-026",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.france",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Qui fait assassiner le duc Henri de Guise en décembre 1588 ?",
+      "answers": [
+        {
+          "text": "Le roi Henri III",
+          "correct": true,
+          "id": "a"
+        },
+        {
+          "text": "Henri de Navarre",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "Catherine de Médicis",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "Le pape Clément VIII",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "h4-027",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.france",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Qui assassine le roi Henri III le 1er août 1589 ?",
+      "answers": [
+        {
+          "text": "Le duc de Mayenne",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "Jean Châtel",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "Ravaillac",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "Le moine Jacques Clément",
+          "correct": true,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "h4-028",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.france",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Que fait Henri III, sur son lit de mort, concernant sa succession ?",
+      "answers": [
+        {
+          "text": "Il désigne le duc de Mayenne",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "Il ne désigne personne",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "Il reconnaît Henri de Navarre comme son successeur",
+          "correct": true,
+          "id": "c"
+        },
+        {
+          "text": "Il désigne son neveu le cardinal de Bourbon",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "h4-029",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.france",
+      "difficulty": 1,
+      "type": "single",
+      "prompt": "Sous quel nom Henri de Navarre devient-il roi de France en 1589 ?",
+      "answers": [
+        {
+          "text": "Henri le Bon",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "Henri IV",
+          "correct": true,
+          "id": "b"
+        },
+        {
+          "text": "Henri III",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "Henri V",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "h4-030",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.france",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Quelle ligue catholique refuse de reconnaître Henri IV comme roi, à cause de sa foi protestante ?",
+      "answers": [
+        {
+          "text": "Les Malcontents",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "Les Croquants",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "Les Frondeurs",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "La Ligue (menée par le duc de Mayenne)",
+          "correct": true,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "h4-031",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.france",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "À la bataille d'Arques, en septembre 1589, comment se compare l'armée d'Henri IV à celle des ligueurs ?",
+      "answers": [
+        {
+          "text": "Elle combat sans artillerie ni cavalerie",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "Elle est très largement inférieure en nombre mais l'emporte",
+          "correct": true,
+          "id": "b"
+        },
+        {
+          "text": "Elle est deux fois plus nombreuse",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "Les deux camps sont à égalité",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "h4-032",
       "categoryId": "histoire",
       "subcategoryId": "histoire.france",
       "difficulty": 3,
       "type": "boolean",
-      "prompt": "Après la mort de leur père, Charlemagne et Carloman règnent ensemble sur un royaume franc uni.",
+      "prompt": "Dès 1589, l'ensemble des Français reconnaît immédiatement Henri IV comme roi légitime.",
       "answers": [
         {
           "text": "Vrai",
@@ -538,45 +956,2313 @@
           "id": "b"
         }
       ],
-      "explanation": "Le royaume est partagé en deux : Charles obtient l'arc occidental, Carloman le centre du royaume."
+      "explanation": "Une grande partie des catholiques refuse un roi protestant tant qu'il ne se convertit pas."
     },
     {
-      "id": "chl-019",
+      "id": "h4-033",
       "categoryId": "histoire",
       "subcategoryId": "histoire.france",
-      "difficulty": 1,
+      "difficulty": 2,
       "type": "single",
-      "prompt": "Contre quel peuple Charlemagne mène-t-il une guerre de plus de trente ans ?",
+      "prompt": "Quelle célèbre bataille de mars 1590 Henri IV remporte-t-il contre la Ligue ?",
       "answers": [
         {
-          "text": "Les Lombards",
-          "correct": false,
+          "text": "La bataille d'Ivry",
+          "correct": true,
           "id": "a"
         },
         {
-          "text": "Les Avars",
+          "text": "La bataille de Coutras",
           "correct": false,
           "id": "b"
         },
         {
-          "text": "Les Saxons",
-          "correct": true,
+          "text": "La bataille de Fontaine-Française",
+          "correct": false,
           "id": "c"
         },
         {
-          "text": "Les Basques",
+          "text": "La bataille de Rocroi",
           "correct": false,
           "id": "d"
         }
       ]
     },
     {
-      "id": "chl-020",
+      "id": "h4-034",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.france",
+      "difficulty": 1,
+      "type": "single",
+      "prompt": "Quelle phrase, sans doute apocryphe, est associée à la conversion d'Henri IV en 1593 ?",
+      "answers": [
+        {
+          "text": "« L'État, c'est moi »",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "« Après moi, le déluge »",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "« Paris vaut bien une messe »",
+          "correct": true,
+          "id": "c"
+        },
+        {
+          "text": "« Tout est perdu, sauf l'honneur »",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "h4-035",
       "categoryId": "histoire",
       "subcategoryId": "histoire.france",
       "difficulty": 3,
       "type": "single",
-      "prompt": "Sur combien d'années s'étend la guerre de Saxe ?",
+      "prompt": "Dans quelle basilique Henri IV abjure-t-il solennellement le protestantisme en 1593 ?",
+      "answers": [
+        {
+          "text": "La cathédrale de Chartres",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "La basilique Saint-Denis",
+          "correct": true,
+          "id": "b"
+        },
+        {
+          "text": "La Sainte-Chapelle",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "Notre-Dame de Paris",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "h4-036",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.france",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "À quelle date précise a lieu cette abjuration ?",
+      "answers": [
+        {
+          "text": "Le 25 juillet 1593",
+          "correct": true,
+          "id": "a"
+        },
+        {
+          "text": "Le 30 avril 1598",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "Le 2 août 1589",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "Le 22 mars 1594",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "h4-037",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.france",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Dans quelle ville Henri IV est-il sacré roi en 1594, faute de pouvoir l'être à Reims ?",
+      "answers": [
+        {
+          "text": "Orléans",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "Tours",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "Amiens",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "Chartres",
+          "correct": true,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "h4-038",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.france",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Pourquoi le sacre n'a-t-il pas lieu à Reims, comme le veut la tradition ?",
+      "answers": [
+        {
+          "text": "L'archevêque de Reims est mort",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "La cathédrale est en travaux",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "La ville est alors aux mains de la Ligue",
+          "correct": true,
+          "id": "c"
+        },
+        {
+          "text": "Le roi refuse la ville",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "h4-039",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.france",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "À quelle date Henri IV fait-il son entrée triomphale dans Paris ?",
+      "answers": [
+        {
+          "text": "Le 22 mars 1594",
+          "correct": true,
+          "id": "a"
+        },
+        {
+          "text": "Le 14 mars 1590",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "Le 1er août 1589",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "Le 25 juillet 1593",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "h4-040",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.france",
+      "difficulty": 4,
+      "type": "single",
+      "prompt": "Quel pape accorde son absolution à Henri IV en 1595, validant sa conversion ?",
+      "answers": [
+        {
+          "text": "Le pape Sixte Quint",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "Le pape Paul V",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "Le pape Clément VIII",
+          "correct": true,
+          "id": "c"
+        },
+        {
+          "text": "Le pape Grégoire XIII",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "h4-041",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.france",
+      "difficulty": 4,
+      "type": "boolean",
+      "prompt": "Avant 1593, Henri IV s'était déjà converti une première fois au catholicisme.",
+      "answers": [
+        {
+          "text": "Vrai",
+          "correct": true,
+          "id": "a"
+        },
+        {
+          "text": "Faux",
+          "correct": false,
+          "id": "b"
+        }
+      ],
+      "explanation": "Il l'avait fait de force en 1572, après la Saint-Barthélemy, avant de redevenir protestant en 1576."
+    },
+    {
+      "id": "h4-042",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.france",
+      "difficulty": 5,
+      "type": "single",
+      "prompt": "Comment appelle-t-on la caisse mise en place pour financer les ralliements de nobles à Henri IV ?",
+      "answers": [
+        {
+          "text": "La chambre ardente",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "La caisse des conversions",
+          "correct": true,
+          "id": "b"
+        },
+        {
+          "text": "Le trésor de la Ligue",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "La caisse de l'édit",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "h4-043",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.france",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Quel effet la conversion d'Henri IV a-t-elle sur une partie de la noblesse protestante ?",
+      "answers": [
+        {
+          "text": "Elle les pousse à émigrer en masse",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "Aucun effet notable",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "Elle renforce leur soutien indéfectible",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "Elle provoque défections et méfiance",
+          "correct": true,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "h4-044",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.france",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Contre quel pays Henri IV déclare-t-il la guerre en 1595 ?",
+      "answers": [
+        {
+          "text": "La Savoie",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "L'Espagne",
+          "correct": true,
+          "id": "b"
+        },
+        {
+          "text": "L'Angleterre",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "Le Saint-Empire",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "h4-045",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.france",
+      "difficulty": 1,
+      "type": "single",
+      "prompt": "Quel édit, signé en 1598, accorde une tolérance religieuse encadrée aux protestants ?",
+      "answers": [
+        {
+          "text": "L'édit de Nantes",
+          "correct": true,
+          "id": "a"
+        },
+        {
+          "text": "L'édit de Milan",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "L'édit de Villers-Cotterêts",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "L'édit de Fontainebleau",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "h4-046",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.france",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "En quel mois de 1598 l'édit de Nantes est-il signé ?",
+      "answers": [
+        {
+          "text": "Janvier",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "Août",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "Avril",
+          "correct": true,
+          "id": "c"
+        },
+        {
+          "text": "Décembre",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "h4-047",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.france",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Quel traité, signé la même année, met fin à la guerre contre l'Espagne ?",
+      "answers": [
+        {
+          "text": "Le traité de Westphalie",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "Le traité de Cateau-Cambrésis",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "Le traité des Pyrénées",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "Le traité (paix) de Vervins",
+          "correct": true,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "h4-048",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.france",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Combien d'années de guerres de Religion l'édit de Nantes vient-il clore ?",
+      "answers": [
+        {
+          "text": "Environ cinq ans",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "Plus de trente ans",
+          "correct": true,
+          "id": "b"
+        },
+        {
+          "text": "Dix ans",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "Un siècle entier",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "h4-049",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.france",
+      "difficulty": 4,
+      "type": "single",
+      "prompt": "Quel duc, cousin des Guise, refuse longtemps de reconnaître Henri IV en Bretagne ?",
+      "answers": [
+        {
+          "text": "Le duc d'Épernon",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "Le duc de Joyeuse",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "Le duc de Nemours",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "Le duc de Mercœur",
+          "correct": true,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "h4-050",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.france",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Contre quel duché voisin Henri IV mène-t-il une guerre en 1600-1601 ?",
+      "answers": [
+        {
+          "text": "Le duché de Savoie",
+          "correct": true,
+          "id": "a"
+        },
+        {
+          "text": "Le duché de Bourgogne",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "Le duché de Lorraine",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "Le duché de Milan",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "h4-051",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.france",
+      "difficulty": 4,
+      "type": "single",
+      "prompt": "Quel traité de 1601 met fin à la guerre franco-savoyarde ?",
+      "answers": [
+        {
+          "text": "Le traité de Chambéry",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "Le traité de Nice",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "Le traité de Lyon",
+          "correct": true,
+          "id": "c"
+        },
+        {
+          "text": "Le traité de Turin",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "h4-052",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.france",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Lequel de ces territoires la Savoie cède-t-elle à la France par ce traité ?",
+      "answers": [
+        {
+          "text": "La Bresse",
+          "correct": true,
+          "id": "a"
+        },
+        {
+          "text": "Nice",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "Le Piémont",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "La Sardaigne",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "h4-053",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.france",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Quel parlement du royaume est le dernier à accepter d'enregistrer l'édit de Nantes, en 1609 ?",
+      "answers": [
+        {
+          "text": "Le parlement de Paris",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "Le parlement de Toulouse",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "Le parlement de Rouen",
+          "correct": true,
+          "id": "c"
+        },
+        {
+          "text": "Le parlement de Bordeaux",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "h4-054",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.france",
+      "difficulty": 4,
+      "type": "boolean",
+      "prompt": "L'édit de Nantes accorde une totale égalité de droits entre catholiques et protestants sur tout le royaume.",
+      "answers": [
+        {
+          "text": "Vrai",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "Faux",
+          "correct": true,
+          "id": "b"
+        }
+      ],
+      "explanation": "La tolérance reste encadrée et le culte protestant limité à certains lieux."
+    },
+    {
+      "id": "h4-055",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.france",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Quel projet Henri IV préparait-il en 1610, au moment où il est assassiné ?",
+      "answers": [
+        {
+          "text": "Un nouveau mariage",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "Une guerre contre les Habsbourg",
+          "correct": true,
+          "id": "b"
+        },
+        {
+          "text": "L'abdication en faveur de son fils",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "Un pèlerinage à Rome",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "h4-056",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.france",
+      "difficulty": 1,
+      "type": "single",
+      "prompt": "Qui est le principal ministre des finances d'Henri IV ?",
+      "answers": [
+        {
+          "text": "Colbert",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "Richelieu",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "Mazarin",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "Sully",
+          "correct": true,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "h4-057",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.france",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Quel titre porte Sully à la tête des finances royales ?",
+      "answers": [
+        {
+          "text": "Chancelier de France",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "Surintendant des finances",
+          "correct": true,
+          "id": "b"
+        },
+        {
+          "text": "Connétable de France",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "Garde des Sceaux",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "h4-058",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.france",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quel célèbre pont parisien est achevé sous le règne d'Henri IV ?",
+      "answers": [
+        {
+          "text": "Le pont Alexandre III",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "Le pont Mirabeau",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "Le pont des Arts",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "Le Pont Neuf",
+          "correct": true,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "h4-059",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.france",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Comment s'appelle aujourd'hui la « place Royale » construite sous Henri IV ?",
+      "answers": [
+        {
+          "text": "La place des Vosges",
+          "correct": true,
+          "id": "a"
+        },
+        {
+          "text": "La place de la Concorde",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "La place Vendôme",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "La place des Victoires",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "h4-060",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.france",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Quelle autre place parisienne, sur l'île de la Cité, doit son origine à Henri IV ?",
+      "answers": [
+        {
+          "text": "La place du Châtelet",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "La place de Grève",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "La place Dauphine",
+          "correct": true,
+          "id": "c"
+        },
+        {
+          "text": "La place Saint-Michel",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "h4-061",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.france",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quelle formule résume la politique voulue par Henri IV pour améliorer le quotidien des paysans ?",
+      "answers": [
+        {
+          "text": "« La poule au pot »",
+          "correct": true,
+          "id": "a"
+        },
+        {
+          "text": "« Du pain et des jeux »",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "« Travail, famille, patrie »",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "« Un roi, une loi, une foi »",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "h4-062",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.france",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quel explorateur français fonde la ville de Québec en 1608, sous Henri IV ?",
+      "answers": [
+        {
+          "text": "Jacques Cartier",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "Louis Jolliet",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "Robert Cavelier de La Salle",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "Samuel de Champlain",
+          "correct": true,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "h4-063",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.france",
+      "difficulty": 4,
+      "type": "single",
+      "prompt": "Quel grand projet de canal, reliant la Loire à la Seine, est lancé sous Henri IV ?",
+      "answers": [
+        {
+          "text": "Le canal de Bourgogne",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "Le canal du Midi",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "Le canal de Briare",
+          "correct": true,
+          "id": "c"
+        },
+        {
+          "text": "Le canal Saint-Martin",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "h4-064",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.france",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Quel ordre religieux, un temps accusé d'avoir inspiré des complots contre le roi, est finalement autorisé à revenir en France sous Henri IV ?",
+      "answers": [
+        {
+          "text": "Les franciscains",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "Les jésuites",
+          "correct": true,
+          "id": "b"
+        },
+        {
+          "text": "Les bénédictins",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "Les dominicains",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "h4-065",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.france",
+      "difficulty": 4,
+      "type": "single",
+      "prompt": "Quelle révolte paysanne éclate dans plusieurs provinces sous Henri IV, en raison de la hausse des impôts ?",
+      "answers": [
+        {
+          "text": "La Fronde",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "La révolte du papier timbré",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "La révolte des Croquants",
+          "correct": true,
+          "id": "c"
+        },
+        {
+          "text": "La jacquerie de 1358",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "h4-066",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.france",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Quel grand seigneur, le duc de Biron, est exécuté en 1602 pour complot contre Henri IV ?",
+      "answers": [
+        {
+          "text": "Le duc d'Épernon",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "Le duc de Biron",
+          "correct": true,
+          "id": "b"
+        },
+        {
+          "text": "Le duc de Bouillon",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "Le duc de Nemours",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "h4-067",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.france",
+      "difficulty": 4,
+      "type": "single",
+      "prompt": "Quel palais royal Henri IV agrandit-il en le reliant aux Tuileries par une grande galerie ?",
+      "answers": [
+        {
+          "text": "Le palais du Luxembourg",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "Le château de Fontainebleau",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "Le Palais-Royal",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "Le Louvre",
+          "correct": true,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "h4-068",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.france",
+      "difficulty": 4,
+      "type": "boolean",
+      "prompt": "Sous Henri IV, les impôts (notamment la taille) baissent nettement pendant tout son règne.",
+      "answers": [
+        {
+          "text": "Vrai",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "Faux",
+          "correct": true,
+          "id": "b"
+        }
+      ],
+      "explanation": "Ils augmentent au contraire fortement, en partie pour financer les ralliements de nobles."
+    },
+    {
+      "id": "h4-069",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.france",
+      "difficulty": 1,
+      "type": "single",
+      "prompt": "Quel surnom galant garde-t-on d'Henri IV, en raison de ses nombreuses conquêtes amoureuses ?",
+      "answers": [
+        {
+          "text": "« Le Vert Galant »",
+          "correct": true,
+          "id": "a"
+        },
+        {
+          "text": "« Le Bien-Aimé »",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "« Le Roi-Soleil »",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "« Le Bel Amoureux »",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "h4-070",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.france",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quelle est la maîtresse la plus influente d'Henri IV, morte brutalement en 1599 ?",
+      "answers": [
+        {
+          "text": "Gabrielle d'Estrées",
+          "correct": true,
+          "id": "a"
+        },
+        {
+          "text": "Diane de Poitiers",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "Louise de La Vallière",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "Henriette d'Entragues",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "h4-071",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.france",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Qui devient la seconde épouse d'Henri IV, en 1600, après l'annulation de son premier mariage ?",
+      "answers": [
+        {
+          "text": "Christine de Lorraine",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "Marie de Médicis",
+          "correct": true,
+          "id": "b"
+        },
+        {
+          "text": "Élisabeth d'Autriche",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "Anne d'Autriche",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "h4-072",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.france",
+      "difficulty": 1,
+      "type": "single",
+      "prompt": "De quelle grande famille italienne Marie de Médicis est-elle issue ?",
+      "answers": [
+        {
+          "text": "Les Borgia",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "Les Este",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "Les Sforza",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "Les Médicis (de Florence)",
+          "correct": true,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "h4-073",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.france",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Dans quelle ville le mariage d'Henri IV et Marie de Médicis est-il consommé en 1600 ?",
+      "answers": [
+        {
+          "text": "Paris",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "Fontainebleau",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "Lyon",
+          "correct": true,
+          "id": "c"
+        },
+        {
+          "text": "Florence",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "h4-074",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.france",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quel fils, futur roi de France, naît en 1601 d'Henri IV et de Marie de Médicis ?",
+      "answers": [
+        {
+          "text": "César de Vendôme",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "Le futur Louis XIV",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "Gaston d'Orléans",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "Le futur Louis XIII",
+          "correct": true,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "h4-075",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.france",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Quelle maîtresse tente de faire chanter Henri IV pour légitimer ses enfants, après la mort de Gabrielle d'Estrées ?",
+      "answers": [
+        {
+          "text": "Corisande d'Andoins",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "Henriette d'Entragues",
+          "correct": true,
+          "id": "b"
+        },
+        {
+          "text": "Charlotte de Montmorency",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "Marie Touchet",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "h4-076",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.france",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "En quelle année le mariage d'Henri IV avec Marguerite de Valois est-il officiellement annulé ?",
+      "answers": [
+        {
+          "text": "1572",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "1610",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "1599",
+          "correct": true,
+          "id": "c"
+        },
+        {
+          "text": "1585",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "h4-077",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.france",
+      "difficulty": 3,
+      "type": "boolean",
+      "prompt": "En plus de ses enfants légitimes, Henri IV a eu plusieurs enfants illégitimes reconnus.",
+      "answers": [
+        {
+          "text": "Vrai",
+          "correct": true,
+          "id": "a"
+        },
+        {
+          "text": "Faux",
+          "correct": false,
+          "id": "b"
+        }
+      ],
+      "explanation": "César de Vendôme, entre autres, est un de ses fils illégitimes légitimés."
+    },
+    {
+      "id": "h4-078",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.france",
+      "difficulty": 2,
+      "type": "boolean",
+      "prompt": "Le mariage d'Henri IV avec Marguerite de Valois, en 1572, est célébré à Notre-Dame de Paris.",
+      "answers": [
+        {
+          "text": "Vrai",
+          "correct": true,
+          "id": "a"
+        },
+        {
+          "text": "Faux",
+          "correct": false,
+          "id": "b"
+        }
+      ],
+      "explanation": "Fait rare : le marié protestant reste sur le parvis pendant la cérémonie catholique."
+    },
+    {
+      "id": "h4-079",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.france",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Combien d'enfants légitimes Henri IV a-t-il eus avec Marie de Médicis ?",
+      "answers": [
+        {
+          "text": "Six",
+          "correct": true,
+          "id": "a"
+        },
+        {
+          "text": "Un seul",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "Dix",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "Trois",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "h4-080",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.france",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "De quelle princesse Henri IV s'éprend-il en 1609, provoquant une brouille avec son mari le prince de Condé ?",
+      "answers": [
+        {
+          "text": "Charlotte-Marguerite de Montmorency",
+          "correct": true,
+          "id": "a"
+        },
+        {
+          "text": "Marie de Rohan",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "Diane de France",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "Anne de Rohan",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "h4-081",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.france",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Quelle sœur d'Henri IV, restée protestante, épouse le fils du duc de Lorraine ?",
+      "answers": [
+        {
+          "text": "Éléonore de Bourbon",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "Charlotte de Bourbon",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "Louise de Bourbon",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "Catherine de Bourbon",
+          "correct": true,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "h4-082",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.france",
+      "difficulty": 3,
+      "type": "boolean",
+      "prompt": "Marguerite de Valois et Henri IV n'ont eu aucun enfant ensemble.",
+      "answers": [
+        {
+          "text": "Faux",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "Vrai",
+          "correct": true,
+          "id": "b"
+        }
+      ]
+    },
+    {
+      "id": "h4-083",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.france",
+      "difficulty": 1,
+      "type": "single",
+      "prompt": "Qui assassine Henri IV le 14 mai 1610 ?",
+      "answers": [
+        {
+          "text": "Le duc de Guise",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "François Ravaillac",
+          "correct": true,
+          "id": "b"
+        },
+        {
+          "text": "Jean Châtel",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "Jacques Clément",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "h4-084",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.france",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Dans quelle rue parisienne Henri IV est-il assassiné ?",
+      "answers": [
+        {
+          "text": "La rue de Rivoli",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "La rue Saint-Honoré",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "La rue de la Ferronnerie",
+          "correct": true,
+          "id": "c"
+        },
+        {
+          "text": "La rue du Faubourg-Saint-Antoine",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "h4-085",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.france",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Quel âge avait Henri IV au moment de son assassinat ?",
+      "answers": [
+        {
+          "text": "68 ans",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "56 ans",
+          "correct": true,
+          "id": "b"
+        },
+        {
+          "text": "42 ans",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "35 ans",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "h4-086",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.france",
+      "difficulty": 4,
+      "type": "single",
+      "prompt": "Quel jeune fanatique catholique avait déjà tenté d'assassiner Henri IV en 1594 ?",
+      "answers": [
+        {
+          "text": "Jacques Clément",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "Ravaillac",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "Jean Châtel",
+          "correct": true,
+          "id": "c"
+        },
+        {
+          "text": "Le comte de Mayenne",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "h4-087",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.france",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Où Henri IV est-il inhumé après sa mort ?",
+      "answers": [
+        {
+          "text": "La basilique de Saint-Denis",
+          "correct": true,
+          "id": "a"
+        },
+        {
+          "text": "Notre-Dame de Paris",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "La cathédrale de Chartres",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "Le Panthéon",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "h4-088",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.france",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Quel est le mobile généralement retenu pour l'assassinat commis par Ravaillac ?",
+      "answers": [
+        {
+          "text": "Un complot espagnol prouvé",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "La folie sans mobile religieux",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "La vengeance personnelle d'un noble ruiné",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "Le fanatisme religieux catholique",
+          "correct": true,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "h4-089",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.france",
+      "difficulty": 1,
+      "type": "single",
+      "prompt": "Qui succède à Henri IV après son assassinat en 1610 ?",
+      "answers": [
+        {
+          "text": "Marie de Médicis, sa veuve, comme reine régnante",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "Louis XIII, son fils",
+          "correct": true,
+          "id": "b"
+        },
+        {
+          "text": "Le prince de Condé",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "Gaston d'Orléans",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "h4-090",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.france",
+      "difficulty": 2,
+      "type": "boolean",
+      "prompt": "Selon l'enquête et le procès de l'époque, Ravaillac est reconnu comme ayant agi seul.",
+      "answers": [
+        {
+          "text": "Faux",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "Vrai",
+          "correct": true,
+          "id": "b"
+        }
+      ],
+      "explanation": "Malgré de nombreuses théories, aucun complice n'est officiellement établi."
+    },
+    {
+      "id": "h4-091",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.france",
+      "difficulty": 2,
+      "type": "boolean",
+      "prompt": "L'assassinat d'Henri IV a lieu alors que son carrosse est immobilisé par un encombrement rue de la Ferronnerie.",
+      "answers": [
+        {
+          "text": "Vrai",
+          "correct": true,
+          "id": "a"
+        },
+        {
+          "text": "Faux",
+          "correct": false,
+          "id": "b"
+        }
+      ]
+    },
+    {
+      "id": "h4-092",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.france",
+      "difficulty": 1,
+      "type": "single",
+      "prompt": "Quel surnom affectueux la postérité donne-t-elle souvent à Henri IV ?",
+      "answers": [
+        {
+          "text": "« Le bon roi Henri »",
+          "correct": true,
+          "id": "a"
+        },
+        {
+          "text": "« Le roi fainéant »",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "« Le petit roi »",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "« Le roi maudit »",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "h4-093",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.france",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Où se trouve la célèbre statue équestre d'Henri IV, à Paris ?",
+      "answers": [
+        {
+          "text": "Dans la cour du Louvre",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "Place des Vosges",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "Devant Notre-Dame",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "Sur le Pont Neuf",
+          "correct": true,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "h4-094",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.france",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quelle chanson populaire célèbre encore aujourd'hui la mémoire d'Henri IV ?",
+      "answers": [
+        {
+          "text": "« Auprès de ma blonde »",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "« Le Roi Dagobert »",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "« Vive Henri IV »",
+          "correct": true,
+          "id": "c"
+        },
+        {
+          "text": "« La Marseillaise »",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "h4-095",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.france",
+      "difficulty": 3,
+      "type": "boolean",
+      "prompt": "La grande popularité d'Henri IV comme « bon roi » est surtout un phénomène posthume.",
+      "answers": [
+        {
+          "text": "Vrai",
+          "correct": true,
+          "id": "a"
+        },
+        {
+          "text": "Faux",
+          "correct": false,
+          "id": "b"
+        }
+      ],
+      "explanation": "De son vivant, il reste contesté par une partie des catholiques comme des protestants."
+    },
+    {
+      "id": "h4-096",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.france",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quelle formule Henri IV aurait lancée à ses troupes avant la bataille d'Ivry pour qu'elles le suivent ?",
+      "answers": [
+        {
+          "text": "« Ralliez-vous à mon panache blanc »",
+          "correct": true,
+          "id": "a"
+        },
+        {
+          "text": "« En avant, pour Dieu et le roi »",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "« La garde meurt mais ne se rend pas »",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "« Vaincre ou mourir »",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "h4-097",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.france",
+      "difficulty": 1,
+      "type": "single",
+      "prompt": "De quelle couleur était le fameux panache porté par Henri IV au combat ?",
+      "answers": [
+        {
+          "text": "Bleu",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "Blanc",
+          "correct": true,
+          "id": "b"
+        },
+        {
+          "text": "Rouge",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "Noir",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "h4-098",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.france",
+      "difficulty": 5,
+      "type": "single",
+      "prompt": "Quel édit de 1591 rétablit, avant celui de Nantes, une tolérance très limitée du culte protestant ?",
+      "answers": [
+        {
+          "text": "L'édit de Poitiers",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "L'édit d'Union",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "L'édit de Mantes",
+          "correct": true,
+          "id": "c"
+        },
+        {
+          "text": "L'édit de Beaulieu",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "h4-099",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.france",
+      "difficulty": 4,
+      "type": "single",
+      "prompt": "Comment appelle-t-on l'assemblée réunie par le duc de Mayenne en 1593 pour tenter d'élire un roi catholique ?",
+      "answers": [
+        {
+          "text": "L'assemblée du clergé",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "Le parlement de Paris",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "Le concile de Trente",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "Les États généraux (de la Ligue)",
+          "correct": true,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "h4-100",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.france",
+      "difficulty": 5,
+      "type": "single",
+      "prompt": "Quelle maîtresse, avant Gabrielle d'Estrées, partage la vie d'Henri de Navarre à Nérac dans les années 1580 ?",
+      "answers": [
+        {
+          "text": "Jacqueline de Bueil",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "Charlotte des Essarts",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "Diane d'Andoins, dite Corisande",
+          "correct": true,
+          "id": "c"
+        },
+        {
+          "text": "Henriette d'Entragues",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "h4-101",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.france",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Quel conseiller protestant fidèle accompagne longtemps Henri de Navarre à sa cour de Nérac ?",
+      "answers": [
+        {
+          "text": "L'amiral de Coligny",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "Philippe Duplessis-Mornay",
+          "correct": true,
+          "id": "b"
+        },
+        {
+          "text": "Théodore de Bèze",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "Condé",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "h4-102",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.france",
+      "difficulty": 5,
+      "type": "single",
+      "prompt": "Quel grand projet politique européen est attribué, a posteriori, à Sully, visant une organisation pacifique du continent ?",
+      "answers": [
+        {
+          "text": "Le « Grand Dessein »",
+          "correct": true,
+          "id": "a"
+        },
+        {
+          "text": "Le « Grand Œuvre »",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "Le « Concert européen »",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "La « Sainte Ligue »",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "h4-103",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.france",
+      "difficulty": 4,
+      "type": "single",
+      "prompt": "Quelle ville de Picardie, prise par les Espagnols en 1597, est reprise la même année par Henri IV ?",
+      "answers": [
+        {
+          "text": "Arras",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "Calais",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "Cambrai",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "Amiens",
+          "correct": true,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "h4-104",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.france",
+      "difficulty": 4,
+      "type": "single",
+      "prompt": "Quel grand seigneur protestant, gouverneur de Sedan, se méfie de la conversion d'Henri IV ?",
+      "answers": [
+        {
+          "text": "Le prince de Condé",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "Le duc de Rohan",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "Le duc de La Trémoille",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "Le duc de Bouillon",
+          "correct": true,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "h4-105",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.france",
+      "difficulty": 1,
+      "type": "single",
+      "prompt": "Comment appelle-t-on l'ensemble des guerres qui déchirent la France entre catholiques et protestants de 1562 à 1598 ?",
+      "answers": [
+        {
+          "text": "La Fronde",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "La guerre de Cent Ans",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "Les guerres de Religion",
+          "correct": true,
+          "id": "c"
+        },
+        {
+          "text": "Les croisades albigeoises",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "h4-106",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.france",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Quelle culture Henri IV encourage-t-il, avec Sully, pour développer une industrie de la soie en France ?",
+      "answers": [
+        {
+          "text": "La culture du mûrier (pour les vers à soie)",
+          "correct": true,
+          "id": "a"
+        },
+        {
+          "text": "La culture de la vigne bordelaise",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "La culture du tabac",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "La culture du coton",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "h4-107",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.france",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Quelle assemblée Henri IV réunit-il en 1596 pour obtenir l'accord des élites sur le redressement des finances ?",
+      "answers": [
+        {
+          "text": "Le parlement de Paris",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "L'assemblée des notables de Rouen",
+          "correct": true,
+          "id": "b"
+        },
+        {
+          "text": "Les états généraux de Blois",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "Le concile de Trente",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "h4-108",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.france",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Quel titre honorifique donne-t-on souvent à Henri IV pour son rôle de pacificateur du royaume ?",
+      "answers": [
+        {
+          "text": "« Henri le Juste »",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "« Henri le Magnanime »",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "« Henri le Grand »",
+          "correct": true,
+          "id": "c"
+        },
+        {
+          "text": "« Henri le Sage »",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "h4-109",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.france",
+      "difficulty": 2,
+      "type": "boolean",
+      "prompt": "Henri IV a gardé toute sa vie l'usage du gascon (béarnais), sa langue de jeunesse, en plus du français.",
+      "answers": [
+        {
+          "text": "Faux",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "Vrai",
+          "correct": true,
+          "id": "b"
+        }
+      ]
+    },
+    {
+      "id": "h4-110",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.france",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Quel roi d'Espagne est le principal adversaire d'Henri IV pendant la guerre franco-espagnole de 1595-1598 ?",
+      "answers": [
+        {
+          "text": "Charles Quint",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "Philippe II",
+          "correct": true,
+          "id": "b"
+        },
+        {
+          "text": "Philippe III",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "Philippe IV",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "h4-111",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.france",
+      "difficulty": 4,
+      "type": "boolean",
+      "prompt": "La guerre franco-espagnole de 1595-1598 se conclut par une victoire totale et décisive de la France sur tous les fronts.",
+      "answers": [
+        {
+          "text": "Vrai",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "Faux",
+          "correct": true,
+          "id": "b"
+        }
+      ],
+      "explanation": "Le résultat est mitigé ; la paix de Vervins revient globalement au statu quo territorial d'avant-guerre."
+    },
+    {
+      "id": "h4-112",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.france",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Quel philosophe et essayiste, ancien maire de Bordeaux, est un proche conseiller officieux d'Henri de Navarre dans les années 1580 ?",
+      "answers": [
+        {
+          "text": "Montaigne",
+          "correct": true,
+          "id": "a"
+        },
+        {
+          "text": "Ronsard",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "La Boétie",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "Rabelais",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "h4-113",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.france",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Combien de temps durent, au total, les guerres de Religion en France, de 1562 à l'édit de Nantes en 1598 ?",
       "answers": [
         {
           "text": "Environ 5 ans",
@@ -594,2908 +3280,207 @@
           "id": "c"
         },
         {
-          "text": "Environ 32 ans (772-804)",
+          "text": "Environ 36 ans",
           "correct": true,
           "id": "d"
         }
       ]
     },
     {
-      "id": "chl-021",
+      "id": "h4-114",
       "categoryId": "histoire",
       "subcategoryId": "histoire.france",
       "difficulty": 3,
       "type": "single",
-      "prompt": "Quel sanctuaire païen saxon Charlemagne fait-il détruire dès 772 ?",
+      "prompt": "Quel établissement scolaire parisien porte aujourd'hui le nom d'Henri IV, en souvenir du roi ?",
       "answers": [
         {
-          "text": "L'autel de Wotan",
-          "correct": false,
+          "text": "Le lycée Henri-IV",
+          "correct": true,
           "id": "a"
         },
         {
-          "text": "L'Irminsul",
-          "correct": true,
+          "text": "Le lycée Louis-le-Grand",
+          "correct": false,
           "id": "b"
         },
         {
-          "text": "Le bois sacré de Bavière",
+          "text": "Le lycée Saint-Louis",
           "correct": false,
           "id": "c"
         },
         {
-          "text": "Le temple d'Uppsala",
+          "text": "Le collège de France",
           "correct": false,
           "id": "d"
         }
       ]
     },
     {
-      "id": "chl-022",
-      "categoryId": "histoire",
-      "subcategoryId": "histoire.france",
-      "difficulty": 2,
-      "type": "single",
-      "prompt": "Quel chef saxon mène la résistance la plus longue contre Charlemagne ?",
-      "answers": [
-        {
-          "text": "Widukind",
-          "correct": true,
-          "id": "a"
-        },
-        {
-          "text": "Didier",
-          "correct": false,
-          "id": "b"
-        },
-        {
-          "text": "Alboin",
-          "correct": false,
-          "id": "c"
-        },
-        {
-          "text": "Tassilon III",
-          "correct": false,
-          "id": "d"
-        }
-      ]
-    },
-    {
-      "id": "chl-023",
-      "categoryId": "histoire",
-      "subcategoryId": "histoire.france",
-      "difficulty": 3,
-      "type": "single",
-      "prompt": "Comment appelle-t-on le massacre de Saxons ordonné par Charlemagne en 782 ?",
-      "answers": [
-        {
-          "text": "Le massacre de Pavie",
-          "correct": false,
-          "id": "a"
-        },
-        {
-          "text": "Le massacre de Paderborn",
-          "correct": false,
-          "id": "b"
-        },
-        {
-          "text": "Le massacre de Verden",
-          "correct": true,
-          "id": "c"
-        },
-        {
-          "text": "Le massacre de Roncevaux",
-          "correct": false,
-          "id": "d"
-        }
-      ]
-    },
-    {
-      "id": "chl-024",
+      "id": "h4-115",
       "categoryId": "histoire",
       "subcategoryId": "histoire.france",
       "difficulty": 4,
       "type": "single",
-      "prompt": "Environ combien de Saxons sont exécutés lors du massacre de Verden en 782 ?",
+      "prompt": "Quelle bataille de 1595 permet à Henri IV de repousser une offensive espagnole en Bourgogne ?",
       "answers": [
         {
-          "text": "Environ 800",
+          "text": "La bataille de Cérisoles",
           "correct": false,
           "id": "a"
         },
         {
-          "text": "Environ 4 500",
-          "correct": true,
+          "text": "La bataille de Rocroi",
+          "correct": false,
           "id": "b"
         },
         {
-          "text": "Environ 50 000",
+          "text": "La bataille de Saint-Quentin",
           "correct": false,
           "id": "c"
         },
         {
-          "text": "Environ 200",
-          "correct": false,
+          "text": "La bataille de Fontaine-Française",
+          "correct": true,
           "id": "d"
         }
       ]
     },
     {
-      "id": "chl-025",
+      "id": "h4-116",
       "categoryId": "histoire",
       "subcategoryId": "histoire.france",
       "difficulty": 3,
       "type": "single",
-      "prompt": "En quelle année Widukind se soumet-il et se fait baptiser ?",
+      "prompt": "Quel âge a Henri quand il devient roi de Navarre, en 1572, à la mort de sa mère ?",
       "answers": [
         {
-          "text": "772",
+          "text": "12 ans",
           "correct": false,
           "id": "a"
         },
         {
-          "text": "804",
-          "correct": false,
+          "text": "18 ans",
+          "correct": true,
           "id": "b"
         },
         {
-          "text": "800",
+          "text": "35 ans",
           "correct": false,
           "id": "c"
         },
         {
-          "text": "785",
-          "correct": true,
+          "text": "25 ans",
+          "correct": false,
           "id": "d"
         }
       ]
     },
     {
-      "id": "chl-026",
+      "id": "h4-117",
       "categoryId": "histoire",
       "subcategoryId": "histoire.france",
       "difficulty": 3,
       "type": "single",
-      "prompt": "Quelle politique Charlemagne applique-t-il aux Saxons vaincus ?",
+      "prompt": "Quel est le nom de la fille aînée d'Henri IV et de Marie de Médicis, future reine d'Espagne ?",
       "answers": [
         {
-          "text": "Déportation et colonisation par des Francs, conversion forcée",
-          "correct": true,
+          "text": "Christine de France",
+          "correct": false,
           "id": "a"
         },
         {
-          "text": "Simple paiement d'un tribut annuel",
+          "text": "Anne de France",
           "correct": false,
           "id": "b"
         },
         {
-          "text": "Alliance militaire sans contrepartie",
-          "correct": false,
+          "text": "Élisabeth de France",
+          "correct": true,
           "id": "c"
         },
         {
-          "text": "Autonomie totale et maintien du paganisme",
+          "text": "Henriette-Marie de France",
           "correct": false,
           "id": "d"
         }
       ]
     },
     {
-      "id": "chl-027",
+      "id": "h4-118",
       "categoryId": "histoire",
       "subcategoryId": "histoire.france",
-      "difficulty": 3,
-      "type": "single",
-      "prompt": "En quelle année la guerre de Saxe prend-elle définitivement fin ?",
-      "answers": [
-        {
-          "text": "812",
-          "correct": false,
-          "id": "a"
-        },
-        {
-          "text": "785",
-          "correct": false,
-          "id": "b"
-        },
-        {
-          "text": "796",
-          "correct": false,
-          "id": "c"
-        },
-        {
-          "text": "804",
-          "correct": true,
-          "id": "d"
-        }
-      ]
-    },
-    {
-      "id": "chl-028",
-      "categoryId": "histoire",
-      "subcategoryId": "histoire.france",
-      "difficulty": 3,
-      "type": "single",
-      "prompt": "Entre quels deux fleuves vivait principalement le peuple saxon ?",
-      "answers": [
-        {
-          "text": "La Seine et la Loire",
-          "correct": false,
-          "id": "a"
-        },
-        {
-          "text": "Le Rhin et le Danube",
-          "correct": false,
-          "id": "b"
-        },
-        {
-          "text": "L'Ems et l'Elbe",
-          "correct": true,
-          "id": "c"
-        },
-        {
-          "text": "L'Oder et la Vistule",
-          "correct": false,
-          "id": "d"
-        }
-      ]
-    },
-    {
-      "id": "chl-029",
-      "categoryId": "histoire",
-      "subcategoryId": "histoire.france",
-      "difficulty": 2,
+      "difficulty": 4,
       "type": "boolean",
-      "prompt": "Les Saxons étaient majoritairement chrétiens avant leur conquête par Charlemagne.",
+      "prompt": "Sully reste protestant jusqu'à sa mort, malgré les tentatives d'Henri IV pour le convertir au catholicisme.",
       "answers": [
-        {
-          "text": "Faux",
-          "correct": true,
-          "id": "a"
-        },
         {
           "text": "Vrai",
-          "correct": false,
-          "id": "b"
-        }
-      ],
-      "explanation": "Ils étaient au contraire très attachés à leurs cultes païens."
-    },
-    {
-      "id": "chl-030",
-      "categoryId": "histoire",
-      "subcategoryId": "histoire.france",
-      "difficulty": 2,
-      "type": "single",
-      "prompt": "Qu'est-ce que les Saxons perdent définitivement à l'issue de cette guerre ?",
-      "answers": [
-        {
-          "text": "Leur nom de peuple",
-          "correct": false,
-          "id": "a"
-        },
-        {
-          "text": "Leur indépendance politique",
-          "correct": true,
-          "id": "b"
-        },
-        {
-          "text": "Leur territoire au profit des Avars",
-          "correct": false,
-          "id": "c"
-        },
-        {
-          "text": "Leur langue",
-          "correct": false,
-          "id": "d"
-        }
-      ]
-    },
-    {
-      "id": "chl-031",
-      "categoryId": "histoire",
-      "subcategoryId": "histoire.france",
-      "difficulty": 2,
-      "type": "single",
-      "prompt": "Quelle religion Charlemagne impose-t-il aux Saxons vaincus ?",
-      "answers": [
-        {
-          "text": "Le christianisme",
           "correct": true,
           "id": "a"
         },
         {
-          "text": "Le paganisme romain",
+          "text": "Faux",
           "correct": false,
           "id": "b"
-        },
-        {
-          "text": "Le judaïsme",
-          "correct": false,
-          "id": "c"
-        },
-        {
-          "text": "L'islam",
-          "correct": false,
-          "id": "d"
         }
       ]
     },
     {
-      "id": "chl-032",
-      "categoryId": "histoire",
-      "subcategoryId": "histoire.france",
-      "difficulty": 3,
-      "type": "single",
-      "prompt": "Quelle est, en durée, la plus longue campagne militaire menée par Charlemagne ?",
-      "answers": [
-        {
-          "text": "La guerre contre les Avars",
-          "correct": false,
-          "id": "a"
-        },
-        {
-          "text": "La guerre de Saxe",
-          "correct": true,
-          "id": "b"
-        },
-        {
-          "text": "La conquête de l'Italie",
-          "correct": false,
-          "id": "c"
-        },
-        {
-          "text": "L'expédition d'Espagne",
-          "correct": false,
-          "id": "d"
-        }
-      ]
-    },
-    {
-      "id": "chl-033",
+      "id": "h4-119",
       "categoryId": "histoire",
       "subcategoryId": "histoire.france",
       "difficulty": 5,
       "type": "single",
-      "prompt": "Quel capitulaire d'exception prévoit la peine de mort pour qui refuse le baptême en Saxe ?",
+      "prompt": "Quel est le titre des mémoires laissées par Sully après la mort d'Henri IV ?",
       "answers": [
         {
-          "text": "Le capitulaire De Villis",
-          "correct": false,
+          "text": "Les « Œconomies royales »",
+          "correct": true,
           "id": "a"
         },
         {
-          "text": "L'Admonitio generalis",
+          "text": "Les « Commentaires »",
           "correct": false,
           "id": "b"
         },
         {
-          "text": "Le « Capitulaire pour le pays de Saxe » (De partibus Saxoniae)",
-          "correct": true,
+          "text": "Le « Testament politique »",
+          "correct": false,
           "id": "c"
         },
         {
-          "text": "Le capitulaire de Herstal",
+          "text": "Le « Grand Dessein »",
           "correct": false,
           "id": "d"
         }
       ]
     },
     {
-      "id": "chl-034",
-      "categoryId": "histoire",
-      "subcategoryId": "histoire.france",
-      "difficulty": 1,
-      "type": "single",
-      "prompt": "Quel royaume italien Charlemagne conquiert-il en 773-774 ?",
-      "answers": [
-        {
-          "text": "Le royaume lombard",
-          "correct": true,
-          "id": "a"
-        },
-        {
-          "text": "Le royaume ostrogoth",
-          "correct": false,
-          "id": "b"
-        },
-        {
-          "text": "Le duché de Bénévent",
-          "correct": false,
-          "id": "c"
-        },
-        {
-          "text": "L'État pontifical",
-          "correct": false,
-          "id": "d"
-        }
-      ]
-    },
-    {
-      "id": "chl-035",
-      "categoryId": "histoire",
-      "subcategoryId": "histoire.france",
-      "difficulty": 2,
-      "type": "single",
-      "prompt": "Qui est le roi lombard vaincu par Charlemagne en 774 ?",
-      "answers": [
-        {
-          "text": "Alboin",
-          "correct": false,
-          "id": "a"
-        },
-        {
-          "text": "Astolphe",
-          "correct": false,
-          "id": "b"
-        },
-        {
-          "text": "Liutprand",
-          "correct": false,
-          "id": "c"
-        },
-        {
-          "text": "Didier (Desiderius)",
-          "correct": true,
-          "id": "d"
-        }
-      ]
-    },
-    {
-      "id": "chl-036",
-      "categoryId": "histoire",
-      "subcategoryId": "histoire.france",
-      "difficulty": 3,
-      "type": "single",
-      "prompt": "Quelle capitale lombarde Charlemagne assiège-t-il en 773-774 ?",
-      "answers": [
-        {
-          "text": "Milan",
-          "correct": false,
-          "id": "a"
-        },
-        {
-          "text": "Pavie",
-          "correct": true,
-          "id": "b"
-        },
-        {
-          "text": "Ravenne",
-          "correct": false,
-          "id": "c"
-        },
-        {
-          "text": "Rome",
-          "correct": false,
-          "id": "d"
-        }
-      ]
-    },
-    {
-      "id": "chl-037",
-      "categoryId": "histoire",
-      "subcategoryId": "histoire.france",
-      "difficulty": 3,
-      "type": "single",
-      "prompt": "Que devient le roi Didier après sa défaite ?",
-      "answers": [
-        {
-          "text": "Il est exilé comme moine à l'abbaye de Corbie",
-          "correct": true,
-          "id": "a"
-        },
-        {
-          "text": "Il est exécuté publiquement",
-          "correct": false,
-          "id": "b"
-        },
-        {
-          "text": "Il devient vassal de Charlemagne en Italie",
-          "correct": false,
-          "id": "c"
-        },
-        {
-          "text": "Il s'enfuit à Constantinople",
-          "correct": false,
-          "id": "d"
-        }
-      ]
-    },
-    {
-      "id": "chl-038",
-      "categoryId": "histoire",
-      "subcategoryId": "histoire.france",
-      "difficulty": 3,
-      "type": "single",
-      "prompt": "Quel titre Charlemagne s'attribue-t-il après sa victoire sur les Lombards en 774 ?",
-      "answers": [
-        {
-          "text": "« Défenseur de la papauté »",
-          "correct": false,
-          "id": "a"
-        },
-        {
-          "text": "« Roi d'Italie et de Bavière »",
-          "correct": false,
-          "id": "b"
-        },
-        {
-          "text": "« Roi des Francs et des Lombards »",
-          "correct": true,
-          "id": "c"
-        },
-        {
-          "text": "« Empereur des Romains »",
-          "correct": false,
-          "id": "d"
-        }
-      ]
-    },
-    {
-      "id": "chl-039",
-      "categoryId": "histoire",
-      "subcategoryId": "histoire.france",
-      "difficulty": 4,
-      "type": "single",
-      "prompt": "Quel lien Charlemagne avait-il eu avec la famille de Didier avant la guerre ?",
-      "answers": [
-        {
-          "text": "Il était son filleul",
-          "correct": false,
-          "id": "a"
-        },
-        {
-          "text": "Il était son otage dans sa jeunesse",
-          "correct": false,
-          "id": "b"
-        },
-        {
-          "text": "Il avait combattu à ses côtés en Saxe",
-          "correct": false,
-          "id": "c"
-        },
-        {
-          "text": "Il avait épousé puis répudié une fille de Didier",
-          "correct": true,
-          "id": "d"
-        }
-      ]
-    },
-    {
-      "id": "chl-040",
-      "categoryId": "histoire",
-      "subcategoryId": "histoire.france",
-      "difficulty": 2,
-      "type": "single",
-      "prompt": "Pourquoi Charlemagne intervient-il militairement en Italie en 773 ?",
-      "answers": [
-        {
-          "text": "À la demande de l'empereur byzantin",
-          "correct": false,
-          "id": "a"
-        },
-        {
-          "text": "Pour s'emparer des mines d'or lombardes",
-          "correct": false,
-          "id": "b"
-        },
-        {
-          "text": "Pour protéger le pape, menacé par les Lombards",
-          "correct": true,
-          "id": "c"
-        },
-        {
-          "text": "Pour venger la mort de son frère",
-          "correct": false,
-          "id": "d"
-        }
-      ]
-    },
-    {
-      "id": "chl-041",
-      "categoryId": "histoire",
-      "subcategoryId": "histoire.france",
-      "difficulty": 4,
-      "type": "single",
-      "prompt": "Quel pape appelle Charlemagne à l'aide contre le roi lombard Didier ?",
-      "answers": [
-        {
-          "text": "Étienne II",
-          "correct": false,
-          "id": "a"
-        },
-        {
-          "text": "Adrien Ier",
-          "correct": true,
-          "id": "b"
-        },
-        {
-          "text": "Léon III",
-          "correct": false,
-          "id": "c"
-        },
-        {
-          "text": "Grégoire le Grand",
-          "correct": false,
-          "id": "d"
-        }
-      ]
-    },
-    {
-      "id": "chl-042",
-      "categoryId": "histoire",
-      "subcategoryId": "histoire.france",
-      "difficulty": 3,
-      "type": "single",
-      "prompt": "Quel fils de Charlemagne, initialement prénommé Carloman, est couronné roi d'Italie en 781 ?",
-      "answers": [
-        {
-          "text": "Pépin",
-          "correct": true,
-          "id": "a"
-        },
-        {
-          "text": "Lothaire",
-          "correct": false,
-          "id": "b"
-        },
-        {
-          "text": "Charles le Jeune",
-          "correct": false,
-          "id": "c"
-        },
-        {
-          "text": "Louis",
-          "correct": false,
-          "id": "d"
-        }
-      ]
-    },
-    {
-      "id": "chl-043",
-      "categoryId": "histoire",
-      "subcategoryId": "histoire.france",
-      "difficulty": 3,
-      "type": "boolean",
-      "prompt": "Après sa victoire, Charlemagne conserve le titre de roi des Lombards en plus de celui de roi des Francs.",
-      "answers": [
-        {
-          "text": "Faux",
-          "correct": false,
-          "id": "a"
-        },
-        {
-          "text": "Vrai",
-          "correct": true,
-          "id": "b"
-        }
-      ]
-    },
-    {
-      "id": "chl-044",
-      "categoryId": "histoire",
-      "subcategoryId": "histoire.france",
-      "difficulty": 2,
-      "type": "single",
-      "prompt": "Quelle chaîne de montagnes l'armée franque doit-elle franchir pour envahir l'Italie ?",
-      "answers": [
-        {
-          "text": "Les Carpates",
-          "correct": false,
-          "id": "a"
-        },
-        {
-          "text": "Les Pyrénées",
-          "correct": false,
-          "id": "b"
-        },
-        {
-          "text": "Le Jura",
-          "correct": false,
-          "id": "c"
-        },
-        {
-          "text": "Les Alpes",
-          "correct": true,
-          "id": "d"
-        }
-      ]
-    },
-    {
-      "id": "chl-045",
-      "categoryId": "histoire",
-      "subcategoryId": "histoire.france",
-      "difficulty": 2,
-      "type": "single",
-      "prompt": "En quelle année Charlemagne mène-t-il une expédition militaire en Espagne ?",
-      "answers": [
-        {
-          "text": "778",
-          "correct": true,
-          "id": "a"
-        },
-        {
-          "text": "800",
-          "correct": false,
-          "id": "b"
-        },
-        {
-          "text": "756",
-          "correct": false,
-          "id": "c"
-        },
-        {
-          "text": "768",
-          "correct": false,
-          "id": "d"
-        }
-      ]
-    },
-    {
-      "id": "chl-046",
-      "categoryId": "histoire",
-      "subcategoryId": "histoire.france",
-      "difficulty": 3,
-      "type": "single",
-      "prompt": "Quelle ville espagnole Charlemagne assiège-t-il sans succès en 778 ?",
-      "answers": [
-        {
-          "text": "Cordoue",
-          "correct": false,
-          "id": "a"
-        },
-        {
-          "text": "Saragosse",
-          "correct": true,
-          "id": "b"
-        },
-        {
-          "text": "Tolède",
-          "correct": false,
-          "id": "c"
-        },
-        {
-          "text": "Barcelone",
-          "correct": false,
-          "id": "d"
-        }
-      ]
-    },
-    {
-      "id": "chl-047",
-      "categoryId": "histoire",
-      "subcategoryId": "histoire.france",
-      "difficulty": 1,
-      "type": "single",
-      "prompt": "Comment s'appelle le col pyrénéen où l'arrière-garde franque est anéantie en 778 ?",
-      "answers": [
-        {
-          "text": "Envalira",
-          "correct": false,
-          "id": "a"
-        },
-        {
-          "text": "Le Perthus",
-          "correct": false,
-          "id": "b"
-        },
-        {
-          "text": "Somport",
-          "correct": false,
-          "id": "c"
-        },
-        {
-          "text": "Roncevaux",
-          "correct": true,
-          "id": "d"
-        }
-      ]
-    },
-    {
-      "id": "chl-048",
-      "categoryId": "histoire",
-      "subcategoryId": "histoire.france",
-      "difficulty": 1,
-      "type": "single",
-      "prompt": "Qui, selon la légende, meurt à Roncevaux et devient un héros de chanson de geste ?",
-      "answers": [
-        {
-          "text": "Olivier",
-          "correct": false,
-          "id": "a"
-        },
-        {
-          "text": "Ogier le Danois",
-          "correct": false,
-          "id": "b"
-        },
-        {
-          "text": "Roland",
-          "correct": true,
-          "id": "c"
-        },
-        {
-          "text": "Renaud de Montauban",
-          "correct": false,
-          "id": "d"
-        }
-      ]
-    },
-    {
-      "id": "chl-049",
+      "id": "h4-120",
       "categoryId": "histoire",
       "subcategoryId": "histoire.france",
       "difficulty": 5,
       "type": "single",
-      "prompt": "Historiquement, quel peuple attaque réellement l'arrière-garde franque à Roncevaux (et non les Sarrasins de la légende) ?",
+      "prompt": "Comment appelle-t-on, avant sa conversion, le parti des catholiques modérés ouverts au compromis avec Henri IV ?",
       "answers": [
         {
-          "text": "Les Avars",
+          "text": "Les « malcontents »",
           "correct": false,
           "id": "a"
         },
         {
-          "text": "Les Wisigoths",
-          "correct": false,
+          "text": "Les « politiques »",
+          "correct": true,
           "id": "b"
         },
         {
-          "text": "Les Basques (Vascons)",
-          "correct": true,
-          "id": "c"
-        },
-        {
-          "text": "Les Lombards",
-          "correct": false,
-          "id": "d"
-        }
-      ],
-      "explanation": "La légende, née bien plus tard, transforme cette embuscade basque en épopée contre l'islam."
-    },
-    {
-      "id": "chl-050",
-      "categoryId": "histoire",
-      "subcategoryId": "histoire.france",
-      "difficulty": 2,
-      "type": "single",
-      "prompt": "Quelle œuvre médiévale, composée environ trois siècles plus tard, transforme Roncevaux en épopée ?",
-      "answers": [
-        {
-          "text": "La Chanson de Roland",
-          "correct": true,
-          "id": "a"
-        },
-        {
-          "text": "Le Cantar de mio Cid",
-          "correct": false,
-          "id": "b"
-        },
-        {
-          "text": "Le Roman de Renart",
+          "text": "Les « ligueurs »",
           "correct": false,
           "id": "c"
         },
         {
-          "text": "La Chanson des Nibelungen",
-          "correct": false,
-          "id": "d"
-        }
-      ]
-    },
-    {
-      "id": "chl-051",
-      "categoryId": "histoire",
-      "subcategoryId": "histoire.france",
-      "difficulty": 3,
-      "type": "single",
-      "prompt": "Comment appelle-t-on la région frontalière fortifiée établie face à al-Andalus après 785 ?",
-      "answers": [
-        {
-          "text": "La marche de Septimanie",
-          "correct": false,
-          "id": "a"
-        },
-        {
-          "text": "Le comté de Toulouse",
-          "correct": false,
-          "id": "b"
-        },
-        {
-          "text": "Le duché de Gascogne",
-          "correct": false,
-          "id": "c"
-        },
-        {
-          "text": "La marche d'Espagne",
-          "correct": true,
-          "id": "d"
-        }
-      ]
-    },
-    {
-      "id": "chl-052",
-      "categoryId": "histoire",
-      "subcategoryId": "histoire.france",
-      "difficulty": 4,
-      "type": "single",
-      "prompt": "Quelle grande ville catalane passe sous contrôle franc autour de l'an 801 ?",
-      "answers": [
-        {
-          "text": "Valence",
-          "correct": false,
-          "id": "a"
-        },
-        {
-          "text": "Barcelone",
-          "correct": true,
-          "id": "b"
-        },
-        {
-          "text": "Séville",
-          "correct": false,
-          "id": "c"
-        },
-        {
-          "text": "Grenade",
-          "correct": false,
-          "id": "d"
-        }
-      ]
-    },
-    {
-      "id": "chl-053",
-      "categoryId": "histoire",
-      "subcategoryId": "histoire.france",
-      "difficulty": 3,
-      "type": "boolean",
-      "prompt": "L'expédition d'Espagne de 778 se solde par un franc succès militaire pour Charlemagne.",
-      "answers": [
-        {
-          "text": "Vrai",
-          "correct": false,
-          "id": "a"
-        },
-        {
-          "text": "Faux",
-          "correct": true,
-          "id": "b"
-        }
-      ],
-      "explanation": "Elle échoue devant Saragosse et se termine par le désastre de Roncevaux."
-    },
-    {
-      "id": "chl-054",
-      "categoryId": "histoire",
-      "subcategoryId": "histoire.france",
-      "difficulty": 3,
-      "type": "single",
-      "prompt": "Quel duc de Bavière, semi-autonome, est déposé par Charlemagne en 788 ?",
-      "answers": [
-        {
-          "text": "Didier",
-          "correct": false,
-          "id": "a"
-        },
-        {
-          "text": "Tassilon III",
-          "correct": true,
-          "id": "b"
-        },
-        {
-          "text": "Grifon",
-          "correct": false,
-          "id": "c"
-        },
-        {
-          "text": "Widukind",
-          "correct": false,
-          "id": "d"
-        }
-      ]
-    },
-    {
-      "id": "chl-055",
-      "categoryId": "histoire",
-      "subcategoryId": "histoire.france",
-      "difficulty": 3,
-      "type": "single",
-      "prompt": "Que devient la Bavière après la déposition de son duc en 788 ?",
-      "answers": [
-        {
-          "text": "Elle est intégrée à l'empire franc",
-          "correct": true,
-          "id": "a"
-        },
-        {
-          "text": "Elle passe sous contrôle byzantin",
-          "correct": false,
-          "id": "b"
-        },
-        {
-          "text": "Elle est rattachée à la Saxe",
-          "correct": false,
-          "id": "c"
-        },
-        {
-          "text": "Elle devient un royaume indépendant",
-          "correct": false,
-          "id": "d"
-        }
-      ]
-    },
-    {
-      "id": "chl-056",
-      "categoryId": "histoire",
-      "subcategoryId": "histoire.france",
-      "difficulty": 2,
-      "type": "single",
-      "prompt": "Contre quel peuple nomade d'Europe centrale Charlemagne mène-t-il campagne à la fin du VIIIe siècle ?",
-      "answers": [
-        {
-          "text": "Les Huns",
-          "correct": false,
-          "id": "a"
-        },
-        {
-          "text": "Les Magyars",
-          "correct": false,
-          "id": "b"
-        },
-        {
-          "text": "Les Vikings",
-          "correct": false,
-          "id": "c"
-        },
-        {
-          "text": "Les Avars",
-          "correct": true,
-          "id": "d"
-        }
-      ]
-    },
-    {
-      "id": "chl-057",
-      "categoryId": "histoire",
-      "subcategoryId": "histoire.france",
-      "difficulty": 3,
-      "type": "single",
-      "prompt": "Que découvrent les Francs après leur victoire décisive sur les Avars ?",
-      "answers": [
-        {
-          "text": "Une flotte de guerre",
-          "correct": false,
-          "id": "a"
-        },
-        {
-          "text": "Des mines d'argent",
-          "correct": false,
-          "id": "b"
-        },
-        {
-          "text": "Un immense trésor accumulé",
-          "correct": true,
-          "id": "c"
-        },
-        {
-          "text": "Une bibliothèque antique",
-          "correct": false,
-          "id": "d"
-        }
-      ]
-    },
-    {
-      "id": "chl-058",
-      "categoryId": "histoire",
-      "subcategoryId": "histoire.france",
-      "difficulty": 3,
-      "type": "single",
-      "prompt": "Comment appelle-t-on la région frontalière fortifiée établie face à la Bretagne ?",
-      "answers": [
-        {
-          "text": "Le comté de Nantes",
-          "correct": false,
-          "id": "a"
-        },
-        {
-          "text": "Le duché normand",
-          "correct": false,
-          "id": "b"
-        },
-        {
-          "text": "La marche de Bretagne",
-          "correct": true,
-          "id": "c"
-        },
-        {
-          "text": "La marche de Neustrie",
-          "correct": false,
-          "id": "d"
-        }
-      ]
-    },
-    {
-      "id": "chl-059",
-      "categoryId": "histoire",
-      "subcategoryId": "histoire.france",
-      "difficulty": 3,
-      "type": "single",
-      "prompt": "Quel peuple du nord des actuels Pays-Bas Charlemagne intègre-t-il progressivement à son empire ?",
-      "answers": [
-        {
-          "text": "Les Danois",
-          "correct": false,
-          "id": "a"
-        },
-        {
-          "text": "Les Frisons",
-          "correct": true,
-          "id": "b"
-        },
-        {
-          "text": "Les Wisigoths",
-          "correct": false,
-          "id": "c"
-        },
-        {
-          "text": "Les Angles",
-          "correct": false,
-          "id": "d"
-        }
-      ]
-    },
-    {
-      "id": "chl-060",
-      "categoryId": "histoire",
-      "subcategoryId": "histoire.france",
-      "difficulty": 3,
-      "type": "boolean",
-      "prompt": "La Bretagne est totalement soumise et pacifiquement intégrée au royaume franc sous Charlemagne.",
-      "answers": [
-        {
-          "text": "Faux",
-          "correct": true,
-          "id": "a"
-        },
-        {
-          "text": "Vrai",
-          "correct": false,
-          "id": "b"
-        }
-      ],
-      "explanation": "Malgré la marche établie, les Bretons conservent une large autonomie de fait."
-    },
-    {
-      "id": "chl-061",
-      "categoryId": "histoire",
-      "subcategoryId": "histoire.france",
-      "difficulty": 2,
-      "type": "single",
-      "prompt": "Comment appelle-t-on les régions frontalières fortifiées créées par Charlemagne (Bretagne, Espagne…) ?",
-      "answers": [
-        {
-          "text": "Des marches",
-          "correct": true,
-          "id": "a"
-        },
-        {
-          "text": "Des évêchés",
-          "correct": false,
-          "id": "b"
-        },
-        {
-          "text": "Des apanages",
-          "correct": false,
-          "id": "c"
-        },
-        {
-          "text": "Des palatinats",
-          "correct": false,
-          "id": "d"
-        }
-      ]
-    },
-    {
-      "id": "chl-062",
-      "categoryId": "histoire",
-      "subcategoryId": "histoire.france",
-      "difficulty": 3,
-      "type": "boolean",
-      "prompt": "L'empire de Charlemagne, à son apogée, couvre les îles britanniques.",
-      "answers": [
-        {
-          "text": "Faux",
-          "correct": true,
-          "id": "a"
-        },
-        {
-          "text": "Vrai",
-          "correct": false,
-          "id": "b"
-        }
-      ],
-      "explanation": "Il s'étend sur l'essentiel de l'Europe occidentale continentale, mais pas sur la Grande-Bretagne."
-    },
-    {
-      "id": "chl-063",
-      "categoryId": "histoire",
-      "subcategoryId": "histoire.france",
-      "difficulty": 5,
-      "type": "single",
-      "prompt": "Lequel de ces peuples slaves Charlemagne a-t-il dû combattre ou soumettre ?",
-      "answers": [
-        {
-          "text": "Les Tchèques",
-          "correct": false,
-          "id": "a"
-        },
-        {
-          "text": "Les Polonais",
-          "correct": false,
-          "id": "b"
-        },
-        {
-          "text": "Les Bulgares",
-          "correct": false,
-          "id": "c"
-        },
-        {
-          "text": "Les Abodrites",
-          "correct": true,
-          "id": "d"
-        }
-      ]
-    },
-    {
-      "id": "chl-064",
-      "categoryId": "histoire",
-      "subcategoryId": "histoire.france",
-      "difficulty": 1,
-      "type": "single",
-      "prompt": "À quelle date Charlemagne est-il couronné empereur ?",
-      "answers": [
-        {
-          "text": "Le 14 juillet 799",
-          "correct": false,
-          "id": "a"
-        },
-        {
-          "text": "Le 25 décembre 800",
-          "correct": true,
-          "id": "b"
-        },
-        {
-          "text": "Le 1er janvier 801",
-          "correct": false,
-          "id": "c"
-        },
-        {
-          "text": "Le 28 janvier 814",
-          "correct": false,
-          "id": "d"
-        }
-      ]
-    },
-    {
-      "id": "chl-065",
-      "categoryId": "histoire",
-      "subcategoryId": "histoire.france",
-      "difficulty": 2,
-      "type": "single",
-      "prompt": "Dans quelle basilique Charlemagne est-il couronné empereur ?",
-      "answers": [
-        {
-          "text": "Saint-Jean-de-Latran",
-          "correct": false,
-          "id": "a"
-        },
-        {
-          "text": "Notre-Dame de Reims",
-          "correct": false,
-          "id": "b"
-        },
-        {
-          "text": "La chapelle palatine d'Aix",
-          "correct": false,
-          "id": "c"
-        },
-        {
-          "text": "La basilique Saint-Pierre de Rome",
-          "correct": true,
-          "id": "d"
-        }
-      ]
-    },
-    {
-      "id": "chl-066",
-      "categoryId": "histoire",
-      "subcategoryId": "histoire.france",
-      "difficulty": 2,
-      "type": "single",
-      "prompt": "Quel pape couronne Charlemagne empereur en 800 ?",
-      "answers": [
-        {
-          "text": "Grégoire le Grand",
-          "correct": false,
-          "id": "a"
-        },
-        {
-          "text": "Adrien Ier",
-          "correct": false,
-          "id": "b"
-        },
-        {
-          "text": "Léon III",
-          "correct": true,
-          "id": "c"
-        },
-        {
-          "text": "Étienne III",
-          "correct": false,
-          "id": "d"
-        }
-      ]
-    },
-    {
-      "id": "chl-067",
-      "categoryId": "histoire",
-      "subcategoryId": "histoire.france",
-      "difficulty": 4,
-      "type": "single",
-      "prompt": "Quel événement de 799 pousse le pape Léon III à se réfugier auprès de Charlemagne ?",
-      "answers": [
-        {
-          "text": "Une agression contre lui à Rome",
-          "correct": true,
-          "id": "a"
-        },
-        {
-          "text": "Une famine à Rome",
-          "correct": false,
-          "id": "b"
-        },
-        {
-          "text": "Un schisme religieux",
-          "correct": false,
-          "id": "c"
-        },
-        {
-          "text": "Une invasion lombarde",
-          "correct": false,
-          "id": "d"
-        }
-      ]
-    },
-    {
-      "id": "chl-068",
-      "categoryId": "histoire",
-      "subcategoryId": "histoire.france",
-      "difficulty": 3,
-      "type": "single",
-      "prompt": "Depuis combien de temps environ aucun empereur ne régnait-il en Occident avant 800 ?",
-      "answers": [
-        {
-          "text": "Environ un siècle",
-          "correct": false,
-          "id": "a"
-        },
-        {
-          "text": "Depuis toujours",
-          "correct": false,
-          "id": "b"
-        },
-        {
-          "text": "Une dizaine d'années",
-          "correct": false,
-          "id": "c"
-        },
-        {
-          "text": "Environ trois siècles",
-          "correct": true,
-          "id": "d"
-        }
-      ],
-      "explanation": "Le dernier empereur romain d'Occident, Romulus Augustule, est déposé en 476."
-    },
-    {
-      "id": "chl-069",
-      "categoryId": "histoire",
-      "subcategoryId": "histoire.france",
-      "difficulty": 3,
-      "type": "single",
-      "prompt": "Quel titre latin Charlemagne porte-t-il après son couronnement impérial ?",
-      "answers": [
-        {
-          "text": "« Pontifex Maximus »",
-          "correct": false,
-          "id": "a"
-        },
-        {
-          "text": "« Imperator Romanorum »",
-          "correct": true,
-          "id": "b"
-        },
-        {
-          "text": "« Dominus Mundi »",
-          "correct": false,
-          "id": "c"
-        },
-        {
-          "text": "« Rex Sacrorum »",
-          "correct": false,
-          "id": "d"
-        }
-      ]
-    },
-    {
-      "id": "chl-070",
-      "categoryId": "histoire",
-      "subcategoryId": "histoire.france",
-      "difficulty": 3,
-      "type": "single",
-      "prompt": "Quel empire conteste la légitimité du titre impérial pris par Charlemagne en 800 ?",
-      "answers": [
-        {
-          "text": "Le califat de Bagdad",
-          "correct": false,
-          "id": "a"
-        },
-        {
-          "text": "Le royaume anglo-saxon",
-          "correct": false,
-          "id": "b"
-        },
-        {
-          "text": "L'Empire byzantin (romain d'Orient)",
-          "correct": true,
-          "id": "c"
-        },
-        {
-          "text": "Le royaume wisigoth",
-          "correct": false,
-          "id": "d"
-        }
-      ]
-    },
-    {
-      "id": "chl-071",
-      "categoryId": "histoire",
-      "subcategoryId": "histoire.france",
-      "difficulty": 5,
-      "type": "single",
-      "prompt": "Qui règne à Constantinople au moment du couronnement de Charlemagne, ce qui fragilise sa légitimité aux yeux de certains Francs ?",
-      "answers": [
-        {
-          "text": "L'impératrice Irène",
-          "correct": true,
-          "id": "a"
-        },
-        {
-          "text": "L'empereur Constantin V",
-          "correct": false,
-          "id": "b"
-        },
-        {
-          "text": "L'empereur Nicéphore Ier",
-          "correct": false,
-          "id": "c"
-        },
-        {
-          "text": "L'empereur Justinien",
-          "correct": false,
-          "id": "d"
-        }
-      ]
-    },
-    {
-      "id": "chl-072",
-      "categoryId": "histoire",
-      "subcategoryId": "histoire.france",
-      "difficulty": 4,
-      "type": "boolean",
-      "prompt": "Selon Éginhard, Charlemagne se serait dit surpris par son propre couronnement impérial.",
-      "answers": [
-        {
-          "text": "Faux",
-          "correct": false,
-          "id": "a"
-        },
-        {
-          "text": "Vrai",
-          "correct": true,
-          "id": "b"
-        }
-      ],
-      "explanation": "Il aurait affirmé qu'il ne serait pas entré ce jour-là dans l'église s'il avait connu l'intention du pape."
-    },
-    {
-      "id": "chl-073",
-      "categoryId": "histoire",
-      "subcategoryId": "histoire.france",
-      "difficulty": 3,
-      "type": "single",
-      "prompt": "Que symbolise, aux yeux des contemporains, le couronnement impérial de Charlemagne en 800 ?",
-      "answers": [
-        {
-          "text": "La fin de la guerre de Saxe",
-          "correct": false,
-          "id": "a"
-        },
-        {
-          "text": "La réconciliation avec les Lombards",
-          "correct": false,
-          "id": "b"
-        },
-        {
-          "text": "La renaissance de l'Empire romain d'Occident",
-          "correct": true,
-          "id": "c"
-        },
-        {
-          "text": "La fondation d'un nouveau royaume franc",
-          "correct": false,
-          "id": "d"
-        }
-      ]
-    },
-    {
-      "id": "chl-074",
-      "categoryId": "histoire",
-      "subcategoryId": "histoire.france",
-      "difficulty": 2,
-      "type": "single",
-      "prompt": "Comment appelle-t-on les décrets royaux qui organisent l'administration de l'empire ?",
-      "answers": [
-        {
-          "text": "Les capitulaires",
-          "correct": true,
-          "id": "a"
-        },
-        {
-          "text": "Les ordonnances",
-          "correct": false,
-          "id": "b"
-        },
-        {
-          "text": "Les édits",
-          "correct": false,
-          "id": "c"
-        },
-        {
-          "text": "Les bulles",
-          "correct": false,
-          "id": "d"
-        }
-      ]
-    },
-    {
-      "id": "chl-075",
-      "categoryId": "histoire",
-      "subcategoryId": "histoire.france",
-      "difficulty": 1,
-      "type": "single",
-      "prompt": "Comment appelle-t-on les envoyés royaux chargés d'inspecter comtes et évêques ?",
-      "answers": [
-        {
-          "text": "Les légats",
-          "correct": false,
-          "id": "a"
-        },
-        {
-          "text": "Les sénéchaux",
-          "correct": false,
-          "id": "b"
-        },
-        {
-          "text": "Les baillis",
-          "correct": false,
-          "id": "c"
-        },
-        {
-          "text": "Les missi dominici",
-          "correct": true,
-          "id": "d"
-        }
-      ]
-    },
-    {
-      "id": "chl-076",
-      "categoryId": "histoire",
-      "subcategoryId": "histoire.france",
-      "difficulty": 4,
-      "type": "single",
-      "prompt": "En quelle année Charlemagne impose-t-il un serment général de fidélité à tous les hommes libres ?",
-      "answers": [
-        {
-          "text": "789",
-          "correct": false,
-          "id": "a"
-        },
-        {
-          "text": "802",
-          "correct": true,
-          "id": "b"
-        },
-        {
-          "text": "768",
-          "correct": false,
-          "id": "c"
-        },
-        {
-          "text": "814",
-          "correct": false,
-          "id": "d"
-        }
-      ]
-    },
-    {
-      "id": "chl-077",
-      "categoryId": "histoire",
-      "subcategoryId": "histoire.france",
-      "difficulty": 2,
-      "type": "single",
-      "prompt": "Qui administre localement un territoire au nom du roi, lève l'impôt et rend la justice ?",
-      "answers": [
-        {
-          "text": "Le duc",
-          "correct": false,
-          "id": "a"
-        },
-        {
-          "text": "L'évêque",
-          "correct": false,
-          "id": "b"
-        },
-        {
-          "text": "Le comte",
-          "correct": true,
-          "id": "c"
-        },
-        {
-          "text": "Le marquis",
-          "correct": false,
-          "id": "d"
-        }
-      ]
-    },
-    {
-      "id": "chl-078",
-      "categoryId": "histoire",
-      "subcategoryId": "histoire.france",
-      "difficulty": 3,
-      "type": "single",
-      "prompt": "Comment appelle-t-on l'assemblée annuelle réunissant grands du royaume et clergé ?",
-      "answers": [
-        {
-          "text": "Le concile impérial",
-          "correct": false,
-          "id": "a"
-        },
-        {
-          "text": "Le champ de mai",
-          "correct": true,
-          "id": "b"
-        },
-        {
-          "text": "Le plaid royal d'automne",
-          "correct": false,
-          "id": "c"
-        },
-        {
-          "text": "Les états généraux",
-          "correct": false,
-          "id": "d"
-        }
-      ]
-    },
-    {
-      "id": "chl-079",
-      "categoryId": "histoire",
-      "subcategoryId": "histoire.france",
-      "difficulty": 3,
-      "type": "single",
-      "prompt": "Qu'est-ce qu'un « bénéfice » accordé par le roi à un comte ou un vassal ?",
-      "answers": [
-        {
-          "text": "Une exemption d'impôt à vie",
-          "correct": false,
-          "id": "a"
-        },
-        {
-          "text": "Une somme d'argent unique",
-          "correct": false,
-          "id": "b"
-        },
-        {
-          "text": "Un titre héréditaire perpétuel",
-          "correct": false,
-          "id": "c"
-        },
-        {
-          "text": "Une terre concédée à titre viager en échange de services",
-          "correct": true,
-          "id": "d"
-        }
-      ]
-    },
-    {
-      "id": "chl-080",
-      "categoryId": "histoire",
-      "subcategoryId": "histoire.france",
-      "difficulty": 3,
-      "type": "boolean",
-      "prompt": "Les évêques et les abbés jouent aussi un rôle administratif dans l'empire de Charlemagne.",
-      "answers": [
-        {
-          "text": "Vrai",
-          "correct": true,
-          "id": "a"
-        },
-        {
-          "text": "Faux",
-          "correct": false,
-          "id": "b"
-        }
-      ],
-      "explanation": "Ils lèvent des contingents militaires et gèrent des terres pour le compte du roi."
-    },
-    {
-      "id": "chl-081",
-      "categoryId": "histoire",
-      "subcategoryId": "histoire.france",
-      "difficulty": 2,
-      "type": "single",
-      "prompt": "Sur quoi repose principalement la richesse dans l'empire carolingien ?",
-      "answers": [
-        {
-          "text": "La terre",
-          "correct": true,
-          "id": "a"
-        },
-        {
-          "text": "Le commerce maritime",
-          "correct": false,
-          "id": "b"
-        },
-        {
-          "text": "La frappe de monnaie",
-          "correct": false,
-          "id": "c"
-        },
-        {
-          "text": "Les mines d'or",
-          "correct": false,
-          "id": "d"
-        }
-      ]
-    },
-    {
-      "id": "chl-082",
-      "categoryId": "histoire",
-      "subcategoryId": "histoire.france",
-      "difficulty": 2,
-      "type": "single",
-      "prompt": "Quel lien personnel, renforcé par serment, unit un vassal à son seigneur ?",
-      "answers": [
-        {
-          "text": "L'affranchissement",
-          "correct": false,
-          "id": "a"
-        },
-        {
-          "text": "La suzeraineté papale",
-          "correct": false,
-          "id": "b"
-        },
-        {
-          "text": "La vassalité",
-          "correct": true,
-          "id": "c"
-        },
-        {
-          "text": "Le servage",
-          "correct": false,
-          "id": "d"
-        }
-      ]
-    },
-    {
-      "id": "chl-083",
-      "categoryId": "histoire",
-      "subcategoryId": "histoire.france",
-      "difficulty": 5,
-      "type": "single",
-      "prompt": "Quel capitulaire de Charlemagne détaille l'organisation d'un grand domaine agricole impérial ?",
-      "answers": [
-        {
-          "text": "Le capitulaire de Francfort",
-          "correct": false,
-          "id": "a"
-        },
-        {
-          "text": "L'Admonitio generalis",
-          "correct": false,
-          "id": "b"
-        },
-        {
-          "text": "Le capitulaire De partibus Saxoniae",
-          "correct": false,
-          "id": "c"
-        },
-        {
-          "text": "Le capitulaire De Villis",
-          "correct": true,
-          "id": "d"
-        }
-      ]
-    },
-    {
-      "id": "chl-084",
-      "categoryId": "histoire",
-      "subcategoryId": "histoire.france",
-      "difficulty": 4,
-      "type": "single",
-      "prompt": "Par combien de personnes une paire de missi dominici est-elle généralement composée ?",
-      "answers": [
-        {
-          "text": "Dix",
-          "correct": false,
-          "id": "a"
-        },
-        {
-          "text": "Deux (un clerc et un laïc)",
-          "correct": true,
-          "id": "b"
-        },
-        {
-          "text": "Cinquante",
-          "correct": false,
-          "id": "c"
-        },
-        {
-          "text": "Une seule",
-          "correct": false,
-          "id": "d"
-        }
-      ]
-    },
-    {
-      "id": "chl-085",
-      "categoryId": "histoire",
-      "subcategoryId": "histoire.france",
-      "difficulty": 1,
-      "type": "single",
-      "prompt": "Quelle ville Charlemagne choisit-il comme capitale de son empire ?",
-      "answers": [
-        {
-          "text": "Aix-la-Chapelle",
-          "correct": true,
-          "id": "a"
-        },
-        {
-          "text": "Paris",
-          "correct": false,
-          "id": "b"
-        },
-        {
-          "text": "Reims",
-          "correct": false,
-          "id": "c"
-        },
-        {
-          "text": "Rome",
-          "correct": false,
-          "id": "d"
-        }
-      ]
-    },
-    {
-      "id": "chl-086",
-      "categoryId": "histoire",
-      "subcategoryId": "histoire.france",
-      "difficulty": 2,
-      "type": "single",
-      "prompt": "Comment se nomme aujourd'hui Aix-la-Chapelle, en Allemagne ?",
-      "answers": [
-        {
-          "text": "Trier",
-          "correct": false,
-          "id": "a"
-        },
-        {
-          "text": "Aachen",
-          "correct": true,
-          "id": "b"
-        },
-        {
-          "text": "Köln",
-          "correct": false,
-          "id": "c"
-        },
-        {
-          "text": "München",
-          "correct": false,
-          "id": "d"
-        }
-      ]
-    },
-    {
-      "id": "chl-087",
-      "categoryId": "histoire",
-      "subcategoryId": "histoire.france",
-      "difficulty": 2,
-      "type": "single",
-      "prompt": "Quel édifice emblématique Charlemagne fait-il construire à Aix-la-Chapelle ?",
-      "answers": [
-        {
-          "text": "La chapelle palatine",
-          "correct": true,
-          "id": "a"
-        },
-        {
-          "text": "Le palais du Louvre",
-          "correct": false,
-          "id": "b"
-        },
-        {
-          "text": "La cathédrale gothique",
-          "correct": false,
-          "id": "c"
-        },
-        {
-          "text": "L'abbaye de Cluny",
-          "correct": false,
-          "id": "d"
-        }
-      ]
-    },
-    {
-      "id": "chl-088",
-      "categoryId": "histoire",
-      "subcategoryId": "histoire.france",
-      "difficulty": 2,
-      "type": "single",
-      "prompt": "Quel savant venu d'York dirige l'école du palais de Charlemagne ?",
-      "answers": [
-        {
-          "text": "Boèce",
-          "correct": false,
-          "id": "a"
-        },
-        {
-          "text": "Bède le Vénérable",
-          "correct": false,
-          "id": "b"
-        },
-        {
-          "text": "Alcuin",
-          "correct": true,
-          "id": "c"
-        },
-        {
-          "text": "Isidore de Séville",
-          "correct": false,
-          "id": "d"
-        }
-      ]
-    },
-    {
-      "id": "chl-089",
-      "categoryId": "histoire",
-      "subcategoryId": "histoire.france",
-      "difficulty": 3,
-      "type": "single",
-      "prompt": "Comment appelle-t-on l'écriture plus lisible, développée sous l'impulsion de la renaissance carolingienne ?",
-      "answers": [
-        {
-          "text": "Le gothique textura",
-          "correct": false,
-          "id": "a"
-        },
-        {
-          "text": "L'onciale romaine",
-          "correct": false,
-          "id": "b"
-        },
-        {
-          "text": "La cursive mérovingienne",
-          "correct": false,
-          "id": "c"
-        },
-        {
-          "text": "La minuscule caroline",
-          "correct": true,
-          "id": "d"
-        }
-      ]
-    },
-    {
-      "id": "chl-090",
-      "categoryId": "histoire",
-      "subcategoryId": "histoire.france",
-      "difficulty": 3,
-      "type": "single",
-      "prompt": "Quel type d'établissements se développe pour former le clergé sous Charlemagne ?",
-      "answers": [
-        {
-          "text": "Les écoles monastiques et épiscopales",
-          "correct": true,
-          "id": "a"
-        },
-        {
-          "text": "Les collèges royaux laïcs",
-          "correct": false,
-          "id": "b"
-        },
-        {
-          "text": "Les universités",
-          "correct": false,
-          "id": "c"
-        },
-        {
-          "text": "Les académies militaires",
-          "correct": false,
-          "id": "d"
-        }
-      ]
-    },
-    {
-      "id": "chl-091",
-      "categoryId": "histoire",
-      "subcategoryId": "histoire.france",
-      "difficulty": 1,
-      "type": "single",
-      "prompt": "Comment appelle-t-on cette période de renouveau culturel et intellectuel sous Charlemagne ?",
-      "answers": [
-        {
-          "text": "La renaissance ottonienne",
-          "correct": false,
-          "id": "a"
-        },
-        {
-          "text": "La renaissance carolingienne",
-          "correct": true,
-          "id": "b"
-        },
-        {
-          "text": "Le siècle des Lumières",
-          "correct": false,
-          "id": "c"
-        },
-        {
-          "text": "L'âge d'or mérovingien",
-          "correct": false,
-          "id": "d"
-        }
-      ]
-    },
-    {
-      "id": "chl-092",
-      "categoryId": "histoire",
-      "subcategoryId": "histoire.france",
-      "difficulty": 3,
-      "type": "single",
-      "prompt": "Quel type de chant liturgique Charlemagne contribue à diffuser dans tout l'empire ?",
-      "answers": [
-        {
-          "text": "Le plain-chant wisigothique",
-          "correct": false,
-          "id": "a"
-        },
-        {
-          "text": "Le chant polyphonique",
-          "correct": false,
-          "id": "b"
-        },
-        {
-          "text": "Le chant byzantin",
-          "correct": false,
-          "id": "c"
-        },
-        {
-          "text": "Le chant grégorien",
-          "correct": true,
-          "id": "d"
-        }
-      ]
-    },
-    {
-      "id": "chl-093",
-      "categoryId": "histoire",
-      "subcategoryId": "histoire.france",
-      "difficulty": 3,
-      "type": "single",
-      "prompt": "D'où venait Alcuin avant de rejoindre la cour de Charlemagne ?",
-      "answers": [
-        {
-          "text": "D'Espagne",
-          "correct": false,
-          "id": "a"
-        },
-        {
-          "text": "De Constantinople",
-          "correct": false,
-          "id": "b"
-        },
-        {
-          "text": "D'Angleterre (York)",
-          "correct": true,
-          "id": "c"
-        },
-        {
-          "text": "D'Irlande",
-          "correct": false,
-          "id": "d"
-        }
-      ]
-    },
-    {
-      "id": "chl-094",
-      "categoryId": "histoire",
-      "subcategoryId": "histoire.france",
-      "difficulty": 3,
-      "type": "boolean",
-      "prompt": "L'écriture caroline permet d'économiser du parchemin par rapport aux écritures antérieures.",
-      "answers": [
-        {
-          "text": "Faux",
-          "correct": false,
-          "id": "a"
-        },
-        {
-          "text": "Vrai",
-          "correct": true,
-          "id": "b"
-        }
-      ]
-    },
-    {
-      "id": "chl-095",
-      "categoryId": "histoire",
-      "subcategoryId": "histoire.france",
-      "difficulty": 2,
-      "type": "single",
-      "prompt": "Quel type d'établissement religieux abrite souvent un scriptorium copiant les manuscrits ?",
-      "answers": [
-        {
-          "text": "Un château fort",
-          "correct": false,
-          "id": "a"
-        },
-        {
-          "text": "Un hôpital",
-          "correct": false,
-          "id": "b"
-        },
-        {
-          "text": "Un hôtel de ville",
-          "correct": false,
-          "id": "c"
-        },
-        {
-          "text": "Un monastère",
-          "correct": true,
-          "id": "d"
-        }
-      ]
-    },
-    {
-      "id": "chl-096",
-      "categoryId": "histoire",
-      "subcategoryId": "histoire.france",
-      "difficulty": 1,
-      "type": "single",
-      "prompt": "Quelle langue reste la langue savante et administrative de l'empire carolingien ?",
-      "answers": [
-        {
-          "text": "Le latin",
-          "correct": true,
-          "id": "a"
-        },
-        {
-          "text": "Le grec",
-          "correct": false,
-          "id": "b"
-        },
-        {
-          "text": "L'arabe",
-          "correct": false,
-          "id": "c"
-        },
-        {
-          "text": "Le francique",
-          "correct": false,
-          "id": "d"
-        }
-      ]
-    },
-    {
-      "id": "chl-097",
-      "categoryId": "histoire",
-      "subcategoryId": "histoire.france",
-      "difficulty": 5,
-      "type": "single",
-      "prompt": "Quel édifice byzantin aurait inspiré l'architecture octogonale de la chapelle palatine d'Aix ?",
-      "answers": [
-        {
-          "text": "Le Saint-Sépulcre de Jérusalem",
-          "correct": false,
-          "id": "a"
-        },
-        {
-          "text": "Le Panthéon de Rome",
-          "correct": false,
-          "id": "b"
-        },
-        {
-          "text": "La basilique San Vitale de Ravenne",
-          "correct": true,
-          "id": "c"
-        },
-        {
-          "text": "Sainte-Sophie de Constantinople",
-          "correct": false,
-          "id": "d"
-        }
-      ]
-    },
-    {
-      "id": "chl-098",
-      "categoryId": "histoire",
-      "subcategoryId": "histoire.france",
-      "difficulty": 4,
-      "type": "single",
-      "prompt": "Combien de lettres d'Alcuin, précieuse source historique, nous sont-elles parvenues ?",
-      "answers": [
-        {
-          "text": "Environ 10",
-          "correct": false,
-          "id": "a"
-        },
-        {
-          "text": "Environ 270",
-          "correct": true,
-          "id": "b"
-        },
-        {
-          "text": "Environ 2 000",
-          "correct": false,
-          "id": "c"
-        },
-        {
-          "text": "Environ 50",
-          "correct": false,
-          "id": "d"
-        }
-      ]
-    },
-    {
-      "id": "chl-099",
-      "categoryId": "histoire",
-      "subcategoryId": "histoire.france",
-      "difficulty": 3,
-      "type": "single",
-      "prompt": "Combien de fois Charlemagne s'est-il marié, selon les mariages reconnus par les historiens ?",
-      "answers": [
-        {
-          "text": "Dix fois",
-          "correct": false,
-          "id": "a"
-        },
-        {
-          "text": "Une seule fois",
-          "correct": false,
-          "id": "b"
-        },
-        {
-          "text": "Cinq fois",
-          "correct": true,
-          "id": "c"
-        },
-        {
-          "text": "Deux fois",
-          "correct": false,
-          "id": "d"
-        }
-      ]
-    },
-    {
-      "id": "chl-100",
-      "categoryId": "histoire",
-      "subcategoryId": "histoire.france",
-      "difficulty": 3,
-      "type": "single",
-      "prompt": "Qui est la première épouse lombarde de Charlemagne, répudiée après environ un an ?",
-      "answers": [
-        {
-          "text": "Fastrade",
-          "correct": false,
-          "id": "a"
-        },
-        {
-          "text": "Liutgarde",
-          "correct": false,
-          "id": "b"
-        },
-        {
-          "text": "Hildegarde de Vintzgau",
-          "correct": false,
-          "id": "c"
-        },
-        {
-          "text": "Désirée, fille du roi Didier",
-          "correct": true,
-          "id": "d"
-        }
-      ]
-    },
-    {
-      "id": "chl-101",
-      "categoryId": "histoire",
-      "subcategoryId": "histoire.france",
-      "difficulty": 3,
-      "type": "single",
-      "prompt": "Qui est la mère de Louis le Pieux, l'héritier de Charlemagne ?",
-      "answers": [
-        {
-          "text": "Fastrade",
-          "correct": false,
-          "id": "a"
-        },
-        {
-          "text": "Hildegarde de Vintzgau",
-          "correct": true,
-          "id": "b"
-        },
-        {
-          "text": "Himiltrude",
-          "correct": false,
-          "id": "c"
-        },
-        {
-          "text": "Désirée",
-          "correct": false,
-          "id": "d"
-        }
-      ]
-    },
-    {
-      "id": "chl-102",
-      "categoryId": "histoire",
-      "subcategoryId": "histoire.france",
-      "difficulty": 1,
-      "type": "single",
-      "prompt": "Quel fils succède seul à Charlemagne en 814 ?",
-      "answers": [
-        {
-          "text": "Louis le Pieux",
-          "correct": true,
-          "id": "a"
-        },
-        {
-          "text": "Bernard d'Italie",
-          "correct": false,
-          "id": "b"
-        },
-        {
-          "text": "Pépin d'Italie",
-          "correct": false,
-          "id": "c"
-        },
-        {
-          "text": "Charles le Jeune",
-          "correct": false,
-          "id": "d"
-        }
-      ]
-    },
-    {
-      "id": "chl-103",
-      "categoryId": "histoire",
-      "subcategoryId": "histoire.france",
-      "difficulty": 3,
-      "type": "single",
-      "prompt": "Pourquoi Louis le Pieux devient-il l'unique héritier, alors que Charlemagne avait plusieurs fils légitimes ?",
-      "answers": [
-        {
-          "text": "Ses frères Charles le Jeune et Pépin d'Italie meurent avant leur père",
-          "correct": true,
-          "id": "a"
-        },
-        {
-          "text": "Il élimine ses frères par la force",
-          "correct": false,
-          "id": "b"
-        },
-        {
-          "text": "Charlemagne n'a jamais eu d'autre fils",
-          "correct": false,
-          "id": "c"
-        },
-        {
-          "text": "Ses frères entrent au monastère",
-          "correct": false,
-          "id": "d"
-        }
-      ]
-    },
-    {
-      "id": "chl-104",
-      "categoryId": "histoire",
-      "subcategoryId": "histoire.france",
-      "difficulty": 5,
-      "type": "single",
-      "prompt": "Quel plan de succession Charlemagne établit-il en 806, finalement caduc ?",
-      "answers": [
-        {
-          "text": "La primogéniture stricte",
-          "correct": false,
-          "id": "a"
-        },
-        {
-          "text": "L'élection du prochain empereur par les évêques",
-          "correct": false,
-          "id": "b"
-        },
-        {
-          "text": "Un partage de l'empire entre ses fils survivants",
-          "correct": true,
-          "id": "c"
-        },
-        {
-          "text": "Le rattachement de l'empire à Byzance",
-          "correct": false,
-          "id": "d"
-        }
-      ]
-    },
-    {
-      "id": "chl-105",
-      "categoryId": "histoire",
-      "subcategoryId": "histoire.france",
-      "difficulty": 4,
-      "type": "boolean",
-      "prompt": "Tous les enfants connus de Charlemagne sont nés de ses épouses officielles.",
-      "answers": [
-        {
-          "text": "Vrai",
-          "correct": false,
-          "id": "a"
-        },
-        {
-          "text": "Faux",
-          "correct": true,
-          "id": "b"
-        }
-      ],
-      "explanation": "Il a également eu plusieurs enfants illégitimes, nés de concubines."
-    },
-    {
-      "id": "chl-106",
-      "categoryId": "histoire",
-      "subcategoryId": "histoire.france",
-      "difficulty": 2,
-      "type": "single",
-      "prompt": "Quel type de source, rédigée après sa mort, est notre principale référence sur la vie quotidienne de Charlemagne ?",
-      "answers": [
-        {
-          "text": "Les Évangiles de Charlemagne",
-          "correct": false,
-          "id": "a"
-        },
-        {
-          "text": "Le Coutumier de Paris",
-          "correct": false,
-          "id": "b"
-        },
-        {
-          "text": "Les Chroniques de Saint-Gall exclusivement",
-          "correct": false,
-          "id": "c"
-        },
-        {
-          "text": "La biographie d'Éginhard (Vita Karoli Magni)",
-          "correct": true,
-          "id": "d"
-        }
-      ]
-    },
-    {
-      "id": "chl-107",
-      "categoryId": "histoire",
-      "subcategoryId": "histoire.france",
-      "difficulty": 4,
-      "type": "boolean",
-      "prompt": "Selon la tradition, Charlemagne aurait eu des difficultés à apprendre à bien écrire.",
-      "answers": [
-        {
-          "text": "Vrai",
-          "correct": true,
-          "id": "a"
-        },
-        {
-          "text": "Faux",
-          "correct": false,
-          "id": "b"
-        }
-      ],
-      "explanation": "Éginhard rapporte qu'il gardait tablettes et parchemins sous son oreiller pour s'exercer, sans grand succès."
-    },
-    {
-      "id": "chl-108",
-      "categoryId": "histoire",
-      "subcategoryId": "histoire.france",
-      "difficulty": 2,
-      "type": "single",
-      "prompt": "À quelle date Charlemagne meurt-il ?",
-      "answers": [
-        {
-          "text": "Le 25 décembre 800",
-          "correct": false,
-          "id": "a"
-        },
-        {
-          "text": "Le 28 janvier 814",
-          "correct": true,
-          "id": "b"
-        },
-        {
-          "text": "Le 14 juillet 799",
-          "correct": false,
-          "id": "c"
-        },
-        {
-          "text": "Le 9 octobre 768",
-          "correct": false,
-          "id": "d"
-        }
-      ]
-    },
-    {
-      "id": "chl-109",
-      "categoryId": "histoire",
-      "subcategoryId": "histoire.france",
-      "difficulty": 2,
-      "type": "single",
-      "prompt": "Où Charlemagne meurt-il ?",
-      "answers": [
-        {
-          "text": "À Ingelheim",
-          "correct": false,
-          "id": "a"
-        },
-        {
-          "text": "À Rome",
-          "correct": false,
-          "id": "b"
-        },
-        {
-          "text": "À Aix-la-Chapelle",
-          "correct": true,
-          "id": "c"
-        },
-        {
-          "text": "À Paris",
-          "correct": false,
-          "id": "d"
-        }
-      ]
-    },
-    {
-      "id": "chl-110",
-      "categoryId": "histoire",
-      "subcategoryId": "histoire.france",
-      "difficulty": 3,
-      "type": "single",
-      "prompt": "Où Charlemagne est-il inhumé ?",
-      "answers": [
-        {
-          "text": "Dans la cathédrale de Reims",
-          "correct": false,
-          "id": "a"
-        },
-        {
-          "text": "À Saint-Pierre de Rome",
-          "correct": false,
-          "id": "b"
-        },
-        {
-          "text": "Dans la basilique Saint-Denis",
-          "correct": false,
-          "id": "c"
-        },
-        {
-          "text": "Dans la chapelle palatine d'Aix-la-Chapelle",
-          "correct": true,
-          "id": "d"
-        }
-      ]
-    },
-    {
-      "id": "chl-111",
-      "categoryId": "histoire",
-      "subcategoryId": "histoire.france",
-      "difficulty": 3,
-      "type": "single",
-      "prompt": "De quelle affection Charlemagne serait-il mort, selon les sources ?",
-      "answers": [
-        {
-          "text": "Une chute de cheval",
-          "correct": false,
-          "id": "a"
-        },
-        {
-          "text": "Une pneumonie",
-          "correct": true,
-          "id": "b"
-        },
-        {
-          "text": "Un empoisonnement",
-          "correct": false,
-          "id": "c"
-        },
-        {
-          "text": "La peste",
-          "correct": false,
-          "id": "d"
-        }
-      ]
-    },
-    {
-      "id": "chl-112",
-      "categoryId": "histoire",
-      "subcategoryId": "histoire.france",
-      "difficulty": 5,
-      "type": "single",
-      "prompt": "Quel empereur germanique obtient la canonisation controversée de Charlemagne en 1165 ?",
-      "answers": [
-        {
-          "text": "Frédéric Ier Barberousse",
-          "correct": true,
-          "id": "a"
-        },
-        {
-          "text": "Charles Quint",
-          "correct": false,
-          "id": "b"
-        },
-        {
-          "text": "Conrad II",
-          "correct": false,
-          "id": "c"
-        },
-        {
-          "text": "Otton Ier",
-          "correct": false,
-          "id": "d"
-        }
-      ]
-    },
-    {
-      "id": "chl-113",
-      "categoryId": "histoire",
-      "subcategoryId": "histoire.france",
-      "difficulty": 5,
-      "type": "single",
-      "prompt": "Quel antipape prononce cette canonisation, jamais reconnue par Rome ?",
-      "answers": [
-        {
-          "text": "Pascal III",
-          "correct": true,
-          "id": "a"
-        },
-        {
-          "text": "Innocent III",
-          "correct": false,
-          "id": "b"
-        },
-        {
-          "text": "Alexandre III",
-          "correct": false,
-          "id": "c"
-        },
-        {
-          "text": "Grégoire VII",
-          "correct": false,
-          "id": "d"
-        }
-      ]
-    },
-    {
-      "id": "chl-114",
-      "categoryId": "histoire",
-      "subcategoryId": "histoire.france",
-      "difficulty": 3,
-      "type": "single",
-      "prompt": "Quel prix, décerné chaque année à Aix-la-Chapelle, récompense une contribution à l'unification européenne ?",
-      "answers": [
-        {
-          "text": "Le prix Erasmus",
-          "correct": false,
-          "id": "a"
-        },
-        {
-          "text": "Le prix Nobel de la paix",
-          "correct": false,
-          "id": "b"
-        },
-        {
-          "text": "Le prix Charlemagne",
-          "correct": true,
-          "id": "c"
-        },
-        {
-          "text": "Le prix Robert-Schuman",
-          "correct": false,
-          "id": "d"
-        }
-      ]
-    },
-    {
-      "id": "chl-115",
-      "categoryId": "histoire",
-      "subcategoryId": "histoire.france",
-      "difficulty": 2,
-      "type": "single",
-      "prompt": "Quel surnom moderne donne-t-on souvent à Charlemagne, en lien avec la construction européenne ?",
-      "answers": [
-        {
-          "text": "« Le roi des rois »",
-          "correct": false,
-          "id": "a"
-        },
-        {
-          "text": "« Le dernier Romain »",
-          "correct": false,
-          "id": "b"
-        },
-        {
-          "text": "« Le grand pacificateur »",
-          "correct": false,
-          "id": "c"
-        },
-        {
-          "text": "« Le père de l'Europe »",
-          "correct": true,
-          "id": "d"
-        }
-      ]
-    },
-    {
-      "id": "chl-116",
-      "categoryId": "histoire",
-      "subcategoryId": "histoire.france",
-      "difficulty": 3,
-      "type": "single",
-      "prompt": "Quel empereur français, plus d'un millénaire plus tard, s'inspire explicitement du modèle de Charlemagne ?",
-      "answers": [
-        {
-          "text": "Louis XIV",
-          "correct": false,
-          "id": "a"
-        },
-        {
-          "text": "Napoléon Ier",
-          "correct": true,
-          "id": "b"
-        },
-        {
-          "text": "Napoléon III",
-          "correct": false,
-          "id": "c"
-        },
-        {
-          "text": "Louis-Philippe",
-          "correct": false,
-          "id": "d"
-        }
-      ]
-    },
-    {
-      "id": "chl-117",
-      "categoryId": "histoire",
-      "subcategoryId": "histoire.france",
-      "difficulty": 3,
-      "type": "single",
-      "prompt": "Quel traité de 843 partage l'empire carolingien entre les trois petits-fils de Charlemagne ?",
-      "answers": [
-        {
-          "text": "Le concordat de Worms",
-          "correct": false,
-          "id": "a"
-        },
-        {
-          "text": "Le traité de Westphalie",
-          "correct": false,
-          "id": "b"
-        },
-        {
-          "text": "Le traité de Verdun",
-          "correct": true,
-          "id": "c"
-        },
-        {
-          "text": "Le traité de Campo-Formio",
-          "correct": false,
-          "id": "d"
-        }
-      ]
-    },
-    {
-      "id": "chl-118",
-      "categoryId": "histoire",
-      "subcategoryId": "histoire.france",
-      "difficulty": 4,
-      "type": "single",
-      "prompt": "Quel empereur germanique du Xe siècle se présente comme l'héritier de Charlemagne en fondant le Saint-Empire ?",
-      "answers": [
-        {
-          "text": "Louis le Germanique",
-          "correct": false,
-          "id": "a"
-        },
-        {
-          "text": "Otton Ier",
-          "correct": true,
-          "id": "b"
-        },
-        {
-          "text": "Frédéric Barberousse",
-          "correct": false,
-          "id": "c"
-        },
-        {
-          "text": "Charles le Chauve",
-          "correct": false,
-          "id": "d"
-        }
-      ]
-    },
-    {
-      "id": "chl-119",
-      "categoryId": "histoire",
-      "subcategoryId": "histoire.france",
-      "difficulty": 3,
-      "type": "boolean",
-      "prompt": "L'Église catholique reconnaît aujourd'hui officiellement Charlemagne comme saint.",
-      "answers": [
-        {
-          "text": "Faux",
-          "correct": true,
-          "id": "a"
-        },
-        {
-          "text": "Vrai",
-          "correct": false,
-          "id": "b"
-        }
-      ],
-      "explanation": "Sa canonisation par l'antipape Pascal III en 1165 n'a jamais été validée par Rome."
-    },
-    {
-      "id": "chl-120",
-      "categoryId": "histoire",
-      "subcategoryId": "histoire.france",
-      "difficulty": 2,
-      "type": "single",
-      "prompt": "Quelle œuvre médiévale, composée bien après sa mort, contribue le plus à la légende de Charlemagne ?",
-      "answers": [
-        {
-          "text": "La Chanson de Roland",
-          "correct": true,
-          "id": "a"
-        },
-        {
-          "text": "Le Roman de la Rose",
-          "correct": false,
-          "id": "b"
-        },
-        {
-          "text": "Le Roman de Tristan",
-          "correct": false,
-          "id": "c"
-        },
-        {
-          "text": "La Divine Comédie",
+          "text": "Les « frondeurs »",
           "correct": false,
           "id": "d"
         }

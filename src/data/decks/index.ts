@@ -8,6 +8,7 @@ import sport from './sport.json';
 import musique from './musique.json';
 import revolutionFrancaise from './revolution-francaise.json';
 import charlemagne from './charlemagne.json';
+import henriIv from './henri-iv.json';
 import histoireAviation from './histoire-aviation.json';
 import conqueteSpatiale from './conquete-spatiale.json';
 
@@ -58,6 +59,7 @@ export const RAW_DECKS: RawDeck[] = [
   musique as RawDeck,
   revolutionFrancaise as RawDeck,
   charlemagne as RawDeck,
+  henriIv as RawDeck,
   histoireAviation as RawDeck,
   conqueteSpatiale as RawDeck,
 ];

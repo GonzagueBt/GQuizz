@@ -3,8 +3,11 @@
  * Voir ARCHITECTURE.md §7 et §10.
  */
 export const CONFIG = {
-  /** Decks marqués `free` livrés avec l'app. Un test de garde vérifie la cohérence. */
-  FREE_DECK_COUNT: 7,
+  /** Decks marqués `free` livrés avec l'app. Un test de garde vérifie la cohérence.
+   *  Tous les decks sont temporairement gratuits (tier: 'free') le temps de
+   *  finaliser le contenu ; `productId`/`priceHint` restent renseignés dans
+   *  leur JSON pour repasser un deck en premium en changeant juste `tier`. */
+  FREE_DECK_COUNT: 11,
 
   /** Prix indicatif par défaut d'un deck premium (le vrai prix vient du store). */
   PREMIUM_PRICE_DEFAULT: '1,99 €',
