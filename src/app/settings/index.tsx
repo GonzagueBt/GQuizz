@@ -59,8 +59,8 @@ export default function SettingsScreen() {
           <View style={{ flex: 1, gap: 2 }}>
             <Text variant="heading">Passer automatiquement</Text>
             <Text variant="caption" muted>
-              Quand ta réponse est juste, on file à la question suivante après une courte pause.
-              Sur une mauvaise réponse, on reste pour voir la bonne.
+              On file à la question suivante après une courte pause quand ta réponse est juste, ou
+              fausse sans explication à lire. S&apos;il y a une explication, on reste pour la voir.
             </Text>
           </View>
           <Switch

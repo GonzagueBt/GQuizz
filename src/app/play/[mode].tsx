@@ -67,6 +67,11 @@ export default function PlayScreen() {
   const [index, setIndex] = useState(0);
   const [chosenId, setChosenId] = useState<string | null>(null);
   const [lives, setLives] = useState<number>(CONFIG.STARTING_LIVES);
+  // Miroir de `lives` en ref : `answer()` décrémente et programme un
+  // setTimeout dans le même appel, avant que le re-render n'ait posé la
+  // nouvelle valeur de state — goNext, exécuté plus tard par ce timer, doit
+  // lire la vie à jour et non celle (obsolète) de son closure de création.
+  const livesRef = useRef<number>(CONFIG.STARTING_LIVES);
   // Réponses accumulées : ref (et non state) pour rester à jour dans le
   // setTimeout du passage automatique.
   const outcomes = useRef<AnswerOutcome[]>([]);
@@ -128,18 +133,23 @@ export default function PlayScreen() {
   const outOfLives = lives <= 0;
   const isFinalScreen = isLast || outOfLives;
   const chosenCorrect = revealed && !!question.answers.find((a) => a.id === chosenId)?.correct;
-  const autoAdvancing = chosenCorrect && autoAdvance && !isFinalScreen;
+  const hasExplanation = !!question.explanation?.trim();
+  // Pas d'explication à lire sur une mauvaise réponse -> même traitement
+  // qu'une bonne réponse : on ne bloque pas sur un bouton pour rien.
+  const autoAdvancing = revealed && autoAdvance && !isFinalScreen && (chosenCorrect || !hasExplanation);
 
   const goNext = () => {
     clearAdvanceTimer();
-    if (!isFinalScreen) {
+    // Vies lues depuis la ref (à jour même si ce goNext a été programmé par un
+    // setTimeout créé avant que la vie perdue n'ait été répercutée en state).
+    if (!isLast && livesRef.current > 0) {
       setIndex((i) => i + 1);
       setChosenId(null);
       return;
     }
     leaving.current = true;
     const summary = useProgressStore.getState().applySession(outcomes.current);
-    useSessionStore.getState().setResult(summary, modeLabel(mode), modeParam, lives);
+    useSessionStore.getState().setResult(summary, modeLabel(mode), modeParam, livesRef.current);
     router.replace('/play/result');
   };
 
@@ -149,9 +159,14 @@ export default function PlayScreen() {
     setChosenId(answerId);
     feedback(correct);
     outcomes.current.push({ questionId: question.id, correct, difficulty: question.difficulty });
+
     if (!correct) {
-      setLives((l) => Math.max(0, l - 1));
-    } else if (autoAdvance && !isLast) {
+      livesRef.current = Math.max(0, livesRef.current - 1);
+      setLives(livesRef.current);
+    }
+
+    const canSkipReveal = correct || !hasExplanation;
+    if (autoAdvance && canSkipReveal && !isLast && livesRef.current > 0) {
       advanceTimer.current = setTimeout(goNext, CONFIG.AUTO_ADVANCE_DELAY_MS);
     }
   };
@@ -250,8 +265,8 @@ export default function PlayScreen() {
       )}
 
       {autoAdvancing && (
-        <Text variant="label" color={colors.success}>
-          Bonne réponse ✓
+        <Text variant="label" color={chosenCorrect ? colors.success : colors.danger}>
+          {chosenCorrect ? 'Bonne réponse ✓' : 'Mauvaise réponse'}
         </Text>
       )}
     </Screen>
