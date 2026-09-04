@@ -1,0 +1,5810 @@
+{
+  "id": "capitales-du-monde",
+  "name": "Les capitales du monde",
+  "description": "Les 193 États membres de l'ONU et leur capitale, de Paris à Nauru.",
+  "emoji": "🌍",
+  "categoryId": "geographie",
+  "subcategoryId": "geographie.monde",
+  "tier": "free",
+  "productId": "gquizz.deck.capitales_du_monde",
+  "priceHint": "1,99 €",
+  "questionCount": 193,
+  "averageDifficulty": 3,
+  "releasedAt": "2026-07-01",
+  "previewQuestionIds": [
+    "cap-140",
+    "cap-119"
+  ],
+  "questions": [
+    {
+      "id": "cap-001",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.monde",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quelle est la capitale de l'Algérie ?",
+      "answers": [
+        {
+          "text": "Djouba",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "Rabat",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "Alger",
+          "correct": true,
+          "id": "c"
+        },
+        {
+          "text": "Le Caire",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "cap-002",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.monde",
+      "difficulty": 1,
+      "type": "single",
+      "prompt": "Quelle est la capitale de l'Égypte ?",
+      "answers": [
+        {
+          "text": "Khartoum",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "Rabat",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "Djouba",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "Le Caire",
+          "correct": true,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "cap-003",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.monde",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quelle est la capitale de la Libye ?",
+      "answers": [
+        {
+          "text": "Tripoli",
+          "correct": true,
+          "id": "a"
+        },
+        {
+          "text": "Le Caire",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "Tunis",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "Djouba",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "cap-004",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.monde",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quelle est la capitale du Maroc ?",
+      "answers": [
+        {
+          "text": "Djouba",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "Rabat",
+          "correct": true,
+          "id": "b"
+        },
+        {
+          "text": "Tripoli",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "Tunis",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "cap-005",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.monde",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quelle est la capitale de la Tunisie ?",
+      "answers": [
+        {
+          "text": "Alger",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "Le Caire",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "Tripoli",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "Tunis",
+          "correct": true,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "cap-006",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.monde",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Quelle est la capitale du Soudan ?",
+      "answers": [
+        {
+          "text": "Djouba",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "Rabat",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "Khartoum",
+          "correct": true,
+          "id": "c"
+        },
+        {
+          "text": "Tunis",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "cap-007",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.monde",
+      "difficulty": 4,
+      "type": "single",
+      "prompt": "Quelle est la capitale du Soudan du Sud ?",
+      "answers": [
+        {
+          "text": "Djouba",
+          "correct": true,
+          "id": "a"
+        },
+        {
+          "text": "Tunis",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "Alger",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "Tripoli",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "cap-008",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.monde",
+      "difficulty": 4,
+      "type": "single",
+      "prompt": "Quelle est la capitale du Bénin ?",
+      "answers": [
+        {
+          "text": "Banjul",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "Porto-Novo",
+          "correct": true,
+          "id": "b"
+        },
+        {
+          "text": "Bissau",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "Freetown",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "cap-009",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.monde",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Quelle est la capitale du Burkina Faso ?",
+      "answers": [
+        {
+          "text": "Bamako",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "Freetown",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "Conakry",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "Ouagadougou",
+          "correct": true,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "cap-010",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.monde",
+      "difficulty": 4,
+      "type": "single",
+      "prompt": "Quelle est la capitale du Cap-Vert ?",
+      "answers": [
+        {
+          "text": "Niamey",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "Dakar",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "Praia",
+          "correct": true,
+          "id": "c"
+        },
+        {
+          "text": "Bamako",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "cap-011",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.monde",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Quelle est la capitale de la Côte d'Ivoire ?",
+      "answers": [
+        {
+          "text": "Yamoussoukro",
+          "correct": true,
+          "id": "a"
+        },
+        {
+          "text": "Porto-Novo",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "Bissau",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "Freetown",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "cap-012",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.monde",
+      "difficulty": 4,
+      "type": "single",
+      "prompt": "Quelle est la capitale de la Gambie ?",
+      "answers": [
+        {
+          "text": "Lomé",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "Banjul",
+          "correct": true,
+          "id": "b"
+        },
+        {
+          "text": "Ouagadougou",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "Niamey",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "cap-013",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.monde",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quelle est la capitale du Ghana ?",
+      "answers": [
+        {
+          "text": "Yamoussoukro",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "Accra",
+          "correct": true,
+          "id": "b"
+        },
+        {
+          "text": "Banjul",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "Conakry",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "cap-014",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.monde",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Quelle est la capitale de la Guinée ?",
+      "answers": [
+        {
+          "text": "Dakar",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "Lomé",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "Conakry",
+          "correct": true,
+          "id": "c"
+        },
+        {
+          "text": "Abuja",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "cap-015",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.monde",
+      "difficulty": 4,
+      "type": "single",
+      "prompt": "Quelle est la capitale de la Guinée-Bissau ?",
+      "answers": [
+        {
+          "text": "Bissau",
+          "correct": true,
+          "id": "a"
+        },
+        {
+          "text": "Yamoussoukro",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "Banjul",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "Porto-Novo",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "cap-016",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.monde",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Quelle est la capitale du Liberia ?",
+      "answers": [
+        {
+          "text": "Bamako",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "Bissau",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "Niamey",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "Monrovia",
+          "correct": true,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "cap-017",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.monde",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Quelle est la capitale du Mali ?",
+      "answers": [
+        {
+          "text": "Accra",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "Bissau",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "Bamako",
+          "correct": true,
+          "id": "c"
+        },
+        {
+          "text": "Praia",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "cap-018",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.monde",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Quelle est la capitale de la Mauritanie ?",
+      "answers": [
+        {
+          "text": "Nouakchott",
+          "correct": true,
+          "id": "a"
+        },
+        {
+          "text": "Accra",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "Niamey",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "Porto-Novo",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "cap-019",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.monde",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Quelle est la capitale du Niger ?",
+      "answers": [
+        {
+          "text": "Accra",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "Lomé",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "Yamoussoukro",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "Niamey",
+          "correct": true,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "cap-020",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.monde",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quelle est la capitale du Nigeria ?",
+      "answers": [
+        {
+          "text": "Yamoussoukro",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "Abuja",
+          "correct": true,
+          "id": "b"
+        },
+        {
+          "text": "Bamako",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "Bissau",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "cap-021",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.monde",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quelle est la capitale du Sénégal ?",
+      "answers": [
+        {
+          "text": "Dakar",
+          "correct": true,
+          "id": "a"
+        },
+        {
+          "text": "Praia",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "Accra",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "Bamako",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "cap-022",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.monde",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Quelle est la capitale de la Sierra Leone ?",
+      "answers": [
+        {
+          "text": "Niamey",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "Praia",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "Freetown",
+          "correct": true,
+          "id": "c"
+        },
+        {
+          "text": "Bamako",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "cap-023",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.monde",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Quelle est la capitale du Togo ?",
+      "answers": [
+        {
+          "text": "Banjul",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "Porto-Novo",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "Dakar",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "Lomé",
+          "correct": true,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "cap-024",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.monde",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quelle est la capitale du Cameroun ?",
+      "answers": [
+        {
+          "text": "Brazzaville",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "Yaoundé",
+          "correct": true,
+          "id": "b"
+        },
+        {
+          "text": "Kinshasa",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "Bangui",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "cap-025",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.monde",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Quelle est la capitale de la République centrafricaine ?",
+      "answers": [
+        {
+          "text": "N'Djamena",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "Bangui",
+          "correct": true,
+          "id": "b"
+        },
+        {
+          "text": "Libreville",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "Brazzaville",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "cap-026",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.monde",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Quelle est la capitale du Tchad ?",
+      "answers": [
+        {
+          "text": "Brazzaville",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "Malabo",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "N'Djamena",
+          "correct": true,
+          "id": "c"
+        },
+        {
+          "text": "Yaoundé",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "cap-027",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.monde",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Quelle est la capitale du Congo ?",
+      "answers": [
+        {
+          "text": "Libreville",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "N'Djamena",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "Yaoundé",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "Brazzaville",
+          "correct": true,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "cap-028",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.monde",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quelle est la capitale de la République démocratique du Congo ?",
+      "answers": [
+        {
+          "text": "Kinshasa",
+          "correct": true,
+          "id": "a"
+        },
+        {
+          "text": "Yaoundé",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "N'Djamena",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "Bangui",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "cap-029",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.monde",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Quelle est la capitale du Gabon ?",
+      "answers": [
+        {
+          "text": "Yaoundé",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "Libreville",
+          "correct": true,
+          "id": "b"
+        },
+        {
+          "text": "Kinshasa",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "Bangui",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "cap-030",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.monde",
+      "difficulty": 4,
+      "type": "single",
+      "prompt": "Quelle est la capitale de la Guinée équatoriale ?",
+      "answers": [
+        {
+          "text": "Malabo",
+          "correct": true,
+          "id": "a"
+        },
+        {
+          "text": "N'Djamena",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "Brazzaville",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "Yaoundé",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "cap-031",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.monde",
+      "difficulty": 5,
+      "type": "single",
+      "prompt": "Quelle est la capitale de Sao Tomé-et-Principe ?",
+      "answers": [
+        {
+          "text": "Libreville",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "Bangui",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "São Tomé",
+          "correct": true,
+          "id": "c"
+        },
+        {
+          "text": "N'Djamena",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "cap-032",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.monde",
+      "difficulty": 4,
+      "type": "single",
+      "prompt": "Quelle est la capitale de Djibouti ?",
+      "answers": [
+        {
+          "text": "Addis-Abeba",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "Kampala",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "Victoria",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "Djibouti",
+          "correct": true,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "cap-033",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.monde",
+      "difficulty": 4,
+      "type": "single",
+      "prompt": "Quelle est la capitale de l'Érythrée ?",
+      "answers": [
+        {
+          "text": "Nairobi",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "Asmara",
+          "correct": true,
+          "id": "b"
+        },
+        {
+          "text": "Mogadiscio",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "Kigali",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "cap-034",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.monde",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quelle est la capitale de l'Éthiopie ?",
+      "answers": [
+        {
+          "text": "Moroni",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "Maputo",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "Mogadiscio",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "Addis-Abeba",
+          "correct": true,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "cap-035",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.monde",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quelle est la capitale du Kenya ?",
+      "answers": [
+        {
+          "text": "Nairobi",
+          "correct": true,
+          "id": "a"
+        },
+        {
+          "text": "Addis-Abeba",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "Lilongwe",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "Victoria",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "cap-036",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.monde",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Quelle est la capitale de Madagascar ?",
+      "answers": [
+        {
+          "text": "Addis-Abeba",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "Port-Louis",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "Antananarivo",
+          "correct": true,
+          "id": "c"
+        },
+        {
+          "text": "Moroni",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "cap-037",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.monde",
+      "difficulty": 4,
+      "type": "single",
+      "prompt": "Quelle est la capitale du Malawi ?",
+      "answers": [
+        {
+          "text": "Djibouti",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "Mogadiscio",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "Lilongwe",
+          "correct": true,
+          "id": "c"
+        },
+        {
+          "text": "Kampala",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "cap-038",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.monde",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Quelle est la capitale de Maurice ?",
+      "answers": [
+        {
+          "text": "Port-Louis",
+          "correct": true,
+          "id": "a"
+        },
+        {
+          "text": "Moroni",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "Addis-Abeba",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "Mogadiscio",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "cap-039",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.monde",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Quelle est la capitale du Mozambique ?",
+      "answers": [
+        {
+          "text": "Port-Louis",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "Lilongwe",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "Djibouti",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "Maputo",
+          "correct": true,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "cap-040",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.monde",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Quelle est la capitale du Rwanda ?",
+      "answers": [
+        {
+          "text": "Lilongwe",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "Kigali",
+          "correct": true,
+          "id": "b"
+        },
+        {
+          "text": "Mogadiscio",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "Kampala",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "cap-041",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.monde",
+      "difficulty": 4,
+      "type": "single",
+      "prompt": "Quelle est la capitale des Comores ?",
+      "answers": [
+        {
+          "text": "Moroni",
+          "correct": true,
+          "id": "a"
+        },
+        {
+          "text": "Addis-Abeba",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "Lilongwe",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "Lusaka",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "cap-042",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.monde",
+      "difficulty": 4,
+      "type": "single",
+      "prompt": "Quelle est la capitale des Seychelles ?",
+      "answers": [
+        {
+          "text": "Port-Louis",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "Victoria",
+          "correct": true,
+          "id": "b"
+        },
+        {
+          "text": "Dodoma",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "Kigali",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "cap-043",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.monde",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Quelle est la capitale de la Somalie ?",
+      "answers": [
+        {
+          "text": "Kigali",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "Addis-Abeba",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "Asmara",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "Mogadiscio",
+          "correct": true,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "cap-044",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.monde",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Quelle est la capitale de la Tanzanie ?",
+      "answers": [
+        {
+          "text": "Addis-Abeba",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "Antananarivo",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "Dodoma",
+          "correct": true,
+          "id": "c"
+        },
+        {
+          "text": "Kampala",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "cap-045",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.monde",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Quelle est la capitale de l'Ouganda ?",
+      "answers": [
+        {
+          "text": "Kampala",
+          "correct": true,
+          "id": "a"
+        },
+        {
+          "text": "Lusaka",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "Moroni",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "Djibouti",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "cap-046",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.monde",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Quelle est la capitale de la Zambie ?",
+      "answers": [
+        {
+          "text": "Mogadiscio",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "Lusaka",
+          "correct": true,
+          "id": "b"
+        },
+        {
+          "text": "Asmara",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "Port-Louis",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "cap-047",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.monde",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Quelle est la capitale du Botswana ?",
+      "answers": [
+        {
+          "text": "Luanda",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "Pretoria",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "Gaborone",
+          "correct": true,
+          "id": "c"
+        },
+        {
+          "text": "Mbabane",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "cap-048",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.monde",
+      "difficulty": 4,
+      "type": "single",
+      "prompt": "Quelle est la capitale de l'Eswatini ?",
+      "answers": [
+        {
+          "text": "Luanda",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "Gitega",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "Gaborone",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "Mbabane",
+          "correct": true,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "cap-049",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.monde",
+      "difficulty": 4,
+      "type": "single",
+      "prompt": "Quelle est la capitale du Lesotho ?",
+      "answers": [
+        {
+          "text": "Gitega",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "Windhoek",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "Luanda",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "Maseru",
+          "correct": true,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "cap-050",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.monde",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Quelle est la capitale de la Namibie ?",
+      "answers": [
+        {
+          "text": "Maseru",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "Gitega",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "Windhoek",
+          "correct": true,
+          "id": "c"
+        },
+        {
+          "text": "Pretoria",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "cap-051",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.monde",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quelle est la capitale de l'Afrique du Sud ?",
+      "answers": [
+        {
+          "text": "Gitega",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "Pretoria",
+          "correct": true,
+          "id": "b"
+        },
+        {
+          "text": "Maseru",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "Gaborone",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "cap-052",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.monde",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Quelle est la capitale du Zimbabwe ?",
+      "answers": [
+        {
+          "text": "Harare",
+          "correct": true,
+          "id": "a"
+        },
+        {
+          "text": "Gitega",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "Mbabane",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "Maseru",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "cap-053",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.monde",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Quelle est la capitale de l'Angola ?",
+      "answers": [
+        {
+          "text": "Harare",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "Gaborone",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "Luanda",
+          "correct": true,
+          "id": "c"
+        },
+        {
+          "text": "Gitega",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "cap-054",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.monde",
+      "difficulty": 5,
+      "type": "single",
+      "prompt": "Quelle est la capitale du Burundi ?",
+      "answers": [
+        {
+          "text": "Maseru",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "Pretoria",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "Gaborone",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "Gitega",
+          "correct": true,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "cap-055",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.monde",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quelle est la capitale du Canada ?",
+      "answers": [
+        {
+          "text": "Ottawa",
+          "correct": true,
+          "id": "a"
+        },
+        {
+          "text": "Kingston",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "Ankara",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "Nouakchott",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "cap-056",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.monde",
+      "difficulty": 1,
+      "type": "single",
+      "prompt": "Quelle est la capitale des États-Unis ?",
+      "answers": [
+        {
+          "text": "Canberra",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "Washington",
+          "correct": true,
+          "id": "b"
+        },
+        {
+          "text": "Kuala Lumpur",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "Tbilissi",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "cap-057",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.monde",
+      "difficulty": 1,
+      "type": "single",
+      "prompt": "Quelle est la capitale du Mexique ?",
+      "answers": [
+        {
+          "text": "Quito",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "Lisbonne",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "Yaoundé",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "Mexico",
+          "correct": true,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "cap-058",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.monde",
+      "difficulty": 5,
+      "type": "single",
+      "prompt": "Quelle est la capitale de Antigua-et-Barbuda ?",
+      "answers": [
+        {
+          "text": "Roseau",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "Kingstown",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "Saint-John's",
+          "correct": true,
+          "id": "c"
+        },
+        {
+          "text": "Guatemala",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "cap-059",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.monde",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Quelle est la capitale des Bahamas ?",
+      "answers": [
+        {
+          "text": "Nassau",
+          "correct": true,
+          "id": "a"
+        },
+        {
+          "text": "Kingston",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "Bridgetown",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "Roseau",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "cap-060",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.monde",
+      "difficulty": 4,
+      "type": "single",
+      "prompt": "Quelle est la capitale de la Barbade ?",
+      "answers": [
+        {
+          "text": "San José",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "Bridgetown",
+          "correct": true,
+          "id": "b"
+        },
+        {
+          "text": "Port-d'Espagne",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "Tegucigalpa",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "cap-061",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.monde",
+      "difficulty": 4,
+      "type": "single",
+      "prompt": "Quelle est la capitale du Belize ?",
+      "answers": [
+        {
+          "text": "Port-au-Prince",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "Belmopan",
+          "correct": true,
+          "id": "b"
+        },
+        {
+          "text": "Basseterre",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "Saint-John's",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "cap-062",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.monde",
+      "difficulty": 1,
+      "type": "single",
+      "prompt": "Quelle est la capitale de Cuba ?",
+      "answers": [
+        {
+          "text": "Port-au-Prince",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "Roseau",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "Saint-Georges",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "La Havane",
+          "correct": true,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "cap-063",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.monde",
+      "difficulty": 5,
+      "type": "single",
+      "prompt": "Quelle est la capitale de la Dominique ?",
+      "answers": [
+        {
+          "text": "Basseterre",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "Saint-Georges",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "Roseau",
+          "correct": true,
+          "id": "c"
+        },
+        {
+          "text": "Tegucigalpa",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "cap-064",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.monde",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Quelle est la capitale de la République dominicaine ?",
+      "answers": [
+        {
+          "text": "Saint-Domingue",
+          "correct": true,
+          "id": "a"
+        },
+        {
+          "text": "Nassau",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "San José",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "Kingston",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "cap-065",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.monde",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Quelle est la capitale de El Salvador ?",
+      "answers": [
+        {
+          "text": "San Salvador",
+          "correct": true,
+          "id": "a"
+        },
+        {
+          "text": "Managua",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "Nassau",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "Castries",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "cap-066",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.monde",
+      "difficulty": 5,
+      "type": "single",
+      "prompt": "Quelle est la capitale de la Grenade ?",
+      "answers": [
+        {
+          "text": "Guatemala",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "Port-au-Prince",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "Saint-Georges",
+          "correct": true,
+          "id": "c"
+        },
+        {
+          "text": "San José",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "cap-067",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.monde",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Quelle est la capitale du Guatemala ?",
+      "answers": [
+        {
+          "text": "Nassau",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "Guatemala",
+          "correct": true,
+          "id": "b"
+        },
+        {
+          "text": "Bridgetown",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "Port-au-Prince",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "cap-068",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.monde",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Quelle est la capitale de Haïti ?",
+      "answers": [
+        {
+          "text": "Saint-Domingue",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "Panama",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "Nassau",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "Port-au-Prince",
+          "correct": true,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "cap-069",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.monde",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Quelle est la capitale du Honduras ?",
+      "answers": [
+        {
+          "text": "Tegucigalpa",
+          "correct": true,
+          "id": "a"
+        },
+        {
+          "text": "Saint-Domingue",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "Castries",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "Bridgetown",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "cap-070",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.monde",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Quelle est la capitale de la Jamaïque ?",
+      "answers": [
+        {
+          "text": "San Salvador",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "Port-au-Prince",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "Kingston",
+          "correct": true,
+          "id": "c"
+        },
+        {
+          "text": "San José",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "cap-071",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.monde",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Quelle est la capitale du Nicaragua ?",
+      "answers": [
+        {
+          "text": "Tegucigalpa",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "Managua",
+          "correct": true,
+          "id": "b"
+        },
+        {
+          "text": "Guatemala",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "San José",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "cap-072",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.monde",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quelle est la capitale du Panama ?",
+      "answers": [
+        {
+          "text": "Kingston",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "Bridgetown",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "San Salvador",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "Panama",
+          "correct": true,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "cap-073",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.monde",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Quelle est la capitale de Costa Rica ?",
+      "answers": [
+        {
+          "text": "Nassau",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "San José",
+          "correct": true,
+          "id": "b"
+        },
+        {
+          "text": "Port-d'Espagne",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "Panama",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "cap-074",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.monde",
+      "difficulty": 5,
+      "type": "single",
+      "prompt": "Quelle est la capitale de Saint-Christophe-et-Niévès ?",
+      "answers": [
+        {
+          "text": "Saint-Georges",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "Castries",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "Panama",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "Basseterre",
+          "correct": true,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "cap-075",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.monde",
+      "difficulty": 5,
+      "type": "single",
+      "prompt": "Quelle est la capitale de Sainte-Lucie ?",
+      "answers": [
+        {
+          "text": "Belmopan",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "Kingston",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "Castries",
+          "correct": true,
+          "id": "c"
+        },
+        {
+          "text": "Basseterre",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "cap-076",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.monde",
+      "difficulty": 5,
+      "type": "single",
+      "prompt": "Quelle est la capitale de Saint-Vincent-et-les-Grenadines ?",
+      "answers": [
+        {
+          "text": "Kingstown",
+          "correct": true,
+          "id": "a"
+        },
+        {
+          "text": "Tegucigalpa",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "Kingston",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "Guatemala",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "cap-077",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.monde",
+      "difficulty": 4,
+      "type": "single",
+      "prompt": "Quelle est la capitale de Trinité-et-Tobago ?",
+      "answers": [
+        {
+          "text": "Port-d'Espagne",
+          "correct": true,
+          "id": "a"
+        },
+        {
+          "text": "Saint-Domingue",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "Panama",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "Nassau",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "cap-078",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.monde",
+      "difficulty": 1,
+      "type": "single",
+      "prompt": "Quelle est la capitale de l'Argentine ?",
+      "answers": [
+        {
+          "text": "Santiago",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "Brasília",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "Buenos Aires",
+          "correct": true,
+          "id": "c"
+        },
+        {
+          "text": "Quito",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "cap-079",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.monde",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Quelle est la capitale de la Bolivie ?",
+      "answers": [
+        {
+          "text": "Paramaribo",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "Sucre",
+          "correct": true,
+          "id": "b"
+        },
+        {
+          "text": "Santiago",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "Bogotá",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "cap-080",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.monde",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quelle est la capitale du Brésil ?",
+      "answers": [
+        {
+          "text": "Lima",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "Buenos Aires",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "Asunción",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "Brasília",
+          "correct": true,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "cap-081",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.monde",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quelle est la capitale du Chili ?",
+      "answers": [
+        {
+          "text": "Buenos Aires",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "Santiago",
+          "correct": true,
+          "id": "b"
+        },
+        {
+          "text": "Paramaribo",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "Sucre",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "cap-082",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.monde",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quelle est la capitale de la Colombie ?",
+      "answers": [
+        {
+          "text": "Brasília",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "Caracas",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "Bogotá",
+          "correct": true,
+          "id": "c"
+        },
+        {
+          "text": "Sucre",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "cap-083",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.monde",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Quelle est la capitale de l'Équateur ?",
+      "answers": [
+        {
+          "text": "Quito",
+          "correct": true,
+          "id": "a"
+        },
+        {
+          "text": "Sucre",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "Caracas",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "Bogotá",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "cap-084",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.monde",
+      "difficulty": 4,
+      "type": "single",
+      "prompt": "Quelle est la capitale du Guyana ?",
+      "answers": [
+        {
+          "text": "Montevideo",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "Brasília",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "Buenos Aires",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "Georgetown",
+          "correct": true,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "cap-085",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.monde",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Quelle est la capitale du Paraguay ?",
+      "answers": [
+        {
+          "text": "Quito",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "Buenos Aires",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "Asunción",
+          "correct": true,
+          "id": "c"
+        },
+        {
+          "text": "Bogotá",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "cap-086",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.monde",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quelle est la capitale du Pérou ?",
+      "answers": [
+        {
+          "text": "Asunción",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "Lima",
+          "correct": true,
+          "id": "b"
+        },
+        {
+          "text": "Caracas",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "Buenos Aires",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "cap-087",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.monde",
+      "difficulty": 4,
+      "type": "single",
+      "prompt": "Quelle est la capitale du Suriname ?",
+      "answers": [
+        {
+          "text": "Paramaribo",
+          "correct": true,
+          "id": "a"
+        },
+        {
+          "text": "Quito",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "Buenos Aires",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "Santiago",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "cap-088",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.monde",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Quelle est la capitale de l'Uruguay ?",
+      "answers": [
+        {
+          "text": "Caracas",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "Sucre",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "Georgetown",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "Montevideo",
+          "correct": true,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "cap-089",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.monde",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quelle est la capitale du Venezuela ?",
+      "answers": [
+        {
+          "text": "Quito",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "Santiago",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "Caracas",
+          "correct": true,
+          "id": "c"
+        },
+        {
+          "text": "Brasília",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "cap-090",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.monde",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quelle est la capitale de l'Arabie saoudite ?",
+      "answers": [
+        {
+          "text": "Riyad",
+          "correct": true,
+          "id": "a"
+        },
+        {
+          "text": "Amman",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "Mascate",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "Téhéran",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "cap-091",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.monde",
+      "difficulty": 4,
+      "type": "single",
+      "prompt": "Quelle est la capitale de Bahreïn ?",
+      "answers": [
+        {
+          "text": "Damas",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "Sanaa",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "Beyrouth",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "Manama",
+          "correct": true,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "cap-092",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.monde",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Quelle est la capitale des Émirats arabes unis ?",
+      "answers": [
+        {
+          "text": "Riyad",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "Abou Dabi",
+          "correct": true,
+          "id": "b"
+        },
+        {
+          "text": "Doha",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "Mascate",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "cap-093",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.monde",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quelle est la capitale de l'Irak ?",
+      "answers": [
+        {
+          "text": "Amman",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "Bagdad",
+          "correct": true,
+          "id": "b"
+        },
+        {
+          "text": "Manama",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "Mascate",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "cap-094",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.monde",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quelle est la capitale de l'Iran ?",
+      "answers": [
+        {
+          "text": "Manama",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "Riyad",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "Téhéran",
+          "correct": true,
+          "id": "c"
+        },
+        {
+          "text": "Mascate",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "cap-095",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.monde",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quelle est la capitale de Israël ?",
+      "answers": [
+        {
+          "text": "Jérusalem",
+          "correct": true,
+          "id": "a"
+        },
+        {
+          "text": "Téhéran",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "Sanaa",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "Abou Dabi",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "cap-096",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.monde",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quelle est la capitale de la Jordanie ?",
+      "answers": [
+        {
+          "text": "Manama",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "Sanaa",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "Damas",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "Amman",
+          "correct": true,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "cap-097",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.monde",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Quelle est la capitale du Koweït ?",
+      "answers": [
+        {
+          "text": "Koweït",
+          "correct": true,
+          "id": "a"
+        },
+        {
+          "text": "Beyrouth",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "Téhéran",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "Abou Dabi",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "cap-098",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.monde",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quelle est la capitale du Liban ?",
+      "answers": [
+        {
+          "text": "Koweït",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "Amman",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "Riyad",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "Beyrouth",
+          "correct": true,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "cap-099",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.monde",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Quelle est la capitale de Oman ?",
+      "answers": [
+        {
+          "text": "Beyrouth",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "Mascate",
+          "correct": true,
+          "id": "b"
+        },
+        {
+          "text": "Damas",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "Riyad",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "cap-100",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.monde",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quelle est la capitale du Qatar ?",
+      "answers": [
+        {
+          "text": "Sanaa",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "Mascate",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "Doha",
+          "correct": true,
+          "id": "c"
+        },
+        {
+          "text": "Amman",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "cap-101",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.monde",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quelle est la capitale de la Syrie ?",
+      "answers": [
+        {
+          "text": "Damas",
+          "correct": true,
+          "id": "a"
+        },
+        {
+          "text": "Mascate",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "Manama",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "Bagdad",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "cap-102",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.monde",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Quelle est la capitale du Yémen ?",
+      "answers": [
+        {
+          "text": "Bagdad",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "Manama",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "Sanaa",
+          "correct": true,
+          "id": "c"
+        },
+        {
+          "text": "Mascate",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "cap-103",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.monde",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quelle est la capitale de l'Afghanistan ?",
+      "answers": [
+        {
+          "text": "Islamabad",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "Kaboul",
+          "correct": true,
+          "id": "b"
+        },
+        {
+          "text": "Bichkek",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "Dacca",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "cap-104",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.monde",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Quelle est la capitale du Bangladesh ?",
+      "answers": [
+        {
+          "text": "Sri Jayawardenapura Kotte",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "Katmandou",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "Malé",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "Dacca",
+          "correct": true,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "cap-105",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.monde",
+      "difficulty": 4,
+      "type": "single",
+      "prompt": "Quelle est la capitale du Bhoutan ?",
+      "answers": [
+        {
+          "text": "Bichkek",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "Douchanbé",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "New Delhi",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "Thimphou",
+          "correct": true,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "cap-106",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.monde",
+      "difficulty": 1,
+      "type": "single",
+      "prompt": "Quelle est la capitale de l'Inde ?",
+      "answers": [
+        {
+          "text": "Tachkent",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "Thimphou",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "New Delhi",
+          "correct": true,
+          "id": "c"
+        },
+        {
+          "text": "Kaboul",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "cap-107",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.monde",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quelle est la capitale du Népal ?",
+      "answers": [
+        {
+          "text": "Katmandou",
+          "correct": true,
+          "id": "a"
+        },
+        {
+          "text": "Bichkek",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "Achgabat",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "New Delhi",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "cap-108",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.monde",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quelle est la capitale du Pakistan ?",
+      "answers": [
+        {
+          "text": "Dacca",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "Islamabad",
+          "correct": true,
+          "id": "b"
+        },
+        {
+          "text": "Achgabat",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "Katmandou",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "cap-109",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.monde",
+      "difficulty": 5,
+      "type": "single",
+      "prompt": "Quelle est la capitale du Sri Lanka ?",
+      "answers": [
+        {
+          "text": "Sri Jayawardenapura Kotte",
+          "correct": true,
+          "id": "a"
+        },
+        {
+          "text": "Astana",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "New Delhi",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "Thimphou",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "cap-110",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.monde",
+      "difficulty": 4,
+      "type": "single",
+      "prompt": "Quelle est la capitale des Maldives ?",
+      "answers": [
+        {
+          "text": "New Delhi",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "Dacca",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "Islamabad",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "Malé",
+          "correct": true,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "cap-111",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.monde",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Quelle est la capitale du Kazakhstan ?",
+      "answers": [
+        {
+          "text": "New Delhi",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "Tachkent",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "Astana",
+          "correct": true,
+          "id": "c"
+        },
+        {
+          "text": "Achgabat",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "cap-112",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.monde",
+      "difficulty": 4,
+      "type": "single",
+      "prompt": "Quelle est la capitale du Kirghizistan ?",
+      "answers": [
+        {
+          "text": "Katmandou",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "Bichkek",
+          "correct": true,
+          "id": "b"
+        },
+        {
+          "text": "Thimphou",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "Kaboul",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "cap-113",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.monde",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Quelle est la capitale de l'Ouzbékistan ?",
+      "answers": [
+        {
+          "text": "Katmandou",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "Douchanbé",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "Dacca",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "Tachkent",
+          "correct": true,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "cap-114",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.monde",
+      "difficulty": 4,
+      "type": "single",
+      "prompt": "Quelle est la capitale du Tadjikistan ?",
+      "answers": [
+        {
+          "text": "Douchanbé",
+          "correct": true,
+          "id": "a"
+        },
+        {
+          "text": "Achgabat",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "Kaboul",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "Malé",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "cap-115",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.monde",
+      "difficulty": 4,
+      "type": "single",
+      "prompt": "Quelle est la capitale du Turkménistan ?",
+      "answers": [
+        {
+          "text": "Malé",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "Achgabat",
+          "correct": true,
+          "id": "b"
+        },
+        {
+          "text": "Douchanbé",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "Islamabad",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "cap-116",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.monde",
+      "difficulty": 1,
+      "type": "single",
+      "prompt": "Quelle est la capitale de la Chine ?",
+      "answers": [
+        {
+          "text": "Séoul",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "Oulan-Bator",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "Pékin",
+          "correct": true,
+          "id": "c"
+        },
+        {
+          "text": "Tokyo",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "cap-117",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.monde",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quelle est la capitale de la Corée du Nord ?",
+      "answers": [
+        {
+          "text": "Oulan-Bator",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "Tokyo",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "Séoul",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "Pyongyang",
+          "correct": true,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "cap-118",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.monde",
+      "difficulty": 1,
+      "type": "single",
+      "prompt": "Quelle est la capitale de la Corée du Sud ?",
+      "answers": [
+        {
+          "text": "Oulan-Bator",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "Pékin",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "Séoul",
+          "correct": true,
+          "id": "c"
+        },
+        {
+          "text": "Pyongyang",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "cap-119",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.monde",
+      "difficulty": 1,
+      "type": "single",
+      "prompt": "Quelle est la capitale du Japon ?",
+      "answers": [
+        {
+          "text": "Tokyo",
+          "correct": true,
+          "id": "a"
+        },
+        {
+          "text": "Séoul",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "Pékin",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "Pyongyang",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "cap-120",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.monde",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Quelle est la capitale de la Mongolie ?",
+      "answers": [
+        {
+          "text": "Séoul",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "Oulan-Bator",
+          "correct": true,
+          "id": "b"
+        },
+        {
+          "text": "Tokyo",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "Pékin",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "cap-121",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.monde",
+      "difficulty": 5,
+      "type": "single",
+      "prompt": "Quelle est la capitale du Brunei ?",
+      "answers": [
+        {
+          "text": "Kuala Lumpur",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "Bandar Seri Begawan",
+          "correct": true,
+          "id": "b"
+        },
+        {
+          "text": "Bangkok",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "Singapour",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "cap-122",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.monde",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Quelle est la capitale du Cambodge ?",
+      "answers": [
+        {
+          "text": "Dili",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "Bandar Seri Begawan",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "Phnom Penh",
+          "correct": true,
+          "id": "c"
+        },
+        {
+          "text": "Kuala Lumpur",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "cap-123",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.monde",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quelle est la capitale de l'Indonésie ?",
+      "answers": [
+        {
+          "text": "Jakarta",
+          "correct": true,
+          "id": "a"
+        },
+        {
+          "text": "Hanoï",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "Vientiane",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "Singapour",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "cap-124",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.monde",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Quelle est la capitale du Laos ?",
+      "answers": [
+        {
+          "text": "Singapour",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "Phnom Penh",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "Manille",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "Vientiane",
+          "correct": true,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "cap-125",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.monde",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quelle est la capitale de la Malaisie ?",
+      "answers": [
+        {
+          "text": "Singapour",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "Naypyidaw",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "Vientiane",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "Kuala Lumpur",
+          "correct": true,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "cap-126",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.monde",
+      "difficulty": 4,
+      "type": "single",
+      "prompt": "Quelle est la capitale de Myanmar (Birmanie) ?",
+      "answers": [
+        {
+          "text": "Bangkok",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "Jakarta",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "Naypyidaw",
+          "correct": true,
+          "id": "c"
+        },
+        {
+          "text": "Dili",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "cap-127",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.monde",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quelle est la capitale des Philippines ?",
+      "answers": [
+        {
+          "text": "Bangkok",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "Manille",
+          "correct": true,
+          "id": "b"
+        },
+        {
+          "text": "Hanoï",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "Dili",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "cap-128",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.monde",
+      "difficulty": 1,
+      "type": "single",
+      "prompt": "Quelle est la capitale de Singapour ?",
+      "answers": [
+        {
+          "text": "Singapour",
+          "correct": true,
+          "id": "a"
+        },
+        {
+          "text": "Bangkok",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "Dili",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "Naypyidaw",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "cap-129",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.monde",
+      "difficulty": 1,
+      "type": "single",
+      "prompt": "Quelle est la capitale de la Thaïlande ?",
+      "answers": [
+        {
+          "text": "Dili",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "Bangkok",
+          "correct": true,
+          "id": "b"
+        },
+        {
+          "text": "Vientiane",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "Bandar Seri Begawan",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "cap-130",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.monde",
+      "difficulty": 4,
+      "type": "single",
+      "prompt": "Quelle est la capitale du Timor oriental ?",
+      "answers": [
+        {
+          "text": "Vientiane",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "Naypyidaw",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "Dili",
+          "correct": true,
+          "id": "c"
+        },
+        {
+          "text": "Bangkok",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "cap-131",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.monde",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quelle est la capitale du Viêt Nam ?",
+      "answers": [
+        {
+          "text": "Phnom Penh",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "Bangkok",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "Vientiane",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "Hanoï",
+          "correct": true,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "cap-132",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.monde",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Quelle est la capitale de l'Arménie ?",
+      "answers": [
+        {
+          "text": "Erevan",
+          "correct": true,
+          "id": "a"
+        },
+        {
+          "text": "Ankara",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "Nicosie",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "Tbilissi",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "cap-133",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.monde",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Quelle est la capitale de l'Azerbaïdjan ?",
+      "answers": [
+        {
+          "text": "Nicosie",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "Tbilissi",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "Erevan",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "Bakou",
+          "correct": true,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "cap-134",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.monde",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Quelle est la capitale de la Géorgie ?",
+      "answers": [
+        {
+          "text": "Tbilissi",
+          "correct": true,
+          "id": "a"
+        },
+        {
+          "text": "Erevan",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "Nicosie",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "Ankara",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "cap-135",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.monde",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Quelle est la capitale de Chypre ?",
+      "answers": [
+        {
+          "text": "Bakou",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "Nicosie",
+          "correct": true,
+          "id": "b"
+        },
+        {
+          "text": "Ankara",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "Tbilissi",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "cap-136",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.monde",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quelle est la capitale de la Turquie ?",
+      "answers": [
+        {
+          "text": "Bakou",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "Erevan",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "Ankara",
+          "correct": true,
+          "id": "c"
+        },
+        {
+          "text": "Tbilissi",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "cap-137",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.monde",
+      "difficulty": 1,
+      "type": "single",
+      "prompt": "Quelle est la capitale de l'Allemagne ?",
+      "answers": [
+        {
+          "text": "Dublin",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "Londres",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "Berne",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "Berlin",
+          "correct": true,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "cap-138",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.monde",
+      "difficulty": 1,
+      "type": "single",
+      "prompt": "Quelle est la capitale de l'Autriche ?",
+      "answers": [
+        {
+          "text": "Luxembourg",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "Vienne",
+          "correct": true,
+          "id": "b"
+        },
+        {
+          "text": "Amsterdam",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "Bruxelles",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "cap-139",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.monde",
+      "difficulty": 1,
+      "type": "single",
+      "prompt": "Quelle est la capitale de la Belgique ?",
+      "answers": [
+        {
+          "text": "Luxembourg",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "Berlin",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "Bruxelles",
+          "correct": true,
+          "id": "c"
+        },
+        {
+          "text": "Dublin",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "cap-140",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.monde",
+      "difficulty": 1,
+      "type": "single",
+      "prompt": "Quelle est la capitale de la France ?",
+      "answers": [
+        {
+          "text": "Paris",
+          "correct": true,
+          "id": "a"
+        },
+        {
+          "text": "Vienne",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "Berne",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "Luxembourg",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "cap-141",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.monde",
+      "difficulty": 1,
+      "type": "single",
+      "prompt": "Quelle est la capitale de l'Irlande ?",
+      "answers": [
+        {
+          "text": "Dublin",
+          "correct": true,
+          "id": "a"
+        },
+        {
+          "text": "Berlin",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "Luxembourg",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "Bruxelles",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "cap-142",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.monde",
+      "difficulty": 4,
+      "type": "single",
+      "prompt": "Quelle est la capitale du Liechtenstein ?",
+      "answers": [
+        {
+          "text": "Amsterdam",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "Vaduz",
+          "correct": true,
+          "id": "b"
+        },
+        {
+          "text": "Paris",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "Dublin",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "cap-143",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.monde",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quelle est la capitale du Luxembourg ?",
+      "answers": [
+        {
+          "text": "Londres",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "Monaco",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "Luxembourg",
+          "correct": true,
+          "id": "c"
+        },
+        {
+          "text": "Paris",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "cap-144",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.monde",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Quelle est la capitale de Monaco ?",
+      "answers": [
+        {
+          "text": "Luxembourg",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "Vaduz",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "Vienne",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "Monaco",
+          "correct": true,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "cap-145",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.monde",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quelle est la capitale des Pays-Bas ?",
+      "answers": [
+        {
+          "text": "Berlin",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "Vienne",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "Amsterdam",
+          "correct": true,
+          "id": "c"
+        },
+        {
+          "text": "Dublin",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "cap-146",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.monde",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quelle est la capitale de la Suisse ?",
+      "answers": [
+        {
+          "text": "Dublin",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "Berne",
+          "correct": true,
+          "id": "b"
+        },
+        {
+          "text": "Paris",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "Vienne",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "cap-147",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.monde",
+      "difficulty": 1,
+      "type": "single",
+      "prompt": "Quelle est la capitale du Royaume-Uni ?",
+      "answers": [
+        {
+          "text": "Londres",
+          "correct": true,
+          "id": "a"
+        },
+        {
+          "text": "Dublin",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "Vienne",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "Bruxelles",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "cap-148",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.monde",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quelle est la capitale du Danemark ?",
+      "answers": [
+        {
+          "text": "Reykjavik",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "Riga",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "Helsinki",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "Copenhague",
+          "correct": true,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "cap-149",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.monde",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Quelle est la capitale de l'Estonie ?",
+      "answers": [
+        {
+          "text": "Riga",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "Tallinn",
+          "correct": true,
+          "id": "b"
+        },
+        {
+          "text": "Stockholm",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "Reykjavik",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "cap-150",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.monde",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quelle est la capitale de la Finlande ?",
+      "answers": [
+        {
+          "text": "Oslo",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "Copenhague",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "Helsinki",
+          "correct": true,
+          "id": "c"
+        },
+        {
+          "text": "Stockholm",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "cap-151",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.monde",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Quelle est la capitale de l'Islande ?",
+      "answers": [
+        {
+          "text": "Helsinki",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "Tallinn",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "Oslo",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "Reykjavik",
+          "correct": true,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "cap-152",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.monde",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Quelle est la capitale de la Lettonie ?",
+      "answers": [
+        {
+          "text": "Riga",
+          "correct": true,
+          "id": "a"
+        },
+        {
+          "text": "Copenhague",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "Helsinki",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "Tallinn",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "cap-153",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.monde",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Quelle est la capitale de la Lituanie ?",
+      "answers": [
+        {
+          "text": "Copenhague",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "Reykjavik",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "Helsinki",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "Vilnius",
+          "correct": true,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "cap-154",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.monde",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quelle est la capitale de la Norvège ?",
+      "answers": [
+        {
+          "text": "Stockholm",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "Copenhague",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "Oslo",
+          "correct": true,
+          "id": "c"
+        },
+        {
+          "text": "Riga",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "cap-155",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.monde",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quelle est la capitale de la Suède ?",
+      "answers": [
+        {
+          "text": "Stockholm",
+          "correct": true,
+          "id": "a"
+        },
+        {
+          "text": "Reykjavik",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "Riga",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "Vilnius",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "cap-156",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.monde",
+      "difficulty": 4,
+      "type": "single",
+      "prompt": "Quelle est la capitale de Andorre ?",
+      "answers": [
+        {
+          "text": "Saint-Marin",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "Andorre-la-Vieille",
+          "correct": true,
+          "id": "b"
+        },
+        {
+          "text": "Athènes",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "Madrid",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "cap-157",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.monde",
+      "difficulty": 1,
+      "type": "single",
+      "prompt": "Quelle est la capitale de l'Espagne ?",
+      "answers": [
+        {
+          "text": "Saint-Marin",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "Andorre-la-Vieille",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "Madrid",
+          "correct": true,
+          "id": "c"
+        },
+        {
+          "text": "La Valette",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "cap-158",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.monde",
+      "difficulty": 1,
+      "type": "single",
+      "prompt": "Quelle est la capitale de la Grèce ?",
+      "answers": [
+        {
+          "text": "Madrid",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "La Valette",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "Lisbonne",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "Athènes",
+          "correct": true,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "cap-159",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.monde",
+      "difficulty": 1,
+      "type": "single",
+      "prompt": "Quelle est la capitale de l'Italie ?",
+      "answers": [
+        {
+          "text": "Rome",
+          "correct": true,
+          "id": "a"
+        },
+        {
+          "text": "Saint-Marin",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "Athènes",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "Lisbonne",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "cap-160",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.monde",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Quelle est la capitale de Malte ?",
+      "answers": [
+        {
+          "text": "Saint-Marin",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "La Valette",
+          "correct": true,
+          "id": "b"
+        },
+        {
+          "text": "Athènes",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "Rome",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "cap-161",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.monde",
+      "difficulty": 1,
+      "type": "single",
+      "prompt": "Quelle est la capitale du Portugal ?",
+      "answers": [
+        {
+          "text": "Andorre-la-Vieille",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "Athènes",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "Saint-Marin",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "Lisbonne",
+          "correct": true,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "cap-162",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.monde",
+      "difficulty": 4,
+      "type": "single",
+      "prompt": "Quelle est la capitale de Saint-Marin ?",
+      "answers": [
+        {
+          "text": "Andorre-la-Vieille",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "Saint-Marin",
+          "correct": true,
+          "id": "b"
+        },
+        {
+          "text": "Lisbonne",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "Rome",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "cap-163",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.monde",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Quelle est la capitale de l'Albanie ?",
+      "answers": [
+        {
+          "text": "Tirana",
+          "correct": true,
+          "id": "a"
+        },
+        {
+          "text": "Ljubljana",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "Budapest",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "Skopje",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "cap-164",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.monde",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quelle est la capitale de la Bosnie-Herzégovine ?",
+      "answers": [
+        {
+          "text": "Podgorica",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "Budapest",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "Sarajevo",
+          "correct": true,
+          "id": "c"
+        },
+        {
+          "text": "Bratislava",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "cap-165",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.monde",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quelle est la capitale de la Bulgarie ?",
+      "answers": [
+        {
+          "text": "Chișinău",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "Sofia",
+          "correct": true,
+          "id": "b"
+        },
+        {
+          "text": "Bratislava",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "Varsovie",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "cap-166",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.monde",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quelle est la capitale de la Biélorussie ?",
+      "answers": [
+        {
+          "text": "Chișinău",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "Ljubljana",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "Minsk",
+          "correct": true,
+          "id": "c"
+        },
+        {
+          "text": "Moscou",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "cap-167",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.monde",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quelle est la capitale de la Croatie ?",
+      "answers": [
+        {
+          "text": "Prague",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "Budapest",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "Belgrade",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "Zagreb",
+          "correct": true,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "cap-168",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.monde",
+      "difficulty": 1,
+      "type": "single",
+      "prompt": "Quelle est la capitale de la Hongrie ?",
+      "answers": [
+        {
+          "text": "Budapest",
+          "correct": true,
+          "id": "a"
+        },
+        {
+          "text": "Chișinău",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "Kiev",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "Skopje",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "cap-169",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.monde",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Quelle est la capitale de la Macédoine du Nord ?",
+      "answers": [
+        {
+          "text": "Prague",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "Skopje",
+          "correct": true,
+          "id": "b"
+        },
+        {
+          "text": "Bucarest",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "Budapest",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "cap-170",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.monde",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Quelle est la capitale de la Moldavie ?",
+      "answers": [
+        {
+          "text": "Bratislava",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "Kiev",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "Chișinău",
+          "correct": true,
+          "id": "c"
+        },
+        {
+          "text": "Varsovie",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "cap-171",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.monde",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Quelle est la capitale du Monténégro ?",
+      "answers": [
+        {
+          "text": "Podgorica",
+          "correct": true,
+          "id": "a"
+        },
+        {
+          "text": "Moscou",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "Kiev",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "Varsovie",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "cap-172",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.monde",
+      "difficulty": 1,
+      "type": "single",
+      "prompt": "Quelle est la capitale de la Pologne ?",
+      "answers": [
+        {
+          "text": "Moscou",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "Belgrade",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "Bratislava",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "Varsovie",
+          "correct": true,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "cap-173",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.monde",
+      "difficulty": 1,
+      "type": "single",
+      "prompt": "Quelle est la capitale de la République tchèque ?",
+      "answers": [
+        {
+          "text": "Chișinău",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "Skopje",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "Minsk",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "Prague",
+          "correct": true,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "cap-174",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.monde",
+      "difficulty": 1,
+      "type": "single",
+      "prompt": "Quelle est la capitale de la Roumanie ?",
+      "answers": [
+        {
+          "text": "Moscou",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "Skopje",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "Bucarest",
+          "correct": true,
+          "id": "c"
+        },
+        {
+          "text": "Budapest",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "cap-175",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.monde",
+      "difficulty": 1,
+      "type": "single",
+      "prompt": "Quelle est la capitale de la Russie ?",
+      "answers": [
+        {
+          "text": "Sarajevo",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "Moscou",
+          "correct": true,
+          "id": "b"
+        },
+        {
+          "text": "Chișinău",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "Belgrade",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "cap-176",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.monde",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quelle est la capitale de la Serbie ?",
+      "answers": [
+        {
+          "text": "Belgrade",
+          "correct": true,
+          "id": "a"
+        },
+        {
+          "text": "Bratislava",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "Podgorica",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "Moscou",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "cap-177",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.monde",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quelle est la capitale de la Slovaquie ?",
+      "answers": [
+        {
+          "text": "Varsovie",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "Podgorica",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "Bratislava",
+          "correct": true,
+          "id": "c"
+        },
+        {
+          "text": "Zagreb",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "cap-178",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.monde",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quelle est la capitale de la Slovénie ?",
+      "answers": [
+        {
+          "text": "Ljubljana",
+          "correct": true,
+          "id": "a"
+        },
+        {
+          "text": "Minsk",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "Podgorica",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "Zagreb",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "cap-179",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.monde",
+      "difficulty": 1,
+      "type": "single",
+      "prompt": "Quelle est la capitale de l'Ukraine ?",
+      "answers": [
+        {
+          "text": "Budapest",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "Kiev",
+          "correct": true,
+          "id": "b"
+        },
+        {
+          "text": "Podgorica",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "Sofia",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "cap-180",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.monde",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quelle est la capitale de l'Australie ?",
+      "answers": [
+        {
+          "text": "Port Moresby",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "Tarawa-Sud",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "Honiara",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "Canberra",
+          "correct": true,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "cap-181",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.monde",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Quelle est la capitale des Fidji ?",
+      "answers": [
+        {
+          "text": "Funafuti",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "Suva",
+          "correct": true,
+          "id": "b"
+        },
+        {
+          "text": "Honiara",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "Canberra",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "cap-182",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.monde",
+      "difficulty": 5,
+      "type": "single",
+      "prompt": "Quelle est la capitale de Kiribati ?",
+      "answers": [
+        {
+          "text": "Nukuʻalofa",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "Apia",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "Ngerulmud",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "Tarawa-Sud",
+          "correct": true,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "cap-183",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.monde",
+      "difficulty": 5,
+      "type": "single",
+      "prompt": "Quelle est la capitale des Îles Marshall ?",
+      "answers": [
+        {
+          "text": "Honiara",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "Port Moresby",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "Majuro",
+          "correct": true,
+          "id": "c"
+        },
+        {
+          "text": "Canberra",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "cap-184",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.monde",
+      "difficulty": 5,
+      "type": "single",
+      "prompt": "Quelle est la capitale de la Micronésie ?",
+      "answers": [
+        {
+          "text": "Palikir",
+          "correct": true,
+          "id": "a"
+        },
+        {
+          "text": "Honiara",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "Port-Vila",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "Ngerulmud",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "cap-185",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.monde",
+      "difficulty": 5,
+      "type": "single",
+      "prompt": "Quelle est la capitale de Nauru ?",
+      "answers": [
+        {
+          "text": "Nukuʻalofa",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "Port-Vila",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "Funafuti",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "Yaren",
+          "correct": true,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "cap-186",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.monde",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quelle est la capitale de la Nouvelle-Zélande ?",
+      "answers": [
+        {
+          "text": "Wellington",
+          "correct": true,
+          "id": "a"
+        },
+        {
+          "text": "Funafuti",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "Canberra",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "Yaren",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "cap-187",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.monde",
+      "difficulty": 5,
+      "type": "single",
+      "prompt": "Quelle est la capitale des Palaos ?",
+      "answers": [
+        {
+          "text": "Suva",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "Ngerulmud",
+          "correct": true,
+          "id": "b"
+        },
+        {
+          "text": "Majuro",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "Port-Vila",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "cap-188",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.monde",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Quelle est la capitale de la Papouasie-Nouvelle-Guinée ?",
+      "answers": [
+        {
+          "text": "Apia",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "Honiara",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "Port Moresby",
+          "correct": true,
+          "id": "c"
+        },
+        {
+          "text": "Canberra",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "cap-189",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.monde",
+      "difficulty": 4,
+      "type": "single",
+      "prompt": "Quelle est la capitale des Samoa ?",
+      "answers": [
+        {
+          "text": "Majuro",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "Wellington",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "Suva",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "Apia",
+          "correct": true,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "cap-190",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.monde",
+      "difficulty": 4,
+      "type": "single",
+      "prompt": "Quelle est la capitale des Îles Salomon ?",
+      "answers": [
+        {
+          "text": "Wellington",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "Port Moresby",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "Honiara",
+          "correct": true,
+          "id": "c"
+        },
+        {
+          "text": "Yaren",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "cap-191",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.monde",
+      "difficulty": 4,
+      "type": "single",
+      "prompt": "Quelle est la capitale des Tonga ?",
+      "answers": [
+        {
+          "text": "Nukuʻalofa",
+          "correct": true,
+          "id": "a"
+        },
+        {
+          "text": "Port Moresby",
+          "correct": false,
+          "id": "b"
+        },
+        {
+          "text": "Ngerulmud",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "Yaren",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "cap-192",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.monde",
+      "difficulty": 5,
+      "type": "single",
+      "prompt": "Quelle est la capitale de Tuvalu ?",
+      "answers": [
+        {
+          "text": "Majuro",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "Funafuti",
+          "correct": true,
+          "id": "b"
+        },
+        {
+          "text": "Palikir",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "Port-Vila",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    },
+    {
+      "id": "cap-193",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.monde",
+      "difficulty": 4,
+      "type": "single",
+      "prompt": "Quelle est la capitale du Vanuatu ?",
+      "answers": [
+        {
+          "text": "Port Moresby",
+          "correct": false,
+          "id": "a"
+        },
+        {
+          "text": "Port-Vila",
+          "correct": true,
+          "id": "b"
+        },
+        {
+          "text": "Tarawa-Sud",
+          "correct": false,
+          "id": "c"
+        },
+        {
+          "text": "Palikir",
+          "correct": false,
+          "id": "d"
+        }
+      ]
+    }
+  ]
+}

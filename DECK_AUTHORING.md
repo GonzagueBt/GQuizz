@@ -68,6 +68,13 @@ gérés par l'écran de jeu** — s'en tenir à `single` et `boolean`.
   symboles / héritage.
 - Répartir les questions à peu près proportionnellement à l'importance de chaque
   sous-thème. Éviter de concentrer 40 questions sur un seul épisode.
+- **Deck « exhaustif »** (ex. « toutes les capitales du monde ») : la logique
+  change — le nombre de questions est dicté par la liste complète (ici 193 États
+  membres de l'ONU), pas par un objectif rond. La difficulté suit alors la
+  notoriété réelle de chaque élément et peut légitimement pencher plus dur que
+  la cible ci-dessous, puisque la plupart des pays du monde ne sont, de fait,
+  pas des capitales « faciles ». Générer les distracteurs par échantillonnage
+  dans la même zone/catégorie plutôt qu'un par un à la main.
 - **Pas de quasi-doublons** : chaque question teste un fait distinct. Si deux
   questions ont la même réponse, l'une des deux dégage.
 
