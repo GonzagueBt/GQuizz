@@ -192,10 +192,13 @@ function buildQuestionPool(input: {
 
 | Mode | Pool |
 |------|------|
-| `global` | questions des decks **possédés** (free + premium achetés) **∩** catégories autorisées par `prefs` |
-| `deck` | **toutes** les questions du deck ciblé, si possédé (sinon → écran d'achat) — les prefs de catégories **ne s'appliquent pas** |
+| `global` | decks **possédés** ∩ catégories autorisées par `prefs` — les questions **maîtrisées restent incluses** (sous-pondérées par `pickSession`, jouables pour le score) |
+| `deck` | questions du deck ciblé si possédé (sinon → écran d'achat), **maîtrisées exclues** (« ne me la pose plus ») ; retombe sur le deck complet si tout est maîtrisé ; prefs ignorées |
 | `daily` (futur) | pool figé fourni par `daily/<date>.json` |
 | `event` (futur) | pool fourni par la config de l'événement |
+
+`buildQuestionPool` reçoit un prédicat optionnel `isMastered(questionId)` pour
+appliquer cette règle.
 
 Détails mode `global` :
 1. `owned = allQuestions.filter(q => isDeckOwned(q.deckId))`
@@ -268,7 +271,7 @@ jour la config).
 | `src/app/onboarding/index.tsx` | **Bienvenue** — 3 boutons | « Je choisis ce que je veux » / « …ce que je ne veux pas » / « ✨ Tout me va » |
 | `src/app/onboarding/categories.tsx` | Sélection catégories | mode include ou exclude selon le bouton ; **< 30 s** ; skippé si « Tout me va » |
 | `src/app/index.tsx` | **JOUER** | liste des modes (🌎 Global personnalisé + un item par deck possédé) ; en-tête avec deux boutons émoji en haut à droite → 📚 decks, ⚙️ réglages ; cartes score / questions maîtrisées |
-| `src/app/play/[mode].tsx` | Partie | barre de progression, question, réponses, feedback + haptics ; bouton **✕** (+ retour Android) → pop-up de confirmation avant de quitter ; passage auto si `autoAdvanceOnCorrect` et réponse juste |
+| `src/app/play/[mode].tsx` | Partie | barre de progression, question, réponses, feedback + haptics ; **✕** (+ retour Android) → pop-up « Quitter la partie ? » ; lien **« ★ Je maîtrise déjà cette question »** (visible avant de répondre uniquement) → pop-up → marque maîtrisée + passe à la suivante ; passage auto si `autoAdvanceOnCorrect` et réponse juste |
 | `src/app/play/result.tsx` | Résultats | score, questions maîtrisées, rejouer, partager |
 | `src/app/decks/index.tsx` | **📚 DECKS** | « Mes decks » (possédés) + « À découvrir » (premium non possédés) |
 | `src/app/decks/[id].tsx` | Détail deck | nom, illustration, description, catégorie, nb questions, difficulté moy., statut ; aperçu de questions ; **[ ACHETER ]** ou **[ JOUER ]** |

@@ -9,6 +9,12 @@ export interface PoolInput {
   prefs: CategoryPreferences;
   /** free => toujours true ; premium => selon les entitlements. */
   isDeckOwned: (deckId: string) => boolean;
+  /**
+   * Question actuellement maîtrisée ? En mode `deck` ces questions sont exclues
+   * du pool (« ne me la pose plus ») ; en mode `global` elles restent (pour le
+   * score). Si tout un deck est maîtrisé, on retombe sur le deck complet.
+   */
+  isMastered?: (questionId: string) => boolean;
   /** Pool figé fourni par le contenu, pour les modes daily/event. */
   resolveFixedPool?: (mode: GameMode) => Question[];
 }
@@ -26,12 +32,12 @@ export class PoolError extends Error {
 /**
  * Construit le pool de questions d'une partie selon le mode.
  *
- * | Mode   | Pool                                                                    |
- * |--------|-------------------------------------------------------------------------|
- * | global | questions des decks possédés ∩ catégories autorisées par les prefs      |
- * | deck   | toutes les questions du deck (si possédé) ; prefs ignorées             |
- * | daily  | pool figé (resolveFixedPool)                                           |
- * | event  | pool figé (resolveFixedPool)                                           |
+ * | Mode   | Pool                                                                        |
+ * |--------|----------------------------------------------------------------------------|
+ * | global | decks possédés ∩ catégories autorisées ; les maîtrisées restent incluses   |
+ * | deck   | toutes les questions du deck (si possédé), **maîtrisées exclues** ; prefs ignorées |
+ * | daily  | pool figé (resolveFixedPool)                                              |
+ * | event  | pool figé (resolveFixedPool)                                              |
  */
 export function buildQuestionPool(input: PoolInput): Question[] {
   const { mode } = input;
@@ -78,9 +84,15 @@ function deckPool(input: PoolInput, deckId: string): Question[] {
   if (!input.isDeckOwned(deckId)) {
     throw new PoolError('deck-not-owned', `Le deck ${deckId} n'est pas débloqué.`);
   }
-  const pool = input.questions.filter((q) => q.deckId === deckId);
-  if (pool.length === 0) {
+  const all = input.questions.filter((q) => q.deckId === deckId);
+  if (all.length === 0) {
     throw new PoolError('empty-pool', `Le deck ${deckId} ne contient aucune question.`);
   }
-  return pool;
+
+  const isMastered = input.isMastered;
+  if (!isMastered) return all;
+
+  const unmastered = all.filter((q) => !isMastered(q.id));
+  // Deck entièrement maîtrisé : on le rejoue quand même.
+  return unmastered.length > 0 ? unmastered : all;
 }

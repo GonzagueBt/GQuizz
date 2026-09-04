@@ -95,6 +95,46 @@ describe('buildQuestionPool — deck', () => {
       expect((e as PoolError).reason).toBe('deck-not-owned');
     }
   });
+
+  it('excludes mastered questions in deck mode', () => {
+    const pool = buildQuestionPool({
+      mode: { kind: 'deck', deckId: 'free-deck' },
+      questions,
+      categories,
+      prefs: prefs(),
+      isDeckOwned: () => true,
+      isMastered: (id) => id === 'free-espace',
+    });
+    expect(pool.map((x) => x.id)).toEqual(['free-musique']);
+  });
+
+  it('falls back to the full deck when everything is mastered', () => {
+    const pool = buildQuestionPool({
+      mode: { kind: 'deck', deckId: 'free-deck' },
+      questions,
+      categories,
+      prefs: prefs(),
+      isDeckOwned: () => true,
+      isMastered: () => true,
+    });
+    expect(pool.map((x) => x.id).sort()).toEqual(['free-espace', 'free-musique']);
+  });
+});
+
+describe('buildQuestionPool — mastered in global mode', () => {
+  it('keeps mastered questions in the global pool (for score)', () => {
+    const pool = buildQuestionPool({
+      mode: { kind: 'global' },
+      questions,
+      categories,
+      prefs: prefs({ strategy: 'exclude', selected: [] }),
+      isDeckOwned: () => true,
+      isMastered: () => true,
+    });
+    expect(pool.map((x) => x.id).sort()).toEqual(
+      ['free-espace', 'free-musique', 'premium-espace'].sort(),
+    );
+  });
 });
 
 describe('buildQuestionPool — fixed modes', () => {

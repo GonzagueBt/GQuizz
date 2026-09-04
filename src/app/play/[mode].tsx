@@ -45,6 +45,7 @@ function initSession(mode: GameMode): InitState {
       categories: CATALOG.categories,
       prefs,
       isDeckOwned,
+      isMastered: (id) => !!progress[id]?.masteredAt,
     });
     return { questions: pickSession(pool, progress), error: null };
   } catch (e) {
@@ -57,6 +58,7 @@ export default function PlayScreen() {
   const [mode] = useState<GameMode>(() => parseGameMode(modeParam));
   const [session] = useState<InitState>(() => initSession(mode));
   const autoAdvance = useAppStore((s) => s.autoAdvanceOnCorrect);
+  const setMastered = useProgressStore((s) => s.setMastered);
   const confirm = useConfirm();
   const { colors } = useTheme();
 
@@ -147,6 +149,21 @@ export default function PlayScreen() {
     }
   };
 
+  const markMastered = async () => {
+    if (revealed) return;
+    const ok = await confirm({
+      title: 'Enregistrer comme maîtrisée ?',
+      message:
+        "Cette question ne te sera plus posée tant qu'elle est maîtrisée. Elle pourra encore " +
+        'apparaître en mode Global personnalisé, pour le score.',
+      confirmLabel: 'Maîtrisée',
+      cancelLabel: 'Annuler',
+    });
+    if (!ok) return;
+    setMastered(question.id, true);
+    goNext();
+  };
+
   return (
     <Screen scroll>
       <View style={{ gap: 10 }}>
@@ -193,6 +210,18 @@ export default function PlayScreen() {
           );
         })}
       </View>
+
+      {!revealed && (
+        <Pressable
+          onPress={() => void markMastered()}
+          accessibilityRole="button"
+          style={{ alignSelf: 'center', paddingVertical: 6 }}
+        >
+          <Text variant="caption" color={colors.textMuted}>
+            ★ Je maîtrise déjà cette question
+          </Text>
+        </Pressable>
+      )}
 
       {revealed && !autoAdvancing && (
         <View style={{ gap: 12 }}>
