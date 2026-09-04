@@ -333,6 +333,8 @@ Flag `onboardingDone` dans le storage ⇒ conditionne la redirection racine.
 - [ ] Nom de marque définitif (placeholder : **GQuizz**) + bundle id
       (`com.gonzaguebt.gquizz` ?).
 - [ ] RevenueCat : 1 entitlement/deck vs entitlement générique.
-- [ ] Contenu réel des 6 decks gratuits (rédaction des questions).
+- [ ] Contenu réel des decks gratuits (rédaction des questions) — règles dans
+      `DECK_AUTHORING.md`. Premier deck rédigé : **La Révolution française**
+      (150 questions, passé en gratuit).
 - [ ] Illustrations de decks (style, source).
 - [ ] Palette / thème (réutiliser le violet de KtoQuizz ou identité propre).

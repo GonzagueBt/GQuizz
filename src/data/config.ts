@@ -4,7 +4,7 @@
  */
 export const CONFIG = {
   /** Decks marqués `free` livrés avec l'app. Un test de garde vérifie la cohérence. */
-  FREE_DECK_COUNT: 6,
+  FREE_DECK_COUNT: 7,
 
   /** Prix indicatif par défaut d'un deck premium (le vrai prix vient du store). */
   PREMIUM_PRICE_DEFAULT: '1,99 €',

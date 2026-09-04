@@ -1,73 +1,4569 @@
 {
   "id": "revolution-francaise",
   "name": "La Révolution française",
-  "description": "1789-1799 : les journées, les figures, les idées qui ont tout changé.",
+  "description": "1789-1799 : des États généraux au 18 Brumaire, les journées, les figures et les idées.",
   "emoji": "🇫🇷",
   "categoryId": "histoire",
   "subcategoryId": "histoire.france",
-  "tier": "premium",
-  "productId": "gquizz.deck.revolution_francaise",
-  "priceHint": "1,99 €",
-  "questionCount": 100,
+  "tier": "free",
+  "questionCount": 150,
   "averageDifficulty": 3,
   "releasedAt": "2026-02-01",
-  "tags": ["nouveau"],
-  "previewQuestionIds": ["rf-001", "rf-002"],
   "questions": [
     {
       "id": "rf-001",
       "categoryId": "histoire",
       "subcategoryId": "histoire.france",
-      "difficulty": 2,
+      "difficulty": 1,
       "type": "single",
-      "prompt": "Quel document est adopté par l'Assemblée le 26 août 1789 ?",
+      "prompt": "En quelle année débute la Révolution française ?",
       "answers": [
-        { "id": "a", "text": "La Constitution civile du clergé", "correct": false },
-        { "id": "b", "text": "La Déclaration des droits de l'homme et du citoyen", "correct": true },
-        { "id": "c", "text": "Le Code civil", "correct": false },
-        { "id": "d", "text": "L'Édit de Nantes", "correct": false }
-      ]
+        {
+          "id": "a",
+          "text": "1789",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "1804",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "1793",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "1776",
+          "correct": false
+        }
+      ],
+      "explanation": "La réunion des États généraux (5 mai 1789) et la prise de la Bastille (14 juillet 1789) ouvrent la Révolution."
     },
     {
       "id": "rf-002",
       "categoryId": "histoire",
       "subcategoryId": "histoire.france",
-      "difficulty": 3,
+      "difficulty": 1,
       "type": "single",
-      "prompt": "Comment s'appelle la période de 1793-1794 marquée par les exécutions massives ?",
+      "prompt": "Combien d'ordres composaient la société d'Ancien Régime ?",
       "answers": [
-        { "id": "a", "text": "Le Directoire", "correct": false },
-        { "id": "b", "text": "La Terreur", "correct": true },
-        { "id": "c", "text": "La Fronde", "correct": false },
-        { "id": "d", "text": "Le Consulat", "correct": false }
-      ]
+        {
+          "id": "a",
+          "text": "Deux",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Cinq",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Trois",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "Quatre",
+          "correct": false
+        }
+      ],
+      "explanation": "Le clergé, la noblesse et le tiers état."
     },
     {
       "id": "rf-003",
       "categoryId": "histoire",
       "subcategoryId": "histoire.france",
-      "difficulty": 4,
+      "difficulty": 2,
       "type": "single",
-      "prompt": "Qui est surnommé « l'Incorruptible » ?",
+      "prompt": "Quel ordre représentait environ 97 % de la population ?",
       "answers": [
-        { "id": "a", "text": "Danton", "correct": false },
-        { "id": "b", "text": "Robespierre", "correct": true },
-        { "id": "c", "text": "Marat", "correct": false },
-        { "id": "d", "text": "Saint-Just", "correct": false }
+        {
+          "id": "a",
+          "text": "La cour",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Le tiers état",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "La noblesse",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Le clergé",
+          "correct": false
+        }
       ]
     },
     {
       "id": "rf-004",
       "categoryId": "histoire",
       "subcategoryId": "histoire.france",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quels ordres étaient largement exemptés d'impôts ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Le tiers état seul",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "La noblesse seule",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Aucun",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Le clergé et la noblesse",
+          "correct": true
+        }
+      ],
+      "explanation": "Le poids fiscal reposait pour l'essentiel sur le tiers état."
+    },
+    {
+      "id": "rf-005",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.france",
+      "difficulty": 1,
+      "type": "single",
+      "prompt": "Qui régnait sur la France en 1789 ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Louis XIV",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Louis XVI",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "Louis XVIII",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Louis XV",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "rf-006",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.france",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Depuis quelle année Louis XVI était-il roi en 1789 ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "1788",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "1765",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "1780",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "1774",
+          "correct": true
+        }
+      ],
+      "explanation": "Il succède à son grand-père Louis XV en 1774."
+    },
+    {
+      "id": "rf-007",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.france",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quelle reine, d'origine autrichienne, était très impopulaire à la veille de la Révolution ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Catherine de Médicis",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Anne d'Autriche",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Marie-Antoinette",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "Marie Leszczynska",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "rf-008",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.france",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Quelle guerre, soutenue par la France, avait fortement aggravé la dette du royaume ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "La guerre d'indépendance américaine",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "La guerre de Trente Ans",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "La guerre de Sept Ans",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "La guerre de Succession d'Espagne",
+          "correct": false
+        }
+      ],
+      "explanation": "L'aide à la révolution américaine coûte plus d'un milliard de livres."
+    },
+    {
+      "id": "rf-009",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.france",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quel ministre des finances, banquier genevois, était populaire et fut renvoyé le 11 juillet 1789 ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Necker",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "Calonne",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Turgot",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Colbert",
+          "correct": false
+        }
+      ],
+      "explanation": "Son renvoi met le feu aux poudres à Paris et précède la prise de la Bastille."
+    },
+    {
+      "id": "rf-010",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.france",
+      "difficulty": 4,
+      "type": "single",
+      "prompt": "En quelle année se réunit l'Assemblée des notables convoquée pour réformer les finances ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "1792",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "1781",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "1787",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "1790",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "rf-011",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.france",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Quel abbé publie début 1789 la brochure « Qu'est-ce que le tiers état ? »",
+      "answers": [
+        {
+          "id": "a",
+          "text": "L'abbé de Mably",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Talleyrand",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "L'abbé Grégoire",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "L'abbé Sieyès",
+          "correct": true
+        }
+      ],
+      "explanation": "Sa réponse : le tiers état est « tout », mais « rien » dans l'ordre politique."
+    },
+    {
+      "id": "rf-012",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.france",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Comment appelle-t-on les registres où les Français consignent en 1789 leurs plaintes et leurs vœux ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Les livres de raison",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Les cahiers de doléances",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "Les remontrances",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Les états des lieux",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "rf-013",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.france",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Quel penseur des Lumières a théorisé la séparation des pouvoirs dans « De l'esprit des lois » ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Diderot",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Rousseau",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Montesquieu",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "Voltaire",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "rf-014",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.france",
+      "difficulty": 4,
+      "type": "single",
+      "prompt": "Quel ouvrage de Rousseau (1762) nourrit l'idée de souveraineté du peuple ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "« L'Esprit des lois »",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "« Candide »",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "« Les Confessions »",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "« Du contrat social »",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "rf-015",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.france",
+      "difficulty": 5,
+      "type": "single",
+      "prompt": "Quelle « journée » de 1788 à Grenoble est parfois vue comme un prélude à la Révolution ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "La journée des Barricades",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "La journée des Tuiles",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "La journée des Dupes",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "La journée du Guichet",
+          "correct": false
+        }
+      ],
+      "explanation": "Le 7 juin 1788, les Grenoblois jettent des tuiles sur les troupes royales."
+    },
+    {
+      "id": "rf-016",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.france",
+      "difficulty": 1,
+      "type": "single",
+      "prompt": "Quelle assemblée Louis XVI ouvre-t-il le 5 mai 1789 ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Les États généraux",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "La Convention",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Le Directoire",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "L'Assemblée nationale",
+          "correct": false
+        }
+      ],
+      "explanation": "Ils n'avaient plus été réunis depuis 1614."
+    },
+    {
+      "id": "rf-017",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.france",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Dans quelle ville s'ouvrent les États généraux de 1789 ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Reims",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Versailles",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "Paris",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Orléans",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "rf-018",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.france",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Que réclame le tiers état concernant le vote aux États généraux ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Le vote par ordre",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Le vote secret",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Le vote du roi seul",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Le vote par tête",
+          "correct": true
+        }
+      ],
+      "explanation": "Avec le doublement de ses députés, le vote par tête lui donnerait la majorité."
+    },
+    {
+      "id": "rf-019",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.france",
+      "difficulty": 2,
+      "type": "boolean",
+      "prompt": "Le tiers état avait obtenu le doublement du nombre de ses députés.",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Vrai",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "Faux",
+          "correct": false
+        }
+      ],
+      "explanation": "Accordé fin 1788, mais sans le vote par tête, cette victoire restait symbolique."
+    },
+    {
+      "id": "rf-020",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.france",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Le 17 juin 1789, les députés du tiers état se proclament :",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Directoire",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Convention nationale",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Assemblée nationale",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "Commune de Paris",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "rf-021",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.france",
+      "difficulty": 1,
+      "type": "single",
+      "prompt": "Quel serment les députés prêtent-ils le 20 juin 1789 ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Le serment civique",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Le serment fédératif",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Le serment du sacre",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Le serment du Jeu de paume",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "rf-022",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.france",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Que jurent les députés le 20 juin 1789 ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "De ne pas se séparer avant d'avoir donné une constitution à la France",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "De renverser le roi",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "De proclamer la République",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "De supprimer l'impôt",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "rf-023",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.france",
+      "difficulty": 4,
+      "type": "single",
+      "prompt": "Qui lance, le 23 juin 1789 : « Nous ne quitterons nos places que par la puissance des baïonnettes » ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Danton",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Robespierre",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Mirabeau",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "Sieyès",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "rf-024",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.france",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Le 9 juillet 1789, l'Assemblée nationale se déclare :",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Convention",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Assemblée nationale constituante",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "Conseil des Cinq-Cents",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Assemblée législative",
+          "correct": false
+        }
+      ],
+      "explanation": "Elle se donne pour mission de doter la France d'une constitution."
+    },
+    {
+      "id": "rf-025",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.france",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Quel événement du 11 juillet 1789 met le feu aux poudres à Paris ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Le renvoi de Necker",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "Un nouvel impôt",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "L'exécution d'un député",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "La fuite du roi",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "rf-026",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.france",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Qui, le 12 juillet 1789 au Palais-Royal, appelle les Parisiens aux armes ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Danton",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Marat",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Camille Desmoulins",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "Hébert",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "rf-027",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.france",
+      "difficulty": 1,
+      "type": "single",
+      "prompt": "Quelle forteresse parisienne est prise le 14 juillet 1789 ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Les Tuileries",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "La Bastille",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "Le château de Vincennes",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Le Louvre",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "rf-028",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.france",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Que symbolisait la Bastille aux yeux des révolutionnaires ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "La puissance militaire étrangère",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Le pouvoir du Parlement",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "La richesse de l'Église",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "L'arbitraire et le despotisme royal",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "rf-029",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.france",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Comment s'appelait le gouverneur de la Bastille, tué le 14 juillet 1789 ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Le comte de Provence",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Le marquis de Launay",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "Le baron de Breteuil",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Le marquis de Bouillé",
+          "correct": false
+        }
+      ],
+      "explanation": "Sa tête est promenée au bout d'une pique jusqu'à l'Hôtel de Ville."
+    },
+    {
+      "id": "rf-030",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.france",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Combien de prisonniers furent libérés de la Bastille le 14 juillet 1789 ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Une cinquantaine",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Plus de deux cents",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Sept",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "Aucun",
+          "correct": false
+        }
+      ],
+      "explanation": "Quatre faussaires, deux « fous » et un noble détenu à la demande de sa famille."
+    },
+    {
+      "id": "rf-031",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.france",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Où les Parisiens se procurent-ils des armes le matin du 14 juillet 1789 ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "À l'hôtel des Invalides",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "Au Palais-Royal",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "À Notre-Dame",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Au Louvre",
+          "correct": false
+        }
+      ],
+      "explanation": "Ils y prennent des milliers de fusils, puis cherchent de la poudre à la Bastille."
+    },
+    {
+      "id": "rf-032",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.france",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Qui est nommé commandant de la Garde nationale à Paris en juillet 1789 ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Bailly",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Danton",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Mirabeau",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "La Fayette",
+          "correct": true
+        }
+      ],
+      "explanation": "Héros de la guerre d'indépendance américaine, il incarne alors la Révolution modérée."
+    },
+    {
+      "id": "rf-033",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.france",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Qui devient le premier maire de Paris en juillet 1789 ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Bailly",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "La Fayette",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Pétion",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Robespierre",
+          "correct": false
+        }
+      ],
+      "explanation": "Astronome et président de l'Assemblée lors du serment du Jeu de paume."
+    },
+    {
+      "id": "rf-034",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.france",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Que représentent les trois couleurs de la cocarde adoptée en juillet 1789 ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Les trois ordres",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Le bleu et le rouge de Paris entourant le blanc du roi",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "Le ciel, la neige et le sang",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Les trois provinces fondatrices",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "rf-035",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.france",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Comment nomme-t-on la vague de panique rurale de l'été 1789 ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "La Terreur",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "La Grande Émigration",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "La Grande Peur",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "La Grande Jacquerie",
+          "correct": false
+        }
+      ],
+      "explanation": "Des rumeurs de « brigands » à la solde des nobles poussent les paysans à s'armer et à brûler les châteaux."
+    },
+    {
+      "id": "rf-036",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.france",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Que décide l'Assemblée dans la nuit du 4 août 1789 ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "La création des départements",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "La déclaration de guerre à l'Autriche",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "L'exécution du roi",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "L'abolition des privilèges et des droits féodaux",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "rf-037",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.france",
+      "difficulty": 1,
+      "type": "single",
+      "prompt": "Quel texte fondamental est adopté le 26 août 1789 ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "La Constitution civile du clergé",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "La Constitution",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Le Code civil",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "La Déclaration des droits de l'homme et du citoyen",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "rf-038",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.france",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Comment commence l'article premier de la Déclaration des droits de l'homme et du citoyen ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "« La loi est l'expression de la volonté générale »",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "« La propriété est un droit inviolable et sacré »",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "« Les hommes naissent et demeurent libres et égaux en droits »",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "« Le principe de toute souveraineté réside dans la Nation »",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "rf-039",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.france",
+      "difficulty": 4,
+      "type": "single",
+      "prompt": "Combien d'articles compte la Déclaration des droits de l'homme et du citoyen de 1789 ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "25",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "17",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "36",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "10",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "rf-040",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.france",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Pourquoi des Parisiennes marchent-elles sur Versailles les 5 et 6 octobre 1789 ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Pour réclamer du pain",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "Pour protester contre la guerre",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Pour libérer des prisonniers",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Pour couronner un nouveau roi",
+          "correct": false
+        }
+      ],
+      "explanation": "Elles ramènent la famille royale à Paris, surnommée « le boulanger, la boulangère et le petit mitron »."
+    },
+    {
+      "id": "rf-041",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.france",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Où la famille royale est-elle contrainte de s'installer après les journées d'octobre 1789 ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "À Vincennes",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Au Luxembourg",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Au palais des Tuileries",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "Au Louvre",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "rf-042",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.france",
+      "difficulty": 4,
+      "type": "single",
+      "prompt": "Quel frère de Louis XVI émigre dès juillet 1789 ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Le duc d'Orléans",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Le comte d'Artois",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "Le prince de Condé",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Le comte de Provence",
+          "correct": false
+        }
+      ],
+      "explanation": "Le futur Charles X ; le comte de Provence, lui, ne fuira qu'en 1791."
+    },
+    {
+      "id": "rf-043",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.france",
       "difficulty": 3,
       "type": "boolean",
-      "prompt": "Le coup d'État du 18 brumaire an VIII porte Napoléon Bonaparte au pouvoir.",
+      "prompt": "Après octobre 1789, l'Assemblée constituante siège elle aussi à Paris.",
       "answers": [
-        { "id": "a", "text": "Vrai", "correct": true },
-        { "id": "b", "text": "Faux", "correct": false }
+        {
+          "id": "a",
+          "text": "Vrai",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "Faux",
+          "correct": false
+        }
       ],
-      "explanation": "9-10 novembre 1799 : fin du Directoire, début du Consulat."
+      "explanation": "Elle suit le roi et s'installe près des Tuileries."
+    },
+    {
+      "id": "rf-044",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.france",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "En combien de départements la France est-elle divisée en 1790 ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "100",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "36",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "60",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "83",
+          "correct": true
+        }
+      ],
+      "explanation": "Ils remplacent les anciennes provinces pour uniformiser l'administration."
+    },
+    {
+      "id": "rf-045",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.france",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Que deviennent les biens du clergé, nationalisés le 2 novembre 1789 ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Des domaines réservés au roi",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Des propriétés rendues aux nobles",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Des « biens nationaux » vendus au profit de l'État",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "Des terres distribuées gratuitement aux paysans",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "rf-046",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.france",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Qu'est-ce que l'assignat, créé en 1790 ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Un titre de propriété seigneurial",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Un passeport intérieur",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Un impôt sur la noblesse",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Un papier-monnaie gagé sur les biens nationaux",
+          "correct": true
+        }
+      ],
+      "explanation": "Émis en quantités croissantes, il finit par s'effondrer sous l'inflation."
+    },
+    {
+      "id": "rf-047",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.france",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Qu'impose la Constitution civile du clergé (juillet 1790) aux prêtres ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Un serment de fidélité à la Nation et à la Constitution",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "L'exil hors de leur diocèse",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Le célibat définitif",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "L'abandon de toute rémunération",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "rf-048",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.france",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Comment appelle-t-on les prêtres qui refusent de prêter serment en 1791 ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Les prêtres fédérés",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Les prêtres réfractaires",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "Les prêtres constitutionnels",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Les prêtres jureurs",
+          "correct": false
+        }
+      ],
+      "explanation": "Aussi dits « insermentés » ; ils seront persécutés sous la Terreur."
+    },
+    {
+      "id": "rf-049",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.france",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quelle grande fête a lieu au Champ-de-Mars le 14 juillet 1790 ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "La fête de l'Être suprême",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "La fête de la Raison",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "La fête de la Concorde",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "La fête de la Fédération",
+          "correct": true
+        }
+      ],
+      "explanation": "Elle célèbre l'union nationale, un an après la prise de la Bastille."
+    },
+    {
+      "id": "rf-050",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.france",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Quel orateur modéré, favorable à une monarchie constitutionnelle, meurt en avril 1791 ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Barnave",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Mirabeau",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "La Fayette",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Bailly",
+          "correct": false
+        }
+      ],
+      "explanation": "Il est le premier « grand homme » inhumé au Panthéon, avant d'en être retiré en 1794."
+    },
+    {
+      "id": "rf-051",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.france",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Que tente Louis XVI dans la nuit du 20 au 21 juin 1791 ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Fuir la France",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "Abdiquer",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Dissoudre l'Assemblée",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Reprendre la Bastille",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "rf-052",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.france",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Dans quelle ville Louis XVI est-il reconnu et arrêté en juin 1791 ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Sedan",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Metz",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Varennes",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "Montmédy",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "rf-053",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.france",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Vers quelle place forte de l'Est Louis XVI cherchait-il à se rendre en juin 1791 ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Strasbourg",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Lille",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Montmédy",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "Belfort",
+          "correct": false
+        }
+      ],
+      "explanation": "Il comptait y retrouver des troupes fidèles commandées par Bouillé."
+    },
+    {
+      "id": "rf-054",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.france",
+      "difficulty": 5,
+      "type": "single",
+      "prompt": "Qui reconnaît le roi lors de la fuite et donne l'alerte ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Drouet, maître de poste de Sainte-Menehould",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "Le maire de Varennes",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Un émigré repenti",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Un garde national parisien",
+          "correct": false
+        }
+      ],
+      "explanation": "Il aurait comparé le profil du roi à celui gravé sur un assignat."
+    },
+    {
+      "id": "rf-055",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.france",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Quelle est la principale conséquence politique de la fuite à Varennes ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "La dissolution des clubs",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "L'essor du courant républicain et la chute de popularité du roi",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "La paix avec l'Autriche",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "L'abdication immédiate du roi",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "rf-056",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.france",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Que se passe-t-il au Champ-de-Mars le 17 juillet 1791 ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "On brûle un mannequin du roi",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Le roi prête serment à la Constitution",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "On plante l'arbre de la Liberté",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "La Garde nationale tire sur une manifestation républicaine",
+          "correct": true
+        }
+      ],
+      "explanation": "Bailly et La Fayette font ouvrir le feu sur des pétitionnaires réclamant la déchéance du roi."
+    },
+    {
+      "id": "rf-057",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.france",
+      "difficulty": 1,
+      "type": "single",
+      "prompt": "Quel régime la Constitution de septembre 1791 met-elle en place ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Une république",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Une monarchie constitutionnelle",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "Une dictature",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Une monarchie absolue rétablie",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "rf-058",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.france",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Quel type de suffrage la Constitution de 1791 instaure-t-elle ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Le suffrage censitaire",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "Le suffrage universel",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Le vote familial",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Le tirage au sort",
+          "correct": false
+        }
+      ],
+      "explanation": "Seuls les « citoyens actifs », qui paient un certain impôt, peuvent voter."
+    },
+    {
+      "id": "rf-059",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.france",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Quel surnom moqueur donne-t-on à Louis XVI en raison de son droit de veto ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "« Le roi fainéant »",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "« Capet le Simple »",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "« Monsieur Veto »",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "« Le Gros »",
+          "correct": false
+        }
+      ],
+      "explanation": "Marie-Antoinette est alors surnommée « Madame Veto »."
+    },
+    {
+      "id": "rf-060",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.france",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quel club, installé dans un ancien couvent, devient le plus influent de la Révolution ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Le club des Feuillants",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Le club des Cordeliers",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Le club de l'Entresol",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Le club des Jacobins",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "rf-061",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.france",
+      "difficulty": 4,
+      "type": "single",
+      "prompt": "Quel club plus radical compte parmi ses membres Danton, Marat et Hébert ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Le club des Impartiaux",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Le club des Feuillants",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Le club des Cordeliers",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "Le club monarchique",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "rf-062",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.france",
+      "difficulty": 4,
+      "type": "single",
+      "prompt": "Sur proposition de Robespierre, les députés de la Constituante se déclarent inéligibles à :",
+      "answers": [
+        {
+          "id": "a",
+          "text": "L'armée",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "L'Assemblée législative",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "Toute fonction municipale",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "La Convention",
+          "correct": false
+        }
+      ],
+      "explanation": "Ce « décret de non-rééligibilité » écarte les modérés expérimentés au profit d'élus plus jeunes."
+    },
+    {
+      "id": "rf-063",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.france",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "À quel pays la France déclare-t-elle la guerre le 20 avril 1792 ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "L'Autriche",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "L'Espagne",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "L'Angleterre",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "La Russie",
+          "correct": false
+        }
+      ],
+      "explanation": "Formellement au « roi de Bohême et de Hongrie », c'est-à-dire à l'Autriche."
+    },
+    {
+      "id": "rf-064",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.france",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Quel révolutionnaire s'oppose à la déclaration de guerre de 1792 ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Brissot",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Vergniaud",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Danton",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Robespierre",
+          "correct": true
+        }
+      ],
+      "explanation": "Il redoute qu'une guerre profite aux généraux et au roi."
+    },
+    {
+      "id": "rf-065",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.france",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Qui compose « La Marseillaise » en avril 1792 ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Grétry",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Méhul",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Rouget de Lisle",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "Gossec",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "rf-066",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.france",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Dans quelle ville « La Marseillaise » est-elle composée ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Strasbourg",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "Marseille",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Lyon",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Paris",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "rf-067",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.france",
+      "difficulty": 4,
+      "type": "single",
+      "prompt": "Quel était le titre d'origine de « La Marseillaise » ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "« Hymne à la Liberté »",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "« Chant de guerre pour l'armée du Rhin »",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "« Aux armes citoyens »",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "« Le Chant du départ »",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "rf-068",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.france",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Pourquoi ce chant est-il appelé « La Marseillaise » ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Marseille a financé sa publication",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Il a été créé au théâtre de Marseille",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Son auteur est né à Marseille",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Il est chanté par les fédérés venus de Marseille",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "rf-069",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.france",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Quel texte de juillet 1792 menace Paris d'une « exécution militaire » si la famille royale est touchée ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "La déclaration de Pillnitz",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Le traité de Valmy",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Le manifeste de Brunswick",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "L'ultimatum de Vienne",
+          "correct": false
+        }
+      ],
+      "explanation": "Signé par le duc de Brunswick, il indigne les Parisiens et précipite la chute du roi."
+    },
+    {
+      "id": "rf-070",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.france",
+      "difficulty": 4,
+      "type": "single",
+      "prompt": "Quelle formule, votée le 11 juillet 1792, appelle les citoyens à la mobilisation ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "« La patrie en danger »",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "« Aux frontières, citoyens »",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "« La liberté ou la mort »",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "« Guerre aux châteaux »",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "rf-071",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.france",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Que se passe-t-il le 10 août 1792 ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "L'exécution du roi",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "La prise des Tuileries et la chute de la monarchie",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "La proclamation de la République",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "La bataille de Valmy",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "rf-072",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.france",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Quels soldats sont massacrés en défendant les Tuileries le 10 août 1792 ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Les mousquetaires",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Les chevau-légers",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Les gardes françaises",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Les gardes suisses",
+          "correct": true
+        }
+      ],
+      "explanation": "Le monument du Lion de Lucerne, en Suisse, commémore ce massacre."
+    },
+    {
+      "id": "rf-073",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.france",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Dans quelle prison la famille royale est-elle enfermée après le 10 août 1792 ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Le château de Vincennes",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "La Bastille",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "La prison du Temple",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "La Conciergerie",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "rf-074",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.france",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Comment appelle-t-on les massacres de prisonniers commis à Paris du 2 au 6 septembre 1792 ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Les massacres de Septembre",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "La Terreur blanche",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "La Saint-Barthélemy révolutionnaire",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Les noyades de Paris",
+          "correct": false
+        }
+      ],
+      "explanation": "Plus d'un millier de détenus sont tués dans un climat de panique face à l'avance prussienne."
+    },
+    {
+      "id": "rf-075",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.france",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quelle bataille, le 20 septembre 1792, arrête l'avance prussienne ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "La bataille de Jemappes",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "La bataille de Valmy",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "La bataille de Fleurus",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "La bataille de Wattignies",
+          "correct": false
+        }
+      ],
+      "explanation": "Kellermann et Dumouriez y commandent l'armée révolutionnaire, au cri de « Vive la Nation ! »."
+    },
+    {
+      "id": "rf-076",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.france",
+      "difficulty": 4,
+      "type": "single",
+      "prompt": "Quel écrivain allemand, témoin de Valmy, y voit « le début d'une ère nouvelle » ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Schiller",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Kant",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Herder",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Goethe",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "rf-077",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.france",
+      "difficulty": 1,
+      "type": "single",
+      "prompt": "Quel régime est proclamé le 21 septembre 1792 ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "L'Empire",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Le Directoire",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "La République",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "Le Consulat",
+          "correct": false
+        }
+      ],
+      "explanation": "La Convention abolit la royauté ; le lendemain devient le 1er jour de l'an I."
+    },
+    {
+      "id": "rf-078",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.france",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Quelle assemblée proclame la République en 1792 ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "L'Assemblée constituante",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Le Conseil des Anciens",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "L'Assemblée législative",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "La Convention nationale",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "rf-079",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.france",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Comment la Convention est-elle élue ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Par les seuls clubs jacobins",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Au suffrage universel masculin",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "Par tirage au sort",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Au suffrage censitaire",
+          "correct": false
+        }
+      ],
+      "explanation": "Une première en France, même si la participation reste faible."
+    },
+    {
+      "id": "rf-080",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.france",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Pourquoi les députés les plus radicaux de la Convention sont-ils appelés « la Montagne » ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Ils siégeaient sur les gradins les plus élevés",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "Ils s'étaient réunis dans un col des Alpes",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Leur chef s'appelait Montagne",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Ils venaient surtout des régions montagneuses",
+          "correct": false
+        }
+      ],
+      "explanation": "Les indécis du centre formaient « la Plaine » ou « le Marais »."
+    },
+    {
+      "id": "rf-081",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.france",
+      "difficulty": 4,
+      "type": "single",
+      "prompt": "D'où vient le nom des « Girondins » ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "De leur chef, Girond",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "D'un café parisien nommé Le Girondin",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "D'un journal, La Gironde",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Du département de la Gironde, dont plusieurs députés sont originaires",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "rf-082",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.france",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Devant qui Louis XVI est-il jugé fin 1792 ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Un jury populaire tiré au sort",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "La Convention nationale",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "Le Tribunal révolutionnaire",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "La Cour de cassation",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "rf-083",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.france",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Quelle peine la Convention vote-t-elle contre Louis XVI ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "La mort, à une courte majorité",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "La prison à perpétuité",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "L'acquittement",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "L'exil à vie",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "rf-084",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.france",
+      "difficulty": 4,
+      "type": "single",
+      "prompt": "Quel cousin du roi, député sous le nom de « Philippe Égalité », vote la mort de Louis XVI ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Le duc d'Enghien",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Le prince de Condé",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Le duc d'Orléans",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "Le comte de Provence",
+          "correct": false
+        }
+      ],
+      "explanation": "Il sera lui-même guillotiné en novembre 1793."
+    },
+    {
+      "id": "rf-085",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.france",
+      "difficulty": 1,
+      "type": "single",
+      "prompt": "Quand Louis XVI est-il guillotiné ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Le 14 juillet 1792",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Le 21 janvier 1793",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "Le 9 thermidor an II",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Le 10 août 1793",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "rf-086",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.france",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Sur quelle place Louis XVI est-il exécuté ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "La place Vendôme",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "La place de Grève",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "La place de la Révolution (actuelle place de la Concorde)",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "La place de la Bastille",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "rf-087",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.france",
+      "difficulty": 5,
+      "type": "single",
+      "prompt": "Quelle famille assure la fonction de bourreau à Paris pendant la Révolution ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "La famille Fouquier",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "La famille Samson",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "La famille Guillotin",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "La famille Sanson",
+          "correct": true
+        }
+      ],
+      "explanation": "Charles-Henri Sanson exécute Louis XVI ; la charge est héréditaire depuis le XVIIe siècle."
+    },
+    {
+      "id": "rf-088",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.france",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Quel nom les royalistes donnent-ils au fils de Louis XVI, mort au Temple en 1795 ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Louis XVII",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "Le duc de Bordeaux",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Louis XVIII",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Le comte de Chambord",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "rf-089",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.france",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Quelle mesure de février 1793 provoque le soulèvement de la Vendée ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "L'impôt sur le sel",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Le maximum des prix",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "La fermeture des églises",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "La levée de 300 000 hommes",
+          "correct": true
+        }
+      ],
+      "explanation": "La conscription, ajoutée à la question religieuse, met le feu à l'Ouest."
+    },
+    {
+      "id": "rf-090",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.france",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Comment s'appelle l'armée des insurgés vendéens ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "L'Armée blanche",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "L'Armée catholique et royale",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "L'Armée des émigrés",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "La Chouannerie",
+          "correct": false
+        }
+      ],
+      "explanation": "La chouannerie désigne, elle, la guérilla royaliste de Bretagne et du Maine."
+    },
+    {
+      "id": "rf-091",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.france",
+      "difficulty": 4,
+      "type": "single",
+      "prompt": "Lequel de ces hommes est un chef de l'insurrection vendéenne ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Hoche",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Marceau",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Charette",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "Kléber",
+          "correct": false
+        }
+      ],
+      "explanation": "Kléber, Hoche et Marceau sont au contraire des généraux républicains envoyés en Vendée."
+    },
+    {
+      "id": "rf-092",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.france",
+      "difficulty": 5,
+      "type": "single",
+      "prompt": "Quel général républicain mène les « colonnes infernales » en Vendée en 1794 ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Turreau",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "Westermann",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Kléber",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Rossignol",
+          "correct": false
+        }
+      ],
+      "explanation": "Ces colonnes ravagent systématiquement la région après la défaite des Vendéens à Savenay (décembre 1793)."
+    },
+    {
+      "id": "rf-093",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.france",
+      "difficulty": 4,
+      "type": "single",
+      "prompt": "Quel général, vaincu à Neerwinden, trahit et passe à l'ennemi en avril 1793 ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Kellermann",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Dumouriez",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "Custine",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Pichegru",
+          "correct": false
+        }
+      ],
+      "explanation": "Le vainqueur de Valmy et de Jemappes tente en vain d'entraîner son armée contre la Convention."
+    },
+    {
+      "id": "rf-094",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.france",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Quand le Tribunal révolutionnaire est-il créé ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "En mars 1793",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "En septembre 1793",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "En juin 1794",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "En août 1792",
+          "correct": false
+        }
+      ],
+      "explanation": "Il devient l'instrument judiciaire de la Terreur, avec Fouquier-Tinville comme accusateur public."
+    },
+    {
+      "id": "rf-095",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.france",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quel comité devient le véritable gouvernement de la France à partir d'avril 1793 ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Le Comité des finances",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Le Comité de sûreté générale",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Le Directoire exécutif",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Le Comité de salut public",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "rf-096",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.france",
+      "difficulty": 4,
+      "type": "single",
+      "prompt": "Quel membre du Comité de salut public est surnommé « l'organisateur de la victoire » ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Barère",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Collot d'Herbois",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Carnot",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "Couthon",
+          "correct": false
+        }
+      ],
+      "explanation": "Il met sur pied les armées de la République grâce à la levée en masse."
+    },
+    {
+      "id": "rf-097",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.france",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Que se passe-t-il les 31 mai - 2 juin 1793 à la Convention ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Le vote de la Constitution de l'an I",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "La proclamation de la levée en masse",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "L'arrestation des députés girondins sous la pression des sections parisiennes",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "L'élection de Robespierre à sa présidence",
+          "correct": false
+        }
+      ],
+      "explanation": "Cette « journée » ouvre la période de domination montagnarde."
+    },
+    {
+      "id": "rf-098",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.france",
+      "difficulty": 1,
+      "type": "single",
+      "prompt": "Qui assassine Marat le 13 juillet 1793 ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Théroigne de Méricourt",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Charlotte Corday",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "Madame Roland",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Olympe de Gouges",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "rf-099",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.france",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Où Marat est-il assassiné ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Dans la rue",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Au club des Jacobins",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "À la tribune de la Convention",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Dans sa baignoire",
+          "correct": true
+        }
+      ],
+      "explanation": "Une maladie de peau l'obligeait à travailler dans un bain médicinal."
+    },
+    {
+      "id": "rf-100",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.france",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quel journal Marat rédigeait-il ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "« L'Ami du peuple »",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "« Le Moniteur »",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "« Le Père Duchesne »",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "« Le Vieux Cordelier »",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "rf-101",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.france",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Quel peintre immortalise la mort de Marat dans un célèbre tableau ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Delacroix",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Jacques-Louis David",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "Greuze",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Fragonard",
+          "correct": false
+        }
+      ],
+      "explanation": "David, député montagnard, met son art au service de la Révolution."
+    },
+    {
+      "id": "rf-102",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.france",
+      "difficulty": 4,
+      "type": "single",
+      "prompt": "De quelle région est originaire Charlotte Corday ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "L'Alsace",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "La Provence",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "La Normandie",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "La Bretagne",
+          "correct": false
+        }
+      ],
+      "explanation": "Proche des Girondins réfugiés à Caen, elle est guillotinée quatre jours après son geste."
+    },
+    {
+      "id": "rf-103",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.france",
+      "difficulty": 3,
+      "type": "boolean",
+      "prompt": "La Constitution de 1793, très démocratique, ne fut jamais appliquée.",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Vrai",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "Faux",
+          "correct": false
+        }
+      ],
+      "explanation": "Adoptée par référendum, elle est aussitôt suspendue « jusqu'à la paix » au profit du gouvernement révolutionnaire."
+    },
+    {
+      "id": "rf-104",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.france",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Quelle loi de septembre 1793 permet d'arrêter toute personne jugée « suspecte » ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "La loi du maximum",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "La loi des émigrés",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "La loi de Prairial",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "La loi des suspects",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "rf-105",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.france",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Quelle mesure économique de 1793 bloque le prix du pain et d'autres denrées ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Le cens",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "La dîme royale",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Le maximum général des prix",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "Le blocus continental",
+          "correct": false
+        }
+      ],
+      "explanation": "Réclamée par les sans-culottes, elle plafonne aussi les salaires."
+    },
+    {
+      "id": "rf-106",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.france",
+      "difficulty": 1,
+      "type": "single",
+      "prompt": "Quand Marie-Antoinette est-elle guillotinée ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Le 10 août 1792",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Le 16 octobre 1793",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "Le 9 thermidor an II",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Le 21 janvier 1793",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "rf-107",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.france",
+      "difficulty": 4,
+      "type": "single",
+      "prompt": "Quelle autrice de la « Déclaration des droits de la femme et de la citoyenne » est guillotinée en 1793 ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Théroigne de Méricourt",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Madame de Staël",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Madame Roland",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Olympe de Gouges",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "rf-108",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.france",
+      "difficulty": 4,
+      "type": "single",
+      "prompt": "Quelle phrase est prêtée à Madame Roland montant à l'échafaud ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "« Ô Liberté, que de crimes on commet en ton nom ! »",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "« Vive la République ! »",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "« La Révolution dévore ses enfants »",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "« Je meurs innocente »",
+          "correct": false
+        }
+      ],
+      "explanation": "Épouse d'un ministre girondin, elle tenait un salon influent."
+    },
+    {
+      "id": "rf-109",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.france",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Quel culte révolutionnaire est célébré à Notre-Dame de Paris en novembre 1793 ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Le culte de la Nature",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Le culte de la Patrie",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Le culte de la Raison",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "Le culte de l'Être suprême",
+          "correct": false
+        }
+      ],
+      "explanation": "Il accompagne la déchristianisation menée par les hébertistes."
+    },
+    {
+      "id": "rf-110",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.france",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quel calendrier, adopté en 1793, fait débuter l'an I au 22 septembre 1792 ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Le calendrier décimal parisien",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Le calendrier républicain",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "Le calendrier révolutionnaire julien",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Le calendrier grégorien",
+          "correct": false
+        }
+      ],
+      "explanation": "Douze mois de 30 jours, plus 5 ou 6 jours complémentaires."
+    },
+    {
+      "id": "rf-111",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.france",
+      "difficulty": 5,
+      "type": "single",
+      "prompt": "Qui a inventé les noms poétiques des mois du calendrier républicain (Germinal, Thermidor…) ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Chamfort",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "André Chénier",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Marie-Joseph Chénier",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Fabre d'Églantine",
+          "correct": true
+        }
+      ],
+      "explanation": "Ce poète et conventionnel sera lui-même guillotiné avec les dantonistes."
+    },
+    {
+      "id": "rf-112",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.france",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Quel ancien édifice religieux de Paris devient en 1791 le « Panthéon » destiné aux grands hommes ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "L'église Sainte-Geneviève",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "L'abbaye de Saint-Germain-des-Prés",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "La Madeleine",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "L'église Saint-Sulpice",
+          "correct": false
+        }
+      ],
+      "explanation": "Il reçoit d'abord la dépouille de Mirabeau ; le fronton porte « Aux grands hommes, la patrie reconnaissante »."
+    },
+    {
+      "id": "rf-113",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.france",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Quel culte, plus déiste, Robespierre fait-il célébrer le 8 juin 1794 ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Le culte de l'Être suprême",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "Le culte de la Raison",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Le culte de la Liberté",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Le culte des Ancêtres",
+          "correct": false
+        }
+      ],
+      "explanation": "David met en scène cette fête au Champ-de-Mars ; elle isole encore un peu plus Robespierre."
+    },
+    {
+      "id": "rf-114",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.france",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Quel groupe révolutionnaire radical, mené par Hébert, est guillotiné en mars 1794 ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Les Feuillants",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Les Indulgents",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Les hébertistes (« exagérés »)",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "Les Girondins",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "rf-115",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.france",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Quel journal violent et populaire Hébert publiait-il ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "« L'Ami du peuple »",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "« Le Père Duchesne »",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "« Les Révolutions de Paris »",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "« Le Vieux Cordelier »",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "rf-116",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.france",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quel dirigeant, jugé trop « indulgent », est guillotiné avec Camille Desmoulins en avril 1794 ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Saint-Just",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Hébert",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Barère",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Danton",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "rf-117",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.france",
+      "difficulty": 4,
+      "type": "single",
+      "prompt": "Quelle phrase est prêtée à Danton s'adressant au bourreau ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "« Tu montreras ma tête au peuple : elle en vaut la peine »",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "« Je suis la victime de mes propres lois »",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "« La liberté vaincra »",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "« Adieu, mes amis »",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "rf-118",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.france",
+      "difficulty": 4,
+      "type": "single",
+      "prompt": "Quelle loi de juin 1791 supprime les corporations et interdit les coalitions ouvrières et les grèves ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "La loi du maximum",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "La loi Le Chapelier",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "La loi de Prairial",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "La loi des suspects",
+          "correct": false
+        }
+      ],
+      "explanation": "Au nom de la liberté du travail, elle prive les ouvriers de tout droit de coalition jusqu'en 1864."
+    },
+    {
+      "id": "rf-119",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.france",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Quelle loi de juin 1794 supprime quasiment toute défense devant le Tribunal révolutionnaire ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "La loi du maximum",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "La loi des suspects",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "La loi de Prairial (22 prairial an II)",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "La loi Le Chapelier",
+          "correct": false
+        }
+      ],
+      "explanation": "Elle ouvre la « Grande Terreur » : environ 1 400 exécutions à Paris en six semaines."
+    },
+    {
+      "id": "rf-120",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.france",
+      "difficulty": 1,
+      "type": "single",
+      "prompt": "Quel est le surnom de Robespierre ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "« Le Juste »",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "« L'Aigle »",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "« Le Tribun »",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "« L'Incorruptible »",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "rf-121",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.france",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Quel jeune conventionnel, proche de Robespierre, est surnommé « l'archange de la Terreur » ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Fouquier-Tinville",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Le Bas",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Saint-Just",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "Couthon",
+          "correct": false
+        }
+      ],
+      "explanation": "Élu à 25 ans, il est le plus jeune membre de la Convention."
+    },
+    {
+      "id": "rf-122",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.france",
+      "difficulty": 4,
+      "type": "single",
+      "prompt": "Quel membre paralytique du Comité de salut public est guillotiné avec Robespierre ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Couthon",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "Barère",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Collot d'Herbois",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Billaud-Varenne",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "rf-123",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.france",
+      "difficulty": 1,
+      "type": "single",
+      "prompt": "Quelle journée marque la chute de Robespierre, le 27 juillet 1794 ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Le 10 août",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Le 9 Thermidor an II",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "Le 18 Brumaire",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Le 13 Vendémiaire",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "rf-124",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.france",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Que devient Robespierre le 10 thermidor an II (28 juillet 1794) ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Il est acquitté",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Il s'enfuit à l'étranger",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Il est emprisonné à vie",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Il est guillotiné, avec Saint-Just et Couthon",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "rf-125",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.france",
+      "difficulty": 4,
+      "type": "single",
+      "prompt": "Comment Robespierre est-il blessé la nuit de son arrestation ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "À la mâchoire",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "À la main",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "À la jambe",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Il n'est pas blessé",
+          "correct": false
+        }
+      ],
+      "explanation": "Coup de pistolet, tentative de suicide ou tir du gendarme Merda : le débat reste ouvert."
+    },
+    {
+      "id": "rf-126",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.france",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Quel médecin, député en 1789, donne son nom à la machine à décapiter ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Le docteur Cabanis",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Le docteur Louis",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Le docteur Guillotin",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "Le docteur Marat",
+          "correct": false
+        }
+      ],
+      "explanation": "Il voulait une exécution égale et « indolore » pour tous, et non lui donner son nom."
+    },
+    {
+      "id": "rf-127",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.france",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Quel bonnet rouge, hérité de l'Antiquité, devient un symbole de liberté porté par les sans-culottes ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "La toque",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Le bonnet phrygien",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "Le bonnet de police",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Le tricorne",
+          "correct": false
+        }
+      ],
+      "explanation": "On le retrouve sur la tête de Marianne."
+    },
+    {
+      "id": "rf-128",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.france",
+      "difficulty": 4,
+      "type": "single",
+      "prompt": "En quelle année la guillotine est-elle utilisée pour la première fois ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "1794",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "1789",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "1793",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "1792",
+          "correct": true
+        }
+      ],
+      "explanation": "Le 25 avril 1792, sur le voleur Nicolas Pelletier, place de Grève."
+    },
+    {
+      "id": "rf-129",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.france",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Environ combien de condamnations à mort furent prononcées par les tribunaux révolutionnaires (1793-1794) ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Environ 17 000",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "Environ 200 000",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Environ 500 000",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Environ 1 000",
+          "correct": false
+        }
+      ],
+      "explanation": "Auxquelles s'ajoutent des dizaines de milliers de morts hors jugement, surtout en Vendée."
+    },
+    {
+      "id": "rf-130",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.france",
+      "difficulty": 4,
+      "type": "single",
+      "prompt": "Quelle grande ville du Sud-Est, révoltée contre la Convention, est reprise et durement réprimée fin 1793 ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Grenoble",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Lyon",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "Montpellier",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Bordeaux",
+          "correct": false
+        }
+      ],
+      "explanation": "Rebaptisée « Ville-Affranchie », elle subit les mitraillades de Collot d'Herbois et Fouché."
+    },
+    {
+      "id": "rf-131",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.france",
+      "difficulty": 4,
+      "type": "single",
+      "prompt": "Quel port militaire, livré aux Britanniques en 1793, est repris en décembre grâce à l'artillerie d'un jeune officier nommé Bonaparte ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Rochefort",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Cherbourg",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Toulon",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "Brest",
+          "correct": false
+        }
+      ],
+      "explanation": "Ce succès vaut à Bonaparte, à 24 ans, le grade de général de brigade."
+    },
+    {
+      "id": "rf-132",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.france",
+      "difficulty": 5,
+      "type": "single",
+      "prompt": "Quel conventionnel ordonne les « noyades » de prisonniers dans la Loire, à Nantes ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Tallien",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Barras",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Fréron",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Carrier",
+          "correct": true
+        }
+      ],
+      "explanation": "Jean-Baptiste Carrier sera jugé et guillotiné en 1794, après Thermidor."
+    },
+    {
+      "id": "rf-133",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.france",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Comment appelle-t-on la période politique qui suit la chute de Robespierre ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "La Régénération",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "La Restauration",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "La Fronde",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "La réaction thermidorienne",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "rf-134",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.france",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Quel club, foyer de la Terreur, est fermé en novembre 1794 ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Le Panthéon",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Le club des Jacobins",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "Le club des Feuillants",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Le club des Cordeliers",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "rf-135",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.france",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Quel régime la Constitution de l'an III (1795) met-elle en place ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Le Directoire",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "l'Empire",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Le Consulat",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "une monarchie constitutionnelle",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "rf-136",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.france",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "De combien de directeurs se compose l'exécutif du Directoire ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Sept",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Un seul",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Cinq",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "Trois",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "rf-137",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.france",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Quels sont les deux conseils législatifs sous le Directoire ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Le Conseil des Cinq-Cents et le Conseil des Anciens",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "La Chambre haute et la Chambre basse",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "L'Assemblée et le Sénat conservateur",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Le Sénat et le Tribunat",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "rf-138",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.france",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quel jeune général écrase l'insurrection royaliste du 13 vendémiaire an IV (5 octobre 1795) à Paris ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Hoche",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Jourdan",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Bonaparte",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "Moreau",
+          "correct": false
+        }
+      ],
+      "explanation": "Il balaie les insurgés au canon devant l'église Saint-Roch."
+    },
+    {
+      "id": "rf-139",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.france",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quelle campagne militaire rend Bonaparte célèbre en 1796-1797 ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "La campagne d'Espagne",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "La campagne d'Italie",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "La campagne du Rhin",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "La campagne d'Égypte",
+          "correct": false
+        }
+      ],
+      "explanation": "Victoires de Lodi, Arcole et Rivoli contre les Autrichiens."
+    },
+    {
+      "id": "rf-140",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.france",
+      "difficulty": 4,
+      "type": "single",
+      "prompt": "Contre qui est dirigé le coup d'État du 18 fructidor an V (4 septembre 1797) ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Le clergé constitutionnel",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Les généraux d'Italie",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Les derniers Montagnards",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Les royalistes, devenus majoritaires aux Conseils",
+          "correct": true
+        }
+      ],
+      "explanation": "Le Directoire annule des élections et déporte des députés pour se maintenir."
+    },
+    {
+      "id": "rf-141",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.france",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Où Bonaparte part-il en expédition militaire en 1798 ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "En Russie",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "En Espagne",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "En Égypte",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "En Irlande",
+          "correct": false
+        }
+      ],
+      "explanation": "Objectif : couper à l'Angleterre la route des Indes."
+    },
+    {
+      "id": "rf-142",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.france",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Quel amiral britannique détruit la flotte française à Aboukir en 1798 ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Nelson",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "Hood",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Jervis",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Collingwood",
+          "correct": false
+        }
+      ],
+      "explanation": "L'armée d'Égypte se retrouve coupée de la France."
+    },
+    {
+      "id": "rf-143",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.france",
+      "difficulty": 1,
+      "type": "single",
+      "prompt": "Quel coup d'État, les 9-10 novembre 1799, met fin à la Révolution française ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Le 9 Thermidor an II",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Le 13 Vendémiaire an IV",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Le 18 Fructidor an V",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Le 18 Brumaire an VIII",
+          "correct": true
+        }
+      ],
+      "explanation": "Il porte Bonaparte au pouvoir."
+    },
+    {
+      "id": "rf-144",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.france",
+      "difficulty": 4,
+      "type": "single",
+      "prompt": "Dans quel château, hors de Paris, les Conseils sont-ils réunis lors du 18 Brumaire ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Fontainebleau",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Saint-Cloud",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "Rambouillet",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Versailles",
+          "correct": false
+        }
+      ],
+      "explanation": "Prétexte invoqué : protéger les députés d'un « complot jacobin »."
+    },
+    {
+      "id": "rf-145",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.france",
+      "difficulty": 4,
+      "type": "single",
+      "prompt": "Quel ancien directeur, théoricien du « Qu'est-ce que le tiers état ? », est l'un des instigateurs du 18 Brumaire ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Carnot",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Barras",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Sieyès",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "La Fayette",
+          "correct": false
+        }
+      ],
+      "explanation": "Il cherchait « une tête et une épée » : ce sera Bonaparte."
+    },
+    {
+      "id": "rf-146",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.france",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Quel frère de Napoléon, président du Conseil des Cinq-Cents, sauve le coup d'État en haranguant les soldats ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Lucien Bonaparte",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "Joseph Bonaparte",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Jérôme Bonaparte",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Louis Bonaparte",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "rf-147",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.france",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quel régime succède au Directoire fin 1799 ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "la Restauration",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "la Terreur",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "l'Empire",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Le Consulat",
+          "correct": true
+        }
+      ],
+      "explanation": "Bonaparte y exerce le pouvoir comme Premier consul."
+    },
+    {
+      "id": "rf-148",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.france",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "De quelles couleurs est le drapeau adopté par la Révolution, toujours celui de la France ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Bleu et blanc",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Bleu, blanc, rouge",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "Rouge et noir",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Blanc seul",
+          "correct": false
+        }
+      ],
+      "explanation": "Le blanc du roi encadré par le bleu et le rouge de Paris."
+    },
+    {
+      "id": "rf-149",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.france",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Comment appelle-t-on les artisans et ouvriers parisiens, fer de lance des journées révolutionnaires ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Les sans-culottes",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "Les muscadins",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Les fédérés",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Les Enragés",
+          "correct": false
+        }
+      ],
+      "explanation": "Ils portent le pantalon rayé, et non la culotte de soie des nobles."
+    },
+    {
+      "id": "rf-150",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.france",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Quelle unité de mesure, définie sous la Révolution à partir du méridien terrestre, s'impose ensuite dans le monde ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "La toise",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Le mètre",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "L'arpent",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Le grade",
+          "correct": false
+        }
+      ],
+      "explanation": "Le système métrique décimal est instauré par la loi de 1795."
     }
   ]
 }
