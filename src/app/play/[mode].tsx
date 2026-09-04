@@ -12,7 +12,7 @@ import { CATALOG, getDeck } from '@/data/catalog';
 import { CONFIG } from '@/data/config';
 import { parseGameMode } from '@/domain/gameMode';
 import type { AnswerOutcome } from '@/domain/mastery';
-import { pickSession } from '@/domain/mastery';
+import { shuffleQuestions } from '@/domain/mastery';
 import { buildQuestionPool, PoolError } from '@/domain/questionPool';
 import type { GameMode, Question } from '@/domain/types';
 import { useTheme } from '@/hooks/useTheme';
@@ -47,7 +47,9 @@ function initSession(mode: GameMode): InitState {
       isDeckOwned,
       isMastered: (id) => !!progress[id]?.masteredAt,
     });
-    return { questions: pickSession(pool, progress), error: null };
+    // Une partie enchaîne TOUT le pool, mélangé — pas de format court. Elle
+    // s'arrête d'elle-même quand les vies sont épuisées (voir CONFIG.STARTING_LIVES).
+    return { questions: shuffleQuestions(pool), error: null };
   } catch (e) {
     return { questions: [], error: e instanceof PoolError ? e.message : String(e) };
   }
@@ -64,6 +66,7 @@ export default function PlayScreen() {
 
   const [index, setIndex] = useState(0);
   const [chosenId, setChosenId] = useState<string | null>(null);
+  const [lives, setLives] = useState<number>(CONFIG.STARTING_LIVES);
   // Réponses accumulées : ref (et non state) pour rester à jour dans le
   // setTimeout du passage automatique.
   const outcomes = useRef<AnswerOutcome[]>([]);
@@ -122,19 +125,21 @@ export default function PlayScreen() {
   const total = session.questions.length;
   const revealed = chosenId !== null;
   const isLast = index >= total - 1;
+  const outOfLives = lives <= 0;
+  const isFinalScreen = isLast || outOfLives;
   const chosenCorrect = revealed && !!question.answers.find((a) => a.id === chosenId)?.correct;
-  const autoAdvancing = chosenCorrect && autoAdvance && !isLast;
+  const autoAdvancing = chosenCorrect && autoAdvance && !isFinalScreen;
 
   const goNext = () => {
     clearAdvanceTimer();
-    if (!isLast) {
+    if (!isFinalScreen) {
       setIndex((i) => i + 1);
       setChosenId(null);
       return;
     }
     leaving.current = true;
     const summary = useProgressStore.getState().applySession(outcomes.current);
-    useSessionStore.getState().setResult(summary, modeLabel(mode), modeParam);
+    useSessionStore.getState().setResult(summary, modeLabel(mode), modeParam, lives);
     router.replace('/play/result');
   };
 
@@ -144,7 +149,9 @@ export default function PlayScreen() {
     setChosenId(answerId);
     feedback(correct);
     outcomes.current.push({ questionId: question.id, correct, difficulty: question.difficulty });
-    if (correct && autoAdvance && !isLast) {
+    if (!correct) {
+      setLives((l) => Math.max(0, l - 1));
+    } else if (autoAdvance && !isLast) {
       advanceTimer.current = setTimeout(goNext, CONFIG.AUTO_ADVANCE_DELAY_MS);
     }
   };
@@ -164,6 +171,10 @@ export default function PlayScreen() {
     goNext();
   };
 
+  const hearts = Array.from({ length: CONFIG.STARTING_LIVES }, (_, i) =>
+    i < lives ? '❤️' : '🤍',
+  ).join('');
+
   return (
     <Screen scroll>
       <View style={{ gap: 10 }}>
@@ -181,11 +192,14 @@ export default function PlayScreen() {
           <Text variant="caption" muted style={{ flex: 1 }} numberOfLines={1}>
             {modeLabel(mode)}
           </Text>
-          <Text variant="caption" muted>
-            {index + 1} / {total}
+          <Text accessibilityLabel={`${lives} vie${lives > 1 ? 's' : ''} restante${lives > 1 ? 's' : ''}`}>
+            {hearts}
           </Text>
         </View>
         <ProgressBar value={total ? index / total : 0} />
+        <Text variant="caption" muted style={{ textAlign: 'right' }}>
+          {index + 1} / {total}
+        </Text>
       </View>
 
       <Text variant="heading">{question.prompt}</Text>
@@ -225,8 +239,13 @@ export default function PlayScreen() {
 
       {revealed && !autoAdvancing && (
         <View style={{ gap: 12 }}>
+          {outOfLives && (
+            <Text variant="label" color={colors.danger}>
+              💔 Plus de vies !
+            </Text>
+          )}
           {question.explanation ? <Text muted>{question.explanation}</Text> : null}
-          <Button label={isLast ? 'Voir les résultats' : 'Suivant'} onPress={goNext} />
+          <Button label={isFinalScreen ? 'Voir les résultats' : 'Suivant'} onPress={goNext} />
         </View>
       )}
 

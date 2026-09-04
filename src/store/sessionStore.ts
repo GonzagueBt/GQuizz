@@ -7,7 +7,15 @@ interface SessionState {
   lastModeLabel: string;
   /** Segment d'URL du dernier mode joué, pour « Rejouer ». */
   lastModeParam: string;
-  setResult: (summary: SessionSummary, modeLabel: string, modeParam: string) => void;
+  /** Vies restantes à la fin de la partie. 0 = partie perdue (plus de vies) ;
+   *  > 0 = tout le pool a été parcouru sans épuiser les vies. */
+  lastLivesLeft: number;
+  setResult: (
+    summary: SessionSummary,
+    modeLabel: string,
+    modeParam: string,
+    livesLeft: number,
+  ) => void;
   clear: () => void;
 }
 
@@ -16,7 +24,8 @@ export const useSessionStore = create<SessionState>((set) => ({
   lastSummary: null,
   lastModeLabel: '',
   lastModeParam: '',
-  setResult: (lastSummary, lastModeLabel, lastModeParam) =>
-    set({ lastSummary, lastModeLabel, lastModeParam }),
-  clear: () => set({ lastSummary: null, lastModeLabel: '', lastModeParam: '' }),
+  lastLivesLeft: 0,
+  setResult: (lastSummary, lastModeLabel, lastModeParam, lastLivesLeft) =>
+    set({ lastSummary, lastModeLabel, lastModeParam, lastLivesLeft }),
+  clear: () => set({ lastSummary: null, lastModeLabel: '', lastModeParam: '', lastLivesLeft: 0 }),
 }));

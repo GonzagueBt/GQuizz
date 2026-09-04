@@ -12,17 +12,22 @@ export default function ResultScreen() {
   const summary = useSessionStore((s) => s.lastSummary);
   const label = useSessionStore((s) => s.lastModeLabel);
   const modeParam = useSessionStore((s) => s.lastModeParam);
+  const livesLeft = useSessionStore((s) => s.lastLivesLeft);
   const { colors } = useTheme();
 
   if (!summary) return <Redirect href="/" />;
 
   const ratio = summary.total ? Math.round((summary.correct / summary.total) * 100) : 0;
+  const cleared = livesLeft > 0;
 
   return (
     <Screen scroll contentStyle={{ justifyContent: 'center' }}>
       <View style={{ alignItems: 'center', gap: 6 }}>
         <Text variant="caption" muted>
           {label}
+        </Text>
+        <Text variant="heading" color={cleared ? colors.success : colors.danger}>
+          {cleared ? '🎉 Deck terminé !' : '💔 Plus de vies'}
         </Text>
         <Text variant="title">{ratio}%</Text>
         <Text muted>

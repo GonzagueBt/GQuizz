@@ -32,39 +32,19 @@ export function setMastery(
   return next;
 }
 
-/** Poids de tirage : jamais vues > vues non maîtrisées > maîtrisées (rappel espacé léger). */
-function samplingWeight(p: QuestionProgress | undefined): number {
-  if (!p || p.seen === 0) return 6;
-  if (!p.masteredAt) return 3;
-  return 1;
-}
-
 /**
- * Sélectionne les questions d'une session à partir d'un pool.
- * `rng` injectable pour des tests déterministes (défaut: Math.random).
+ * Ordonne une partie : TOUTES les questions du pool, mélangées — aucune
+ * troncature. La partie s'arrête d'elle-même quand les vies sont épuisées
+ * (voir CONFIG.STARTING_LIVES) ou quand le pool est entièrement parcouru.
+ * `rng` injectable pour des tests déterministes (défaut : Math.random).
  */
-export function pickSession(
-  pool: Question[],
-  progress: ProgressMap,
-  count: number = CONFIG.SESSION_LENGTH,
-  rng: () => number = Math.random,
-): Question[] {
-  const remaining = [...pool];
-  const picked: Question[] = [];
-  const target = Math.min(count, remaining.length);
-
-  while (picked.length < target && remaining.length > 0) {
-    const weights = remaining.map((q) => samplingWeight(progress[q.id]));
-    const total = weights.reduce((a, b) => a + b, 0);
-    let r = rng() * total;
-    let idx = 0;
-    while (idx < weights.length - 1 && r >= weights[idx]) {
-      r -= weights[idx];
-      idx += 1;
-    }
-    picked.push(remaining.splice(idx, 1)[0]);
+export function shuffleQuestions(pool: Question[], rng: () => number = Math.random): Question[] {
+  const arr = [...pool];
+  for (let i = arr.length - 1; i > 0; i--) {
+    const j = Math.floor(rng() * (i + 1));
+    [arr[i], arr[j]] = [arr[j], arr[i]];
   }
-  return picked;
+  return arr;
 }
 
 export interface AnswerOutcome {

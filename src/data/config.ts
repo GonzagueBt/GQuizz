@@ -13,8 +13,9 @@ export const CONFIG = {
   DECK_QUESTION_MIN: 50,
   DECK_QUESTION_MAX: 200,
 
-  /** Nombre de questions par partie. */
-  SESSION_LENGTH: 10,
+  /** Une partie enchaîne TOUTES les questions du pool (mélangées) — pas de
+   *  format court. On joue jusqu'à épuiser le deck ou les vies. */
+  STARTING_LIVES: 3,
 
   /** Délai avant passage auto à la question suivante quand la réponse est juste
    *  (le temps de voir la réponse s'allumer en vert). Réglage `autoAdvanceOnCorrect`. */

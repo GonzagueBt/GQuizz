@@ -2,11 +2,10 @@ import { CONFIG } from '@/data/config';
 import {
   applyOutcome,
   isMastered,
-  pickSession,
   scoreForAnswer,
   setMastery,
+  shuffleQuestions,
   summarizeSession,
-  type ProgressMap,
 } from '../mastery';
 import type { Question } from '../types';
 
@@ -84,7 +83,7 @@ describe('summarizeSession', () => {
   });
 });
 
-describe('pickSession', () => {
+describe('shuffleQuestions', () => {
   const pool: Question[] = Array.from({ length: 20 }, (_, i) => ({
     id: `q${i}`,
     deckId: 'd',
@@ -95,35 +94,32 @@ describe('pickSession', () => {
     answers: [{ id: 'a', text: 'a', correct: true }],
   }));
 
-  it('never exceeds the requested count or the pool size', () => {
-    expect(pickSession(pool, {}, 5, () => 0.5)).toHaveLength(5);
-    expect(pickSession(pool.slice(0, 3), {}, 10, () => 0.5)).toHaveLength(3);
+  it('keeps every question exactly once — no truncation', () => {
+    const shuffled = shuffleQuestions(pool, () => 0.5);
+    expect(shuffled).toHaveLength(pool.length);
+    expect(new Set(shuffled.map((q) => q.id))).toEqual(new Set(pool.map((q) => q.id)));
   });
 
-  it('is deterministic for a fixed rng and returns unique questions', () => {
-    const seq = [0.1, 0.9, 0.3, 0.7, 0.5];
+  it('does not mutate the input pool', () => {
+    const copy = [...pool];
+    shuffleQuestions(pool, Math.random);
+    expect(pool).toEqual(copy);
+  });
+
+  function seededRng(seq: number[]) {
     let i = 0;
-    const rng = () => seq[i++ % seq.length];
-    const picked = pickSession(pool, {}, 5, rng);
-    expect(new Set(picked.map((q) => q.id)).size).toBe(5);
+    return () => seq[i++ % seq.length];
+  }
+
+  it('is deterministic for a fixed rng', () => {
+    const seq = [0.1, 0.9, 0.3, 0.7, 0.5, 0.2, 0.8];
+    const a = shuffleQuestions(pool, seededRng(seq));
+    const b = shuffleQuestions(pool, seededRng(seq));
+    expect(a.map((q) => q.id)).toEqual(b.map((q) => q.id));
   });
 
-  it('favours unseen questions over mastered ones', () => {
-    const progress: ProgressMap = {};
-    for (let i = 0; i < 19; i++) {
-      progress[`q${i}`] = {
-        questionId: `q${i}`,
-        seen: 5,
-        correct: 5,
-        streak: 5,
-        masteredAt: NOW(),
-      };
-    }
-    // q19 is unseen (weight 6) vs 19 mastered questions (weight 1 each):
-    // P(pick q19) = 6 / (6 + 19) = 0.24, so ~96 hits over 400 draws.
-    const hits = Array.from({ length: 400 }, () => pickSession(pool, progress, 1, Math.random)[0].id);
-    const unseenHits = hits.filter((id) => id === 'q19').length;
-    expect(unseenHits).toBeGreaterThan(40);
-    expect(unseenHits).toBeLessThan(200);
+  it('actually reorders a large pool (not a no-op)', () => {
+    const shuffled = shuffleQuestions(pool, seededRng([0.9, 0.1, 0.8, 0.2, 0.7, 0.3]));
+    expect(shuffled.map((q) => q.id)).not.toEqual(pool.map((q) => q.id));
   });
 });

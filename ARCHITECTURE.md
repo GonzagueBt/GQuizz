@@ -192,7 +192,7 @@ function buildQuestionPool(input: {
 
 | Mode | Pool |
 |------|------|
-| `global` | decks **possédés** ∩ catégories autorisées par `prefs` — les questions **maîtrisées restent incluses** (sous-pondérées par `pickSession`, jouables pour le score) |
+| `global` | decks **possédés** ∩ catégories autorisées par `prefs` — les questions **maîtrisées restent incluses** (jouables pour le score) |
 | `deck` | questions du deck ciblé si possédé (sinon → écran d'achat), **maîtrisées exclues** (« ne me la pose plus ») ; retombe sur le deck complet si tout est maîtrisé ; prefs ignorées |
 | `daily` (futur) | pool figé fourni par `daily/<date>.json` |
 | `event` (futur) | pool fourni par la config de l'événement |
@@ -230,10 +230,23 @@ interface QuestionProgress {
 - Ajustement manuel : `setMastery()` (pur) / `progressStore.setMastered(id, bool)` —
   écran `src/app/mastery.tsx`. Marquer pose `masteredAt` + remonte le streak au
   seuil ; démarquer efface `masteredAt` + streak à 0 (l'historique est gardé).
-- Sélection de session : privilégier les questions non vues > vues non maîtrisées,
-  réinjecter les maîtrisées avec une faible probabilité (révision espacée simple).
+- Sélection de session : **pas de format court**. `shuffleQuestions()` mélange
+  (Fisher-Yates) l'intégralité du pool retourné par `buildQuestionPool` — mode
+  `deck` comme mode `global`. La partie s'arrête d'elle-même en cours de pool si
+  les vies sont épuisées (voir §6bis), ou naturellement si tout le pool est
+  parcouru.
 - Score : voir `config.ts` (points par bonne réponse, bonus difficulté, bonus streak).
 - Persisté dans `progressStore`.
+
+### Vies
+
+Chaque partie démarre avec `CONFIG.STARTING_LIVES` (3) vies affichées en cœurs
+dans l'en-tête. Une réponse fausse retire une vie ; à 0, la partie se termine
+(après avoir montré l'explication de la question fatale) — bouton **Voir les
+résultats** au lieu de **Suivant**, quelle que soit la position dans le pool.
+L'écran de résultats distingue **deck terminé** (`livesLeft > 0`, tout le pool a
+été parcouru) de **partie perdue** (`livesLeft === 0`). Marquer une question
+« déjà maîtrisée » (§ ci-dessus) ne coûte pas de vie.
 
 ---
 
@@ -243,11 +256,11 @@ Toutes les valeurs « ajustables sans réfléchir » au même endroit :
 
 ```ts
 export const CONFIG = {
-  FREE_DECK_COUNT: 6,          // decks marqués free livrés avec l'app
+  FREE_DECK_COUNT: 7,          // decks marqués free livrés avec l'app
   PREMIUM_PRICE_DEFAULT: '1,99 €',
   DECK_QUESTION_MIN: 50,
   DECK_QUESTION_MAX: 200,
-  SESSION_LENGTH: 10,          // questions par partie
+  STARTING_LIVES: 3,           // vies par partie ; une partie parcourt TOUT le pool mélangé
   AUTO_ADVANCE_DELAY_MS: 550,  // pause avant passage auto (réponse juste)
   MASTERY_STREAK: 3,
   SCORE_BASE: 100,
@@ -271,7 +284,7 @@ jour la config).
 | `src/app/onboarding/index.tsx` | **Bienvenue** — 3 boutons | « Je choisis ce que je veux » / « …ce que je ne veux pas » / « ✨ Tout me va » |
 | `src/app/onboarding/categories.tsx` | Sélection catégories | mode include ou exclude selon le bouton ; **< 30 s** ; skippé si « Tout me va » |
 | `src/app/index.tsx` | **JOUER** | liste des modes (🌎 Global personnalisé + un item par deck possédé) ; en-tête avec deux boutons émoji en haut à droite → 📚 decks, ⚙️ réglages ; cartes score / questions maîtrisées |
-| `src/app/play/[mode].tsx` | Partie | barre de progression, question, réponses, feedback + haptics ; **✕** (+ retour Android) → pop-up « Quitter la partie ? » ; lien **« ★ Je maîtrise déjà cette question »** (visible avant de répondre uniquement) → pop-up → marque maîtrisée + passe à la suivante ; passage auto si `autoAdvanceOnCorrect` et réponse juste |
+| `src/app/play/[mode].tsx` | Partie | **tout le pool mélangé** (pas de format court), 3 vies (cœurs) — une réponse fausse en coûte une, à 0 la partie se termine ; barre de progression, feedback + haptics ; **✕** (+ retour Android) → pop-up « Quitter la partie ? » ; lien **« ★ Je maîtrise déjà cette question »** → marque maîtrisée + passe à la suivante ; passage auto si `autoAdvanceOnCorrect` et réponse juste |
 | `src/app/play/result.tsx` | Résultats | score, questions maîtrisées, rejouer, partager |
 | `src/app/decks/index.tsx` | **📚 DECKS** | « Mes decks » (possédés) + « À découvrir » (premium non possédés) |
 | `src/app/decks/[id].tsx` | Détail deck | nom, illustration, description, catégorie, nb questions, difficulté moy., statut ; aperçu de questions ; **[ ACHETER ]** ou **[ JOUER ]** |
