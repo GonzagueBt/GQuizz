@@ -3,15 +3,22 @@ import { createJSONStorage, persist } from 'zustand/middleware';
 
 import type { AnswerOutcome, ProgressMap, SessionSummary } from '@/domain/mastery';
 import { isMastered, setMastery, summarizeSession } from '@/domain/mastery';
+import { appendHistory, buildSessionRecord, type SessionRecord } from '@/domain/stats';
 import { zustandStorage } from '@/services/storage';
+
+function newHistoryId(): string {
+  return `${Date.now()}-${Math.random().toString(36).slice(2, 8)}`;
+}
 
 interface ProgressState {
   progress: ProgressMap;
   totalScore: number;
   gamesPlayed: number;
+  /** Une entrée par partie jouée, la plus récente en dernier — alimente l'écran Progression. */
+  history: SessionRecord[];
   hydrated: boolean;
   /** Applique les réponses d'une partie et retourne le résumé. */
-  applySession: (outcomes: AnswerOutcome[]) => SessionSummary;
+  applySession: (outcomes: AnswerOutcome[], modeLabel: string) => SessionSummary;
   masteredCount: () => number;
   isMastered: (questionId: string) => boolean;
   /** Marque / démarque manuellement une question (écran « Questions maîtrisées »). */
@@ -25,14 +32,17 @@ export const useProgressStore = create<ProgressState>()(
       progress: {},
       totalScore: 0,
       gamesPlayed: 0,
+      history: [],
       hydrated: false,
 
-      applySession: (outcomes) => {
+      applySession: (outcomes, modeLabel) => {
         const { summary, progress } = summarizeSession(outcomes, get().progress);
+        const record = buildSessionRecord(summary, modeLabel, newHistoryId());
         set({
           progress,
           totalScore: get().totalScore + summary.score,
           gamesPlayed: get().gamesPlayed + 1,
+          history: appendHistory(get().history, record),
         });
         return summary;
       },
@@ -50,7 +60,7 @@ export const useProgressStore = create<ProgressState>()(
           },
         })),
 
-      reset: () => set({ progress: {}, totalScore: 0, gamesPlayed: 0 }),
+      reset: () => set({ progress: {}, totalScore: 0, gamesPlayed: 0, history: [] }),
     }),
     {
       name: 'gquizz.progress',
@@ -59,6 +69,7 @@ export const useProgressStore = create<ProgressState>()(
         progress: s.progress,
         totalScore: s.totalScore,
         gamesPlayed: s.gamesPlayed,
+        history: s.history,
       }),
       onRehydrateStorage: () => () => {
         useProgressStore.setState({ hydrated: true });

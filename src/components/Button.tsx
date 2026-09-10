@@ -1,4 +1,5 @@
 import { ActivityIndicator, Pressable, type PressableProps, StyleSheet, View } from 'react-native';
+import Animated, { useAnimatedStyle, useSharedValue, withTiming } from 'react-native-reanimated';
 
 import { useTheme } from '@/hooks/useTheme';
 import { Text } from './Text';
@@ -25,6 +26,8 @@ export function Button({
 }: Props) {
   const { colors, radius, spacing } = useTheme();
   const isDisabled = disabled || loading;
+  const scale = useSharedValue(1);
+  const animatedStyle = useAnimatedStyle(() => ({ transform: [{ scale: scale.value }] }));
 
   const bg =
     variant === 'primary'
@@ -38,35 +41,43 @@ export function Button({
   const border = variant === 'ghost' ? colors.border : 'transparent';
 
   return (
-    <Pressable
-      accessibilityRole="button"
-      accessibilityState={{ disabled: isDisabled }}
-      disabled={isDisabled}
-      onPress={onPress}
-      style={({ pressed }) => [
-        styles.base,
-        {
-          backgroundColor: bg,
-          borderColor: border,
-          borderRadius: radius.md,
-          paddingVertical: spacing.md,
-          paddingHorizontal: spacing.lg,
-          opacity: isDisabled ? 0.5 : pressed ? 0.85 : 1,
-        },
-      ]}
-      {...rest}
-    >
-      {loading ? (
-        <ActivityIndicator color={fg} />
-      ) : (
-        <View style={styles.row}>
-          {icon ? <Text color={fg}>{icon}</Text> : null}
-          <Text variant="label" color={fg} style={styles.label}>
-            {label}
-          </Text>
-        </View>
-      )}
-    </Pressable>
+    <Animated.View style={animatedStyle}>
+      <Pressable
+        accessibilityRole="button"
+        accessibilityState={{ disabled: isDisabled }}
+        disabled={isDisabled}
+        onPress={onPress}
+        onPressIn={() => {
+          if (!isDisabled) scale.value = withTiming(0.96, { duration: 90 });
+        }}
+        onPressOut={() => {
+          scale.value = withTiming(1, { duration: 150 });
+        }}
+        style={({ pressed }) => [
+          styles.base,
+          {
+            backgroundColor: bg,
+            borderColor: border,
+            borderRadius: radius.md,
+            paddingVertical: spacing.md,
+            paddingHorizontal: spacing.lg,
+            opacity: isDisabled ? 0.5 : pressed ? 0.92 : 1,
+          },
+        ]}
+        {...rest}
+      >
+        {loading ? (
+          <ActivityIndicator color={fg} />
+        ) : (
+          <View style={styles.row}>
+            {icon ? <Text color={fg}>{icon}</Text> : null}
+            <Text variant="label" color={fg} style={styles.label}>
+              {label}
+            </Text>
+          </View>
+        )}
+      </Pressable>
+    </Animated.View>
   );
 }
 

@@ -248,6 +248,15 @@ L'écran de résultats distingue **deck terminé** (`livesLeft > 0`, tout le poo
 été parcouru) de **partie perdue** (`livesLeft === 0`). Marquer une question
 « déjà maîtrisée » (§ ci-dessus) ne coûte pas de vie.
 
+### Historique de parties — `src/domain/stats.ts`
+
+Chaque partie terminée (`applySession`) ajoute un `SessionRecord` (date, mode,
+score, bonnes réponses, questions nouvellement maîtrisées) à
+`progressStore.history`, borné à `MAX_HISTORY` (100) entrées via
+`appendHistory`. C'est la source de l'écran **📊 Progression** (`app/stats.tsx`) :
+précision globale (`overallAccuracy`), courbe de maîtrise cumulée
+(`cumulativeMastered`) et liste des dernières parties.
+
 ---
 
 ## 7. Configuration produit — `src/data/config.ts`
@@ -283,14 +292,21 @@ jour la config).
 | `src/app/_layout.tsx` | Providers + garde onboarding | redirige vers `/onboarding` si non terminé |
 | `src/app/onboarding/index.tsx` | **Bienvenue** — 3 boutons | « Je choisis ce que je veux » / « …ce que je ne veux pas » / « ✨ Tout me va » |
 | `src/app/onboarding/categories.tsx` | Sélection catégories | mode include ou exclude selon le bouton ; **< 30 s** ; skippé si « Tout me va » |
-| `src/app/index.tsx` | **JOUER** | liste des modes (🌎 Global personnalisé + un item par deck possédé) ; en-tête avec deux boutons émoji en haut à droite → 📚 decks, ⚙️ réglages ; cartes score / questions maîtrisées |
-| `src/app/play/[mode].tsx` | Partie | **tout le pool mélangé** (pas de format court), 3 vies (cœurs) — une réponse fausse en coûte une, à 0 la partie se termine ; barre de progression, feedback + haptics ; **✕** (+ retour Android) → pop-up « Quitter la partie ? » ; lien **« ★ Je maîtrise déjà cette question »** → marque maîtrisée + passe à la suivante ; passage auto si `autoAdvanceOnCorrect` et réponse juste |
-| `src/app/play/result.tsx` | Résultats | score, questions maîtrisées, rejouer, partager |
+| `src/app/index.tsx` | **JOUER** | liste des modes (🌎 Global personnalisé + un item par deck possédé) ; cartes score / questions maîtrisées ; entrée en cascade (`Reveal`) |
+| `src/app/play/[mode].tsx` | Partie | **tout le pool mélangé** (pas de format court), 3 vies (cœurs) — une réponse fausse en coûte une, à 0 la partie se termine ; barre de progression animée, feedback + haptics ; **✕** (+ retour Android) → pop-up « Quitter la partie ? » ; lien **« ★ Je maîtrise déjà cette question »** → marque maîtrisée + passe à la suivante ; passage auto si `autoAdvanceOnCorrect` et réponse juste |
+| `src/app/play/result.tsx` | Résultats | score, questions maîtrisées, rejouer, lien vers Progression, retour accueil |
 | `src/app/decks/index.tsx` | **📚 DECKS** | « Mes decks » (possédés) + « À découvrir » (premium non possédés) |
 | `src/app/decks/[id].tsx` | Détail deck | nom, illustration, description, catégorie, nb questions, difficulté moy., statut ; aperçu de questions ; **[ ACHETER ]** ou **[ JOUER ]** |
+| `src/app/stats.tsx` | **📊 Progression** | score total / parties jouées / précision / maîtrisées ; « Score par partie » et « Maîtrise cumulée » (`BarChart`, sur `progressStore.history`) ; liste des dernières parties |
 | `src/app/mastery.tsx` | Questions maîtrisées | onglets **Maîtrisées / À maîtriser**, filtre par deck, chaque ligne se déplie (réponse + explication) et se coche/décoche → `progressStore.setMastered` |
 | `src/app/settings/index.tsx` | ⚙️ Réglages | « Catégories du quiz », « Questions maîtrisées », **Passer automatiquement** (toggle `autoAdvanceOnCorrect`, défaut activé), « Restaurer mes achats », réinitialiser, refaire l'intro |
 | `src/app/settings/categories.tsx` | Éditeur de préférences | même composant que l'onboarding ; bouton **Réinitialiser** → toutes les catégories ; prise en compte immédiate |
+
+**Navigation** : Jouer / Decks / Progression / Réglages partagent une barre de
+navigation persistante (`components/BottomNav.tsx`, indicateur animé,
+`router.replace` entre onglets). Les écrans de détail (deck, partie, résultats,
+questions maîtrisées, édition des catégories) restent des écrans empilés
+classiques, sans barre.
 
 Composant partagé `CategorySelector` (arbre, cases à cocher tri-état
 parent/enfants) utilisé à la fois en onboarding et en réglages.

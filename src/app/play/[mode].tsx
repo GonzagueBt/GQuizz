@@ -148,7 +148,7 @@ export default function PlayScreen() {
       return;
     }
     leaving.current = true;
-    const summary = useProgressStore.getState().applySession(outcomes.current);
+    const summary = useProgressStore.getState().applySession(outcomes.current, modeLabel(mode));
     useSessionStore.getState().setResult(summary, modeLabel(mode), modeParam, livesRef.current);
     router.replace('/play/result');
   };

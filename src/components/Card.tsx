@@ -1,5 +1,6 @@
 import type { ReactNode } from 'react';
-import { Pressable, StyleSheet, View, type ViewStyle } from 'react-native';
+import { Pressable, View, type ViewStyle } from 'react-native';
+import Animated, { useAnimatedStyle, useSharedValue, withTiming } from 'react-native-reanimated';
 
 import { useTheme } from '@/hooks/useTheme';
 
@@ -11,6 +12,9 @@ interface Props {
 
 export function Card({ children, onPress, style }: Props) {
   const { colors, radius, spacing } = useTheme();
+  const scale = useSharedValue(1);
+  const animatedStyle = useAnimatedStyle(() => ({ transform: [{ scale: scale.value }] }));
+
   const base: ViewStyle = {
     backgroundColor: colors.surface,
     borderColor: colors.border,
@@ -22,18 +26,22 @@ export function Card({ children, onPress, style }: Props) {
 
   if (onPress) {
     return (
-      <Pressable
-        accessibilityRole="button"
-        onPress={onPress}
-        style={({ pressed }) => [base, style, pressed && styles.pressed]}
-      >
-        {children}
-      </Pressable>
+      <Animated.View style={animatedStyle}>
+        <Pressable
+          accessibilityRole="button"
+          onPress={onPress}
+          onPressIn={() => {
+            scale.value = withTiming(0.98, { duration: 90 });
+          }}
+          onPressOut={() => {
+            scale.value = withTiming(1, { duration: 150 });
+          }}
+          style={({ pressed }) => [base, style, pressed && { opacity: 0.92 }]}
+        >
+          {children}
+        </Pressable>
+      </Animated.View>
     );
   }
   return <View style={[base, style]}>{children}</View>;
 }
-
-const styles = StyleSheet.create({
-  pressed: { opacity: 0.9 },
-});

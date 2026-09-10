@@ -1,9 +1,11 @@
 import { Switch, View } from 'react-native';
 import Constants from 'expo-constants';
-import { router, Stack } from 'expo-router';
+import { router } from 'expo-router';
 
+import { BottomNav } from '@/components/BottomNav';
 import { Card } from '@/components/Card';
 import { useConfirm } from '@/components/ConfirmProvider';
+import { Reveal } from '@/components/Reveal';
 import { Screen } from '@/components/Screen';
 import { Text } from '@/components/Text';
 import { useTheme } from '@/hooks/useTheme';
@@ -36,68 +38,74 @@ export default function SettingsScreen() {
   };
 
   return (
-    <Screen scroll>
-      <Stack.Screen options={{ headerShown: true, title: '⚙️ Réglages' }} />
+    <View style={{ flex: 1, backgroundColor: colors.background }}>
+      <Screen scroll edges={['top']}>
+        <Reveal>
+          <Text variant="title">⚙️ Réglages</Text>
+        </Reveal>
 
-      <Text variant="label" muted>
-        QUIZ
-      </Text>
-      <Card onPress={() => router.push('/settings/categories')}>
-        <Text variant="heading">Catégories du quiz</Text>
-        <Text variant="caption" muted>
-          Choisis ce qui apparaît en mode Global personnalisé.
+        <Text variant="label" muted>
+          QUIZ
         </Text>
-      </Card>
-      <Card onPress={() => router.push('/mastery')}>
-        <Text variant="heading">Questions maîtrisées</Text>
-        <Text variant="caption" muted>
-          Consulte, ajoute ou retire des questions de ta liste de maîtrise.
-        </Text>
-      </Card>
-      <Card>
-        <View style={{ flexDirection: 'row', alignItems: 'center', gap: 14 }}>
-          <View style={{ flex: 1, gap: 2 }}>
-            <Text variant="heading">Passer automatiquement</Text>
-            <Text variant="caption" muted>
-              On file à la question suivante après une courte pause quand ta réponse est juste, ou
-              fausse sans explication à lire. S&apos;il y a une explication, on reste pour la voir.
-            </Text>
+        <Card onPress={() => router.push('/settings/categories')}>
+          <Text variant="heading">Catégories du quiz</Text>
+          <Text variant="caption" muted>
+            Choisis ce qui apparaît en mode Global personnalisé.
+          </Text>
+        </Card>
+        <Card onPress={() => router.push('/mastery')}>
+          <Text variant="heading">Questions maîtrisées</Text>
+          <Text variant="caption" muted>
+            Consulte, ajoute ou retire des questions de ta liste de maîtrise.
+          </Text>
+        </Card>
+        <Card>
+          <View style={{ flexDirection: 'row', alignItems: 'center', gap: 14 }}>
+            <View style={{ flex: 1, gap: 2 }}>
+              <Text variant="heading">Passer automatiquement</Text>
+              <Text variant="caption" muted>
+                On file à la question suivante après une courte pause quand ta réponse est juste,
+                ou fausse sans explication à lire. S&apos;il y a une explication, on reste pour la
+                voir.
+              </Text>
+            </View>
+            <Switch
+              value={autoAdvance}
+              onValueChange={setAutoAdvance}
+              trackColor={{ false: colors.border, true: colors.primary }}
+              thumbColor={colors.surface}
+              accessibilityLabel="Passer automatiquement à la question suivante"
+            />
           </View>
-          <Switch
-            value={autoAdvance}
-            onValueChange={setAutoAdvance}
-            trackColor={{ false: colors.border, true: colors.primary }}
-            thumbColor={colors.surface}
-            accessibilityLabel="Passer automatiquement à la question suivante"
-          />
+        </Card>
+
+        <Text variant="label" muted style={{ marginTop: 12 }}>
+          ACHATS
+        </Text>
+        <Card onPress={() => restore()}>
+          <Text variant="heading">Restaurer mes achats</Text>
+          <Text variant="caption" muted>
+            Récupère les decks déjà achetés avec ce compte.
+          </Text>
+        </Card>
+
+        <Text variant="label" muted style={{ marginTop: 12 }}>
+          DONNÉES
+        </Text>
+        <Card onPress={() => void confirmResetProgress()}>
+          <Text variant="heading">Réinitialiser ma progression</Text>
+        </Card>
+        <Card onPress={redoIntro}>
+          <Text variant="heading">Refaire l&apos;introduction</Text>
+        </Card>
+
+        <View style={{ alignItems: 'center', marginTop: 16 }}>
+          <Text variant="caption" muted>
+            GQuizz v{Constants.expoConfig?.version ?? '0.1.0'}
+          </Text>
         </View>
-      </Card>
-
-      <Text variant="label" muted style={{ marginTop: 12 }}>
-        ACHATS
-      </Text>
-      <Card onPress={() => restore()}>
-        <Text variant="heading">Restaurer mes achats</Text>
-        <Text variant="caption" muted>
-          Récupère les decks déjà achetés avec ce compte.
-        </Text>
-      </Card>
-
-      <Text variant="label" muted style={{ marginTop: 12 }}>
-        DONNÉES
-      </Text>
-      <Card onPress={() => void confirmResetProgress()}>
-        <Text variant="heading">Réinitialiser ma progression</Text>
-      </Card>
-      <Card onPress={redoIntro}>
-        <Text variant="heading">Refaire l&apos;introduction</Text>
-      </Card>
-
-      <View style={{ alignItems: 'center', marginTop: 16 }}>
-        <Text variant="caption" muted>
-          GQuizz v{Constants.expoConfig?.version ?? '0.1.0'}
-        </Text>
-      </View>
-    </Screen>
+      </Screen>
+      <BottomNav />
+    </View>
   );
 }

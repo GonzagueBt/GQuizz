@@ -1,8 +1,9 @@
 import { View } from 'react-native';
 import { Redirect, router } from 'expo-router';
 
+import { BottomNav } from '@/components/BottomNav';
 import { Card } from '@/components/Card';
-import { IconButton } from '@/components/IconButton';
+import { Reveal } from '@/components/Reveal';
 import { Screen } from '@/components/Screen';
 import { Text } from '@/components/Text';
 import { CATALOG } from '@/data/catalog';
@@ -50,71 +51,68 @@ export default function HomeScreen() {
     router.push({ pathname: '/play/[mode]', params: { mode: param } });
 
   return (
-    <Screen scroll>
-      <View style={{ flexDirection: 'row', alignItems: 'flex-start', gap: spacing.md }}>
-        <View style={{ flex: 1, gap: 4 }}>
+    <View style={{ flex: 1, backgroundColor: colors.background }}>
+      <Screen scroll edges={['top']}>
+        <Reveal>
           <Text variant="title">GQuizz</Text>
           <Text muted>Teste ta culture générale.</Text>
-        </View>
-        <View style={{ flexDirection: 'row', gap: spacing.sm }}>
-          <IconButton emoji="📚" label="Explorer les decks" onPress={() => router.push('/decks')} />
-          <IconButton emoji="⚙️" label="Réglages" onPress={() => router.push('/settings')} />
-        </View>
-      </View>
+        </Reveal>
 
-      <View style={{ flexDirection: 'row', gap: spacing.md }}>
-        <Card style={{ flex: 1, alignItems: 'center' }}>
-          <Text variant="heading">{totalScore}</Text>
-          <Text variant="caption" muted>
-            Score total
-          </Text>
-        </Card>
-        <Card
-          style={{ flex: 1, alignItems: 'center' }}
-          onPress={() => router.push('/mastery')}
-        >
-          <Text variant="heading">{masteredCount}</Text>
-          <Text variant="caption" muted style={{ textAlign: 'center' }}>
-            Questions maîtrisées ›
-          </Text>
-        </Card>
-      </View>
+        <Reveal index={1}>
+          <View style={{ flexDirection: 'row', gap: spacing.md }}>
+            <Card style={{ flex: 1, alignItems: 'center' }}>
+              <Text variant="heading">{totalScore}</Text>
+              <Text variant="caption" muted>
+                Score total
+              </Text>
+            </Card>
+            <Card style={{ flex: 1, alignItems: 'center' }} onPress={() => router.push('/mastery')}>
+              <Text variant="heading">{masteredCount}</Text>
+              <Text variant="caption" muted style={{ textAlign: 'center' }}>
+                Questions maîtrisées ›
+              </Text>
+            </Card>
+          </View>
+        </Reveal>
 
-      <Text variant="label" muted>
-        JOUER
-      </Text>
-
-      <Card onPress={() => openPlay(gameModeToParam({ kind: 'global' }))}>
-        <Text variant="heading">🌎 Global personnalisé</Text>
-        <Text variant="caption" muted>
-          {globalPoolSize > 0
-            ? `${globalPoolSize} questions dans tes catégories`
-            : 'Aucune question — élargis tes catégories dans les réglages'}
+        <Text variant="label" muted>
+          JOUER
         </Text>
-      </Card>
 
-      {playableDecks.map((deck) => (
-        <Card
-          key={deck.id}
-          onPress={() => openPlay(gameModeToParam({ kind: 'deck', deckId: deck.id }))}
+        <Reveal index={2}>
+          <Card onPress={() => openPlay(gameModeToParam({ kind: 'global' }))}>
+            <Text variant="heading">🌎 Global personnalisé</Text>
+            <Text variant="caption" muted>
+              {globalPoolSize > 0
+                ? `${globalPoolSize} questions dans tes catégories`
+                : 'Aucune question — élargis tes catégories dans les réglages'}
+            </Text>
+          </Card>
+        </Reveal>
+
+        {playableDecks.map((deck, i) => (
+          <Reveal key={deck.id} index={i + 3}>
+            <Card onPress={() => openPlay(gameModeToParam({ kind: 'deck', deckId: deck.id }))}>
+              <Text variant="heading">
+                {deck.emoji} {deck.name}
+              </Text>
+              <Text variant="caption" muted>
+                {deck.questionCount} questions · deck complet
+              </Text>
+            </Card>
+          </Reveal>
+        ))}
+
+        <Text
+          variant="caption"
+          color={colors.textMuted}
+          style={{ textAlign: 'center', marginTop: spacing.sm }}
         >
-          <Text variant="heading">
-            {deck.emoji} {deck.name}
-          </Text>
-          <Text variant="caption" muted>
-            {deck.questionCount} questions · deck complet
-          </Text>
-        </Card>
-      ))}
-
-      <Text
-        variant="caption"
-        color={colors.textMuted}
-        style={{ textAlign: 'center', marginTop: spacing.sm }}
-      >
-        {CATALOG.decks.filter((d) => d.tier === 'free').length} decks gratuits ·{' '}
-        {CATALOG.questions.length} questions embarquées
-      </Text>
-    </Screen>
+          {CATALOG.decks.filter((d) => d.tier === 'free').length} decks gratuits ·{' '}
+          {CATALOG.questions.length} questions embarquées
+        </Text>
+      </Screen>
+      <BottomNav />
+    </View>
   );
 }
