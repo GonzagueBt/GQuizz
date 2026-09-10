@@ -1,13 +1,20 @@
 {
   "id": "musique",
   "name": "Musique",
-  "description": "Classique, rock, chanson française : compositeurs, groupes, tubes.",
+  "description": "Classique, rock et chanson française : compositeurs, groupes mythiques et tubes.",
   "emoji": "🎵",
   "categoryId": "musique",
   "tier": "free",
-  "questionCount": 5,
+  "questionCount": 55,
   "averageDifficulty": 3,
-  "releasedAt": "2026-01-01",
+  "releasedAt": "2026-09-11",
+  "tags": [
+    "nouveau"
+  ],
+  "previewQuestionIds": [
+    "mus-001",
+    "mus-020"
+  ],
   "questions": [
     {
       "id": "mus-001",
@@ -15,68 +22,1647 @@
       "subcategoryId": "musique.classique",
       "difficulty": 2,
       "type": "single",
-      "prompt": "Quel compositeur, devenu sourd, a écrit la « 9e Symphonie » ?",
+      "prompt": "Quel compositeur, devenu sourd, a écrit sa « 9e Symphonie » ?",
       "answers": [
-        { "id": "a", "text": "Mozart", "correct": false },
-        { "id": "b", "text": "Beethoven", "correct": true },
-        { "id": "c", "text": "Bach", "correct": false },
-        { "id": "d", "text": "Chopin", "correct": false }
+        {
+          "id": "a",
+          "text": "Beethoven",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "Mozart",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Bach",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Chopin",
+          "correct": false
+        }
       ],
       "explanation": "Créée en 1824, elle contient « l'Ode à la joie »."
     },
     {
       "id": "mus-002",
       "categoryId": "musique",
-      "subcategoryId": "musique.rock",
-      "difficulty": 2,
+      "subcategoryId": "musique.classique",
+      "difficulty": 1,
       "type": "single",
-      "prompt": "De quel pays est originaire le groupe Queen ?",
+      "prompt": "Quelle est la nationalité de Wolfgang Amadeus Mozart ?",
       "answers": [
-        { "id": "a", "text": "États-Unis", "correct": false },
-        { "id": "b", "text": "Royaume-Uni", "correct": true },
-        { "id": "c", "text": "Australie", "correct": false },
-        { "id": "d", "text": "Canada", "correct": false }
+        {
+          "id": "a",
+          "text": "Allemande",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Autrichienne",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "Italienne",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Hongroise",
+          "correct": false
+        }
       ]
     },
     {
       "id": "mus-003",
       "categoryId": "musique",
-      "subcategoryId": "musique.chanson-fr",
+      "subcategoryId": "musique.classique",
       "difficulty": 3,
       "type": "single",
-      "prompt": "Qui a chanté « Ne me quitte pas » ?",
+      "prompt": "Quel instrument Frédéric Chopin a-t-il quasi exclusivement composé pour ?",
       "answers": [
-        { "id": "a", "text": "Jacques Brel", "correct": true },
-        { "id": "b", "text": "Georges Brassens", "correct": false },
-        { "id": "c", "text": "Charles Aznavour", "correct": false },
-        { "id": "d", "text": "Léo Ferré", "correct": false }
-      ],
-      "explanation": "Chanson de 1959, l'une des plus reprises au monde."
+        {
+          "id": "a",
+          "text": "Le violon",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Le violoncelle",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Le piano",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "La flûte",
+          "correct": false
+        }
+      ]
     },
     {
       "id": "mus-004",
       "categoryId": "musique",
-      "subcategoryId": "musique.rock",
-      "difficulty": 3,
-      "type": "boolean",
-      "prompt": "Les Beatles sont originaires de Liverpool.",
+      "subcategoryId": "musique.classique",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Qui a composé « Les Quatre Saisons » ?",
       "answers": [
-        { "id": "a", "text": "Vrai", "correct": true },
-        { "id": "b", "text": "Faux", "correct": false }
+        {
+          "id": "a",
+          "text": "Johann Sebastian Bach",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Joseph Haydn",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Georg Friedrich Haendel",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Antonio Vivaldi",
+          "correct": true
+        }
       ]
     },
     {
       "id": "mus-005",
       "categoryId": "musique",
       "subcategoryId": "musique.classique",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Qui a composé l'opéra « La Flûte enchantée » ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Mozart",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "Beethoven",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Rossini",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Wagner",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "mus-006",
+      "categoryId": "musique",
+      "subcategoryId": "musique.classique",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Qui a composé le ballet « Le Lac des cygnes » ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Igor Stravinsky",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Piotr Ilitch Tchaïkovski",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "Serge Prokofiev",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Nikolaï Rimski-Korsakov",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "mus-007",
+      "categoryId": "musique",
+      "subcategoryId": "musique.classique",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Quel compositeur français a écrit le « Boléro » ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Claude Debussy",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Gabriel Fauré",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Maurice Ravel",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "Camille Saint-Saëns",
+          "correct": false
+        }
+      ],
+      "explanation": "Composé en 1928, célèbre pour son crescendo continu sur un seul thème répété."
+    },
+    {
+      "id": "mus-008",
+      "categoryId": "musique",
+      "subcategoryId": "musique.classique",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Qui a composé l'opéra « Carmen » ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Charles Gounod",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Jules Massenet",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Hector Berlioz",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Georges Bizet",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "mus-009",
+      "categoryId": "musique",
+      "subcategoryId": "musique.classique",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Combien de mouvements compte généralement une symphonie classique ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "4",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "2",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "3",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "6",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "mus-010",
+      "categoryId": "musique",
+      "subcategoryId": "musique.classique",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Le célèbre motif « ta-ta-ta-taaa » ouvre laquelle des symphonies de Beethoven ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "La 3e (« Héroïque »)",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "La 5e",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "La 6e (« Pastorale »)",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "La 7e",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "mus-011",
+      "categoryId": "musique",
+      "subcategoryId": "musique.classique",
       "difficulty": 4,
       "type": "single",
-      "prompt": "Quel instrument Frédéric Chopin a-t-il quasi exclusivement composé pour ?",
+      "prompt": "Quel compositeur est mort en 1791 sans avoir achevé son « Requiem » ?",
       "answers": [
-        { "id": "a", "text": "Le violon", "correct": false },
-        { "id": "b", "text": "Le piano", "correct": true },
-        { "id": "c", "text": "Le violoncelle", "correct": false },
-        { "id": "d", "text": "La flûte", "correct": false }
+        {
+          "id": "a",
+          "text": "Joseph Haydn",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Franz Schubert",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Wolfgang Amadeus Mozart",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "Christoph Willibald Gluck",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "mus-012",
+      "categoryId": "musique",
+      "subcategoryId": "musique.classique",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Johann Sebastian Bach est originaire de quel espace culturel du XVIIIe siècle ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "L'Italie",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "La France",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "L'Angleterre",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Les États allemands",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "mus-013",
+      "categoryId": "musique",
+      "subcategoryId": "musique.classique",
+      "difficulty": 4,
+      "type": "single",
+      "prompt": "Quel compositeur français a écrit « Clair de lune », extrait de la Suite bergamasque ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Claude Debussy",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "Erik Satie",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Maurice Ravel",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Gabriel Fauré",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "mus-014",
+      "categoryId": "musique",
+      "subcategoryId": "musique.classique",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Comment nomme-t-on une œuvre écrite pour un instrument soliste accompagné d'un orchestre ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Une sonate",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Un concerto",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "Un quatuor",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Une fugue",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "mus-015",
+      "categoryId": "musique",
+      "subcategoryId": "musique.classique",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quel instrument à clavier est l'ancêtre du piano moderne ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "L'orgue",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "L'accordéon",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Le clavecin",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "Le célesta",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "mus-016",
+      "categoryId": "musique",
+      "subcategoryId": "musique.classique",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Qui a composé l'opéra « La Traviata » ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Gioachino Rossini",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Giacomo Puccini",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Vincenzo Bellini",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Giuseppe Verdi",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "mus-017",
+      "categoryId": "musique",
+      "subcategoryId": "musique.classique",
+      "difficulty": 4,
+      "type": "single",
+      "prompt": "La création de quelle œuvre de Stravinsky a provoqué un scandale à Paris en 1913 ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Le Sacre du printemps",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "L'Oiseau de feu",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Petrouchka",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Pulcinella",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "mus-018",
+      "categoryId": "musique",
+      "subcategoryId": "musique.classique",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Combien de touches compte un piano à queue standard ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "76",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "88",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "92",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "100",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "mus-019",
+      "categoryId": "musique",
+      "subcategoryId": "musique.classique",
+      "difficulty": 4,
+      "type": "single",
+      "prompt": "Antonio Salieri est surtout connu du grand public pour sa rivalité, largement romancée, avec quel compositeur ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Beethoven",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Haydn",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Mozart",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "Schubert",
+          "correct": false
+        }
+      ],
+      "explanation": "Une rivalité popularisée par le film « Amadeus » (1984), mais peu étayée historiquement."
+    },
+    {
+      "id": "mus-020",
+      "categoryId": "musique",
+      "subcategoryId": "musique.rock",
+      "difficulty": 1,
+      "type": "single",
+      "prompt": "De quel pays est originaire le groupe Queen ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "États-Unis",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Australie",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Canada",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Royaume-Uni",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "mus-021",
+      "categoryId": "musique",
+      "subcategoryId": "musique.rock",
+      "difficulty": 1,
+      "type": "boolean",
+      "prompt": "Les Beatles sont originaires de Liverpool.",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Vrai",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "Faux",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "mus-022",
+      "categoryId": "musique",
+      "subcategoryId": "musique.rock",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quel était le nom de scène du chanteur de Queen, Farrokh Bulsara ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Freddie Mercury",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "Roger Taylor",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Brian May",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "John Deacon",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "mus-023",
+      "categoryId": "musique",
+      "subcategoryId": "musique.rock",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quel groupe britannique a composé « Stairway to Heaven » ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Deep Purple",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Led Zeppelin",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "Black Sabbath",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "The Who",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "mus-024",
+      "categoryId": "musique",
+      "subcategoryId": "musique.rock",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quel chanteur américain est surnommé le « King of Rock'n'Roll » ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Chuck Berry",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Jerry Lee Lewis",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Elvis Presley",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "Buddy Holly",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "mus-025",
+      "categoryId": "musique",
+      "subcategoryId": "musique.rock",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Quel groupe irlandais, formé à Dublin, est connu pour « One » et « With or Without You » ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "The Cranberries",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Thin Lizzy",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Boomtown Rats",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "U2",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "mus-026",
+      "categoryId": "musique",
+      "subcategoryId": "musique.rock",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Quel festival de musique mythique s'est tenu aux États-Unis en 1969 ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Woodstock",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "Monterey Pop",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Live Aid",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Coachella",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "mus-027",
+      "categoryId": "musique",
+      "subcategoryId": "musique.rock",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Quel guitariste virtuose, auteur de « Purple Haze », est mort en 1970 à 27 ans ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Eric Clapton",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Jimi Hendrix",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "Jimmy Page",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Carlos Santana",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "mus-028",
+      "categoryId": "musique",
+      "subcategoryId": "musique.rock",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quel groupe britannique a incarné, dans les années 1960, une rivalité mythique avec les Beatles ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "The Kinks",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "The Who",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "The Rolling Stones",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "The Animals",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "mus-029",
+      "categoryId": "musique",
+      "subcategoryId": "musique.rock",
+      "difficulty": 4,
+      "type": "single",
+      "prompt": "Quel groupe britannique a créé l'album concept « The Dark Side of the Moon » (1973) ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Genesis",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Yes",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "King Crimson",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Pink Floyd",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "mus-030",
+      "categoryId": "musique",
+      "subcategoryId": "musique.rock",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Quel groupe de Seattle, mené par Kurt Cobain, a porté le grunge au sommet avec « Nevermind » ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Nirvana",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "Pearl Jam",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Soundgarden",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Alice in Chains",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "mus-031",
+      "categoryId": "musique",
+      "subcategoryId": "musique.rock",
+      "difficulty": 4,
+      "type": "single",
+      "prompt": "Quel chanteur des Doors est mort à Paris en 1971 ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Robby Krieger",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Jim Morrison",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "Ray Manzarek",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "John Densmore",
+          "correct": false
+        }
+      ],
+      "explanation": "Il repose au cimetière du Père-Lachaise, l'une de ses tombes les plus visitées."
+    },
+    {
+      "id": "mus-032",
+      "categoryId": "musique",
+      "subcategoryId": "musique.rock",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Quel groupe, formé à Birmingham en 1968, est considéré comme le pionnier du heavy metal ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Judas Priest",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Motörhead",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Black Sabbath",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "Iron Maiden",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "mus-033",
+      "categoryId": "musique",
+      "subcategoryId": "musique.rock",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Dans quelle décennie le rock'n'roll est-il né aux États-Unis ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Les années 1930",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Les années 1960",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Les années 1970",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Les années 1950",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "mus-034",
+      "categoryId": "musique",
+      "subcategoryId": "musique.rock",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Quelle chanteuse américaine, ex-partenaire d'Ike Turner, est surnommée la « Reine du rock » ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Tina Turner",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "Janis Joplin",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Aretha Franklin",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Diana Ross",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "mus-035",
+      "categoryId": "musique",
+      "subcategoryId": "musique.rock",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Le mouvement punk rock a émergé au cours de quelle décennie ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Les années 1960",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Les années 1970",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "Les années 1990",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Les années 1980",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "mus-036",
+      "categoryId": "musique",
+      "subcategoryId": "musique.rock",
+      "difficulty": 4,
+      "type": "single",
+      "prompt": "Quel membre fondateur des Beatles a été assassiné à New York en 1980 ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Paul McCartney",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "George Harrison",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "John Lennon",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "Ringo Starr",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "mus-037",
+      "categoryId": "musique",
+      "subcategoryId": "musique.chanson-fr",
+      "difficulty": 1,
+      "type": "single",
+      "prompt": "Qui a chanté « Ne me quitte pas » ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Georges Brassens",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Charles Aznavour",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Léo Ferré",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Jacques Brel",
+          "correct": true
+        }
+      ],
+      "explanation": "Chanson de 1959, l'une des plus reprises au monde."
+    },
+    {
+      "id": "mus-038",
+      "categoryId": "musique",
+      "subcategoryId": "musique.chanson-fr",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Qui interprète « Non, je ne regrette rien » ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Édith Piaf",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "Juliette Gréco",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Barbara",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Mireille Mathieu",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "mus-039",
+      "categoryId": "musique",
+      "subcategoryId": "musique.chanson-fr",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quel est le surnom d'Édith Piaf ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "La Diva",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "La Môme",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "L'Hirondelle",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "La Belle",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "mus-040",
+      "categoryId": "musique",
+      "subcategoryId": "musique.chanson-fr",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Qui a écrit et interprété « Les Copains d'abord » ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Léo Ferré",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Jacques Brel",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Georges Brassens",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "Serge Reggiani",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "mus-041",
+      "categoryId": "musique",
+      "subcategoryId": "musique.chanson-fr",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Qui interprète « La Bohème » ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Gilbert Bécaud",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Yves Montand",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Michel Sardou",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Charles Aznavour",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "mus-042",
+      "categoryId": "musique",
+      "subcategoryId": "musique.chanson-fr",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Quel chanteur belge est l'auteur du « Plat Pays », hommage à sa Flandre natale ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Jacques Brel",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "Salvatore Adamo",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Arno",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Stromae",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "mus-043",
+      "categoryId": "musique",
+      "subcategoryId": "musique.chanson-fr",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Pour quel chanteur Édith Piaf écrit-elle « L'Hymne à l'amour », après sa mort accidentelle en 1949 ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Yves Montand",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Marcel Cerdan",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "Théo Sarapo",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Charles Aznavour",
+          "correct": false
+        }
+      ],
+      "explanation": "Marcel Cerdan, boxeur et compagnon de Piaf, meurt dans un accident d'avion."
+    },
+    {
+      "id": "mus-044",
+      "categoryId": "musique",
+      "subcategoryId": "musique.chanson-fr",
+      "difficulty": 4,
+      "type": "single",
+      "prompt": "Quel chanteur, disparu en avril 2020, est l'auteur d'« Aline » (1965) ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Michel Polnareff",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Antoine",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Christophe",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "Hervé Vilard",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "mus-045",
+      "categoryId": "musique",
+      "subcategoryId": "musique.chanson-fr",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Quelle chanson de Claude François a été adaptée en anglais sous le titre « My Way » ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Le Lundi au soleil",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Alexandrie Alexandra",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Cette année-là",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Comme d'habitude",
+          "correct": true
+        }
+      ],
+      "explanation": "Reprise et popularisée par Frank Sinatra en 1969."
+    },
+    {
+      "id": "mus-046",
+      "categoryId": "musique",
+      "subcategoryId": "musique.chanson-fr",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quel chanteur belge a connu un immense succès avec « Formidable » (2013) ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Stromae",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "Angèle",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Christophe Willem",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Grand Corps Malade",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "mus-047",
+      "categoryId": "musique",
+      "subcategoryId": "musique.chanson-fr",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Quel duo franco-britannique interprète « Je t'aime... moi non plus » (1969) ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Serge Gainsbourg et Brigitte Bardot",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Serge Gainsbourg et Jane Birkin",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "Alain Souchon et Laurent Voulzy",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Michel Berger et France Gall",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "mus-048",
+      "categoryId": "musique",
+      "subcategoryId": "musique.chanson-fr",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quel surnom porte Johnny Hallyday, star du rock français ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Le Taulier",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Le Zénith",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "L'Idole des jeunes",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "Le Colosse",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "mus-049",
+      "categoryId": "musique",
+      "subcategoryId": "musique.chanson-fr",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Au cours de quelle décennie la carrière d'Édith Piaf a-t-elle véritablement décollé ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Les années 1920",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Les années 1950",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Les années 1960",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Les années 1930",
+          "correct": true
+        }
+      ],
+      "explanation": "Repérée en 1935 par le directeur de cabaret Louis Leplée."
+    },
+    {
+      "id": "mus-050",
+      "categoryId": "musique",
+      "subcategoryId": "musique.chanson-fr",
+      "difficulty": 4,
+      "type": "single",
+      "prompt": "Qui interprète « Le Sud » (1975), hommage nostalgique aux vacances ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Nino Ferrer",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "Michel Fugain",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Julien Clerc",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Georges Moustaki",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "mus-051",
+      "categoryId": "musique",
+      "subcategoryId": "musique.chanson-fr",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Qui interprète « Mistral gagnant » (1985), chanson pleine de nostalgie d'enfance ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Francis Cabrel",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Renaud",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "Maxime Le Forestier",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Bernard Lavilliers",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "mus-052",
+      "categoryId": "musique",
+      "subcategoryId": "musique.chanson-fr",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Quelle chanteuse française interprète « Je suis un homme » et « Zen » ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Jenifer",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Alizée",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Zazie",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "Patricia Kaas",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "mus-053",
+      "categoryId": "musique",
+      "subcategoryId": "musique.chanson-fr",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quelle chanteuse belge interprète « Balance ton quoi » (2019) ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Clara Luciani",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Pomme",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Yseult",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Angèle",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "mus-054",
+      "categoryId": "musique",
+      "subcategoryId": "musique.chanson-fr",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Qui a écrit les paroles de « La Marseillaise », l'hymne national français ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Claude Joseph Rouget de Lisle",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "André Grétry",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "François-Joseph Gossec",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Étienne Méhul",
+          "correct": false
+        }
+      ],
+      "explanation": "Composée en une nuit à Strasbourg, en avril 1792."
+    },
+    {
+      "id": "mus-055",
+      "categoryId": "musique",
+      "subcategoryId": "musique.chanson-fr",
+      "difficulty": 4,
+      "type": "single",
+      "prompt": "Quelle chanteuse franco-canadienne interprète « Vole » (1994), dédiée à sa fille décédée ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Mylène Farmer",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Céline Dion",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "Lara Fabian",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Garou",
+          "correct": false
+        }
       ]
     }
   ]

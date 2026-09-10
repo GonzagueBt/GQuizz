@@ -1,0 +1,1975 @@
+{
+  "id": "cinema",
+  "name": "Cinéma",
+  "description": "Hollywood, cinéma français et animation : réalisateurs, acteurs et grands classiques.",
+  "emoji": "🎬",
+  "categoryId": "cinema",
+  "tier": "free",
+  "questionCount": 65,
+  "averageDifficulty": 3,
+  "releasedAt": "2026-09-11",
+  "tags": [
+    "nouveau"
+  ],
+  "previewQuestionIds": [
+    "cin-001",
+    "cin-023"
+  ],
+  "questions": [
+    {
+      "id": "cin-001",
+      "categoryId": "cinema",
+      "subcategoryId": "cinema.hollywood",
+      "difficulty": 1,
+      "type": "single",
+      "prompt": "Qui a réalisé « Titanic » et « Avatar » ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "James Cameron",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "Steven Spielberg",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Ridley Scott",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Christopher Nolan",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "cin-002",
+      "categoryId": "cinema",
+      "subcategoryId": "cinema.hollywood",
+      "difficulty": 1,
+      "type": "single",
+      "prompt": "Quel acteur interprète Jack Dawson dans « Titanic » (1997) ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Brad Pitt",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Leonardo DiCaprio",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "Matt Damon",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Tom Cruise",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "cin-003",
+      "categoryId": "cinema",
+      "subcategoryId": "cinema.hollywood",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Qui a réalisé la trilogie cinématographique « Le Seigneur des Anneaux » ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Guillermo del Toro",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "David Yates",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Peter Jackson",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "Denis Villeneuve",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "cin-004",
+      "categoryId": "cinema",
+      "subcategoryId": "cinema.hollywood",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Qui a créé la saga « Star Wars » ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Gene Roddenberry",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "James Cameron",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "J.J. Abrams",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "George Lucas",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "cin-005",
+      "categoryId": "cinema",
+      "subcategoryId": "cinema.hollywood",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Qui a réalisé « Jurassic Park » et « E.T. l'extra-terrestre » ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Steven Spielberg",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "Robert Zemeckis",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Ron Howard",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "George Lucas",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "cin-006",
+      "categoryId": "cinema",
+      "subcategoryId": "cinema.hollywood",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quel acteur incarne Iron Man dans l'univers cinématographique Marvel ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Chris Evans",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Robert Downey Jr.",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "Chris Hemsworth",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Mark Ruffalo",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "cin-007",
+      "categoryId": "cinema",
+      "subcategoryId": "cinema.hollywood",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Comment se nomme la récompense suprême du cinéma américain, décernée chaque année ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Le Golden Globe",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Le César",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "L'Oscar",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "Le Lion d'or",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "cin-008",
+      "categoryId": "cinema",
+      "subcategoryId": "cinema.hollywood",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Quel réalisateur, maître du suspense, a signé « Psychose » et « Vertigo » ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Billy Wilder",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Orson Welles",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "John Huston",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Alfred Hitchcock",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "cin-009",
+      "categoryId": "cinema",
+      "subcategoryId": "cinema.hollywood",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Qui a réalisé la trilogie « The Dark Knight » avec Batman ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Christopher Nolan",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "Tim Burton",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Zack Snyder",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Matt Reeves",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "cin-010",
+      "categoryId": "cinema",
+      "subcategoryId": "cinema.hollywood",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Dans quelle décennie sort le classique « Casablanca », avec Humphrey Bogart ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Les années 1930",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Les années 1940",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "Les années 1950",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Les années 1920",
+          "correct": false
+        }
+      ],
+      "explanation": "Sorti en 1942, en pleine Seconde Guerre mondiale."
+    },
+    {
+      "id": "cin-011",
+      "categoryId": "cinema",
+      "subcategoryId": "cinema.hollywood",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quel acteur incarne le rôle-titre de « Forrest Gump » (1994) ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Kevin Costner",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Robin Williams",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Tom Hanks",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "Harrison Ford",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "cin-012",
+      "categoryId": "cinema",
+      "subcategoryId": "cinema.hollywood",
+      "difficulty": 1,
+      "type": "single",
+      "prompt": "Sous quel nom de code, matricule « 007 », connaît-on le célèbre espion britannique du cinéma ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Ethan Hunt",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Jason Bourne",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Austin Powers",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "James Bond",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "cin-013",
+      "categoryId": "cinema",
+      "subcategoryId": "cinema.hollywood",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Qui a réalisé « Pulp Fiction » (1994) ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Quentin Tarantino",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "Martin Scorsese",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "David Fincher",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Oliver Stone",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "cin-014",
+      "categoryId": "cinema",
+      "subcategoryId": "cinema.hollywood",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Quel acteur incarne Vito Corleone dans « Le Parrain » (1972) ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Al Pacino",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Marlon Brando",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "Robert De Niro",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "James Caan",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "cin-015",
+      "categoryId": "cinema",
+      "subcategoryId": "cinema.hollywood",
+      "difficulty": 4,
+      "type": "single",
+      "prompt": "Qui a réalisé « 2001, l'Odyssée de l'espace » (1968) ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Ridley Scott",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "George Lucas",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Stanley Kubrick",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "Terry Gilliam",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "cin-016",
+      "categoryId": "cinema",
+      "subcategoryId": "cinema.hollywood",
+      "difficulty": 1,
+      "type": "single",
+      "prompt": "Quel quartier de Los Angeles est surnommé la capitale mondiale du cinéma ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Beverly Hills",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Malibu",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Venice",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Hollywood",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "cin-017",
+      "categoryId": "cinema",
+      "subcategoryId": "cinema.hollywood",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Qui a réalisé la comédie musicale « La La Land » (2016) ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Damien Chazelle",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "Barry Jenkins",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Tom Hooper",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Chazz Palminteri",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "cin-018",
+      "categoryId": "cinema",
+      "subcategoryId": "cinema.hollywood",
+      "difficulty": 4,
+      "type": "single",
+      "prompt": "Quel acteur remporte l'Oscar du meilleur acteur en 2020 pour son rôle du Joker ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Heath Ledger",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Joaquin Phoenix",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "Jared Leto",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Jack Nicholson",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "cin-019",
+      "categoryId": "cinema",
+      "subcategoryId": "cinema.hollywood",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "La saga « Harry Potter » est adaptée des romans de quelle autrice ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Suzanne Collins",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Stephenie Meyer",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "J.K. Rowling",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "Veronica Roth",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "cin-020",
+      "categoryId": "cinema",
+      "subcategoryId": "cinema.hollywood",
+      "difficulty": 4,
+      "type": "single",
+      "prompt": "Qui a réalisé « Les Dents de la mer » (1975), souvent cité comme le premier grand « blockbuster » ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "John Carpenter",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "George Romero",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Brian De Palma",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Steven Spielberg",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "cin-021",
+      "categoryId": "cinema",
+      "subcategoryId": "cinema.hollywood",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Quel acteur incarne Neo dans la trilogie « Matrix » ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Keanu Reeves",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "Brad Pitt",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Will Smith",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Tom Cruise",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "cin-022",
+      "categoryId": "cinema",
+      "subcategoryId": "cinema.hollywood",
+      "difficulty": 5,
+      "type": "single",
+      "prompt": "Quel film reçoit, en 1929, le tout premier Oscar du meilleur film de l'histoire ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Sunrise",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Wings",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "The Jazz Singer",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Metropolis",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "cin-023",
+      "categoryId": "cinema",
+      "subcategoryId": "cinema.francais",
+      "difficulty": 1,
+      "type": "single",
+      "prompt": "Quel acteur interprète Driss dans « Intouchables » (2011) ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Jamel Debbouze",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Fabrice Éboué",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Omar Sy",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "Gad Elmaleh",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "cin-024",
+      "categoryId": "cinema",
+      "subcategoryId": "cinema.francais",
+      "difficulty": 1,
+      "type": "single",
+      "prompt": "Quel acteur et réalisateur a créé « Bienvenue chez les Ch'tis » (2008) ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Kad Merad",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Franck Dubosc",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "José Garcia",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Dany Boon",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "cin-025",
+      "categoryId": "cinema",
+      "subcategoryId": "cinema.francais",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Qui a réalisé « Le Fabuleux Destin d'Amélie Poulain » (2001) ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Jean-Pierre Jeunet",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "Luc Besson",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Michel Gondry",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Cédric Klapisch",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "cin-026",
+      "categoryId": "cinema",
+      "subcategoryId": "cinema.francais",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quelle actrice incarne le rôle-titre d'« Amélie Poulain » ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Sophie Marceau",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Audrey Tautou",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "Marion Cotillard",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Audrey Fleurot",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "cin-027",
+      "categoryId": "cinema",
+      "subcategoryId": "cinema.francais",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quel acteur incarne Obélix dans les films « Astérix » depuis 1999 ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Christian Clavier",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Gérard Jugnot",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Gérard Depardieu",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "José Garcia",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "cin-028",
+      "categoryId": "cinema",
+      "subcategoryId": "cinema.francais",
+      "difficulty": 4,
+      "type": "single",
+      "prompt": "Quel réalisateur, figure de la Nouvelle Vague, a signé « À bout de souffle » (1960) ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "François Truffaut",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Éric Rohmer",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Claude Chabrol",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Jean-Luc Godard",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "cin-029",
+      "categoryId": "cinema",
+      "subcategoryId": "cinema.francais",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Comment se nomme la récompense suprême remise au Festival de Cannes ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "La Palme d'or",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "Le César d'or",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Le Lion d'or",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "L'Ours d'or",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "cin-030",
+      "categoryId": "cinema",
+      "subcategoryId": "cinema.francais",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Quel acteur français est notamment célèbre pour « Léon » et « Le Grand Bleu » ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Vincent Cassel",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Jean Reno",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "Christophe Lambert",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Daniel Auteuil",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "cin-031",
+      "categoryId": "cinema",
+      "subcategoryId": "cinema.francais",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Quelle actrice remporte l'Oscar de la meilleure actrice pour son rôle d'Édith Piaf dans « La Môme » (2007) ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Juliette Binoche",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Isabelle Huppert",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Marion Cotillard",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "Léa Seydoux",
+          "correct": false
+        }
+      ],
+      "explanation": "Une des rares actrices à avoir reçu l'Oscar pour un rôle entièrement en français."
+    },
+    {
+      "id": "cin-032",
+      "categoryId": "cinema",
+      "subcategoryId": "cinema.francais",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Qui a réalisé la comédie culte « Les Visiteurs » (1993) ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Francis Veber",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Claude Zidi",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Gérard Oury",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Jean-Marie Poiré",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "cin-033",
+      "categoryId": "cinema",
+      "subcategoryId": "cinema.francais",
+      "difficulty": 4,
+      "type": "single",
+      "prompt": "Qui a réalisé « La Haine » (1995), portrait marquant de la banlieue française ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Mathieu Kassovitz",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "Abdellatif Kechiche",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Ladj Ly",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Jacques Audiard",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "cin-034",
+      "categoryId": "cinema",
+      "subcategoryId": "cinema.francais",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Dans quelle ville de la Côte d'Azur se tient chaque année le plus grand festival de cinéma français ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Nice",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Cannes",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "Saint-Tropez",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Deauville",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "cin-035",
+      "categoryId": "cinema",
+      "subcategoryId": "cinema.francais",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Quel acteur incarne le chauffeur de taxi marseillais dans la saga « Taxi » (dès 1998) ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Jamel Debbouze",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Frédéric Diefenthal",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Samy Naceri",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "Bernard Farcy",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "cin-036",
+      "categoryId": "cinema",
+      "subcategoryId": "cinema.francais",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Qui a réalisé « Le Cinquième Élément » (1997) ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Christophe Gans",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Jean-Jacques Annaud",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Louis Leterrier",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Luc Besson",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "cin-037",
+      "categoryId": "cinema",
+      "subcategoryId": "cinema.francais",
+      "difficulty": 4,
+      "type": "single",
+      "prompt": "Quel acteur français incarne Fantômas dans la célèbre trilogie des années 1960 ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Jean Marais",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "Louis de Funès",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Jean-Paul Belmondo",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Lino Ventura",
+          "correct": false
+        }
+      ],
+      "explanation": "Louis de Funès y joue le commissaire Juve, à ses côtés."
+    },
+    {
+      "id": "cin-038",
+      "categoryId": "cinema",
+      "subcategoryId": "cinema.francais",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quel acteur, disparu en 1983, est célèbre pour ses rôles dans « La Grande Vadrouille » et « Le Gendarme de Saint-Tropez » ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Fernandel",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Louis de Funès",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "Bourvil",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Michel Galabru",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "cin-039",
+      "categoryId": "cinema",
+      "subcategoryId": "cinema.francais",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Quel réalisateur signe la trilogie « Trois couleurs » (Bleu, Blanc, Rouge) tournée en France ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Roman Polanski",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Agnès Varda",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Krzysztof Kieślowski",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "Louis Malle",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "cin-040",
+      "categoryId": "cinema",
+      "subcategoryId": "cinema.francais",
+      "difficulty": 4,
+      "type": "single",
+      "prompt": "Quelle réalisatrice, décédée en 2019, est considérée comme une pionnière de la Nouvelle Vague avec « Cléo de 5 à 7 » ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Chantal Akerman",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Claire Denis",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Coline Serreau",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Agnès Varda",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "cin-041",
+      "categoryId": "cinema",
+      "subcategoryId": "cinema.francais",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Comment se nomme la cérémonie française récompensant chaque année les films, équivalent des Oscars ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Les César",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "Les Molières",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Les Victoires du cinéma",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Les Lumières",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "cin-042",
+      "categoryId": "cinema",
+      "subcategoryId": "cinema.francais",
+      "difficulty": 4,
+      "type": "single",
+      "prompt": "Qui a réalisé « Amour » (2012), Palme d'or et Oscar du meilleur film étranger ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "François Ozon",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Michael Haneke",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "Xavier Dolan",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Jacques Audiard",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "cin-043",
+      "categoryId": "cinema",
+      "subcategoryId": "cinema.francais",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quel acteur belge est le héros de la saga d'action « Taken » et de « Danny the Dog » ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Dolph Lundgren",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Vincent Cassel",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Jean-Claude Van Damme",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "Olivier Gruner",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "cin-044",
+      "categoryId": "cinema",
+      "subcategoryId": "cinema.animation",
+      "difficulty": 1,
+      "type": "single",
+      "prompt": "Quel studio a créé le personnage de Mickey Mouse ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Warner Bros",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Universal",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "MGM",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Disney",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "cin-045",
+      "categoryId": "cinema",
+      "subcategoryId": "cinema.animation",
+      "difficulty": 1,
+      "type": "single",
+      "prompt": "Quel studio a produit le premier film entièrement en images de synthèse, « Toy Story » (1995) ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Pixar",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "DreamWorks",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Illumination",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Blue Sky Studios",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "cin-046",
+      "categoryId": "cinema",
+      "subcategoryId": "cinema.animation",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Quel studio japonais a produit « Mon voisin Totoro » et « Le Voyage de Chihiro » ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Toei Animation",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Studio Ghibli",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "Studio Trigger",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Madhouse",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "cin-047",
+      "categoryId": "cinema",
+      "subcategoryId": "cinema.animation",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Quel réalisateur japonais est le cofondateur du Studio Ghibli et le créateur du « Voyage de Chihiro » ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Isao Takahata",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Mamoru Hosoda",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Hayao Miyazaki",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "Makoto Shinkai",
+          "correct": false
+        }
+      ],
+      "explanation": "« Le Voyage de Chihiro » remporte l'Oscar du meilleur film d'animation en 2003."
+    },
+    {
+      "id": "cin-048",
+      "categoryId": "cinema",
+      "subcategoryId": "cinema.animation",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "De quel film Disney le personnage d'Elsa, reine capable de créer de la glace, est-il issu ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Raiponce",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Vaiana",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Encanto",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "La Reine des Neiges",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "cin-049",
+      "categoryId": "cinema",
+      "subcategoryId": "cinema.animation",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Quel est le premier long-métrage d'animation en couleurs de l'histoire du cinéma, sorti en 1937 ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Blanche-Neige et les Sept Nains",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "Pinocchio",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Fantasia",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Bambi",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "cin-050",
+      "categoryId": "cinema",
+      "subcategoryId": "cinema.animation",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Quel studio d'animation américain, concurrent de Pixar, a créé « Shrek » ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Illumination",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "DreamWorks Animation",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "Sony Pictures Animation",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Aardman",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "cin-051",
+      "categoryId": "cinema",
+      "subcategoryId": "cinema.animation",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Quel grand studio a racheté Pixar en 2006 ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Warner Bros",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Universal",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Disney",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "Paramount",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "cin-052",
+      "categoryId": "cinema",
+      "subcategoryId": "cinema.animation",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Dans « Le Monde de Nemo », quel type de poisson est le père de Nemo ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Un poisson-chirurgien",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Un poisson-globe",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Un poisson-lune",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Un poisson-clown",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "cin-053",
+      "categoryId": "cinema",
+      "subcategoryId": "cinema.animation",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quel est le nom du lionceau héros du « Roi Lion » ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Simba",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "Mufasa",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Scar",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Timon",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "cin-054",
+      "categoryId": "cinema",
+      "subcategoryId": "cinema.animation",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Comment appelle-t-on la technique d'animation image par image utilisant des figurines réelles ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "La rotoscopie",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Le stop-motion",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "Le motion capture",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Le cel-shading",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "cin-055",
+      "categoryId": "cinema",
+      "subcategoryId": "cinema.animation",
+      "difficulty": 4,
+      "type": "single",
+      "prompt": "Quel producteur et scénariste est à l'origine de l'univers de « L'Étrange Noël de monsieur Jack » (1993) ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Henry Selick",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Wes Anderson",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Tim Burton",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "Guillermo del Toro",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "cin-056",
+      "categoryId": "cinema",
+      "subcategoryId": "cinema.animation",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Qui réalise « Kirikou et la Sorcière » (1998), classique de l'animation française ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Sylvain Chomet",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Jacques-Rémy Girerd",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Benjamin Renner",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Michel Ocelot",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "cin-057",
+      "categoryId": "cinema",
+      "subcategoryId": "cinema.animation",
+      "difficulty": 4,
+      "type": "single",
+      "prompt": "En 1991, quel film Disney devient le premier long-métrage d'animation nommé aux Oscars dans la catégorie meilleur film ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "La Belle et la Bête",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "Aladdin",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Le Roi Lion",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Pocahontas",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "cin-058",
+      "categoryId": "cinema",
+      "subcategoryId": "cinema.animation",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Comment s'appelle le bonhomme de neige comique dans « La Reine des Neiges » ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Sven",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Olaf",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "Kristoff",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Hans",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "cin-059",
+      "categoryId": "cinema",
+      "subcategoryId": "cinema.animation",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Quel studio américain, aujourd'hui disparu, a produit la saga « L'Âge de Glace » ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Laika",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Illumination",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Blue Sky Studios",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "Reel FX",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "cin-060",
+      "categoryId": "cinema",
+      "subcategoryId": "cinema.animation",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Qui a réalisé « Les Indestructibles » (2004) et sa suite pour Pixar ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Andrew Stanton",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Pete Docter",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Lee Unkrich",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Brad Bird",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "cin-061",
+      "categoryId": "cinema",
+      "subcategoryId": "cinema.animation",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quel studio a créé la saga de films d'animation « Cars » ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Pixar",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "DreamWorks",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Illumination",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Sony Pictures Animation",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "cin-062",
+      "categoryId": "cinema",
+      "subcategoryId": "cinema.animation",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Le mot japonais « anime » désigne l'animation originaire de quel pays ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "La Chine",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Le Japon",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "La Corée du Sud",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Taïwan",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "cin-063",
+      "categoryId": "cinema",
+      "subcategoryId": "cinema.animation",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quel lion jaune, personnage principal du film « Madagascar », s'échappe du zoo de New York ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Marty",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Melman",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Alex",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "Gloria",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "cin-064",
+      "categoryId": "cinema",
+      "subcategoryId": "cinema.animation",
+      "difficulty": 4,
+      "type": "single",
+      "prompt": "Quel studio britannique, spécialiste du stop-motion, a créé « Wallace et Gromit » ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Laika Studios",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Cartoon Saloon",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Locksmith Animation",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Aardman Animations",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "cin-065",
+      "categoryId": "cinema",
+      "subcategoryId": "cinema.animation",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Quel âge a le robot WALL-E lorsqu'il rencontre EVE dans le film Pixar (2008) ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Environ 700 ans",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "Environ 300 ans",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Environ 1000 ans",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Environ 100 ans",
+          "correct": false
+        }
+      ],
+      "explanation": "Il nettoie seul une Terre abandonnée depuis sa mise en service en 2110."
+    }
+  ]
+}

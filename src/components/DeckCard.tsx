@@ -9,12 +9,14 @@ interface Props {
   deck: Deck;
   owned: boolean;
   onPress: () => void;
+  /** Nom de sous-catégorie à afficher en petit badge (ex. « Histoire de France »). */
+  categoryLabel?: string;
 }
 
 const DIFFICULTY_LABEL = ['', 'Facile', 'Facile', 'Moyen', 'Difficile', 'Expert'];
 
-export function DeckCard({ deck, owned, onPress }: Props) {
-  const { colors, spacing } = useTheme();
+export function DeckCard({ deck, owned, onPress, categoryLabel }: Props) {
+  const { colors, radius, spacing } = useTheme();
 
   const status = owned
     ? deck.tier === 'free'
@@ -42,11 +44,27 @@ export function DeckCard({ deck, owned, onPress }: Props) {
       <Text variant="caption" muted numberOfLines={2}>
         {deck.description}
       </Text>
-      {deck.tags?.includes('nouveau') && (
-        <Text variant="caption" color={colors.primary}>
-          ● Nouveau
-        </Text>
-      )}
+      <View style={{ flexDirection: 'row', alignItems: 'center', gap: spacing.sm, flexWrap: 'wrap' }}>
+        {categoryLabel && (
+          <View
+            style={{
+              backgroundColor: colors.surfaceAlt,
+              borderRadius: radius.pill,
+              paddingHorizontal: spacing.sm,
+              paddingVertical: 3,
+            }}
+          >
+            <Text variant="caption" muted style={{ fontSize: 11 }}>
+              {categoryLabel}
+            </Text>
+          </View>
+        )}
+        {deck.tags?.includes('nouveau') && (
+          <Text variant="caption" color={colors.primary}>
+            ● Nouveau
+          </Text>
+        )}
+      </View>
     </Card>
   );
 }

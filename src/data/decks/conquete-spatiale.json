@@ -1,16 +1,19 @@
 {
   "id": "conquete-spatiale",
   "name": "Conquête spatiale",
-  "description": "Les grandes missions, les astronautes, les fusées et les événements majeurs.",
+  "description": "Spoutnik, Gagarine, Apollo, ISS et Mars : l'histoire des grandes missions spatiales.",
   "emoji": "🚀",
   "categoryId": "espace",
   "subcategoryId": "espace.conquete",
   "tier": "free",
   "productId": "gquizz.deck.conquete_spatiale",
   "priceHint": "1,99 €",
-  "questionCount": 120,
+  "questionCount": 58,
   "averageDifficulty": 3,
   "releasedAt": "2026-02-01",
+  "tags": [
+    "nouveau"
+  ],
   "previewQuestionIds": [
     "cs-001",
     "cs-002"
@@ -26,13 +29,13 @@
       "answers": [
         {
           "id": "a",
-          "text": "Buzz Aldrin",
-          "correct": false
+          "text": "Neil Armstrong",
+          "correct": true
         },
         {
           "id": "b",
-          "text": "Neil Armstrong",
-          "correct": true
+          "text": "Buzz Aldrin",
+          "correct": false
         },
         {
           "id": "c",
@@ -57,13 +60,13 @@
       "answers": [
         {
           "id": "a",
-          "text": "Spoutnik 1",
-          "correct": true
+          "text": "Explorer 1",
+          "correct": false
         },
         {
           "id": "b",
-          "text": "Explorer 1",
-          "correct": false
+          "text": "Spoutnik 1",
+          "correct": true
         },
         {
           "id": "c",
@@ -92,13 +95,13 @@
         },
         {
           "id": "b",
-          "text": "New Horizons",
-          "correct": true
+          "text": "Cassini",
+          "correct": false
         },
         {
           "id": "c",
-          "text": "Cassini",
-          "correct": false
+          "text": "New Horizons",
+          "correct": true
         },
         {
           "id": "d",
@@ -127,6 +130,1632 @@
         }
       ],
       "explanation": "Le premier module, Zarya, a été lancé en novembre 1998."
+    },
+    {
+      "id": "cs-005",
+      "categoryId": "espace",
+      "subcategoryId": "espace.conquete",
+      "difficulty": 1,
+      "type": "single",
+      "prompt": "Quel est le premier être vivant à avoir orbité autour de la Terre, en 1957 ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Le chimpanzé Ham",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Le chat Félicette",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "La souris Albert",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "La chienne Laïka",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "cs-006",
+      "categoryId": "espace",
+      "subcategoryId": "espace.conquete",
+      "difficulty": 1,
+      "type": "single",
+      "prompt": "Qui est le premier homme à avoir voyagé dans l'espace, en 1961 ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Youri Gagarine",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "Alexeï Leonov",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Guerman Titov",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Valentina Terechkova",
+          "correct": false
+        }
+      ],
+      "explanation": "À bord de Vostok 1, le 12 avril 1961."
+    },
+    {
+      "id": "cs-007",
+      "categoryId": "espace",
+      "subcategoryId": "espace.conquete",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Qui est la première femme à être allée dans l'espace, en 1963 ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Sally Ride",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Valentina Terechkova",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "Svetlana Savitskaïa",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Anna Fisher",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "cs-008",
+      "categoryId": "espace",
+      "subcategoryId": "espace.conquete",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Comment se nomme le programme spatial américain qui a envoyé des hommes sur la Lune ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Gemini",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Mercury",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Apollo",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "Artemis",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "cs-009",
+      "categoryId": "espace",
+      "subcategoryId": "espace.conquete",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "En quelle année l'homme a-t-il marché sur la Lune pour la première fois ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "1965",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "1972",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "1961",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "1969",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "cs-010",
+      "categoryId": "espace",
+      "subcategoryId": "espace.conquete",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Quelle fusée a propulsé la mission Apollo 11 vers la Lune ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Saturn V",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "Ariane 5",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Falcon 9",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Titan II",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "cs-011",
+      "categoryId": "espace",
+      "subcategoryId": "espace.conquete",
+      "difficulty": 1,
+      "type": "single",
+      "prompt": "Quel est le sigle de l'agence spatiale américaine ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "ESA",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "NASA",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "ISRO",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "JAXA",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "cs-012",
+      "categoryId": "espace",
+      "subcategoryId": "espace.conquete",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quel est le sigle de l'agence spatiale européenne ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "NASA",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "EUSA",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "ESA",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "EAA",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "cs-013",
+      "categoryId": "espace",
+      "subcategoryId": "espace.conquete",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Qui a envoyé le premier astronaute français dans l'espace, en 1982 ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Thomas Pesquet",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Patrick Baudry",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Jean-François Clervoy",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Jean-Loup Chrétien",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "cs-014",
+      "categoryId": "espace",
+      "subcategoryId": "espace.conquete",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Quelle navette spatiale américaine explose au décollage en janvier 1986 ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Challenger",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "Columbia",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Discovery",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Atlantis",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "cs-015",
+      "categoryId": "espace",
+      "subcategoryId": "espace.conquete",
+      "difficulty": 4,
+      "type": "single",
+      "prompt": "Quelle navette spatiale se désintègre lors de son retour dans l'atmosphère en 2003 ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Endeavour",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Columbia",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "Challenger",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Discovery",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "cs-016",
+      "categoryId": "espace",
+      "subcategoryId": "espace.conquete",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Quel est le nom du premier rover à avoir roulé sur Mars, en 1997 ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Curiosity",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Opportunity",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Sojourner",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "Perseverance",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "cs-017",
+      "categoryId": "espace",
+      "subcategoryId": "espace.conquete",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quel rover de la NASA se pose sur Mars en février 2021 ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Curiosity",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Spirit",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Opportunity",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Perseverance",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "cs-018",
+      "categoryId": "espace",
+      "subcategoryId": "espace.conquete",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Comment se nomme le célèbre télescope spatial lancé en 1990 ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Hubble",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "James Webb",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Kepler",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Spitzer",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "cs-019",
+      "categoryId": "espace",
+      "subcategoryId": "espace.conquete",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Comment se nomme le télescope spatial, successeur d'Hubble, lancé fin 2021 ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Euclid",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "James Webb",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "Nancy Grace Roman",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "TESS",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "cs-020",
+      "categoryId": "espace",
+      "subcategoryId": "espace.conquete",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Comment s'appelle le premier module lancé de l'ISS, en 1998 ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Unity",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Zvezda",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Zarya",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "Destiny",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "cs-021",
+      "categoryId": "espace",
+      "subcategoryId": "espace.conquete",
+      "difficulty": 4,
+      "type": "single",
+      "prompt": "Quelle sonde soviétique réussit le premier alunissage en douceur, en 1966 ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Luna 2",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Luna 16",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Zond 5",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Luna 9",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "cs-022",
+      "categoryId": "espace",
+      "subcategoryId": "espace.conquete",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Quel programme spatial américain, avec des équipages de deux astronautes, prépare les missions Apollo dans les années 1960 ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Gemini",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "Mercury",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Skylab",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Ranger",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "cs-023",
+      "categoryId": "espace",
+      "subcategoryId": "espace.conquete",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Comment se nomme la première station spatiale russe, en orbite de 1986 à 2001 ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Saliout 1",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Mir",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "Almaz",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Tiangong",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "cs-024",
+      "categoryId": "espace",
+      "subcategoryId": "espace.conquete",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quelle entreprise privée, fondée par Elon Musk, envoie pour la première fois des astronautes vers l'ISS en 2020 ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Blue Origin",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Virgin Galactic",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "SpaceX",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "Boeing",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "cs-025",
+      "categoryId": "espace",
+      "subcategoryId": "espace.conquete",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Comment se nomme la capsule de SpaceX qui transporte des astronautes vers l'ISS ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Starliner",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Orion",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Soyouz MS",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Crew Dragon",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "cs-026",
+      "categoryId": "espace",
+      "subcategoryId": "espace.conquete",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Comment se nomment les deux chiennes soviétiques, premiers animaux revenus vivants de l'orbite terrestre, en 1960 ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Belka et Strelka",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "Laïka et Zvezdochka",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Vetorok et Ougolyok",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Dezik et Tsygan",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "cs-027",
+      "categoryId": "espace",
+      "subcategoryId": "espace.conquete",
+      "difficulty": 4,
+      "type": "single",
+      "prompt": "Qui devient, en 1983, la première femme américaine à voyager dans l'espace ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Mae Jemison",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Sally Ride",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "Eileen Collins",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Shannon Lucid",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "cs-028",
+      "categoryId": "espace",
+      "subcategoryId": "espace.conquete",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "En quelle année la NASA est-elle fondée ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "1955",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "1961",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "1958",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "1969",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "cs-029",
+      "categoryId": "espace",
+      "subcategoryId": "espace.conquete",
+      "difficulty": 4,
+      "type": "single",
+      "prompt": "Comment s'appellent les deux sondes jumelles, lancées en 1977, qui ont exploré les planètes géantes du système solaire ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Pioneer 10 et 11",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Mariner 9 et 10",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Galileo et Cassini",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Voyager 1 et 2",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "cs-030",
+      "categoryId": "espace",
+      "subcategoryId": "espace.conquete",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Quelle sonde devient, en 2012, le premier objet fabriqué par l'homme à quitter l'héliosphère et atteindre l'espace interstellaire ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Voyager 1",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "Voyager 2",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "New Horizons",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Pioneer 10",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "cs-031",
+      "categoryId": "espace",
+      "subcategoryId": "espace.conquete",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Qui réalise, en 1965, la première sortie extravéhiculaire (« marche dans l'espace ») de l'histoire ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Edward White",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Alexeï Leonov",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "Youri Gagarine",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Neil Armstrong",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "cs-032",
+      "categoryId": "espace",
+      "subcategoryId": "espace.conquete",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Comment se nomme la mission conjointe américano-soviétique de 1975, symbole de détente en pleine Guerre froide ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Mercury-Vostok",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Gemini-Soyouz",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Apollo-Soyouz",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "Skylab-Saliout",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "cs-033",
+      "categoryId": "espace",
+      "subcategoryId": "espace.conquete",
+      "difficulty": 4,
+      "type": "single",
+      "prompt": "Quel est le nom, clin d'œil à la bande dessinée, du tout premier satellite français, lancé en 1965 ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Obélix",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Idéfix",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Panoramix",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Astérix",
+          "correct": true
+        }
+      ],
+      "explanation": "La France devient alors la troisième puissance spatiale, après l'URSS et les États-Unis."
+    },
+    {
+      "id": "cs-034",
+      "categoryId": "espace",
+      "subcategoryId": "espace.conquete",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "En 2003, quel pays devient la troisième nation à envoyer seule un homme dans l'espace ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "La Chine",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "L'Inde",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Le Japon",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Israël",
+          "correct": false
+        }
+      ],
+      "explanation": "Le taïkonaute Yang Liwei, à bord de Shenzhou 5."
+    },
+    {
+      "id": "cs-035",
+      "categoryId": "espace",
+      "subcategoryId": "espace.conquete",
+      "difficulty": 4,
+      "type": "single",
+      "prompt": "En 2019, quel pays réalise le premier alunissage réussi sur la face cachée de la Lune ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "L'Inde",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "La Chine",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "Le Japon",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "La Russie",
+          "correct": false
+        }
+      ],
+      "explanation": "La mission Chang'e 4 et son rover Yutu-2."
+    },
+    {
+      "id": "cs-036",
+      "categoryId": "espace",
+      "subcategoryId": "espace.conquete",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Comment se nomme la fusée réutilisable de SpaceX, dont les boosters atterrissent après le décollage ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Ariane 6",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Delta IV",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Falcon 9",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "Atlas V",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "cs-037",
+      "categoryId": "espace",
+      "subcategoryId": "espace.conquete",
+      "difficulty": 4,
+      "type": "single",
+      "prompt": "Quelle sonde a orbité autour de Saturne pendant 13 ans, jusqu'à sa destruction volontaire en 2017 ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Galileo",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Juno",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Voyager 1",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Cassini",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "cs-038",
+      "categoryId": "espace",
+      "subcategoryId": "espace.conquete",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Quelle sonde de la NASA a exploré Jupiter et ses lunes après son lancement en 1989 ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Galileo",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "Cassini",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Juno",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Pioneer 11",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "cs-039",
+      "categoryId": "espace",
+      "subcategoryId": "espace.conquete",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Environ combien d'hommes ont marché sur la Lune, lors des missions Apollo (1969-1972) ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "6",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "12",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "9",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "15",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "cs-040",
+      "categoryId": "espace",
+      "subcategoryId": "espace.conquete",
+      "difficulty": 4,
+      "type": "single",
+      "prompt": "Qui est le dernier homme à avoir marché sur la Lune, lors de la mission Apollo 17 en 1972 ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "David Scott",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "John Young",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Eugene Cernan",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "Alan Shepard",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "cs-041",
+      "categoryId": "espace",
+      "subcategoryId": "espace.conquete",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Comment se nomme le premier chimpanzé envoyé dans l'espace par les États-Unis, en 1961 ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Enos",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Albert II",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Gordo",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Ham",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "cs-042",
+      "categoryId": "espace",
+      "subcategoryId": "espace.conquete",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Dans quel pays se trouve le cosmodrome de Baïkonour, utilisé par la Russie depuis l'ère soviétique ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Kazakhstan",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "Russie",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Ouzbékistan",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Ukraine",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "cs-043",
+      "categoryId": "espace",
+      "subcategoryId": "espace.conquete",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Dans quel État américain se trouve le Kennedy Space Center, principal site de lancement de la NASA ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Texas",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Floride",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "Californie",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Alabama",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "cs-044",
+      "categoryId": "espace",
+      "subcategoryId": "espace.conquete",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Comment se nomme l'atterrisseur européen qui se pose sur une comète en 2014, lors de la mission Rosetta ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Beagle 2",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Huygens",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Philae",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "Schiaparelli",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "cs-045",
+      "categoryId": "espace",
+      "subcategoryId": "espace.conquete",
+      "difficulty": 4,
+      "type": "single",
+      "prompt": "Comment se nomme la sonde soviétique qui devient, en 1959, le premier objet fabriqué par l'homme à atteindre la surface de la Lune ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Luna 1",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Luna 9",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Spoutnik 2",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Luna 2",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "cs-046",
+      "categoryId": "espace",
+      "subcategoryId": "espace.conquete",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quel véhicule spatial géant SpaceX développe-t-elle pour de futures missions habitées vers Mars ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Starship",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "New Glenn",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "SLS",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Ariane 6",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "cs-047",
+      "categoryId": "espace",
+      "subcategoryId": "espace.conquete",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Comment se nomme le programme actuel de la NASA visant à ramener des astronautes sur la Lune ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Orion",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Artemis",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "Constellation",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Gateway",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "cs-048",
+      "categoryId": "espace",
+      "subcategoryId": "espace.conquete",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Combien de personnes composent généralement un équipage de relève à bord de l'ISS ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "2 ou 3",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "10 ou 12",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "6 ou 7",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "1 seul",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "cs-049",
+      "categoryId": "espace",
+      "subcategoryId": "espace.conquete",
+      "difficulty": 4,
+      "type": "single",
+      "prompt": "Quelle station spatiale, précurseur soviétique de Mir, est mise en orbite dès 1971 ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Almaz 1",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Zvezda",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Skylab",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Saliout 1",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "cs-050",
+      "categoryId": "espace",
+      "subcategoryId": "espace.conquete",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Comment se nomme la première station spatiale américaine, lancée en 1973 ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Skylab",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "Freedom",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Gateway",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Explorer",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "cs-051",
+      "categoryId": "espace",
+      "subcategoryId": "espace.conquete",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quel astronaute français a passé plusieurs mois à bord de l'ISS en 2016-2017 puis 2021, très suivi sur les réseaux sociaux ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Jean-François Clervoy",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Thomas Pesquet",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "Léopold Eyharts",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Michel Tognini",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "cs-052",
+      "categoryId": "espace",
+      "subcategoryId": "espace.conquete",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Quelle mission américaine, en 1970, doit renoncer à alunir après une explosion à bord et rentre in extremis sur Terre ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Apollo 11",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Apollo 8",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Apollo 13",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "Apollo 1",
+          "correct": false
+        }
+      ],
+      "explanation": "« Houston, on a eu un problème » — l'équipage rentre sain et sauf grâce au module lunaire utilisé comme canot de sauvetage."
+    },
+    {
+      "id": "cs-053",
+      "categoryId": "espace",
+      "subcategoryId": "espace.conquete",
+      "difficulty": 4,
+      "type": "single",
+      "prompt": "Quelle mission Apollo, en 1968, est la première à faire voyager des hommes autour de la Lune sans s'y poser ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Apollo 7",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Apollo 9",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Apollo 10",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Apollo 8",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "cs-054",
+      "categoryId": "espace",
+      "subcategoryId": "espace.conquete",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Comment appelle-t-on le costume pressurisé porté par les astronautes lors des sorties dans l'espace ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Une combinaison spatiale",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "Un exosquelette",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Une armure pressurisée",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Un caisson",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "cs-055",
+      "categoryId": "espace",
+      "subcategoryId": "espace.conquete",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Quelle agence spatiale indienne a réussi, en 2023, le premier alunissage près du pôle sud lunaire ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "La JAXA",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "L'ISRO",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "Le CNSA",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Le CNES",
+          "correct": false
+        }
+      ],
+      "explanation": "La mission Chandrayaan-3, faisant de l'Inde la 4e nation à réussir un alunissage."
+    },
+    {
+      "id": "cs-056",
+      "categoryId": "espace",
+      "subcategoryId": "espace.conquete",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quel est le nom du vaisseau russe qui assure depuis des décennies la liaison habitée avec l'ISS ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Progress",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Bourane",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Soyouz",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "Proton",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "cs-057",
+      "categoryId": "espace",
+      "subcategoryId": "espace.conquete",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Comment se nomme l'agence spatiale française, fondée en 1961 ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "L'ESA",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "L'ONERA",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "L'IFREMER",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Le CNES",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "cs-058",
+      "categoryId": "espace",
+      "subcategoryId": "espace.conquete",
+      "difficulty": 4,
+      "type": "single",
+      "prompt": "Quelle fusée européenne assure l'essentiel des lancements commerciaux de l'ESA depuis les années 1980 ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Ariane",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "Vega",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Soyouz",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Falcon",
+          "correct": false
+        }
+      ]
     }
   ]
 }

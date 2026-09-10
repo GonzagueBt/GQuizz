@@ -43,7 +43,7 @@ export default function HomeScreen() {
     globalPoolSize = 0;
   }
 
-  const playableDecks = CATALOG.decks.filter((d) => isDeckOwned(d.id));
+  const newDecks = CATALOG.decks.filter((d) => isDeckOwned(d.id) && d.tags?.includes('nouveau'));
 
   if (!onboardingDone) return <Redirect href="/onboarding" />;
 
@@ -90,7 +90,12 @@ export default function HomeScreen() {
           </Card>
         </Reveal>
 
-        {playableDecks.map((deck, i) => (
+        {newDecks.length > 0 && (
+          <Text variant="label" muted style={{ marginTop: spacing.sm }}>
+            ✨ NOUVEAUX DECKS
+          </Text>
+        )}
+        {newDecks.map((deck, i) => (
           <Reveal key={deck.id} index={i + 3}>
             <Card onPress={() => openPlay(gameModeToParam({ kind: 'deck', deckId: deck.id }))}>
               <Text variant="heading">
@@ -102,6 +107,14 @@ export default function HomeScreen() {
             </Card>
           </Reveal>
         ))}
+
+        <Reveal index={newDecks.length + 3}>
+          <Card onPress={() => router.push('/decks')} style={{ alignItems: 'center' }}>
+            <Text variant="label" color={colors.primary}>
+              📚 Voir tous les decks, rangés par catégorie ›
+            </Text>
+          </Card>
+        </Reveal>
 
         <Text
           variant="caption"

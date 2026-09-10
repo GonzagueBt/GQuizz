@@ -17,9 +17,6 @@ export const CATEGORIES: Category[] = [
   { id: 'cinema', parentId: null, name: 'Cinéma', emoji: '🎬', order: 70 },
   { id: 'litterature', parentId: null, name: 'Littérature', emoji: '📚', order: 80 },
   { id: 'aeronautique', parentId: null, name: 'Aéronautique', emoji: '✈️', order: 90 },
-  { id: 'militaire', parentId: null, name: 'Militaire', emoji: '🎖️', order: 100 },
-  { id: 'marine', parentId: null, name: 'Marine', emoji: '⚓', order: 110 },
-  { id: 'montagne', parentId: null, name: 'Montagne', emoji: '🏔️', order: 120 },
 
   // --- Histoire ---------------------------------------------------------
   { id: 'histoire.france', parentId: 'histoire', name: 'Histoire de France', emoji: '🇫🇷', order: 10 },
@@ -58,4 +55,14 @@ export const CATEGORIES: Category[] = [
   // --- Aéronautique ---------------------------------------------
   { id: 'aeronautique.histoire', parentId: 'aeronautique', name: "Histoire de l'aviation", emoji: '🛩️', order: 10 },
   { id: 'aeronautique.avions', parentId: 'aeronautique', name: 'Avions civils & militaires', emoji: '🛫', order: 20 },
+
+  // --- Cinéma ------------------------------------------------------
+  { id: 'cinema.hollywood', parentId: 'cinema', name: 'Cinéma américain', emoji: '🎥', order: 10 },
+  { id: 'cinema.francais', parentId: 'cinema', name: 'Cinéma français', emoji: '🇫🇷', order: 20 },
+  { id: 'cinema.animation', parentId: 'cinema', name: 'Animation', emoji: '🎨', order: 30 },
+
+  // --- Littérature --------------------------------------------------
+  { id: 'litterature.classiques', parentId: 'litterature', name: 'Classiques', emoji: '🖋️', order: 10 },
+  { id: 'litterature.francaise', parentId: 'litterature', name: 'Littérature française', emoji: '🇫🇷', order: 20 },
+  { id: 'litterature.fantastique', parentId: 'litterature', name: 'Fantastique & SF', emoji: '🐉', order: 30 },
 ];

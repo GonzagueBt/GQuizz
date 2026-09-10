@@ -1,11 +1,10 @@
 import type { Difficulty, QuestionType } from '@/domain/types';
 
-import cultureGenerale from './culture-generale.json';
-import histoireDeFrance from './histoire-de-france.json';
-import geographie from './geographie.json';
 import sciences from './sciences.json';
 import sport from './sport.json';
 import musique from './musique.json';
+import cinema from './cinema.json';
+import litterature from './litterature.json';
 import revolutionFrancaise from './revolution-francaise.json';
 import charlemagne from './charlemagne.json';
 import henriIv from './henri-iv.json';
@@ -55,12 +54,11 @@ export interface RawDeck {
  * l'ajouter ici. L'ordre définit l'ordre d'affichage par défaut.
  */
 export const RAW_DECKS: RawDeck[] = [
-  cultureGenerale as RawDeck,
-  histoireDeFrance as RawDeck,
-  geographie as RawDeck,
   sciences as RawDeck,
   sport as RawDeck,
   musique as RawDeck,
+  cinema as RawDeck,
+  litterature as RawDeck,
   revolutionFrancaise as RawDeck,
   charlemagne as RawDeck,
   henriIv as RawDeck,

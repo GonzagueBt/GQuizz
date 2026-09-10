@@ -1,0 +1,1971 @@
+{
+  "id": "litterature",
+  "name": "Littérature",
+  "description": "Classiques, littérature française et fantastique/SF : auteurs, œuvres et personnages.",
+  "emoji": "📚",
+  "categoryId": "litterature",
+  "tier": "free",
+  "questionCount": 65,
+  "averageDifficulty": 3,
+  "releasedAt": "2026-09-11",
+  "tags": [
+    "nouveau"
+  ],
+  "previewQuestionIds": [
+    "lit-001",
+    "lit-023"
+  ],
+  "questions": [
+    {
+      "id": "lit-001",
+      "categoryId": "litterature",
+      "subcategoryId": "litterature.classiques",
+      "difficulty": 1,
+      "type": "single",
+      "prompt": "Qui a écrit « Roméo et Juliette » ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "William Shakespeare",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "Charles Dickens",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Oscar Wilde",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Jane Austen",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "lit-002",
+      "categoryId": "litterature",
+      "subcategoryId": "litterature.classiques",
+      "difficulty": 1,
+      "type": "single",
+      "prompt": "Qui a écrit « Les Misérables » ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Émile Zola",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Victor Hugo",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "Gustave Flaubert",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Honoré de Balzac",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "lit-003",
+      "categoryId": "litterature",
+      "subcategoryId": "litterature.classiques",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Qui a écrit « Don Quichotte » ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Lope de Vega",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Federico García Lorca",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Miguel de Cervantès",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "Jorge Luis Borges",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "lit-004",
+      "categoryId": "litterature",
+      "subcategoryId": "litterature.classiques",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Qui a écrit « Crime et Châtiment » ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Léon Tolstoï",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Anton Tchekhov",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Nikolaï Gogol",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Fiodor Dostoïevski",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "lit-005",
+      "categoryId": "litterature",
+      "subcategoryId": "litterature.classiques",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Qui a écrit « Guerre et Paix » et « Anna Karénine » ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Léon Tolstoï",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "Fiodor Dostoïevski",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Ivan Tourgueniev",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Boris Pasternak",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "lit-006",
+      "categoryId": "litterature",
+      "subcategoryId": "litterature.classiques",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Qui a écrit « Madame Bovary » ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Guy de Maupassant",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Gustave Flaubert",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "Stendhal",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Émile Zola",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "lit-007",
+      "categoryId": "litterature",
+      "subcategoryId": "litterature.classiques",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Qui a écrit « Le Comte de Monte-Cristo » ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Victor Hugo",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Jules Verne",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Alexandre Dumas",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "Prosper Mérimée",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "lit-008",
+      "categoryId": "litterature",
+      "subcategoryId": "litterature.classiques",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Qui a écrit « Orgueil et Préjugés » ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Charlotte Brontë",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Virginia Woolf",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "George Eliot",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Jane Austen",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "lit-009",
+      "categoryId": "litterature",
+      "subcategoryId": "litterature.classiques",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Quel poète grec de l'Antiquité est l'auteur présumé de « L'Iliade » et « L'Odyssée » ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Homère",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "Sophocle",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Hésiode",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Euripide",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "lit-010",
+      "categoryId": "litterature",
+      "subcategoryId": "litterature.classiques",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Dans quelle pièce de Shakespeare un prince danois hésite-t-il à venger son père ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Macbeth",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Hamlet",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "Othello",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Le Roi Lear",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "lit-011",
+      "categoryId": "litterature",
+      "subcategoryId": "litterature.classiques",
+      "difficulty": 4,
+      "type": "single",
+      "prompt": "Comment se nomme le plus prestigieux prix littéraire français, décerné chaque automne ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Le Prix Renaudot",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Le Prix Médicis",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Le Prix Goncourt",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "Le Prix Femina",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "lit-012",
+      "categoryId": "litterature",
+      "subcategoryId": "litterature.classiques",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Quel écrivain irlandais est l'auteur d'« Ulysse » (1922), pilier de la littérature moderniste ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Oscar Wilde",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Samuel Beckett",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Bram Stoker",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "James Joyce",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "lit-013",
+      "categoryId": "litterature",
+      "subcategoryId": "litterature.classiques",
+      "difficulty": 4,
+      "type": "single",
+      "prompt": "Qui a écrit « Sa Majesté des mouches » (1954) ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "William Golding",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "George Orwell",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Graham Greene",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Ian McEwan",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "lit-014",
+      "categoryId": "litterature",
+      "subcategoryId": "litterature.classiques",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Qui a écrit « Le Vieil Homme et la Mer » ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "John Steinbeck",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Ernest Hemingway",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "F. Scott Fitzgerald",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "William Faulkner",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "lit-015",
+      "categoryId": "litterature",
+      "subcategoryId": "litterature.classiques",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Quel dramaturge français du XVIIe siècle a écrit « Le Malade imaginaire » et « Tartuffe » ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Pierre Corneille",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Jean Racine",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Molière",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "Marivaux",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "lit-016",
+      "categoryId": "litterature",
+      "subcategoryId": "litterature.classiques",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Quel dramaturge classique français est l'auteur de « Phèdre » ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Molière",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Pierre Corneille",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Voltaire",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Jean Racine",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "lit-017",
+      "categoryId": "litterature",
+      "subcategoryId": "litterature.classiques",
+      "difficulty": 4,
+      "type": "single",
+      "prompt": "Qui a écrit « À la recherche du temps perdu » ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Marcel Proust",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "André Gide",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "François Mauriac",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Romain Rolland",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "lit-018",
+      "categoryId": "litterature",
+      "subcategoryId": "litterature.classiques",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Qui a écrit « Alice au pays des merveilles » ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "J.M. Barrie",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Lewis Carroll",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "Rudyard Kipling",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "A.A. Milne",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "lit-019",
+      "categoryId": "litterature",
+      "subcategoryId": "litterature.classiques",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Qui a écrit « Les Frères Karamazov » ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Léon Tolstoï",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Maxime Gorki",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Fiodor Dostoïevski",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "Ivan Bounine",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "lit-020",
+      "categoryId": "litterature",
+      "subcategoryId": "litterature.classiques",
+      "difficulty": 4,
+      "type": "single",
+      "prompt": "Quel écrivain français est l'auteur de « La Comédie humaine », vaste fresque de près de 100 romans ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Stendhal",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Gustave Flaubert",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Victor Hugo",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Honoré de Balzac",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "lit-021",
+      "categoryId": "litterature",
+      "subcategoryId": "litterature.classiques",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Qui a écrit « Les Hauts de Hurlevent » ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Emily Brontë",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "Charlotte Brontë",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Anne Brontë",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Mary Shelley",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "lit-022",
+      "categoryId": "litterature",
+      "subcategoryId": "litterature.classiques",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Qui a écrit « Oliver Twist » et « Les Grandes Espérances » ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Thomas Hardy",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Charles Dickens",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "Wilkie Collins",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Anthony Trollope",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "lit-023",
+      "categoryId": "litterature",
+      "subcategoryId": "litterature.francaise",
+      "difficulty": 1,
+      "type": "single",
+      "prompt": "Qui a écrit « Les Trois Mousquetaires » ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Victor Hugo",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Théophile Gautier",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Alexandre Dumas",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "Prosper Mérimée",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "lit-024",
+      "categoryId": "litterature",
+      "subcategoryId": "litterature.francaise",
+      "difficulty": 1,
+      "type": "single",
+      "prompt": "Qui a écrit « Le Petit Prince » ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Jules Verne",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Marcel Pagnol",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Jean Giono",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Antoine de Saint-Exupéry",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "lit-025",
+      "categoryId": "litterature",
+      "subcategoryId": "litterature.francaise",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Qui a écrit le recueil de poèmes « Les Fleurs du mal » (1857) ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Charles Baudelaire",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "Paul Verlaine",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Stéphane Mallarmé",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Arthur Rimbaud",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "lit-026",
+      "categoryId": "litterature",
+      "subcategoryId": "litterature.francaise",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Qui a écrit le conte philosophique « Candide » ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Denis Diderot",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Voltaire",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "Montesquieu",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Jean-Jacques Rousseau",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "lit-027",
+      "categoryId": "litterature",
+      "subcategoryId": "litterature.francaise",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Qui a écrit « Germinal », fresque du monde ouvrier des mines ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Guy de Maupassant",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Alphonse Daudet",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Émile Zola",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "Octave Mirbeau",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "lit-028",
+      "categoryId": "litterature",
+      "subcategoryId": "litterature.francaise",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Qui a écrit « Le Rouge et le Noir » (1830) ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Honoré de Balzac",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Chateaubriand",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Benjamin Constant",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Stendhal",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "lit-029",
+      "categoryId": "litterature",
+      "subcategoryId": "litterature.francaise",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quel fabuliste français a écrit « Le Corbeau et le Renard » ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Jean de La Fontaine",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "Charles Perrault",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Nicolas Boileau",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Jean de La Bruyère",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "lit-030",
+      "categoryId": "litterature",
+      "subcategoryId": "litterature.francaise",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Quel philosophe des Lumières a écrit « Du contrat social » ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Voltaire",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Jean-Jacques Rousseau",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "Denis Diderot",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Montesquieu",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "lit-031",
+      "categoryId": "litterature",
+      "subcategoryId": "litterature.francaise",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Qui a écrit « Bonjour Tristesse » à seulement 18 ans, en 1954 ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Marguerite Duras",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Colette",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Françoise Sagan",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "Nathalie Sarraute",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "lit-032",
+      "categoryId": "litterature",
+      "subcategoryId": "litterature.francaise",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Quel écrivain existentialiste a écrit « L'Étranger » et « La Peste » ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Jean-Paul Sartre",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "André Malraux",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Simone de Beauvoir",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Albert Camus",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "lit-033",
+      "categoryId": "litterature",
+      "subcategoryId": "litterature.francaise",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Quel philosophe et écrivain, compagnon de Simone de Beauvoir, a marqué l'existentialisme français ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Jean-Paul Sartre",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "Albert Camus",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Maurice Merleau-Ponty",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Emmanuel Levinas",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "lit-034",
+      "categoryId": "litterature",
+      "subcategoryId": "litterature.francaise",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Qui a écrit l'essai féministe « Le Deuxième Sexe » (1949) ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Simone Veil",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Simone de Beauvoir",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "Colette",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "George Sand",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "lit-035",
+      "categoryId": "litterature",
+      "subcategoryId": "litterature.francaise",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Quel poète, ami puis amant tourmenté de Paul Verlaine, écrit « Le Bateau ivre » à 16 ans ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Stéphane Mallarmé",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Guillaume Apollinaire",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Arthur Rimbaud",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "Tristan Corbière",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "lit-036",
+      "categoryId": "litterature",
+      "subcategoryId": "litterature.francaise",
+      "difficulty": 4,
+      "type": "single",
+      "prompt": "Qui a écrit « Voyage au bout de la nuit » (1932) ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Georges Bernanos",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Jean Giono",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Henry de Montherlant",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Louis-Ferdinand Céline",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "lit-037",
+      "categoryId": "litterature",
+      "subcategoryId": "litterature.francaise",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Qui a écrit la pièce « Cyrano de Bergerac » (1897) ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Edmond Rostand",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "Georges Feydeau",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Alfred de Musset",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Eugène Labiche",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "lit-038",
+      "categoryId": "litterature",
+      "subcategoryId": "litterature.francaise",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Quel cardinal fonde l'Académie française en 1635, gardienne de la langue française ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Mazarin",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Richelieu",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "De Retz",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Fleury",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "lit-039",
+      "categoryId": "litterature",
+      "subcategoryId": "litterature.francaise",
+      "difficulty": 4,
+      "type": "single",
+      "prompt": "Quelle est la première femme élue à l'Académie française, en 1980 ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Simone de Beauvoir",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Marguerite Duras",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Marguerite Yourcenar",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "Françoise Sagan",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "lit-040",
+      "categoryId": "litterature",
+      "subcategoryId": "litterature.francaise",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Qui a écrit « Notre-Dame de Paris » (1831) ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Théophile Gautier",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Alfred de Vigny",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Gérard de Nerval",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Victor Hugo",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "lit-041",
+      "categoryId": "litterature",
+      "subcategoryId": "litterature.francaise",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Quelle autrice française reçoit le prix Nobel de littérature en 2022 ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Annie Ernaux",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "Amélie Nothomb",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Leïla Slimani",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Marie NDiaye",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "lit-042",
+      "categoryId": "litterature",
+      "subcategoryId": "litterature.francaise",
+      "difficulty": 4,
+      "type": "single",
+      "prompt": "Combien de membres, surnommés les « Immortels », compte l'Académie française ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "30",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "40",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "50",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "25",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "lit-043",
+      "categoryId": "litterature",
+      "subcategoryId": "litterature.francaise",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Qui a écrit « Le Grand Meaulnes », unique roman publié de son vivant ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Jean Giraudoux",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Julien Gracq",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Alain-Fournier",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "Raymond Radiguet",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "lit-044",
+      "categoryId": "litterature",
+      "subcategoryId": "litterature.fantastique",
+      "difficulty": 1,
+      "type": "single",
+      "prompt": "Qui a écrit la saga « Harry Potter » ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Stephenie Meyer",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Suzanne Collins",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Cassandra Clare",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "J.K. Rowling",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "lit-045",
+      "categoryId": "litterature",
+      "subcategoryId": "litterature.fantastique",
+      "difficulty": 1,
+      "type": "single",
+      "prompt": "Qui a écrit « Le Seigneur des Anneaux » ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "J.R.R. Tolkien",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "C.S. Lewis",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "George R.R. Martin",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Terry Pratchett",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "lit-046",
+      "categoryId": "litterature",
+      "subcategoryId": "litterature.fantastique",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Qui a écrit la saga « Le Trône de fer » ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Brandon Sanderson",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "George R.R. Martin",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "Robin Hobb",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Joe Abercrombie",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "lit-047",
+      "categoryId": "litterature",
+      "subcategoryId": "litterature.fantastique",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Qui a écrit la saga « Twilight » ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Cassandra Clare",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Veronica Roth",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Stephenie Meyer",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "L.J. Smith",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "lit-048",
+      "categoryId": "litterature",
+      "subcategoryId": "litterature.fantastique",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Qui a écrit « Dune » (1965) ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Isaac Asimov",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Arthur C. Clarke",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Robert A. Heinlein",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Frank Herbert",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "lit-049",
+      "categoryId": "litterature",
+      "subcategoryId": "litterature.fantastique",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Qui a écrit le roman dystopique « 1984 » ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "George Orwell",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "Aldous Huxley",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Ray Bradbury",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Yevgeny Zamyatin",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "lit-050",
+      "categoryId": "litterature",
+      "subcategoryId": "litterature.fantastique",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Qui a écrit « Fahrenheit 451 », roman sur une société qui brûle les livres ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Isaac Asimov",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Ray Bradbury",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "Philip K. Dick",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Kurt Vonnegut",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "lit-051",
+      "categoryId": "litterature",
+      "subcategoryId": "litterature.fantastique",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Qui a écrit « Le Meilleur des mondes » (1932) ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "George Orwell",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "H.G. Wells",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Aldous Huxley",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "E.M. Forster",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "lit-052",
+      "categoryId": "litterature",
+      "subcategoryId": "litterature.fantastique",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Qui a créé le personnage du détective Sherlock Holmes ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Agatha Christie",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Wilkie Collins",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "G.K. Chesterton",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Arthur Conan Doyle",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "lit-053",
+      "categoryId": "litterature",
+      "subcategoryId": "litterature.fantastique",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Qui a écrit « Frankenstein ou le Prométhée moderne » (1818) ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Mary Shelley",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "Bram Stoker",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Ann Radcliffe",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Edgar Allan Poe",
+          "correct": false
+        }
+      ],
+      "explanation": "Écrit alors qu'elle n'a que 18 ans, durant un séjour au bord du lac Léman."
+    },
+    {
+      "id": "lit-054",
+      "categoryId": "litterature",
+      "subcategoryId": "litterature.fantastique",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Qui a écrit « Dracula » (1897) ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Mary Shelley",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Bram Stoker",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "Sheridan Le Fanu",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "M.R. James",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "lit-055",
+      "categoryId": "litterature",
+      "subcategoryId": "litterature.fantastique",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Qui a écrit la saga « Hunger Games » ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Veronica Roth",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Marie Lu",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Suzanne Collins",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "James Dashner",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "lit-056",
+      "categoryId": "litterature",
+      "subcategoryId": "litterature.fantastique",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Qui a écrit « Voyage au centre de la Terre » ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "H.G. Wells",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Camille Flammarion",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Villiers de l'Isle-Adam",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Jules Verne",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "lit-057",
+      "categoryId": "litterature",
+      "subcategoryId": "litterature.fantastique",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Qui a écrit « Vingt mille lieues sous les mers » ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Jules Verne",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "H.G. Wells",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Alexandre Dumas",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Émile Zola",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "lit-058",
+      "categoryId": "litterature",
+      "subcategoryId": "litterature.fantastique",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Qui a écrit « La Guerre des mondes » (1898), invasion martienne devenue un classique de la SF ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Jules Verne",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "H.G. Wells",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "Arthur Conan Doyle",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Edgar Rice Burroughs",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "lit-059",
+      "categoryId": "litterature",
+      "subcategoryId": "litterature.fantastique",
+      "difficulty": 4,
+      "type": "single",
+      "prompt": "Quel grand nom de la science-fiction américaine a écrit le cycle « Fondation » ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Robert A. Heinlein",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Arthur C. Clarke",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Isaac Asimov",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "Frank Herbert",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "lit-060",
+      "categoryId": "litterature",
+      "subcategoryId": "litterature.fantastique",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Qui a créé l'univers fantastique de Narnia ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "J.R.R. Tolkien",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Philip Pullman",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Lewis Carroll",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "C.S. Lewis",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "lit-061",
+      "categoryId": "litterature",
+      "subcategoryId": "litterature.fantastique",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Qui a écrit « American Gods » et « Coraline » ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Neil Gaiman",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "Clive Barker",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "China Miéville",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Terry Pratchett",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "lit-062",
+      "categoryId": "litterature",
+      "subcategoryId": "litterature.fantastique",
+      "difficulty": 4,
+      "type": "single",
+      "prompt": "Quel auteur de science-fiction, dont l'œuvre a inspiré « Blade Runner », a écrit « Le Maître du Haut Château » ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "William Gibson",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Philip K. Dick",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "Kurt Vonnegut",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "J.G. Ballard",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "lit-063",
+      "categoryId": "litterature",
+      "subcategoryId": "litterature.fantastique",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Qui a écrit la saga « Percy Jackson », inspirée de la mythologie grecque ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Brandon Mull",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Michael Scott",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Rick Riordan",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "D.J. MacHale",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "lit-064",
+      "categoryId": "litterature",
+      "subcategoryId": "litterature.fantastique",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Comment se nomme la créature qui détient l'anneau unique avant Bilbon, dans l'univers de Tolkien ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Saroumane",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Sauron",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Legolas",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Gollum",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "lit-065",
+      "categoryId": "litterature",
+      "subcategoryId": "litterature.fantastique",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Quel est le nom du dragon qui garde le trésor de la montagne dans « Le Hobbit » ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Smaug",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "Drogon",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Falkor",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Fumseck",
+          "correct": false
+        }
+      ]
+    }
+  ]
+}

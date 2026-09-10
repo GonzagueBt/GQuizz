@@ -1,85 +1,1689 @@
 {
   "id": "sciences",
   "name": "Sciences",
-  "description": "Physique, chimie, biologie et maths, niveau curieux.",
+  "description": "Physique, biologie et mathématiques : les grandes lois et découvertes, niveau curieux.",
   "emoji": "🔬",
   "categoryId": "sciences",
   "tier": "free",
-  "questionCount": 5,
+  "questionCount": 56,
   "averageDifficulty": 3,
-  "releasedAt": "2026-01-01",
+  "releasedAt": "2026-09-11",
+  "tags": [
+    "nouveau"
+  ],
+  "previewQuestionIds": [
+    "sci-001",
+    "sci-020"
+  ],
   "questions": [
     {
       "id": "sci-001",
+      "categoryId": "sciences",
+      "subcategoryId": "sciences.physique",
+      "difficulty": 1,
+      "type": "single",
+      "prompt": "Quelle est la vitesse approximative de la lumière dans le vide ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "300 000 km/s",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "300 km/s",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "3 000 km/s",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "30 000 km/s",
+          "correct": false
+        }
+      ],
+      "explanation": "Environ 299 792 km/s."
+    },
+    {
+      "id": "sci-002",
+      "categoryId": "sciences",
+      "subcategoryId": "sciences.physique",
+      "difficulty": 1,
+      "type": "single",
+      "prompt": "Quelle est la formule chimique de l'eau ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "CO2",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "H2O",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "O2",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "H2O2",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "sci-003",
+      "categoryId": "sciences",
+      "subcategoryId": "sciences.physique",
+      "difficulty": 4,
+      "type": "single",
+      "prompt": "Quel scientifique a formulé les trois lois du mouvement, publiées dans les « Principia » (1687) ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Galilée",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Albert Einstein",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Isaac Newton",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "Nikola Tesla",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "sci-004",
+      "categoryId": "sciences",
+      "subcategoryId": "sciences.physique",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Dans quelle unité mesure-t-on une force, en physique ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Le watt",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Le joule",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Le pascal",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Le newton",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "sci-005",
+      "categoryId": "sciences",
+      "subcategoryId": "sciences.physique",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Dans quelle unité mesure-t-on l'énergie ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Le joule",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "L'ampère",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Le volt",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Le newton",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "sci-006",
+      "categoryId": "sciences",
+      "subcategoryId": "sciences.physique",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Qui a formulé la théorie de la relativité ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Niels Bohr",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Albert Einstein",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "Werner Heisenberg",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Max Planck",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "sci-007",
+      "categoryId": "sciences",
+      "subcategoryId": "sciences.physique",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Dans la célèbre équation E=mc², que représente le « c » ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "La masse",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "La constante gravitationnelle",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "La vitesse de la lumière",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "La charge électrique",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "sci-008",
+      "categoryId": "sciences",
+      "subcategoryId": "sciences.physique",
+      "difficulty": 4,
+      "type": "single",
+      "prompt": "Après le solide, le liquide et le gaz, quel est le quatrième état de la matière ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Le condensat",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Le cristal",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Le colloïde",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Le plasma",
+          "correct": true
+        }
+      ],
+      "explanation": "Un gaz ionisé, présent par exemple dans les étoiles et les éclairs."
+    },
+    {
+      "id": "sci-009",
+      "categoryId": "sciences",
+      "subcategoryId": "sciences.physique",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "À quelle température l'eau pure gèle-t-elle, au niveau de la mer ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "0 °C",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "-10 °C",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "4 °C",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "10 °C",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "sci-010",
+      "categoryId": "sciences",
+      "subcategoryId": "sciences.physique",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Comment se nomme la force qui attire les objets vers le centre de la Terre ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "L'inertie",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "La gravité",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "La friction",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "La pression",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "sci-011",
+      "categoryId": "sciences",
+      "subcategoryId": "sciences.physique",
+      "difficulty": 4,
+      "type": "single",
+      "prompt": "Quel physicien français découvre la radioactivité en 1896 ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Pierre Curie",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Antoine Lavoisier",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Henri Becquerel",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "Louis Pasteur",
+          "correct": false
+        }
+      ],
+      "explanation": "Marie Curie poursuivra ses travaux et forgera le terme « radioactivité »."
+    },
+    {
+      "id": "sci-012",
+      "categoryId": "sciences",
+      "subcategoryId": "sciences.physique",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Environ combien de temps la lumière du Soleil met-elle à atteindre la Terre ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "8 secondes",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "8 heures",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "1 minute",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "8 minutes",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "sci-013",
+      "categoryId": "sciences",
+      "subcategoryId": "sciences.physique",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Quel principe physique explique pourquoi un objet flotte ou coule dans un liquide ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Le principe d'Archimède",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "Le principe de Pascal",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "La loi de Boyle-Mariotte",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Le principe de Bernoulli",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "sci-014",
+      "categoryId": "sciences",
+      "subcategoryId": "sciences.physique",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quel est le symbole chimique de l'or ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Or",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Au",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "Ag",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Fe",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "sci-015",
+      "categoryId": "sciences",
+      "subcategoryId": "sciences.physique",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quel est le symbole chimique du fer ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Fr",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Ir",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Fe",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "Fn",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "sci-016",
+      "categoryId": "sciences",
+      "subcategoryId": "sciences.physique",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Quelle unité utilise-t-on pour mesurer la température absolue en physique ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Le celsius",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Le fahrenheit",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Le rankine",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Le kelvin",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "sci-017",
+      "categoryId": "sciences",
+      "subcategoryId": "sciences.physique",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Qui a formulé la loi de la gravitation universelle ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Isaac Newton",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "Johannes Kepler",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Galilée",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Nicolas Copernic",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "sci-018",
+      "categoryId": "sciences",
+      "subcategoryId": "sciences.physique",
+      "difficulty": 4,
+      "type": "single",
+      "prompt": "Quel physicien propose en 1911 un modèle de l'atome avec un noyau central ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "James Chadwick",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Ernest Rutherford",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "J.J. Thomson",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Niels Bohr",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "sci-019",
+      "categoryId": "sciences",
+      "subcategoryId": "sciences.physique",
+      "difficulty": 5,
+      "type": "single",
+      "prompt": "Combien d'éléments chimiques compte le tableau périodique dans sa forme actuelle ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "92",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "104",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "118",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "126",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "sci-020",
       "categoryId": "sciences",
       "subcategoryId": "sciences.bio",
       "difficulty": 1,
       "type": "single",
       "prompt": "Combien de chromosomes possède une cellule humaine normale ?",
       "answers": [
-        { "id": "a", "text": "23", "correct": false },
-        { "id": "b", "text": "46", "correct": true },
-        { "id": "c", "text": "48", "correct": false },
-        { "id": "d", "text": "64", "correct": false }
+        {
+          "id": "a",
+          "text": "23",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "48",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "64",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "46",
+          "correct": true
+        }
       ],
       "explanation": "23 paires, soit 46 chromosomes."
     },
     {
-      "id": "sci-002",
+      "id": "sci-021",
       "categoryId": "sciences",
-      "subcategoryId": "sciences.physique",
-      "difficulty": 2,
+      "subcategoryId": "sciences.bio",
+      "difficulty": 1,
       "type": "single",
-      "prompt": "Quelle est la vitesse approximative de la lumière dans le vide ?",
+      "prompt": "Quel organe pompe le sang dans le corps humain ?",
       "answers": [
-        { "id": "a", "text": "300 km/s", "correct": false },
-        { "id": "b", "text": "3 000 km/s", "correct": false },
-        { "id": "c", "text": "300 000 km/s", "correct": true },
-        { "id": "d", "text": "30 000 km/s", "correct": false }
-      ],
-      "explanation": "Environ 299 792 km/s."
-    },
-    {
-      "id": "sci-003",
-      "categoryId": "sciences",
-      "subcategoryId": "sciences.maths",
-      "difficulty": 3,
-      "type": "single",
-      "prompt": "Quelle est la valeur de π arrondie au centième ?",
-      "answers": [
-        { "id": "a", "text": "3,14", "correct": true },
-        { "id": "b", "text": "3,16", "correct": false },
-        { "id": "c", "text": "3,12", "correct": false },
-        { "id": "d", "text": "3,15", "correct": false }
+        {
+          "id": "a",
+          "text": "Le cœur",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "Le foie",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Les poumons",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "La rate",
+          "correct": false
+        }
       ]
     },
     {
-      "id": "sci-004",
+      "id": "sci-022",
+      "categoryId": "sciences",
+      "subcategoryId": "sciences.bio",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quelle molécule porte l'information génétique des êtres vivants ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "L'ARN",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "L'ADN",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "L'ATP",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Le glucose",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "sci-023",
+      "categoryId": "sciences",
+      "subcategoryId": "sciences.bio",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Comment appelle-t-on le processus par lequel les plantes produisent de l'énergie grâce à la lumière ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "La respiration",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "La transpiration",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "La photosynthèse",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "La fermentation",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "sci-024",
+      "categoryId": "sciences",
+      "subcategoryId": "sciences.bio",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Quel groupe sanguin est considéré comme donneur universel ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "AB positif",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "A positif",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "B négatif",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "O négatif",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "sci-025",
+      "categoryId": "sciences",
+      "subcategoryId": "sciences.bio",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Qui a développé la théorie de l'évolution par sélection naturelle ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Charles Darwin",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "Gregor Mendel",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Jean-Baptiste de Lamarck",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Louis Pasteur",
+          "correct": false
+        }
+      ],
+      "explanation": "Publiée dans « L'Origine des espèces » en 1859."
+    },
+    {
+      "id": "sci-026",
       "categoryId": "sciences",
       "subcategoryId": "sciences.bio",
       "difficulty": 3,
       "type": "boolean",
       "prompt": "L'ADN est présent uniquement dans le noyau de la cellule.",
       "answers": [
-        { "id": "a", "text": "Vrai", "correct": false },
-        { "id": "b", "text": "Faux", "correct": true }
+        {
+          "id": "a",
+          "text": "Vrai",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Faux",
+          "correct": true
+        }
       ],
       "explanation": "Les mitochondries (et les chloroplastes chez les plantes) possèdent aussi leur propre ADN."
     },
     {
-      "id": "sci-005",
+      "id": "sci-027",
       "categoryId": "sciences",
-      "subcategoryId": "sciences.physique",
+      "subcategoryId": "sciences.bio",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Combien d'os compte le squelette d'un adulte humain, environ ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "160",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "206",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "250",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "300",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "sci-028",
+      "categoryId": "sciences",
+      "subcategoryId": "sciences.bio",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Quel organe filtre le sang et produit l'urine ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Le foie",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "La rate",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Les reins",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "Le pancréas",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "sci-029",
+      "categoryId": "sciences",
+      "subcategoryId": "sciences.bio",
+      "difficulty": 2,
+      "type": "boolean",
+      "prompt": "Les requins sont des mammifères.",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Vrai",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Faux",
+          "correct": true
+        }
+      ],
+      "explanation": "Ce sont des poissons cartilagineux, comme les raies."
+    },
+    {
+      "id": "sci-030",
+      "categoryId": "sciences",
+      "subcategoryId": "sciences.bio",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Combien de cœurs possède une pieuvre ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "1",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "2",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "4",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "3",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "sci-031",
+      "categoryId": "sciences",
+      "subcategoryId": "sciences.bio",
       "difficulty": 4,
       "type": "single",
-      "prompt": "Quel scientifique a formulé les trois lois du mouvement ?",
+      "prompt": "Qui découvre par hasard la pénicilline en 1928 ?",
       "answers": [
-        { "id": "a", "text": "Galilée", "correct": false },
-        { "id": "b", "text": "Isaac Newton", "correct": true },
-        { "id": "c", "text": "Albert Einstein", "correct": false },
-        { "id": "d", "text": "Nikola Tesla", "correct": false }
+        {
+          "id": "a",
+          "text": "Alexander Fleming",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "Louis Pasteur",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Robert Koch",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Joseph Lister",
+          "correct": false
+        }
       ],
-      "explanation": "Publiées dans les « Principia » en 1687."
+      "explanation": "En observant qu'une moisissure du genre Penicillium tuait des bactéries."
+    },
+    {
+      "id": "sci-032",
+      "categoryId": "sciences",
+      "subcategoryId": "sciences.bio",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quel organite est surnommé la « centrale énergétique » de la cellule ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Le noyau",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "La mitochondrie",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "Le ribosome",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Le lysosome",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "sci-033",
+      "categoryId": "sciences",
+      "subcategoryId": "sciences.bio",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Comment appelle-t-on une cellule sans noyau, comme celle des bactéries ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Une cellule eucaryote",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Une cellule souche",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Une cellule procaryote",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "Une cellule végétale",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "sci-034",
+      "categoryId": "sciences",
+      "subcategoryId": "sciences.bio",
+      "difficulty": 4,
+      "type": "single",
+      "prompt": "Qui met au point le premier vaccin de l'histoire, contre la variole, en 1796 ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Louis Pasteur",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Robert Koch",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Alexander Fleming",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Edward Jenner",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "sci-035",
+      "categoryId": "sciences",
+      "subcategoryId": "sciences.bio",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quel gaz les plantes absorbent-elles principalement pendant la photosynthèse ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Le dioxyde de carbone",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "L'oxygène",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "L'azote",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "L'hydrogène",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "sci-036",
+      "categoryId": "sciences",
+      "subcategoryId": "sciences.bio",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Environ combien de litres de sang contient le corps d'un adulte ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "2 litres",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "5 litres",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "8 litres",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "12 litres",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "sci-037",
+      "categoryId": "sciences",
+      "subcategoryId": "sciences.bio",
+      "difficulty": 4,
+      "type": "single",
+      "prompt": "Qui décrit le premier, en 1628, le principe de la circulation sanguine ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Andreas Vesalius",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Claude Bernard",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "William Harvey",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "Antoine Lavoisier",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "sci-038",
+      "categoryId": "sciences",
+      "subcategoryId": "sciences.bio",
+      "difficulty": 1,
+      "type": "single",
+      "prompt": "Quel est le principal organe de la respiration chez l'humain ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Le cœur",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Le diaphragme",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "La trachée",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Les poumons",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "sci-039",
+      "categoryId": "sciences",
+      "subcategoryId": "sciences.maths",
+      "difficulty": 1,
+      "type": "single",
+      "prompt": "Quelle est la valeur de π arrondie au centième ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "3,14",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "3,16",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "3,12",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "3,15",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "sci-040",
+      "categoryId": "sciences",
+      "subcategoryId": "sciences.maths",
+      "difficulty": 1,
+      "type": "single",
+      "prompt": "Combien de degrés mesure un angle droit ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "45°",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "90°",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "180°",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "60°",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "sci-041",
+      "categoryId": "sciences",
+      "subcategoryId": "sciences.maths",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Combien de côtés compte un hexagone ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "5",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "7",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "6",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "8",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "sci-042",
+      "categoryId": "sciences",
+      "subcategoryId": "sciences.maths",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quel théorème relie les longueurs des côtés d'un triangle rectangle ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Le théorème de Thalès",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Le théorème de Fermat",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Le théorème d'Euler",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Le théorème de Pythagore",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "sci-043",
+      "categoryId": "sciences",
+      "subcategoryId": "sciences.maths",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quel est le plus petit nombre premier ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "2",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "0",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "1",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "3",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "sci-044",
+      "categoryId": "sciences",
+      "subcategoryId": "sciences.maths",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Quelle est la somme des angles d'un triangle ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "90°",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "180°",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "270°",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "360°",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "sci-045",
+      "categoryId": "sciences",
+      "subcategoryId": "sciences.maths",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Quel mathématicien grec de l'Antiquité est surnommé le « père de la géométrie » ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Pythagore",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Archimède",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Euclide",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "Thalès",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "sci-046",
+      "categoryId": "sciences",
+      "subcategoryId": "sciences.maths",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Dans quelle suite chaque terme est-il la somme des deux précédents ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "La suite de Collatz",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "La suite arithmétique",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "La suite de Pascal",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "La suite de Fibonacci",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "sci-047",
+      "categoryId": "sciences",
+      "subcategoryId": "sciences.maths",
+      "difficulty": 4,
+      "type": "single",
+      "prompt": "Le « nombre d'or » vaut environ combien ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "1,618",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "1,414",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "2,718",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "3,141",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "sci-048",
+      "categoryId": "sciences",
+      "subcategoryId": "sciences.maths",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quel symbole représente l'infini en mathématiques ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Ω",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "∞",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "∑",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "√",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "sci-049",
+      "categoryId": "sciences",
+      "subcategoryId": "sciences.maths",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Combien de faces possède un cube ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "4",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "8",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "6",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "12",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "sci-050",
+      "categoryId": "sciences",
+      "subcategoryId": "sciences.maths",
+      "difficulty": 4,
+      "type": "single",
+      "prompt": "Quel philosophe et mathématicien français est à l'origine de la géométrie analytique et de la formule « Je pense donc je suis » ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Blaise Pascal",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Pierre de Fermat",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Gottfried Leibniz",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "René Descartes",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "sci-051",
+      "categoryId": "sciences",
+      "subcategoryId": "sciences.maths",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Par quels nombres un nombre premier est-il exactement divisible ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Par 1 et par lui-même",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "Uniquement par 1",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Uniquement par lui-même",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Par tout nombre impair",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "sci-052",
+      "categoryId": "sciences",
+      "subcategoryId": "sciences.maths",
+      "difficulty": 5,
+      "type": "single",
+      "prompt": "Qui démontre en 1994, après plus de 350 ans, le dernier théorème de Fermat ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Grigori Perelman",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Andrew Wiles",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "John Nash",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Terence Tao",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "sci-053",
+      "categoryId": "sciences",
+      "subcategoryId": "sciences.maths",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quelle est la racine carrée de 144 ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "11",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "13",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "12",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "14",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "sci-054",
+      "categoryId": "sciences",
+      "subcategoryId": "sciences.maths",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Comment appelle-t-on le système de numération en base 2, utilisé en informatique ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Le système décimal",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Le système hexadécimal",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Le système octal",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Le système binaire",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "sci-055",
+      "categoryId": "sciences",
+      "subcategoryId": "sciences.maths",
+      "difficulty": 4,
+      "type": "single",
+      "prompt": "Qui est considérée comme la première programmeuse de l'histoire, au XIXe siècle ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Ada Lovelace",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "Grace Hopper",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Hedy Lamarr",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Katherine Johnson",
+          "correct": false
+        }
+      ],
+      "explanation": "Elle décrit un algorithme destiné à la machine analytique de Charles Babbage."
+    },
+    {
+      "id": "sci-056",
+      "categoryId": "sciences",
+      "subcategoryId": "sciences.maths",
+      "difficulty": 1,
+      "type": "single",
+      "prompt": "Combien de côtés possède un triangle ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "2",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "3",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "4",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "5",
+          "correct": false
+        }
+      ]
     }
   ]
 }
