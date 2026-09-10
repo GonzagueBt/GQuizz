@@ -36,6 +36,10 @@ const config: ExpoConfig = {
     // nginx doit renvoyer index.html en fallback (try_files ... /index.html).
     output: 'single',
     favicon: './assets/images/favicon.png',
+    lang: 'fr',
+    themeColor: '#1E1B4B',
+    description:
+      'Quiz de culture générale par thèmes — decks gratuits et mode Global personnalisé.',
   },
   plugins: [
     'expo-router',
