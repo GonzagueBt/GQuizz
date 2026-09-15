@@ -1,0 +1,1673 @@
+{
+  "id": "guerre-froide",
+  "name": "La Guerre froide",
+  "description": "USA contre URSS : mur de Berlin, crise de Cuba et course à l'espace, de 1947 à 1991.",
+  "emoji": "☢️",
+  "categoryId": "histoire",
+  "subcategoryId": "histoire.xxe",
+  "tier": "free",
+  "productId": "gquizz.deck.guerre_froide",
+  "priceHint": "1,99 €",
+  "questionCount": 55,
+  "averageDifficulty": 3,
+  "releasedAt": "2026-09-15",
+  "tags": [
+    "nouveau"
+  ],
+  "previewQuestionIds": [
+    "gfr-001",
+    "gfr-002"
+  ],
+  "questions": [
+    {
+      "id": "gfr-001",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.xxe",
+      "difficulty": 1,
+      "type": "single",
+      "prompt": "Quelles sont les deux superpuissances qui s'affrontent pendant la Guerre froide ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Les États-Unis et l'URSS",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "Le Royaume-Uni et l'Allemagne",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "La Chine et le Japon",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "La France et la Russie",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "gfr-002",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.xxe",
+      "difficulty": 1,
+      "type": "single",
+      "prompt": "Quel mur, symbole de la division du monde, est érigé à Berlin en 1961 ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Le mur de l'Atlantique",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Le mur de Berlin",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "Le rideau de fer physique",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Le mur de la honte américain",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "gfr-003",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.xxe",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "En quelle année le mur de Berlin tombe-t-il ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "1991",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "1985",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "1989",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "1994",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "gfr-004",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.xxe",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quelle ville allemande reste divisée en deux, symbole de la Guerre froide ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Munich",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Hambourg",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Francfort",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Berlin",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "gfr-005",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.xxe",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quel pays se retrouve divisé en deux États rivaux après 1945 ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "L'Allemagne",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "L'Italie",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "L'Autriche seule durablement",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "La Pologne",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "gfr-006",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.xxe",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Comment se nomme le blocus imposé par l'URSS à Berlin-Ouest en 1948-1949 ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Le siège de Berlin",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Le blocus de Berlin",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "L'encerclement de Berlin",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "L'embargo berlinois",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "gfr-007",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.xxe",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Comment les Occidentaux ravitaillent-ils Berlin-Ouest pendant le blocus de 1948-1949 ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Par des convois blindés",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Par des sous-marins",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Par un pont aérien",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "Par des tunnels secrets",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "gfr-008",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.xxe",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Comment se nomme l'alliance militaire occidentale fondée en 1949 ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "L'ONU",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "La CEE",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "L'UEO",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "L'OTAN",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "gfr-009",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.xxe",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Comment se nomme l'alliance militaire du bloc soviétique, fondée en 1955 en réponse à l'OTAN ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Le pacte de Varsovie",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "Le Komintern",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "L'Internationale communiste",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Le Kominform",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "gfr-010",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.xxe",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quelle crise de 1962 amène le monde au bord d'une guerre nucléaire ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Le blocus de Berlin",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "La crise des missiles de Cuba",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "La crise de Suez",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "L'affaire de la baie des Cochons seule",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "gfr-011",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.xxe",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Quel dirigeant cubain, allié de l'URSS, est au cœur de la crise des missiles de 1962 ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Che Guevara",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Raúl Castro",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Fidel Castro",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "Fulgencio Batista",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "gfr-012",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.xxe",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quel président américain gère la crise des missiles de Cuba en 1962 ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Dwight Eisenhower",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Lyndon Johnson",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Richard Nixon",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "John F. Kennedy",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "gfr-013",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.xxe",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Quel dirigeant soviétique négocie face à Kennedy lors de la crise de Cuba ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Nikita Khrouchtchev",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "Joseph Staline",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Léonid Brejnev",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Mikhaïl Gorbatchev",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "gfr-014",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.xxe",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quelle guerre, de 1955 à 1975 en Asie du Sud-Est, oppose indirectement les deux blocs ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "La guerre de Corée",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "La guerre du Vietnam",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "La guerre du Golfe",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "La guerre d'Indochine seule",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "gfr-015",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.xxe",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Quelle guerre de 1950-1953 oppose la Corée du Nord communiste à la Corée du Sud, soutenues par les deux blocs ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "La guerre du Vietnam",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "La guerre sino-japonaise",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "La guerre de Corée",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "La guerre du Pacifique",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "gfr-016",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.xxe",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Comment appelle-t-on la rivalité technologique entre USA et URSS pour la conquête spatiale ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Le programme Apollo seul",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "L'opération Spoutnik",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Le traité de l'espace",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "La course à l'espace",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "gfr-017",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.xxe",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Quelle doctrine américaine, énoncée en 1947, vise à contenir l'expansion du communisme ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "La doctrine Truman",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "La doctrine Monroe",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "La doctrine Brejnev",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "La doctrine Eisenhower seule",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "gfr-018",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.xxe",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Quel plan américain d'aide économique massive à l'Europe est lancé en 1947 ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Le plan Schuman",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Le plan Marshall",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "Le new deal européen",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Le plan Monnet",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "gfr-019",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.xxe",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quelle expression désigne la frontière idéologique qui divise l'Europe pendant la Guerre froide ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "La ligne rouge",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Le mur invisible",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Le rideau de fer",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "La frontière atomique",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "gfr-020",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.xxe",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Qui popularise l'expression « rideau de fer » dans un discours célèbre de 1946 ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Harry Truman",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Charles de Gaulle",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Franklin Roosevelt",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Winston Churchill",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "gfr-021",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.xxe",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Comment appelle-t-on le processus de critique du stalinisme lancé par Khrouchtchev après 1956 ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "La déstalinisation",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "La perestroïka",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "La glasnost",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "La révision léniniste",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "gfr-022",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.xxe",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quel dirigeant soviétique, symbole d'une ère de terreur, meurt en 1953 ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Lénine",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Joseph Staline",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "Khrouchtchev",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Brejnev",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "gfr-023",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.xxe",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Comment se nomme l'agence de renseignement extérieur des États-Unis ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Le FBI",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "La NSA seule",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "La CIA",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "Le Pentagone",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "gfr-024",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.xxe",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Comment se nomme le service de renseignement et de sécurité de l'URSS ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Le Goulag",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "La Tchéka seule",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Le Politburo",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Le KGB",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "gfr-025",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.xxe",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "En quelle année l'URSS cesse-t-elle officiellement d'exister ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "1991",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "1989",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "1993",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "1987",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "gfr-026",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.xxe",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quel est le dernier dirigeant de l'URSS, artisan de réformes majeures dans les années 1980 ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Léonid Brejnev",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Mikhaïl Gorbatchev",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "Iouri Andropov",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Boris Eltsine",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "gfr-027",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.xxe",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Comment se nomme la politique de restructuration économique lancée par Gorbatchev ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "La glasnost",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "La NEP",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "La perestroïka",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "Le Goskomstat",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "gfr-028",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.xxe",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Comment se nomme la politique de transparence et d'ouverture lancée par Gorbatchev ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "La perestroïka",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "La détente",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "La coexistence pacifique",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "La glasnost",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "gfr-029",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.xxe",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quel président américain des années 1980 négocie la fin de la Guerre froide avec Gorbatchev ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Ronald Reagan",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "Jimmy Carter",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "George H. W. Bush seul",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Bill Clinton",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "gfr-030",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.xxe",
+      "difficulty": 4,
+      "type": "single",
+      "prompt": "Quelle doctrine soviétique justifie l'intervention militaire dans les pays du bloc de l'Est qui s'écarteraient du communisme ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "La doctrine Truman",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "La doctrine Brejnev",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "La doctrine Jdanov",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "La doctrine Molotov",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "gfr-031",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.xxe",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Quelle révolte de 1956, réprimée dans le sang par l'URSS, éclate en Hongrie ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Le Printemps de Prague",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "La révolte de Poznań",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "L'insurrection de Budapest",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "La révolution de Gdańsk",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "gfr-032",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.xxe",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Quel mouvement de libéralisation de 1968 en Tchécoslovaquie est écrasé par les chars du pacte de Varsovie ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "L'insurrection de Budapest",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "La révolution de velours",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Solidarność",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Le Printemps de Prague",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "gfr-033",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.xxe",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Comment appelle-t-on le mouvement rassemblant les pays refusant de s'aligner sur l'un des deux blocs ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Le mouvement des non-alignés",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "Le tiers-monde uni",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "L'Internationale neutre",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Le bloc intermédiaire",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "gfr-034",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.xxe",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Quelle conférence de 1955 fonde symboliquement le mouvement des pays non-alignés ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "La conférence de Yalta",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "La conférence de Bandung",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "La conférence de Potsdam",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "La conférence de Genève",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "gfr-035",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.xxe",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Sur quel principe repose la dissuasion nucléaire qui empêche l'affrontement direct USA-URSS ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "La supériorité aérienne",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Le blocus économique réciproque",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "La destruction mutuelle assurée",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "La neutralité armée",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "gfr-036",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.xxe",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Comment se nomment les accords des années 1970 limitant les armements stratégiques entre USA et URSS ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Les accords de Yalta",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Les accords START seuls",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Le traité ABM seul",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Les accords SALT",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "gfr-037",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.xxe",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Quels accords de 1975 réunissent Est et Ouest sur la sécurité et la coopération en Europe ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Les accords d'Helsinki",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "Les accords de Camp David",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Les accords de Genève",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Les accords de Reykjavik",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "gfr-038",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.xxe",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Quels pays boycottent en masse les Jeux olympiques de Moscou en 1980, en protestation contre l'invasion de l'Afghanistan ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Les pays du pacte de Varsovie",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Les États-Unis et de nombreux alliés",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "La Chine et le Japon seuls",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Les pays non-alignés seuls",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "gfr-039",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.xxe",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quel pays d'Asie centrale l'URSS envahit-elle en 1979, provoquant un regain de tension avec l'Occident ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "L'Iran",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Le Pakistan",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "L'Afghanistan",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "L'Irak",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "gfr-040",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.xxe",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Quel célèbre point de passage relie Berlin-Est et Berlin-Ouest pendant la Guerre froide ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "La porte de Brandebourg seule",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Le pont des espions officiel",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "La station Friedrichstrasse",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Checkpoint Charlie",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "gfr-041",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.xxe",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "En quelle année le mur de Berlin est-il construit ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "1961",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "1955",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "1968",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "1949",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "gfr-042",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.xxe",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Pourquoi la RDA construit-elle le mur de Berlin en 1961 ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Pour se protéger d'une invasion militaire de l'OTAN",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Pour stopper l'exode des Allemands de l'Est vers l'Ouest",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "Pour agrandir la ville",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Sur ordre des Nations unies",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "gfr-043",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.xxe",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Comment appelle-t-on les conflits où les deux superpuissances s'affrontent indirectement, via d'autres pays ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Les guerres totales",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Les guerres éclair",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Les guerres par procuration",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "Les guerres asymétriques",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "gfr-044",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.xxe",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quel dirigeant proclame la République populaire de Chine en 1949, l'ancrant dans le camp communiste ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Tchang Kaï-chek",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Deng Xiaoping",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Zhou Enlai",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Mao Zedong",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "gfr-045",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.xxe",
+      "difficulty": 4,
+      "type": "single",
+      "prompt": "Quel traité de 1987, signé par Reagan et Gorbatchev, élimine une catégorie entière de missiles nucléaires en Europe ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Le traité FNI (INF)",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "Le traité SALT I",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Le traité ABM",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Le traité de non-prolifération",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "gfr-046",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.xxe",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Quel président français développe, à partir des années 1960, une force de dissuasion nucléaire indépendante ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Georges Pompidou",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Charles de Gaulle",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "François Mitterrand",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Vincent Auriol",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "gfr-047",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.xxe",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Comment se nomme la force nucléaire militaire indépendante développée par la France ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "La Grande Armée",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Le bouclier français",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "La force de frappe",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "La légion atomique",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "gfr-048",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.xxe",
+      "difficulty": 4,
+      "type": "single",
+      "prompt": "En quelle ville suisse se tient un sommet historique entre Reagan et Gorbatchev en 1985 ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Zurich",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Berne",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Lausanne",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Genève",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "gfr-049",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.xxe",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quel événement de 1990 réunifie les deux Allemagnes séparées depuis 1949 ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "La réunification allemande",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "Le traité de Maastricht",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "L'accord de Bonn",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Le pacte de Berlin",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "gfr-050",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.xxe",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Quel chancelier ouest-allemand supervise la réunification de l'Allemagne en 1990 ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Willy Brandt",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Helmut Kohl",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "Konrad Adenauer",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Helmut Schmidt",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "gfr-051",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.xxe",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Quel syndicat polonais, dirigé par Lech Wałęsa, joue un rôle clé dans la chute du communisme en Pologne ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Le Komsomol",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Le Parti ouvrier unifié",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Solidarność",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "La CGT polonaise",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "gfr-052",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.xxe",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quel satellite soviétique, lancé en 1957, marque le début spectaculaire de la course à l'espace ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Vostok 1",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Saliout 1",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Apollo 1",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Spoutnik 1",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "gfr-053",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.xxe",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Quelle courte période des années 1970, marquée par un relâchement des tensions Est-Ouest, précède un regain de rivalité vers 1980 ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "La détente",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "Le dégel",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "La coexistence pacifique seule",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "La perestroïka",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "gfr-054",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.xxe",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Comment appelle-t-on la révolution pacifique de 1989 qui renverse le régime communiste en Tchécoslovaquie ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Le Printemps de Prague",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "La révolution de velours",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "La révolution des œillets",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "La révolution orange",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "gfr-055",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.xxe",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Qui succède à Mikhaïl Gorbatchev à la tête de la Russie après la dissolution de l'URSS en 1991 ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Vladimir Poutine",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Léonid Brejnev",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Boris Eltsine",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "Iouri Andropov",
+          "correct": false
+        }
+      ]
+    }
+  ]
+}

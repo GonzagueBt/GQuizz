@@ -1,0 +1,1674 @@
+{
+  "id": "egypte-antique",
+  "name": "Égypte antique",
+  "description": "Pharaons, pyramides, hiéroglyphes et dieux : plus de 3000 ans de civilisation.",
+  "emoji": "☥",
+  "categoryId": "histoire",
+  "subcategoryId": "histoire.antiquite",
+  "tier": "free",
+  "productId": "gquizz.deck.egypte_antique",
+  "priceHint": "1,99 €",
+  "questionCount": 55,
+  "averageDifficulty": 3,
+  "releasedAt": "2026-09-15",
+  "tags": [
+    "nouveau"
+  ],
+  "previewQuestionIds": [
+    "egy-001",
+    "egy-002"
+  ],
+  "questions": [
+    {
+      "id": "egy-001",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.antiquite",
+      "difficulty": 1,
+      "type": "single",
+      "prompt": "Quel fleuve a permis l'essor de la civilisation égyptienne antique ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Le Nil",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "Le Tigre",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "L'Euphrate",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Le Jourdain",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "egy-002",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.antiquite",
+      "difficulty": 1,
+      "type": "single",
+      "prompt": "Comment appelle-t-on les grands monuments funéraires triangulaires construits pour les pharaons ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Les ziggourats",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Les pyramides",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "Les mastabas",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Les obélisques",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "egy-003",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.antiquite",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Comment se nomme l'écriture égyptienne antique composée de symboles ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Le cunéiforme",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "L'alphabet phénicien",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Les hiéroglyphes",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "Le linéaire B",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "egy-004",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.antiquite",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Quelle pierre trilingue a permis de déchiffrer les hiéroglyphes ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "La pierre de Palerme",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "La stèle de Naram-Sin",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "La pierre de Behistun",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "La pierre de Rosette",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "egy-005",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.antiquite",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Qui déchiffre les hiéroglyphes en 1822, grâce à la pierre de Rosette ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Jean-François Champollion",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "Howard Carter",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Auguste Mariette",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Gaston Maspero",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "egy-006",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.antiquite",
+      "difficulty": 1,
+      "type": "single",
+      "prompt": "Quelle célèbre reine d'Égypte fut liée à Jules César puis à Marc Antoine ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Néfertiti",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Cléopâtre",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "Hatchepsout",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Néfertari",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "egy-007",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.antiquite",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quel jeune pharaon, mort vers 19 ans, doit sa célébrité moderne à la découverte de sa tombe intacte en 1922 ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Ramsès II",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Akhenaton",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Toutânkhamon",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "Khéops",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "egy-008",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.antiquite",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Quel archéologue britannique découvre la tombe de Toutânkhamon ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Flinders Petrie",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Arthur Evans",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Leonard Woolley",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Howard Carter",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "egy-009",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.antiquite",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Comment appelle-t-on la technique égyptienne de conservation des corps après la mort ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "La momification",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "L'embaumement royal",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "La pétrification",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "La calcination",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "egy-010",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.antiquite",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Quel dieu égyptien à tête de chacal est associé aux morts et à la momification ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Horus",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Anubis",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "Thot",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Seth",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "egy-011",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.antiquite",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quel est le principal dieu solaire du panthéon égyptien ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Ptah",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Sobek",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Rê",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "Khnoum",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "egy-012",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.antiquite",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Quel dieu égyptien à tête de faucon protège les pharaons ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Anubis",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Seth",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Khonsou",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Horus",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "egy-013",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.antiquite",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Quelle déesse égyptienne, épouse d'Osiris, est la mère d'Horus ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Isis",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "Hathor",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Maât",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Bastet",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "egy-014",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.antiquite",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Sur quel plateau, près du Caire, se dressent la grande pyramide et le Sphinx ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Le plateau de Saqqarah",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Le plateau de Gizeh",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "Le plateau de Louxor",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Le plateau d'Abou Simbel",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "egy-015",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.antiquite",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Quel pharaon fait construire la grande pyramide de Gizeh ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Khéphren",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Mykérinos",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Khéops",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "Djéser",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "egy-016",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.antiquite",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quelle statue à corps de lion et tête humaine se dresse devant les pyramides de Gizeh ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Le colosse de Memnon",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "L'obélisque de Louxor",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Le temple d'Abou Simbel",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Le Sphinx",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "egy-017",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.antiquite",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Sur quel matériau, fabriqué à partir d'une plante du Nil, les Égyptiens écrivaient-ils ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Le papyrus",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "Le parchemin",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "L'argile",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Le vélin",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "egy-018",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.antiquite",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Quelle ville de Haute-Égypte est la capitale religieuse sous le Nouvel Empire, abritant les temples de Karnak et Louxor ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Memphis",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Thèbes",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "Alexandrie",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Héliopolis",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "egy-019",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.antiquite",
+      "difficulty": 4,
+      "type": "single",
+      "prompt": "Quel pharaon tente d'imposer le culte exclusif du dieu solaire Aton, avant que son successeur ne revienne à la religion traditionnelle ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Ramsès II",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Thoutmôsis III",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Akhenaton",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "Séthi Ier",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "egy-020",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.antiquite",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Quelle est l'épouse d'Akhenaton, célèbre pour son buste conservé à Berlin ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Ânkhésenamon",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Tiyi",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Méritaton",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Néfertiti",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "egy-021",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.antiquite",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Que déposaient chaque année les crues du Nil sur les terres, assurant la fertilité agricole de l'Égypte ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Du limon",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "Du sel",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Du sable fin",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "De la cendre",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "egy-022",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.antiquite",
+      "difficulty": 4,
+      "type": "single",
+      "prompt": "Quelle reine se fait représenter en pharaon et règne en son nom propre au XVe siècle av. J.-C. ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Néfertari",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Hatchepsout",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "Ahmès-Néfertary",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Ânkhésenamon",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "egy-023",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.antiquite",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Où se trouve aujourd'hui l'un des obélisques égyptiens offerts à la France, dressé au centre de Paris ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Place Vendôme",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Place de l'Étoile",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Place de la Concorde",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "Place des Vosges",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "egy-024",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.antiquite",
+      "difficulty": 4,
+      "type": "single",
+      "prompt": "Comment appelle-t-on les vases dans lesquels les embaumeurs plaçaient certains organes du défunt ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Les amphores rituelles",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Les urnes sacrées",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Les jarres d'Osiris",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Les vases canopes",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "egy-025",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.antiquite",
+      "difficulty": 4,
+      "type": "single",
+      "prompt": "Comment se nomme le recueil de formules funéraires censées guider le défunt dans l'au-delà ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Le Livre des Morts",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "Le Livre des Rois",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Le Livre du Nil",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Le Papyrus d'Ani",
+          "correct": false
+        }
+      ],
+      "explanation": "Le Papyrus d'Ani en est l'un des exemplaires les plus célèbres."
+    },
+    {
+      "id": "egy-026",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.antiquite",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Environ combien de temps dure la civilisation égyptienne antique, des premières dynasties à la conquête romaine ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Environ 500 ans",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Environ 3000 ans",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "Environ 1000 ans",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Environ 10 000 ans",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "egy-027",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.antiquite",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Comment se nomme la croix à anse, symbole égyptien de vie éternelle ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Le scarabée",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Le djed",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "L'ankh",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "L'oudjat",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "egy-028",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.antiquite",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Quel grand temple, dédié au dieu Amon, se trouve près de Louxor et compte parmi les plus vastes complexes religieux au monde ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Le temple d'Abou Simbel",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Le temple d'Edfou",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Le temple de Philae",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Le temple de Karnak",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "egy-029",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.antiquite",
+      "difficulty": 4,
+      "type": "single",
+      "prompt": "Quel pharaon signe, vers 1259 av. J.-C., l'un des plus anciens traités de paix connus, avec les Hittites ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Ramsès II",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "Séthi Ier",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Thoutmôsis III",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Mérenptah",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "egy-030",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.antiquite",
+      "difficulty": 4,
+      "type": "single",
+      "prompt": "Quelle écriture cursive, plus rapide à tracer que les hiéroglyphes, était utilisée par les scribes pour les textes courants ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "L'écriture cunéiforme",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "L'écriture hiératique",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "Le linéaire A",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "L'alphabet ougaritique",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "egy-031",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.antiquite",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quel dieu égyptien, tué puis ressuscité selon le mythe, règne sur le royaume des morts ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Seth",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Thot",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Osiris",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "Geb",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "egy-032",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.antiquite",
+      "difficulty": 4,
+      "type": "single",
+      "prompt": "Combien de grandes pyramides principales compte le site de Gizeh ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "2",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "4",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "5",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "3",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "egy-033",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.antiquite",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Quelle expédition militaire française de 1798, menée par Napoléon Bonaparte, marque le début de l'égyptologie moderne ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "La campagne d'Égypte",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "La campagne d'Italie",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "La campagne de Russie",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "L'expédition du Levant",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "egy-034",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.antiquite",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Près de quelle capitale égyptienne actuelle se trouvait Memphis, l'une des premières capitales de l'Égypte antique ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Alexandrie",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Le Caire",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "Assouan",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Louxor",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "egy-035",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.antiquite",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Comment appelle-t-on le coffre décoré dans lequel repose la momie d'un défunt ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Un naos",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Un pylône",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Un sarcophage",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "Un mastaba",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "egy-036",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.antiquite",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Quel symbole égyptien en forme d'œil est censé protéger et porter chance ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "L'œil de Rê",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "L'œil de Maât",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "L'œil de Seth",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "L'œil d'Horus",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "egy-037",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.antiquite",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Comment se nomme la structure à degrés, plus ancienne que les vraies pyramides, construite pour le pharaon Djéser à Saqqarah ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "La pyramide à degrés",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "La pyramide rouge",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "La pyramide coudée",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "La pyramide noire",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "egy-038",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.antiquite",
+      "difficulty": 4,
+      "type": "single",
+      "prompt": "Quel architecte est crédité de la conception de la pyramide à degrés de Saqqarah, au point d'être plus tard vénéré comme un dieu ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Senenmout",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Imhotep",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "Hemiounou",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Ineni",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "egy-039",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.antiquite",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quelle déesse à tête de chat symbolise la protection du foyer dans l'Égypte antique ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Sekhmet",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Hathor",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Bastet",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "Taouret",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "egy-040",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.antiquite",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Quel dieu à tête d'ibis est associé à l'écriture et à la sagesse ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Khnoum",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Sobek",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Amon",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Thot",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "egy-041",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.antiquite",
+      "difficulty": 4,
+      "type": "single",
+      "prompt": "Quelle déesse, personnification de l'ordre cosmique et de la justice, pèse le cœur des défunts lors du jugement ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Maât",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "Nout",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Neith",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Sekhmet",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "egy-042",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.antiquite",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Comment se nomme le monument dressé aux abords des temples égyptiens, une haute colonne de pierre effilée à son sommet ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Un pylône",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Un obélisque",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "Un naos",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Un colosse",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "egy-043",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.antiquite",
+      "difficulty": 4,
+      "type": "single",
+      "prompt": "Quel pharaon, l'un des plus grands bâtisseurs, fait ériger les temples d'Abou Simbel ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Toutânkhamon",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Khéops",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Ramsès II",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "Thoutmôsis III",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "egy-044",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.antiquite",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "En quelle année l'Égypte antique passe-t-elle sous domination romaine, après la mort de Cléopâtre ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "146 av. J.-C.",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "332 av. J.-C.",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "27 av. J.-C.",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "30 av. J.-C.",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "egy-045",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.antiquite",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quel conquérant macédonien fonde la ville d'Alexandrie en 331 av. J.-C. ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Alexandre le Grand",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "Ptolémée Ier",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Jules César",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Cambyse II",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "egy-046",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.antiquite",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Comment se nomme la célèbre bibliothèque antique d'Alexandrie, l'un des plus grands centres de savoir du monde antique ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "La bibliothèque de Pergame",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "La bibliothèque d'Alexandrie",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "La bibliothèque de Ninive",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "La bibliothèque de Thèbes",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "egy-047",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.antiquite",
+      "difficulty": 4,
+      "type": "single",
+      "prompt": "Quelle dynastie, d'origine grecque, règne en Égypte de la mort d'Alexandre le Grand jusqu'à Cléopâtre ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "La dynastie séleucide",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "La dynastie achéménide",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "La dynastie ptolémaïque",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "La dynastie antigonide",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "egy-048",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.antiquite",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quel animal sacré, associé au dieu Anubis et souvent momifié, rôdait près des nécropoles égyptiennes ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Le hyène",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Le loup",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Le renard des sables",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Le chacal",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "egy-049",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.antiquite",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Quel insecte, symbole de renaissance, est représenté en amulette dans de nombreux bijoux égyptiens ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Le scarabée",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "La libellule",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "L'abeille",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "La mante religieuse",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "egy-050",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.antiquite",
+      "difficulty": 4,
+      "type": "single",
+      "prompt": "Quel pharaon de la XVIIIe dynastie mène de vastes campagnes militaires et agrandit l'empire égyptien jusqu'en Syrie, méritant le surnom de « Napoléon de l'Égypte antique » ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Aménophis III",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Thoutmôsis III",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "Séthi Ier",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Horemheb",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "egy-051",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.antiquite",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Combien de royaumes principaux distingue-t-on traditionnellement dans l'histoire de l'Égypte antique (Ancien, Moyen, Nouvel Empire) ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "2",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "4",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "3",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "5",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "egy-052",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.antiquite",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Quel dieu-bélier, associé à la crue du Nil, est représenté façonnant l'humanité sur un tour de potier ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Amon",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Min",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Sobek",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Khnoum",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "egy-053",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.antiquite",
+      "difficulty": 4,
+      "type": "single",
+      "prompt": "En quelle langue, aujourd'hui éteinte mais conservée par les prières coptes, l'égyptien ancien a-t-il survécu le plus longtemps ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Le copte",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "L'araméen",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Le démotique",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Le nubien ancien",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "egy-054",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.antiquite",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quel matériau précieux, importé de Nubie, est particulièrement recherché par les pharaons pour leurs trésors ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "L'argent",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "L'or",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "Le fer",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "L'étain",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "egy-055",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.antiquite",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Quel peuple voisin, au sud de l'Égypte, entretient avec elle des liens étroits de commerce et de rivalité, notamment autour de l'or ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Les Hittites",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Les Assyriens",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Les Nubiens",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "Les Phéniciens",
+          "correct": false
+        }
+      ]
+    }
+  ]
+}

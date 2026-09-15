@@ -1,0 +1,1676 @@
+{
+  "id": "napoleon",
+  "name": "Napoléon Bonaparte",
+  "description": "De la Corse à Sainte-Hélène : campagnes, sacre, Code civil et chute de l'Empire.",
+  "emoji": "🎩",
+  "categoryId": "histoire",
+  "subcategoryId": "histoire.france",
+  "tier": "free",
+  "productId": "gquizz.deck.napoleon",
+  "priceHint": "1,99 €",
+  "questionCount": 55,
+  "averageDifficulty": 3,
+  "releasedAt": "2026-09-15",
+  "tags": [
+    "nouveau"
+  ],
+  "previewQuestionIds": [
+    "nap-001",
+    "nap-010"
+  ],
+  "questions": [
+    {
+      "id": "nap-001",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.france",
+      "difficulty": 1,
+      "type": "single",
+      "prompt": "Sur quelle île méditerranéenne Napoléon Bonaparte est-il né ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "La Corse",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "La Sardaigne",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "La Sicile",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Malte",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "nap-002",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.france",
+      "difficulty": 1,
+      "type": "single",
+      "prompt": "Quel titre Napoléon prend-il en 1804 ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Roi de France",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Empereur des Français",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "Premier Consul à vie",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Protecteur de la République",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "nap-003",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.france",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "En quelle année Napoléon est-il sacré empereur ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "1799",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "1810",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "1804",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "1812",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "nap-004",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.france",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Dans quelle cathédrale parisienne Napoléon se fait-il sacrer empereur ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "La Sainte-Chapelle",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Saint-Denis",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Reims",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Notre-Dame de Paris",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "nap-005",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.france",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quelle est la première épouse de Napoléon, dont il divorce en 1809 faute d'héritier ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Joséphine de Beauharnais",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "Marie-Louise d'Autriche",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Pauline Bonaparte",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Hortense de Beauharnais",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "nap-006",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.france",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Quelle archiduchesse d'Autriche Napoléon épouse-t-il en secondes noces, en 1810 ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Marie-Antoinette",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Marie-Louise d'Autriche",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "Caroline Bonaparte",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Marie-Thérèse",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "nap-007",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.france",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Comment se nomme la grande victoire de Napoléon en 1805, contre les armées autrichienne et russe ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Iéna",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Wagram",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Austerlitz",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "Friedland",
+          "correct": false
+        }
+      ],
+      "explanation": "Considérée comme le chef-d'œuvre tactique de Napoléon, aussi appelée « bataille des Trois Empereurs »."
+    },
+    {
+      "id": "nap-008",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.france",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Sur quelle île Napoléon est-il exilé une première fois en 1814 ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Sainte-Hélène",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "La Corse",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "L'île de Ré",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "L'île d'Elbe",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "nap-009",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.france",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Sur quelle île isolée de l'Atlantique sud Napoléon meurt-il en exil en 1821 ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Sainte-Hélène",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "L'île d'Elbe",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Malte",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Les Canaries",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "nap-010",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.france",
+      "difficulty": 1,
+      "type": "single",
+      "prompt": "Quelle bataille de 1815 marque la défaite finale de Napoléon ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Leipzig",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Waterloo",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "Trafalgar",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Wagram",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "nap-011",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.france",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Dans quel pays actuel se déroule la bataille de Waterloo ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "La France",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Les Pays-Bas",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "La Belgique",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "L'Allemagne",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "nap-012",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.france",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Quel général britannique remporte la bataille de Waterloo face à Napoléon ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Nelson",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Lord Raglan",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Le duc de Marlborough",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Le duc de Wellington",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "nap-013",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.france",
+      "difficulty": 4,
+      "type": "single",
+      "prompt": "Quel maréchal prussien contribue de façon décisive à la victoire alliée à Waterloo ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Blücher",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "Bismarck",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Moltke",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Scharnhorst",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "nap-014",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.france",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Comment se nomme le grand code juridique instauré par Napoléon en 1804, encore en usage aujourd'hui ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Le Code pénal",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Le Code civil",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "Le Code de commerce",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Le Code militaire",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "nap-015",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.france",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Comment se nomme la désastreuse campagne militaire de Napoléon en 1812 ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "La campagne d'Italie",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "La campagne d'Égypte",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "La campagne de Russie",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "La campagne d'Allemagne",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "nap-016",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.france",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Quelle capitale Napoléon occupe-t-il en 1812, avant de devoir battre en retraite dans le froid ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Saint-Pétersbourg",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Varsovie",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Kiev",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Moscou",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "nap-017",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.france",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Comment appelle-t-on la période de retour au pouvoir de Napoléon entre mars et juin 1815 ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Les Cent-Jours",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "Les Trois Glorieuses",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "La Restauration",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Le Directoire",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "nap-018",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.france",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Quelle décoration Napoléon crée-t-il en 1802 pour récompenser le mérite civil et militaire ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "L'ordre de Saint-Louis",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "La Légion d'honneur",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "La croix de guerre",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "L'ordre du Mérite",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "nap-019",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.france",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quel régime politique Napoléon renverse-t-il lors du coup d'État de 1799 ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "La Convention",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "La Restauration",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Le Directoire",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "La monarchie constitutionnelle",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "nap-020",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.france",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Comment se nomme le coup d'État par lequel Napoléon prend le pouvoir, le 9 novembre 1799 ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Le 9 Thermidor",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Le 14 Juillet",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Le 10 Août",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Le 18 Brumaire",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "nap-021",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.france",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Quel titre porte Napoléon entre 1799 et 1804, avant de devenir empereur ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Premier Consul",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "Consul de la République",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Directeur exécutif",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Protecteur du peuple",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "nap-022",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.france",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quel frère de Napoléon devient roi d'Espagne en 1808 ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Louis Bonaparte",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Joseph Bonaparte",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "Jérôme Bonaparte",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Lucien Bonaparte",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "nap-023",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.france",
+      "difficulty": 4,
+      "type": "single",
+      "prompt": "Quel frère de Napoléon devient roi de Hollande ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Joseph Bonaparte",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Jérôme Bonaparte",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Louis Bonaparte",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "Lucien Bonaparte",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "nap-024",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.france",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Quel vaste territoire nord-américain Napoléon vend-il aux États-Unis en 1803 ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "La Floride",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Le Québec",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "La Nouvelle-Angleterre",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "La Louisiane",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "nap-025",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.france",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "En 1798, quelle campagne militaire conduit Napoléon jusqu'aux pyramides de Gizeh ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "La campagne d'Égypte",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "La campagne d'Italie",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "La campagne de Syrie",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "La campagne de Russie",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "nap-026",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.france",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quelle bataille de 1800, en Italie, consolide le pouvoir du Premier Consul Bonaparte ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Rivoli",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Marengo",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "Arcole",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Lodi",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "nap-027",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.france",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Comment se nomme le blocus économique imposé par Napoléon contre l'Angleterre à partir de 1806 ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Le siège maritime",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "L'embargo impérial",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Le blocus continental",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "Le pacte de Tilsit",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "nap-028",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.france",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Quel roi de France est restauré sur le trône après la première abdication de Napoléon, en 1814 ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Charles X",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Louis-Philippe",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Louis XVII",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Louis XVIII",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "nap-029",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.france",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quel monument parisien Napoléon commande-t-il pour célébrer les victoires de son armée ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "L'Arc de triomphe",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "La tour Eiffel",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Le Panthéon",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Les Invalides",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "nap-030",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.france",
+      "difficulty": 4,
+      "type": "single",
+      "prompt": "Quel neveu de Napoléon devient empereur des Français en 1852 sous le nom de Napoléon III ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Jérôme-Napoléon Bonaparte",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Louis-Napoléon Bonaparte",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "Napoléon II",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Charles-Louis Bonaparte",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "nap-031",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.france",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Comment se nomme la principale armée de Napoléon, forgée à partir de 1805 ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "L'Armée du Nord",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "La Garde impériale seule",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "La Grande Armée",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "L'Armée de réserve",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "nap-032",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.france",
+      "difficulty": 4,
+      "type": "single",
+      "prompt": "Quel peintre officiel immortalise Napoléon franchissant les Alpes et son sacre ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Eugène Delacroix",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Jean-Auguste-Dominique Ingres",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Théodore Géricault",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Jacques-Louis David",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "nap-033",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.france",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "En 1806, quelle bataille voit Napoléon écraser l'armée prussienne ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Iéna",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "Wagram",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Eylau",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Friedland",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "nap-034",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.france",
+      "difficulty": 4,
+      "type": "single",
+      "prompt": "Sur quelle colonie française Napoléon envoie-t-il une expédition, menée par son beau-frère, pour tenter de rétablir l'esclavage ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "La Martinique",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Saint-Domingue",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "La Guadeloupe",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "La Réunion",
+          "correct": false
+        }
+      ],
+      "explanation": "L'expédition menée par le général Leclerc échoue face à Toussaint Louverture puis Jean-Jacques Dessalines ; Haïti proclame son indépendance en 1804."
+    },
+    {
+      "id": "nap-035",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.france",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Quel diplomate, ministre des Affaires étrangères de Napoléon, est réputé pour son habileté et son opportunisme politique ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Fouché",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Murat",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Talleyrand",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "Berthier",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "nap-036",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.france",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Qui dirige la police de Napoléon, réputé pour son réseau d'espionnage ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Cambacérès",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Junot",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Savary",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Joseph Fouché",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "nap-037",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.france",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "En quelle année Napoléon Bonaparte naît-il ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "1769",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "1775",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "1760",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "1780",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "nap-038",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.france",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "En quelle année Napoléon meurt-il en exil ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "1815",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "1821",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "1825",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "1830",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "nap-039",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.france",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Quel traité, signé après Austerlitz, met fin à la Troisième Coalition contre la France ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Le traité de Tilsit",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Le traité d'Amiens",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Le traité de Presbourg",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "Le traité de Vienne",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "nap-040",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.france",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Quelle sœur de Napoléon, princesse Borghèse, est représentée dans une célèbre statue en Vénus allongée ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Caroline Bonaparte",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Élisa Bonaparte",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Joséphine",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Pauline Bonaparte",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "nap-041",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.france",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quelle école forme le jeune Napoléon avant qu'il ne devienne officier d'artillerie ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "L'École militaire de Paris",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "Saint-Cyr",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Polytechnique",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "L'École navale",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "nap-042",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.france",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Quel maréchal, gouverneur de Paris, rallie les Bourbons en 1814 et contribue à la chute de Napoléon ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Ney",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Marmont",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "Davout",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Soult",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "nap-043",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.france",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Comment se nomme le régime de trois Consuls qui succède au Directoire en 1799 ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Le Triumvirat",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Le Comité de salut public",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Le Consulat",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "La Régence",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "nap-044",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.france",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Quel accord Napoléon signe-t-il avec le pape Pie VII en 1801, réconciliant l'Église et l'État français ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "L'édit de tolérance",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "La bulle Ecclesia Dei",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "L'accord de Fontainebleau",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Le Concordat",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "nap-045",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.france",
+      "difficulty": 4,
+      "type": "single",
+      "prompt": "Comment se nomme le style artistique et architectural néoclassique associé au règne de Napoléon ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Le style Empire",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "Le style Régence",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Le style Directoire tardif",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Le style Second Empire",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "nap-046",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.france",
+      "difficulty": 4,
+      "type": "single",
+      "prompt": "Environ combien d'hommes comptait la Grande Armée lors de l'invasion de la Russie en 1812 ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Environ 100 000",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Environ 600 000",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "Environ 50 000",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Environ 1 200 000",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "nap-047",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.france",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Sur quel navire britannique Napoléon se rend-il après Waterloo, avant d'être envoyé à Sainte-Hélène ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Le HMS Victory",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Le HMS Northumberland",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Le HMS Bellerophon",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "Le HMS Temeraire",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "nap-048",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.france",
+      "difficulty": 4,
+      "type": "single",
+      "prompt": "Quelle maladie est officiellement retenue comme cause du décès de Napoléon à Sainte-Hélène ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Une pneumonie",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Le typhus",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "La malaria",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Un cancer de l'estomac",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "nap-049",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.france",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quelle bataille navale de 1805 détruit la flotte franco-espagnole face aux Britanniques de Nelson ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Trafalgar",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "Aboukir",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Copenhague",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Ouessant",
+          "correct": false
+        }
+      ],
+      "explanation": "Cette défaite navale ruine tout espoir de Napoléon d'envahir l'Angleterre."
+    },
+    {
+      "id": "nap-050",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.france",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Comment se nomme la garde d'élite, fidèle jusqu'au bout, qui accompagne Napoléon dans ses batailles ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Les Mousquetaires",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "La Garde impériale",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "La Cohorte d'honneur",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Les Grognards seuls",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "nap-051",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.france",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quel surnom affectueux les soldats donnent-ils aux vétérans de la Garde impériale ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Les Immortels",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Les Braves",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Les Grognards",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "Les Invincibles",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "nap-052",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.france",
+      "difficulty": 4,
+      "type": "single",
+      "prompt": "En 1809, quelle bataille contre l'Autriche, l'une des plus sanglantes de l'époque, se solde par une victoire française coûteuse ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Eylau",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Friedland",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Ratisbonne",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Wagram",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "nap-053",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.france",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Quel monument parisien, dôme doré, abrite aujourd'hui le tombeau de Napoléon ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Les Invalides",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "Le Panthéon",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "La basilique de Saint-Denis",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Notre-Dame",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "nap-054",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.france",
+      "difficulty": 4,
+      "type": "single",
+      "prompt": "En quelle année les cendres de Napoléon sont-elles rapatriées de Sainte-Hélène vers la France, sous le « retour des cendres » ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "1830",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "1840",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "1852",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "1821",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "nap-055",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.france",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quel roi de France règne juste avant la Révolution qui ouvre la voie à l'ascension de Napoléon ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Louis XV",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Louis XIV",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Louis XVI",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "Louis XVIII",
+          "correct": false
+        }
+      ]
+    }
+  ]
+}

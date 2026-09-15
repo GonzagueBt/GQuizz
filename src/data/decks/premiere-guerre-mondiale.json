@@ -1,0 +1,1675 @@
+{
+  "id": "premiere-guerre-mondiale",
+  "name": "La Première Guerre mondiale",
+  "description": "Sarajevo, Verdun, les poilus et l'armistice : la Grande Guerre de 1914 à 1918.",
+  "emoji": "🪖",
+  "categoryId": "histoire",
+  "subcategoryId": "histoire.xxe",
+  "tier": "free",
+  "productId": "gquizz.deck.premiere_guerre_mondiale",
+  "priceHint": "1,99 €",
+  "questionCount": 55,
+  "averageDifficulty": 3,
+  "releasedAt": "2026-09-15",
+  "tags": [
+    "nouveau"
+  ],
+  "previewQuestionIds": [
+    "pgm-001",
+    "pgm-008"
+  ],
+  "questions": [
+    {
+      "id": "pgm-001",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.xxe",
+      "difficulty": 1,
+      "type": "single",
+      "prompt": "Entre quelles années se déroule la Première Guerre mondiale ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "1914-1918",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "1912-1916",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "1916-1920",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "1910-1914",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "pgm-002",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.xxe",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quel événement, en juin 1914, déclenche l'engrenage menant à la guerre ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "L'invasion de la Pologne",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "L'assassinat de l'archiduc François-Ferdinand",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "Le naufrage du Titanic",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "La crise de Cuba",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "pgm-003",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.xxe",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Dans quelle ville l'archiduc François-Ferdinand est-il assassiné ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Vienne",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Belgrade",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Sarajevo",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "Budapest",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "pgm-004",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.xxe",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "De quel empire l'archiduc François-Ferdinand est-il l'héritier ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "L'Empire russe",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "L'Empire ottoman",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "L'Empire allemand",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "L'Autriche-Hongrie",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "pgm-005",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.xxe",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Comment se nomme l'alliance qui regroupe la France, la Russie et le Royaume-Uni ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "La Triple-Entente",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "La Triple-Alliance",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "La Petite Entente",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Le pacte atlantique",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "pgm-006",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.xxe",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quel type de combat caractérise durablement le front occidental, en France et en Belgique ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "La guerre éclair",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "La guerre de tranchées",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "La guerre navale exclusivement",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "La guerre de siège médiévale",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "pgm-007",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.xxe",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quelle bataille de 1916, en Lorraine, devient le symbole de l'horreur de la guerre pour la France ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "La Somme",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Ypres",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Verdun",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "Reims",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "pgm-008",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.xxe",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Quel général français, futur maréchal, dirige la défense de Verdun en 1916 ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Ferdinand Foch",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Joseph Joffre",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Robert Nivelle",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Philippe Pétain",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "pgm-009",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.xxe",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Quelle autre bataille très meurtrière de 1916 se déroule sur un fleuve du nord de la France ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "La bataille de la Somme",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "La bataille de l'Aisne",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "La bataille de la Marne",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "La bataille de la Meuse",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "pgm-010",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.xxe",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quel surnom familier désigne les soldats français de la Première Guerre mondiale ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Les grognards",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Les poilus",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "Les tommies",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Les carabiniers",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "pgm-011",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.xxe",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Quelle arme chimique, terrifiante et nouvelle, est utilisée à grande échelle pendant la guerre ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Le napalm",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "L'arme nucléaire",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Les gaz de combat",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "Le lance-flammes seul",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "pgm-012",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.xxe",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Quel nouvel engin blindé fait son apparition sur les champs de bataille pendant la Première Guerre mondiale ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "L'hélicoptère",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Le sous-marin nucléaire",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Le missile",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Le char d'assaut",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "pgm-013",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.xxe",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quel pays entre en guerre aux côtés des Alliés en 1917, pesant lourd dans l'issue du conflit ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Les États-Unis",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "Le Japon",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Le Brésil",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "La Chine",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "pgm-014",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.xxe",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Quel président américain engage son pays dans la Première Guerre mondiale en 1917 ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Theodore Roosevelt",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Woodrow Wilson",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "Franklin Roosevelt",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Warren Harding",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "pgm-015",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.xxe",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Quel événement politique majeur pousse la Russie à se retirer de la guerre en 1917 ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Un coup d'État militaire",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Une famine généralisée seulement",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "La révolution russe",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "Une invasion japonaise",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "pgm-016",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.xxe",
+      "difficulty": 4,
+      "type": "single",
+      "prompt": "Quel traité, signé en 1918, acte la sortie de guerre de la Russie bolchevique face à l'Allemagne ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Le traité de Versailles",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Le traité de Rapallo",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Le traité de Saint-Germain",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Le traité de Brest-Litovsk",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "pgm-017",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.xxe",
+      "difficulty": 1,
+      "type": "single",
+      "prompt": "À quelle date l'armistice met-il fin aux combats de la Première Guerre mondiale ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Le 11 novembre 1918",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "Le 14 juillet 1918",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Le 8 mai 1918",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Le 1er janvier 1919",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "pgm-018",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.xxe",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quel traité de paix, signé en 1919, met officiellement fin à la guerre avec l'Allemagne ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Le traité de Vienne",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Le traité de Versailles",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "Le traité de Paris",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Le traité de Compiègne",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "pgm-019",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.xxe",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Dans quel lieu symbolique, une clairière de la forêt de Compiègne, l'armistice de 1918 est-il signé ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Le château de Chantilly",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "La cathédrale de Reims",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Le wagon de Rethondes",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "Le fort de Douaumont",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "pgm-020",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.xxe",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quel autre nom, utilisé avant même qu'un second conflit mondial n'éclate, désigne la Première Guerre mondiale ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "La guerre totale",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "La drôle de guerre",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "La guerre éclair",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "La Grande Guerre",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "pgm-021",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.xxe",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Quel président du Conseil français, surnommé « le Père la Victoire », dirige le pays à la fin de la guerre ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Georges Clemenceau",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "Raymond Poincaré",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Aristide Briand",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Paul Painlevé",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "pgm-022",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.xxe",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Quel autre surnom, évoquant sa combativité, est attaché à Georges Clemenceau ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Le Renard",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Le Tigre",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "Le Lion",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "L'Aigle",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "pgm-023",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.xxe",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Quel général commande en chef les armées françaises au début du conflit, artisan de la victoire de la Marne ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Ferdinand Foch",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Philippe Pétain",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Joseph Joffre",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "Robert Nivelle",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "pgm-024",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.xxe",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Quelle bataille de septembre 1914 stoppe l'avancée allemande vers Paris ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "La bataille de Verdun",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "La bataille d'Ypres",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "La bataille de la Somme",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "La bataille de la Marne",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "pgm-025",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.xxe",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Quel maréchal français devient généralissime des forces alliées en 1918 ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Ferdinand Foch",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "Philippe Pétain",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Joseph Joffre",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Franchet d'Espèrey",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "pgm-026",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.xxe",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quel pays envahit la Belgique neutre en 1914, précipitant l'entrée en guerre du Royaume-Uni ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "L'Autriche-Hongrie",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "L'Allemagne",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "La Russie",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "L'Italie",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "pgm-027",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.xxe",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Sur le front oriental, l'Allemagne et l'Autriche-Hongrie affrontent principalement quel pays ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "L'Italie",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "L'Espagne",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "La Russie",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "La Grèce",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "pgm-028",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.xxe",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Quelle grande bataille navale de 1916 oppose les flottes britannique et allemande, sans vainqueur décisif ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "La bataille de Trafalgar",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "La bataille de Tsoushima",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "La bataille des Falklands",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "La bataille du Jutland",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "pgm-029",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.xxe",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Sur quel front, dans les Alpes, les troupes italiennes affrontent-elles l'Autriche-Hongrie ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Le front italien (l'Isonzo)",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "Le front des Balkans seul",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Le front du Caucase",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Le front de Palestine",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "pgm-030",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.xxe",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quelle épidémie mondiale, particulièrement meurtrière, frappe juste après la fin de la guerre, en 1918-1919 ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Le choléra",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "La grippe espagnole",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "La peste noire",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Le typhus",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "pgm-031",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.xxe",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Quel grand empire disparaît à la fin de la guerre, morcelé en plusieurs nouvelles nations d'Europe centrale ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "L'Empire britannique",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "L'Empire français",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "L'Empire austro-hongrois",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "L'Empire japonais",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "pgm-032",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.xxe",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Quel autre grand empire s'effondre à l'issue du conflit, notamment au Moyen-Orient ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "L'Empire perse",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "L'Empire chinois",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "L'Empire éthiopien",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "L'Empire ottoman",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "pgm-033",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.xxe",
+      "difficulty": 4,
+      "type": "single",
+      "prompt": "Que le traité de Versailles impose-t-il notamment à l'Allemagne vaincue, en plus de pertes territoriales ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Le paiement de lourdes réparations de guerre",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "Une occupation permanente par les Alliés",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Le partage de son territoire entre la France et le Royaume-Uni",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "L'interdiction de toute industrie",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "pgm-034",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.xxe",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quels soldats venus des colonies, notamment d'Afrique de l'Ouest, combattent aux côtés de la France ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Les zouaves seuls",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Les tirailleurs sénégalais",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "Les hussards coloniaux",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Les spahis uniquement",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "pgm-035",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.xxe",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Comment appelle-t-on la ligne de front quasiment figée qui traverse la France et la Belgique de 1914 à 1918 ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Le mur de l'Atlantique",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "La ligne Maginot",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Le front occidental",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "Le rideau de fer",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "pgm-036",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.xxe",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Comment appelle-t-on les révoltes de soldats français, en 1917, après des offensives jugées trop coûteuses en vies ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "La Fronde des tranchées",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "La révolte des poilus",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Le soulèvement de Verdun",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Les mutineries de 1917",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "pgm-037",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.xxe",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Quelle offensive française désastreuse de 1917 provoque les mutineries dans l'armée ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "L'offensive du Chemin des Dames",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "L'offensive de la Somme",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "L'offensive de Verdun",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "L'offensive de Champagne",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "pgm-038",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.xxe",
+      "difficulty": 4,
+      "type": "single",
+      "prompt": "Quel général français, tenu responsable de l'échec du Chemin des Dames, est remplacé par Pétain ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Joseph Joffre",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Robert Nivelle",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "Ferdinand Foch",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Franchet d'Espèrey",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "pgm-039",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.xxe",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quel type de monument est érigé dans presque chaque commune française après la Première Guerre mondiale ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "L'arc de triomphe local",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "La stèle républicaine",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Le monument aux morts",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "Le mémorial national",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "pgm-040",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.xxe",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Quelle fleur rouge est devenue, au Royaume-Uni notamment, le symbole du souvenir de la Première Guerre mondiale ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Le bleuet",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "La rose",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Le lys",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Le coquelicot",
+          "correct": true
+        }
+      ],
+      "explanation": "En France, c'est plutôt le bleuet qui symbolise le souvenir des combattants."
+    },
+    {
+      "id": "pgm-041",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.xxe",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Comment se nomme le soldat symbolique, jamais identifié, enterré sous l'Arc de Triomphe à Paris ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Le Soldat inconnu",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "Le Poilu éternel",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Le Vétéran anonyme",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Le Gardien de la flamme",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "pgm-042",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.xxe",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Sur quelle ligne fortifiée les troupes allemandes se replient-elles en 1917 pour raccourcir leur front ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "La ligne Maginot",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "La ligne Hindenburg",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "La ligne Siegfried de 1940",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "La ligne bleue des Vosges",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "pgm-043",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.xxe",
+      "difficulty": 4,
+      "type": "single",
+      "prompt": "Comment se nomme le plan stratégique allemand prévoyant une invasion rapide de la France en passant par la Belgique ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Le plan XVII",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Le plan Barbarossa",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Le plan Schlieffen",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "Le plan Manstein",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "pgm-044",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.xxe",
+      "difficulty": 4,
+      "type": "single",
+      "prompt": "Environ combien de morts, militaires et civils confondus, la Première Guerre mondiale fait-elle à l'échelle mondiale ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Environ 2 millions",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Environ 500 000",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Environ 60 millions",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Environ 18 millions",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "pgm-045",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.xxe",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Dans quel département français se déroule la bataille de Verdun ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "La Meuse",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "Les Vosges",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "La Marne",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Les Ardennes",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "pgm-046",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.xxe",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Comment appelle-t-on l'espace dévasté et exposé aux tirs, situé entre les tranchées ennemies ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "La zone rouge",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Le no man's land",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "Le couloir de la mort",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Le champ neutre",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "pgm-047",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.xxe",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Quel écrivain français, ancien poilu, publie « Le Feu », témoignage marquant sur la vie dans les tranchées ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Roland Dorgelès",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Maurice Genevoix",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Henri Barbusse",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "Louis-Ferdinand Céline",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "pgm-048",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.xxe",
+      "difficulty": 4,
+      "type": "single",
+      "prompt": "Comment appelle-t-on les sous-marins allemands qui mènent une guerre navale sans merci contre les navires alliés ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Les Kraken",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Les Zeppelins",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Les Dreadnoughts",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Les U-Boot",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "pgm-049",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.xxe",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Quel paquebot britannique, coulé par un sous-marin allemand en 1915, choque l'opinion américaine ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Le Lusitania",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "Le Titanic",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Le Britannic",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Le Mauretania",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "pgm-050",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.xxe",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Environ combien de mois dure la seule bataille de Verdun, en 1916 ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Environ 2 mois",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Environ 10 mois",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "Environ 18 mois",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Environ 1 mois",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "pgm-051",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.xxe",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Comment appelle-t-on les soldats qui refusent de repartir au combat lors des mutineries de 1917 ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Les déserteurs uniquement",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Les insurgés",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Les mutins",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "Les rebelles",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "pgm-052",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.xxe",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Au cours de quel été la Première Guerre mondiale éclate-t-elle en Europe ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "L'été 1916",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "L'été 1912",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "L'été 1918",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "L'été 1914",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "pgm-053",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.xxe",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Quel pays, initialement allié de l'Allemagne, change de camp en 1915 et rejoint les Alliés ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "L'Italie",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "L'Espagne",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "La Roumanie",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "La Bulgarie",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "pgm-054",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.xxe",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quelle capitale française reste tout au long de la guerre le siège du gouvernement, malgré la menace allemande ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Bordeaux",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Paris",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "Lyon",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Marseille",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "pgm-055",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.xxe",
+      "difficulty": 4,
+      "type": "single",
+      "prompt": "Quel taxi parisien réquisitionné devient un symbole de la mobilisation nationale lors de la bataille de la Marne ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Les autobus de Verdun",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Les fiacres de Paris",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Les taxis de la Marne",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "Les tramways de la victoire",
+          "correct": false
+        }
+      ],
+      "explanation": "Environ 600 taxis parisiens transportent des renforts vers le front en septembre 1914."
+    }
+  ]
+}

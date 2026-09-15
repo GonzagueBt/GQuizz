@@ -14,6 +14,16 @@ import univers from './univers.json';
 import secondeGuerreMondiale from './seconde-guerre-mondiale.json';
 import capitalesDuMonde from './capitales-du-monde.json';
 import departementsFrancais from './departements-francais.json';
+import egypteAntique from './egypte-antique.json';
+import romeAntique from './rome-antique.json';
+import greceAntique from './grece-antique.json';
+import napoleon from './napoleon.json';
+import louisXiv from './louis-xiv.json';
+import jeanneDarc from './jeanne-darc.json';
+import xixeSiecle from './xixe-siecle.json';
+import premiereGuerreMondiale from './premiere-guerre-mondiale.json';
+import guerreFroide from './guerre-froide.json';
+import cinquiemeRepublique from './cinquieme-republique.json';
 
 /** Forme d'une question dans un fichier de deck (le `deckId` est injecté au chargement). */
 export interface RawQuestion {
@@ -59,13 +69,23 @@ export const RAW_DECKS: RawDeck[] = [
   musique as RawDeck,
   cinema as RawDeck,
   litterature as RawDeck,
-  revolutionFrancaise as RawDeck,
+  egypteAntique as RawDeck,
+  romeAntique as RawDeck,
+  greceAntique as RawDeck,
   charlemagne as RawDeck,
+  jeanneDarc as RawDeck,
   henriIv as RawDeck,
+  louisXiv as RawDeck,
+  revolutionFrancaise as RawDeck,
+  napoleon as RawDeck,
+  xixeSiecle as RawDeck,
+  premiereGuerreMondiale as RawDeck,
+  secondeGuerreMondiale as RawDeck,
+  guerreFroide as RawDeck,
+  cinquiemeRepublique as RawDeck,
   histoireAviation as RawDeck,
   conqueteSpatiale as RawDeck,
   univers as RawDeck,
-  secondeGuerreMondiale as RawDeck,
   capitalesDuMonde as RawDeck,
   departementsFrancais as RawDeck,
 ];

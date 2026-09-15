@@ -1,0 +1,1674 @@
+{
+  "id": "xixe-siecle",
+  "name": "Le XIXe siècle français",
+  "description": "De la Restauration à la Belle Époque : révolutions, Empire et révolution industrielle.",
+  "emoji": "🚂",
+  "categoryId": "histoire",
+  "subcategoryId": "histoire.france",
+  "tier": "free",
+  "productId": "gquizz.deck.xixe_siecle",
+  "priceHint": "1,99 €",
+  "questionCount": 55,
+  "averageDifficulty": 3,
+  "releasedAt": "2026-09-15",
+  "tags": [
+    "nouveau"
+  ],
+  "previewQuestionIds": [
+    "xix-001",
+    "xix-028"
+  ],
+  "questions": [
+    {
+      "id": "xix-001",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.france",
+      "difficulty": 1,
+      "type": "single",
+      "prompt": "Comment appelle-t-on le régime qui ramène les Bourbons au pouvoir après la chute de Napoléon en 1815 ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "La Restauration",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "Le Directoire",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Le Consulat",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "La Régence",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "xix-002",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.france",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quel roi est restauré sur le trône de France en 1815 ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Louis XVI",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Louis XVIII",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "Charles X",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Louis XVII",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "xix-003",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.france",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quel frère de Louis XVIII lui succède en 1824 ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Louis-Philippe",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Le duc de Berry",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Charles X",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "Le comte de Chambord",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "xix-004",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.france",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Comment se nomme la révolution de juillet 1830 qui renverse Charles X ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "La Commune",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Le Printemps des peuples",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Les Journées de juin",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Les Trois Glorieuses",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "xix-005",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.france",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quel « roi-citoyen » monte sur le trône après les Trois Glorieuses, en 1830 ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Louis-Philippe Ier",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "Charles X",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Napoléon III",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Henri V",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "xix-006",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.france",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Comment se nomme le régime instauré par Louis-Philippe Ier à partir de 1830 ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "La Restauration",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "La monarchie de Juillet",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "Le Second Empire",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "La Deuxième République",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "xix-007",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.france",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Comment se nomme la révolution de février 1848 qui renverse Louis-Philippe ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Les Trois Glorieuses",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "La Commune",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "La révolution de Février",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "L'insurrection de juin",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "xix-008",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.france",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quel régime est instauré après la révolution de 1848, avant le retour de l'Empire ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "La Troisième République",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Le Directoire",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "La Commune",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "La Deuxième République",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "xix-009",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.france",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Qui devient, en 1848, le premier président de la République élu au suffrage universel masculin en France ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Louis-Napoléon Bonaparte",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "Adolphe Thiers",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Lamartine",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Cavaignac",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "xix-010",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.france",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Comment appelle-t-on le coup d'État par lequel Louis-Napoléon Bonaparte s'empare du pouvoir en 1851 ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Le 18 Brumaire",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Le coup d'État du 2 décembre",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "Le 18 Fructidor",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Le 2 décembre 1804",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "xix-011",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.france",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Comment se nomme l'Empire proclamé par Louis-Napoléon Bonaparte en 1852 ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Le Premier Empire",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "L'Empire libéral",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Le Second Empire",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "L'Empire colonial",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "xix-012",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.france",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quel nom impérial prend Louis-Napoléon Bonaparte en devenant empereur ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Napoléon II",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Napoléon IV",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Louis Ier",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Napoléon III",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "xix-013",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.france",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Quelle guerre met fin au Second Empire en 1870 ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "La guerre franco-prussienne",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "La guerre de Crimée",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "La guerre d'Italie",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "La guerre du Mexique",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "xix-014",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.france",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Lors de quelle bataille de 1870 Napoléon III est-il capturé par les Prussiens ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Metz",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Sedan",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "Reichshoffen",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Wissembourg",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "xix-015",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.france",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quel régime est proclamé après la chute du Second Empire, en septembre 1870 ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "La Deuxième République",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "La Restauration",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "La Troisième République",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "Le Consulat",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "xix-016",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.france",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Comment se nomme l'insurrection populaire parisienne de mars à mai 1871 ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Les Trois Glorieuses",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "La Fronde parisienne",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "La Ligue populaire",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "La Commune de Paris",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "xix-017",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.france",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Quel territoire la France perd-elle au profit de l'Allemagne à l'issue de la guerre de 1870 ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "L'Alsace-Lorraine",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "La Savoie",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "La Franche-Comté",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Le Nord-Pas-de-Calais",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "xix-018",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.france",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Comment appelle-t-on les grands travaux de rénovation urbaine de Paris menés sous le Second Empire ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Le Grand Paris",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Les grands travaux haussmanniens",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "Les chantiers impériaux",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "La reconstruction royale",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "xix-019",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.france",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Quel préfet dirige la grande rénovation de Paris (larges avenues, égouts) sous Napoléon III ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Adolphe Alphand",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Jean-Charles Alphand",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Le baron Haussmann",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "Rambuteau",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "xix-020",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.france",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quelle grande transformation économique bouleverse la France au cours du XIXe siècle ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "La réforme agraire",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "La décolonisation",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "La révolution numérique",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "La révolution industrielle",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "xix-021",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.france",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quel moyen de transport révolutionne les échanges en France au XIXe siècle ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Le chemin de fer",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "L'automobile",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "L'avion",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Le métro seul",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "xix-022",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.france",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Quelles lois, votées en 1881-1882, rendent l'école primaire gratuite, laïque et obligatoire ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Les lois Guizot",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Les lois Jules Ferry",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "Les lois Waldeck-Rousseau",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Les lois Combes",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "xix-023",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.france",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Quel ministre de la Troisième République est à l'origine des grandes lois scolaires des années 1880 ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Léon Gambetta",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Jean Jaurès",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Jules Ferry",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "Georges Clemenceau",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "xix-024",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.france",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Comment se nomme l'affaire politico-judiciaire qui divise profondément la France à la fin du XIXe siècle ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "L'affaire Stavisky",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "L'affaire des fiches",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "L'affaire du collier",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "L'affaire Dreyfus",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "xix-025",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.france",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Quel officier, injustement condamné pour espionnage, est au cœur de l'affaire Dreyfus ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Le capitaine Alfred Dreyfus",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "Le colonel Picquart",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Le commandant Esterhazy",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Le général Mercier",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "xix-026",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.france",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Quel écrivain publie en 1898 la célèbre lettre ouverte « J'accuse » pour défendre Dreyfus ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Victor Hugo",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Émile Zola",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "Anatole France",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Marcel Proust",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "xix-027",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.france",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quel grand événement parisien de 1889 célèbre le centenaire de la Révolution française ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Les Journées de juin",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Le Congrès de Paris",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "L'Exposition universelle",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "La Fête de la Fédération",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "xix-028",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.france",
+      "difficulty": 1,
+      "type": "single",
+      "prompt": "Quel monument parisien est construit pour l'Exposition universelle de 1889 ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "L'Arc de triomphe",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Le Sacré-Cœur",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Le Grand Palais",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "La tour Eiffel",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "xix-029",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.france",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quel ingénieur conçoit la tour Eiffel ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Gustave Eiffel",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "Auguste Bartholdi",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Charles Garnier",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Victor Baltard",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "xix-030",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.france",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Comment appelle-t-on la période de prospérité et d'effervescence culturelle qui précède la Première Guerre mondiale ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Les Années folles",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "La Belle Époque",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "Le Grand Siècle",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "L'âge d'or",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "xix-031",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.france",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Quelle loi de 1905 sépare les Églises et l'État en France ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Le Concordat",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "La loi Falloux",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "La loi de séparation des Églises et de l'État",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "La loi Combes de 1900",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "xix-032",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.france",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quel mouvement pictural français, né dans les années 1870, cherche à capter les impressions de lumière ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Le romantisme",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Le cubisme",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Le réalisme",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "L'impressionnisme",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "xix-033",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.france",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Quel peintre donne son nom au mouvement impressionniste avec son tableau « Impression, soleil levant » ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Claude Monet",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "Pierre-Auguste Renoir",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Edgar Degas",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Édouard Manet",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "xix-034",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.france",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "En quelle année l'esclavage est-il définitivement aboli dans les colonies françaises ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "1794",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "1848",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "1815",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "1871",
+          "correct": false
+        }
+      ],
+      "explanation": "Une première abolition de 1794 avait été annulée par Napoléon Bonaparte en 1802."
+    },
+    {
+      "id": "xix-035",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.france",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Quel homme politique porte le décret d'abolition définitive de l'esclavage en 1848 ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Léon Gambetta",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Jules Ferry",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Victor Schœlcher",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "Adolphe Thiers",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "xix-036",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.france",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "À quel mouvement littéraire français du XIXe siècle Victor Hugo est-il rattaché ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Le naturalisme",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Le symbolisme",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Le classicisme",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Le romantisme",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "xix-037",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.france",
+      "difficulty": 4,
+      "type": "single",
+      "prompt": "Sur quelle île anglo-normande Victor Hugo s'exile-t-il, opposant au Second Empire ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Jersey puis Guernesey",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "L'île de Ré",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Malte",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Corfou",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "xix-038",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.france",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quel scientifique français développe la pasteurisation et fait progresser la vaccination au XIXe siècle ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Claude Bernard",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Louis Pasteur",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "Antoine Lavoisier",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Marie Curie",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "xix-039",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.france",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Contre quelle maladie Louis Pasteur développe-t-il un vaccin resté célèbre en 1885 ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "La variole",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Le choléra",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "La rage",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "La tuberculose",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "xix-040",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.france",
+      "difficulty": 4,
+      "type": "single",
+      "prompt": "Quelle théorie scientifique Pasteur établit-il, réfutant l'idée de « génération spontanée » ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "La théorie de l'évolution",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "La théorie cellulaire",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "La théorie atomique",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "La théorie des germes",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "xix-041",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.france",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Quel texte, voté en 1875, fonde juridiquement les institutions de la Troisième République ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Les lois constitutionnelles de 1875",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "La Charte de 1814",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "La Constitution de l'an VIII",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "La Constitution de 1848",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "xix-042",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.france",
+      "difficulty": 4,
+      "type": "single",
+      "prompt": "Quel chancelier prussien orchestre l'unification allemande et la victoire sur la France en 1870 ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Helmuth von Moltke",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Otto von Bismarck",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "Guillaume Ier",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Metternich",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "xix-043",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.france",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Comment se nomme l'Empire allemand unifié, proclamé à Versailles en janvier 1871 ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Le Saint-Empire",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "La Confédération germanique",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Le Deuxième Reich",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "Le Troisième Reich",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "xix-044",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.france",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Dans quelle célèbre galerie du château de Versailles l'Empire allemand est-il proclamé en 1871, humiliation ressentie par la France ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "La galerie des Batailles",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "La galerie François Ier",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "La galerie d'Apollon",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "La galerie des Glaces",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "xix-045",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.france",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Quel siège, marqué par la famine, subit Paris durant l'hiver 1870-1871 face aux Prussiens ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Le siège de Paris",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "Le siège de Metz",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Le blocus de Rouen",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Le siège de Strasbourg seul",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "xix-046",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.france",
+      "difficulty": 4,
+      "type": "single",
+      "prompt": "Pendant le siège de Paris de 1870-1871, comment les Parisiens maintiennent-ils des liaisons avec le reste du pays ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Par des tunnels souterrains",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Par des ballons montés",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "Par le télégraphe sous-marin",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Par pigeons uniquement",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "xix-047",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.france",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quel écrivain français du XIXe siècle est l'auteur des « Trois Mousquetaires » et du « Comte de Monte-Cristo » ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Victor Hugo",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Gustave Flaubert",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Alexandre Dumas",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "Stendhal",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "xix-048",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.france",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Comment appelle-t-on le mouvement social qui se développe avec la révolution industrielle, défendant les droits des ouvriers ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Le mouvement des Lumières",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Le mouvement décadent",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Le mouvement légitimiste",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Le mouvement ouvrier",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "xix-049",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.france",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Quelle loi de 1884, portée par Waldeck-Rousseau, légalise les syndicats en France ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "La loi sur les syndicats professionnels",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "La loi Le Chapelier",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "La loi sur les grèves",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "La loi Combes",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "xix-050",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.france",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quelle grande ville française est, au XIXe siècle, le principal centre de l'industrie textile et de la soierie ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Marseille",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Lyon",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "Bordeaux",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Lille",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "xix-051",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.france",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Comment se nomme la révolte des ouvriers de la soie à Lyon en 1831 ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "La Commune de Lyon",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "La révolte du textile",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "La révolte des canuts",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "La jacquerie lyonnaise",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "xix-052",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.france",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quelle figure allégorique féminine, popularisée au XIXe siècle, incarne la République française ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Athéna",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Jeanne d'Arc",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "La Liberté",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Marianne",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "xix-053",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.france",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Quelle statue, cadeau de la France aux États-Unis en 1886, est l'œuvre du sculpteur Bartholdi ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "La statue de la Liberté",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "Le Lion de Belfort",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Le monument aux morts",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "La colonne Vendôme",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "xix-054",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.france",
+      "difficulty": 4,
+      "type": "single",
+      "prompt": "Quel président de la Troisième République meurt en fonction en 1899, en pleine affaire Dreyfus ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Sadi Carnot",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Félix Faure",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "Jules Grévy",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Émile Loubet",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "xix-055",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.france",
+      "difficulty": 4,
+      "type": "single",
+      "prompt": "Quel président de la Troisième République est assassiné en 1894 par un anarchiste italien ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Félix Faure",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Jules Grévy",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Sadi Carnot",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "Armand Fallières",
+          "correct": false
+        }
+      ]
+    }
+  ]
+}

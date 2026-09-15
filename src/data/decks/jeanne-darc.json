@@ -1,0 +1,1664 @@
+{
+  "id": "jeanne-darc",
+  "name": "Jeanne d'Arc et la guerre de Cent Ans",
+  "description": "De Domrémy au bûcher de Rouen : la Pucelle d'Orléans et le grand conflit franco-anglais.",
+  "emoji": "⚜️",
+  "categoryId": "histoire",
+  "subcategoryId": "histoire.france",
+  "tier": "free",
+  "productId": "gquizz.deck.jeanne_darc",
+  "priceHint": "1,99 €",
+  "questionCount": 55,
+  "averageDifficulty": 3,
+  "releasedAt": "2026-09-15",
+  "tags": [
+    "nouveau"
+  ],
+  "previewQuestionIds": [
+    "jda-001",
+    "jda-003"
+  ],
+  "questions": [
+    {
+      "id": "jda-001",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.france",
+      "difficulty": 1,
+      "type": "single",
+      "prompt": "Quel surnom porte Jeanne d'Arc ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "La Pucelle d'Orléans",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "La Bergère de France",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "La Dame de Reims",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "La Sainte Guerrière",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "jda-002",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.france",
+      "difficulty": 1,
+      "type": "single",
+      "prompt": "Dans quelle région de France Jeanne d'Arc est-elle née ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "La Bretagne",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "La Lorraine",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "La Provence",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "La Normandie",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "jda-003",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.france",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quel siège célèbre Jeanne d'Arc fait-elle lever en 1429 ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Le siège de Rouen",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Le siège de Reims",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Le siège d'Orléans",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "Le siège de Paris",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "jda-004",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.france",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quel roi de France Jeanne d'Arc fait-elle sacrer à Reims en 1429 ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Charles VI",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Louis XI",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Charles VIII",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Charles VII",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "jda-005",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.france",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Environ combien de temps dure la guerre de Cent Ans ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Environ 116 ans",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "Environ 50 ans",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Environ 200 ans",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Environ 30 ans",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "jda-006",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.france",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Contre quel pays la France se bat-elle pendant la guerre de Cent Ans ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "L'Espagne",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "L'Angleterre",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "Le Saint-Empire",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "La Bourgogne seule",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "jda-007",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.france",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Quelle bataille de 1415 voit l'armée française lourdement défaite par les Anglais ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Crécy",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Poitiers",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Azincourt",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "Formigny",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "jda-008",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.france",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "En quelle année débute traditionnellement la guerre de Cent Ans ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "1315",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "1348",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "1300",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "1337",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "jda-009",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.france",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "En quelle année se termine la guerre de Cent Ans ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "1453",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "1429",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "1461",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "1475",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "jda-010",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.france",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Dans quelle ville normande Jeanne d'Arc est-elle brûlée vive en 1431 ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Caen",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Rouen",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "Le Havre",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Rennes",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "jda-011",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.france",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "De quoi Jeanne d'Arc est-elle accusée lors de son procès, ce qui justifie sa condamnation ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "De trahison militaire",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "De vol",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "D'hérésie",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "D'espionnage",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "jda-012",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.france",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Qui capture Jeanne d'Arc en 1430, avant de la vendre aux Anglais ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Les Anglais directement",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Les Bretons",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Les mercenaires italiens",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Les Bourguignons",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "jda-013",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.france",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Quel duché français est allié des Anglais pendant une grande partie de la guerre de Cent Ans ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Le duché de Bourgogne",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "Le duché de Bretagne",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Le duché d'Aquitaine",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Le duché d'Anjou",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "jda-014",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.france",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Selon ses dires, quels saints s'adressent à Jeanne d'Arc et l'incitent à agir ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Saint Louis et saint Denis",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Saint Michel, sainte Catherine et sainte Marguerite",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "Saint Georges et sainte Geneviève",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Saint Martin et sainte Jeanne",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "jda-015",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.france",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quelle arme redoutable donne aux Anglais un avantage décisif à Crécy et Azincourt ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "L'arbalète lourde",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "La bombarde",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "L'arc long",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "La lance à cheval",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "jda-016",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.france",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "En 1346, quelle bataille voit l'arc long anglais décimer la chevalerie française ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Azincourt",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Poitiers",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Verneuil",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Crécy",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "jda-017",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.france",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "En 1356, quelle bataille voit le roi de France capturé par les Anglais ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Poitiers",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "Crécy",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Azincourt",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Formigny",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "jda-018",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.france",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Quel roi de France est fait prisonnier à la bataille de Poitiers en 1356 ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Philippe VI",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Jean II le Bon",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "Charles V",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Charles VI",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "jda-019",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.france",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quel roi d'Angleterre revendique la couronne de France en 1337, déclenchant le conflit ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Henri V",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Richard II",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Édouard III",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "Édouard le Prince Noir",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "jda-020",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.france",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Quel roi d'Angleterre remporte la bataille d'Azincourt en 1415 ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Édouard III",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Richard III",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Henri VI",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Henri V",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "jda-021",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.france",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Quel traité de 1420 déshérite le dauphin Charles au profit du roi d'Angleterre ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Le traité de Troyes",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "Le traité de Brétigny",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Le traité d'Arras",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Le traité de Picquigny",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "jda-022",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.france",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quel titre porte Charles, futur Charles VII, avant d'être sacré roi ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Le connétable",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Le dauphin",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "Le régent",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Le duc royal",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "jda-023",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.france",
+      "difficulty": 4,
+      "type": "single",
+      "prompt": "En 1456, quelle procédure blanchit Jeanne d'Arc de toutes les accusations portées contre elle ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Un édit royal",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Une bulle papale d'amnistie",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Un procès en réhabilitation",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "Un jugement du Parlement de Paris",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "jda-024",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.france",
+      "difficulty": 4,
+      "type": "single",
+      "prompt": "En quelle année Jeanne d'Arc est-elle canonisée par l'Église catholique ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "1456",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "1789",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "1815",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "1920",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "jda-025",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.france",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Quel est le nom du village lorrain où naît Jeanne d'Arc ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Domrémy",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "Vaucouleurs",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Chinon",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Compiègne",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "jda-026",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.france",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Vers quelle année Jeanne d'Arc naît-elle ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "1400",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "1412",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "1425",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "1395",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "jda-027",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.france",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quel âge a Jeanne d'Arc au moment de sa mort ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Environ 25 ans",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Environ 15 ans",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Environ 19 ans",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "Environ 30 ans",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "jda-028",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.france",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Quelle épidémie dévastatrice frappe l'Europe au XIVe siècle, pendant la guerre de Cent Ans ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Le choléra",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "La variole",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Le typhus",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "La peste noire",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "jda-029",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.france",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "À quelle dynastie appartient le roi de France au début de la guerre de Cent Ans ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Les Valois",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "Les Capétiens directs",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Les Bourbons",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Les Plantagenêt",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "jda-030",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.france",
+      "difficulty": 4,
+      "type": "single",
+      "prompt": "À quelle dynastie appartiennent les rois d'Angleterre qui revendiquent le trône de France ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Les Tudor",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Les Plantagenêt",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "Les Stuart",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Les Lancastre seuls",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "jda-031",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.france",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Quel capitaine, célèbre pour sa bravoure, combat aux côtés de Jeanne d'Arc et lui reste fidèle ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Du Guesclin",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Bayard",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "La Hire",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "Dunois seul",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "jda-032",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.france",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Quelle reine de France, mère du dauphin Charles, signe le traité de Troyes en 1420 ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Anne de Bretagne",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Blanche de Castille",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Marie d'Anjou",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Isabeau de Bavière",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "jda-033",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.france",
+      "difficulty": 4,
+      "type": "single",
+      "prompt": "Quelle bataille de juin 1429, peu après la levée du siège d'Orléans, voit l'armée anglaise défaite en rase campagne ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Patay",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "Verneuil",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Formigny",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Beaugé",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "jda-034",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.france",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Quelle bataille de 1453 marque la fin de la guerre de Cent Ans ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "La bataille de Formigny",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "La bataille de Castillon",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "La bataille de Verneuil",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "La bataille de Patay",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "jda-035",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.france",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Quelle grande région du sud-ouest reste possession anglaise pendant l'essentiel de la guerre de Cent Ans ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "La Provence",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Le Languedoc",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "La Guyenne",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "L'Auvergne",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "jda-036",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.france",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Sur quelle place de Rouen Jeanne d'Arc est-elle exécutée ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "La place de la Cathédrale",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "La place du Donjon",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "La place Saint-Ouen",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "La place du Vieux-Marché",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "jda-037",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.france",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Quel connétable commande les armées de Charles VII lors de la reconquête finale du royaume ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Arthur de Richemont",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "Bertrand du Guesclin",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Gaston de Foix",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Jean de Dunois",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "jda-038",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.france",
+      "difficulty": 4,
+      "type": "single",
+      "prompt": "En quelle année a lieu le sacre de Charles VII à Reims ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "1422",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "1429",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "1431",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "1453",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "jda-039",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.france",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quel type de mort est infligé à Jeanne d'Arc en 1431 ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "La pendaison",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "La décapitation",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Le bûcher",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "La noyade",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "jda-040",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.france",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Quel évêque, favorable aux Anglais, préside le procès de Jeanne d'Arc ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Jean Gerson",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Regnault de Chartres",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Nicolas Midi",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Pierre Cauchon",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "jda-041",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.france",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Dans quel château Jeanne d'Arc rencontre-t-elle le dauphin Charles pour la première fois ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Le château de Chinon",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "Le château de Vincennes",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Le château de Loches",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Le château de Blois",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "jda-042",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.france",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Selon la légende, comment Jeanne d'Arc convainc-t-elle le dauphin de sa légitimité lors de leur première rencontre ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "En traduisant un texte latin ancien",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "En le reconnaissant caché parmi ses courtisans",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "En guérissant un blessé",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "En remportant un tournoi",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "jda-043",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.france",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quel vêtement inhabituel pour une femme de son époque Jeanne d'Arc porte-t-elle, ce qui sera retenu contre elle ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Des habits de moine",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Une armure dorée",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Des habits d'homme",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "Une robe de cour",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "jda-044",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.france",
+      "difficulty": 4,
+      "type": "single",
+      "prompt": "Vers quel âge Jeanne d'Arc affirme-t-elle avoir entendu ses premières voix ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Environ 8 ans",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Environ 17 ans",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Environ 5 ans",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Environ 13 ans",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "jda-045",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.france",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Quelle ville célèbre chaque 8 mai l'anniversaire de sa libération par Jeanne d'Arc en 1429 ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Orléans",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "Reims",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Rouen",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Compiègne",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "jda-046",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.france",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Quel chroniqueur médiéval, témoin de son temps, relate les événements de la guerre de Cent Ans dans ses « Chroniques » ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Georges Chastellain",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Jean Froissart",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "Philippe de Commynes",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Christine de Pizan",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "jda-047",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.france",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Comment se nomme la guerre civile française, opposant Armagnacs et Bourguignons, qui affaiblit le royaume durant le conflit ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "La guerre des Deux-Roses",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "La Fronde",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "La guerre des Armagnacs et des Bourguignons",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "La Jacquerie",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "jda-048",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.france",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Quelle faction, menée par le duc d'Orléans puis le comte d'Armagnac, s'oppose aux Bourguignons ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Les Lancastre",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Les Yorkistes",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Les Capétiens",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Les Armagnacs",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "jda-049",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.france",
+      "difficulty": 2,
+      "type": "boolean",
+      "prompt": "La guerre de Cent Ans fut un conflit ininterrompu, sans aucune trêve, du début à la fin.",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Vrai",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Faux",
+          "correct": true
+        }
+      ],
+      "explanation": "Le conflit est entrecoupé de longues périodes de trêve, dont celle qui suit le traité de Brétigny en 1360."
+    },
+    {
+      "id": "jda-050",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.france",
+      "difficulty": 4,
+      "type": "single",
+      "prompt": "Quelle bataille navale de 1340 donne à l'Angleterre la maîtrise de la Manche en tout début de conflit ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "La bataille de l'Écluse",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "La bataille des Vingt-Six",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "La bataille de Sluys-sur-Terre",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "La bataille de La Rochelle",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "jda-051",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.france",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Quel traité de 1360 accorde temporairement à l'Angleterre de vastes territoires français, en échange d'une trêve ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Le traité de Troyes",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Le traité de Brétigny",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "Le traité d'Arras",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Le traité de Picquigny",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "jda-052",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.france",
+      "difficulty": 4,
+      "type": "single",
+      "prompt": "Quel roi de France, dit « le Victorieux », mène la reconquête après Jeanne d'Arc et chasse définitivement les Anglais ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Louis XI",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Charles VI",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Charles VII",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "Louis d'Orléans",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "jda-053",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.france",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Quel roi de France, surnommé « le Fou » ou « le Bien-Aimé », règne pendant une grande partie de la crise du début du XVe siècle ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Charles V",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Jean II",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Philippe VI",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Charles VI",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "jda-054",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.france",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quel âge a environ Jeanne d'Arc lorsqu'elle quitte Domrémy pour rencontrer le dauphin ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "16-17 ans",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "25 ans",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "12 ans",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "30 ans",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "jda-055",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.france",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Quelle ville Jeanne d'Arc échoue-t-elle à reprendre lors d'un assaut en septembre 1429 ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Rouen",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Paris",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "Reims",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Troyes",
+          "correct": false
+        }
+      ]
+    }
+  ]
+}

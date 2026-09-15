@@ -1,0 +1,1674 @@
+{
+  "id": "rome-antique",
+  "name": "Rome antique",
+  "description": "République, Empire, gladiateurs et légions : la grande histoire de la Rome antique.",
+  "emoji": "🦅",
+  "categoryId": "histoire",
+  "subcategoryId": "histoire.antiquite",
+  "tier": "free",
+  "productId": "gquizz.deck.rome_antique",
+  "priceHint": "1,99 €",
+  "questionCount": 55,
+  "averageDifficulty": 3,
+  "releasedAt": "2026-09-15",
+  "tags": [
+    "nouveau"
+  ],
+  "previewQuestionIds": [
+    "rom-001",
+    "rom-005"
+  ],
+  "questions": [
+    {
+      "id": "rom-001",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.antiquite",
+      "difficulty": 1,
+      "type": "single",
+      "prompt": "Quelle ville est la capitale de l'Empire romain ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Rome",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "Athènes",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Carthage",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Alexandrie",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "rom-002",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.antiquite",
+      "difficulty": 1,
+      "type": "single",
+      "prompt": "Comment se nomme le régime politique romain avant l'instauration de l'Empire, sans roi ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "La monarchie",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "La République",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "La tyrannie",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "L'oligarchie",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "rom-003",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.antiquite",
+      "difficulty": 1,
+      "type": "single",
+      "prompt": "Qui est le premier empereur romain ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Jules César",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Néron",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Auguste",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "Trajan",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "rom-004",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.antiquite",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quel général et homme d'État romain est assassiné aux ides de mars 44 av. J.-C. ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Pompée",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Crassus",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Marc Antoine",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Jules César",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "rom-005",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.antiquite",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Dans quel amphithéâtre ovale de Rome se déroulaient les combats de gladiateurs ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Le Colisée",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "Le Circus Maximus",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Le Panthéon",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Le Forum",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "rom-006",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.antiquite",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quel nom donne-t-on aux combattants qui s'affrontaient dans l'arène pour divertir le public romain ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Les légionnaires",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Les gladiateurs",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "Les centurions",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Les prétoriens",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "rom-007",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.antiquite",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quelle langue est la langue officielle de l'Empire romain ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Le grec",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "L'étrusque",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Le latin",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "Le gaulois",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "rom-008",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.antiquite",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Quels frères légendaires, élevés par une louve, sont dits fondateurs de Rome ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Castor et Pollux",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Énée et Ascagne",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Brutus et Cassius",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Romulus et Remus",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "rom-009",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.antiquite",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "En quelle année Rome est-elle traditionnellement fondée ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "753 av. J.-C.",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "509 av. J.-C.",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "27 av. J.-C.",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "146 av. J.-C.",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "rom-010",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.antiquite",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Comment appelle-t-on le célèbre réseau de routes pavées reliant les provinces de l'Empire à Rome ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Les voies impériales",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Les voies romaines",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "Les routes du limes",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Les chemins consulaires",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "rom-011",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.antiquite",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Comment se nomme la célèbre voie romaine reliant Rome à Brindisi, l'une des plus anciennes et importantes ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "La Via Flaminia",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "La Via Aurelia",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "La Via Appia",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "La Via Salaria",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "rom-012",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.antiquite",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quel empereur légalise le christianisme dans l'Empire romain par l'édit de Milan (313) ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Dioclétien",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Théodose",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Trajan",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Constantin",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "rom-013",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.antiquite",
+      "difficulty": 4,
+      "type": "single",
+      "prompt": "Quel empereur instaure la « Tétrarchie », un système à quatre dirigeants pour administrer l'Empire ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Dioclétien",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "Constantin",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Aurélien",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Valérien",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "rom-014",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.antiquite",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "En quelle année tombe l'Empire romain d'Occident ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "410",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "476",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "395",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "527",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "rom-015",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.antiquite",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Contre quelle grande cité rivale d'Afrique du Nord Rome mène-t-elle les guerres puniques ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Alexandrie",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Cyrène",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Carthage",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "Utique",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "rom-016",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.antiquite",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Quel général carthaginois traverse les Alpes avec des éléphants pour attaquer Rome ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Hasdrubal",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Hamilcar Barca",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Magon",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Hannibal Barca",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "rom-017",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.antiquite",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Combien de guerres puniques opposent Rome et Carthage ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "3",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "2",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "4",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "1",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "rom-018",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.antiquite",
+      "difficulty": 4,
+      "type": "single",
+      "prompt": "Quel général romain bat définitivement Hannibal à la bataille de Zama, en 202 av. J.-C. ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Marius",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Scipion l'Africain",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "Sylla",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Fabius Maximus",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "rom-019",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.antiquite",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quel empereur, connu pour sa cruauté, est accusé d'avoir laissé brûler Rome en 64 ap. J.-C. ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Caligula",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Claude",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Néron",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "Domitien",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "rom-020",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.antiquite",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Sous quel empereur débute la construction du Colisée, achevée par son fils Titus ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Trajan",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Hadrien",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Domitien",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Vespasien",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "rom-021",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.antiquite",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Comment se nomme l'assemblée politique qui conseille les magistrats sous la République romaine ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Le Sénat",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "L'Aréopage",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "L'Ecclésia",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Le Conseil des Anciens",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "rom-022",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.antiquite",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Comment se nomment les deux magistrats suprêmes élus chaque année sous la République romaine ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Les tribuns",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Les consuls",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "Les préteurs",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Les censeurs",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "rom-023",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.antiquite",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Quel gladiateur thrace mène une importante révolte d'esclaves contre Rome en 73 av. J.-C. ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Crixus",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Œnomaos",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Spartacus",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "Castus",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "rom-024",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.antiquite",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quel dieu romain, roi des dieux, correspond au grec Zeus ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Neptune",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Pluton",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Mars",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Jupiter",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "rom-025",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.antiquite",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quel dieu romain de la guerre a donné son nom au mois de mars ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Mars",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "Vulcain",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Mercure",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Janus",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "rom-026",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.antiquite",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quelle déesse romaine de l'amour et de la beauté correspond à l'Aphrodite grecque ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Junon",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Vénus",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "Minerve",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Cérès",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "rom-027",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.antiquite",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Quel dieu romain des mers correspond au grec Poséidon ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Pluton",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Vulcain",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Neptune",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "Bacchus",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "rom-028",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.antiquite",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Comment se nomme le vêtement traditionnel porté par les citoyens romains ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Le chiton",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Le péplos",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Le caftan",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "La toge",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "rom-029",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.antiquite",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Dans quel édifice romain se déroulaient les courses de chars ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Le Circus Maximus",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "Le Colisée",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Le Panthéon",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Les thermes de Caracalla",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "rom-030",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.antiquite",
+      "difficulty": 4,
+      "type": "single",
+      "prompt": "Quel empereur fait construire un mur fortifié dans le nord de la Bretagne romaine, marquant la limite de l'Empire ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Trajan",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Hadrien",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "Antonin le Pieux",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Septime Sévère",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "rom-031",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.antiquite",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Quel chef gaulois est vaincu par Jules César au siège d'Alésia ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Ambiorix",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Brennus",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Vercingétorix",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "Arioviste",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "rom-032",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.antiquite",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "En quelle année se déroule la bataille d'Alésia ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "58 av. J.-C.",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "44 av. J.-C.",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "49 av. J.-C.",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "52 av. J.-C.",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "rom-033",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.antiquite",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Comment se nomme l'ouvrage dans lequel César raconte ses campagnes militaires en Gaule ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "La Guerre des Gaules",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "La Guerre civile",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Les Vies parallèles",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "L'Énéide",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "rom-034",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.antiquite",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Comment se nomme l'alliance politique formée par César, Pompée et Crassus en 60 av. J.-C. ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Le second triumvirat",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Le premier triumvirat",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "La ligue latine",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Le consulat conjoint",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "rom-035",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.antiquite",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Quelle reine d'Égypte, alliée puis vaincue par Rome, se donne la mort après la bataille d'Actium ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Bérénice",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Zénobie",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Cléopâtre",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "Didon",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "rom-036",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.antiquite",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Quelle bataille navale de 31 av. J.-C. voit Octave triompher de Marc Antoine et Cléopâtre ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "La bataille de Salamine",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "La bataille de Naulochos",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "La bataille de Pharsale",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "La bataille d'Actium",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "rom-037",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.antiquite",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Comment appelle-t-on un territoire conquis et administré par Rome en dehors de l'Italie ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Une province",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "Une colonie",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Une cité fédérée",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Un protectorat",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "rom-038",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.antiquite",
+      "difficulty": 4,
+      "type": "single",
+      "prompt": "Quel empereur philosophe stoïcien est l'auteur des « Pensées pour moi-même » ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Antonin le Pieux",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Marc Aurèle",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "Hadrien",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Trajan",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "rom-039",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.antiquite",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Quel empereur, réputé pour son caractère austère et retiré, succède à Auguste en 14 ap. J.-C. ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Caligula",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Claude",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Tibère",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "Galba",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "rom-040",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.antiquite",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quel volcan détruit la ville de Pompéi en 79 ap. J.-C. ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "L'Etna",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Le Stromboli",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Le Vulcano",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Le Vésuve",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "rom-041",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.antiquite",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Quelle ville romaine, ensevelie sous les cendres, a été redécouverte remarquablement conservée ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Pompéi",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "Herculanum",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Ostie",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Baïes",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "rom-042",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.antiquite",
+      "difficulty": 4,
+      "type": "single",
+      "prompt": "Quel historien romain est l'auteur des « Annales », retraçant les règnes des empereurs julio-claudiens ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Suétone",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Tacite",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "Tite-Live",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Plutarque",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "rom-043",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.antiquite",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Quel poète romain est l'auteur de l'« Énéide », épopée sur les origines de Rome ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Ovide",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Horace",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Virgile",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "Catulle",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "rom-044",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.antiquite",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Comment se nomme la place centrale de Rome, cœur politique, religieux et commercial de la cité antique ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "L'Agora",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "L'Acropole",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Le Champ de Mars",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Le Forum",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "rom-045",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.antiquite",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Quelle prouesse architecturale les Romains généralisent-ils, visible dans les aqueducs et le Colisée ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "L'arc en plein cintre",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "Le dôme géodésique",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Le pilier cannelé",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "La voûte en ogive",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "rom-046",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.antiquite",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Comment appelle-t-on les ouvrages construits pour acheminer l'eau à travers l'Empire ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Les cardo",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Les aqueducs",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "Les nymphées",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Les cryptoportiques",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "rom-047",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.antiquite",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quel empereur donne son nom à une longue période de paix et de prospérité relative dans l'Empire ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Néron",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Caligula",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Auguste, avec la Pax Romana",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "Domitien",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "rom-048",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.antiquite",
+      "difficulty": 4,
+      "type": "single",
+      "prompt": "Comment se nomme le dernier empereur romain d'Occident, déposé en 476 ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Julius Nepos",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Majorien",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Avitus",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Romulus Augustule",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "rom-049",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.antiquite",
+      "difficulty": 4,
+      "type": "single",
+      "prompt": "Quel chef d'origine germanique dépose le dernier empereur romain d'Occident en 476 ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Odoacre",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "Alaric",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Attila",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Genséric",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "rom-050",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.antiquite",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quelle ville devient la capitale de l'Empire romain d'Orient après la division de l'Empire ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Ravenne",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Constantinople",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "Antioche",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Nicée",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "rom-051",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.antiquite",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Quel empereur fonde Constantinople sur le site de l'ancienne cité grecque de Byzance ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Théodose",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Justinien",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Constantin",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "Valens",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "rom-052",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.antiquite",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quelle expression latine résume la politique romaine consistant à distraire le peuple avec des distributions gratuites et des spectacles ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Carpe diem",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Veni, vidi, vici",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Alea jacta est",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Du pain et des jeux",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "rom-053",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.antiquite",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Combien de rois légendaires règnent sur Rome avant l'instauration de la République ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "7",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "5",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "9",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "3",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "rom-054",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.antiquite",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Comment se nomme la garde d'élite chargée de la protection personnelle des empereurs romains ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "La légion d'honneur",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "La garde prétorienne",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "Les vigiles",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "La cohorte urbaine",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "rom-055",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.antiquite",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Quelle phrase Jules César aurait prononcée après sa victoire éclair sur le roi Pharnace II, en 47 av. J.-C. ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Alea jacta est",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Tu quoque, fili",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Veni, vidi, vici",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "Ave Caesar",
+          "correct": false
+        }
+      ],
+      "explanation": "« Je suis venu, j'ai vu, j'ai vaincu » — pour souligner la rapidité de sa victoire à Zéla."
+    }
+  ]
+}

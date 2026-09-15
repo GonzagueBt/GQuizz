@@ -1,0 +1,1674 @@
+{
+  "id": "louis-xiv",
+  "name": "Louis XIV",
+  "description": "Versailles, absolutisme et Grand Siècle : le règne le plus long de l'histoire de France.",
+  "emoji": "☀️",
+  "categoryId": "histoire",
+  "subcategoryId": "histoire.france",
+  "tier": "free",
+  "productId": "gquizz.deck.louis_xiv",
+  "priceHint": "1,99 €",
+  "questionCount": 55,
+  "averageDifficulty": 3,
+  "releasedAt": "2026-09-15",
+  "tags": [
+    "nouveau"
+  ],
+  "previewQuestionIds": [
+    "lxiv-001",
+    "lxiv-002"
+  ],
+  "questions": [
+    {
+      "id": "lxiv-001",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.france",
+      "difficulty": 1,
+      "type": "single",
+      "prompt": "Quel surnom est resté attaché à Louis XIV ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Le Roi-Soleil",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "Le Bon Roi",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Le Roi de Fer",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Le Roi Lion",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "lxiv-002",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.france",
+      "difficulty": 1,
+      "type": "single",
+      "prompt": "Quel château, symbole de son règne, Louis XIV fait-il construire près de Paris ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Chambord",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Versailles",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "Fontainebleau",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Chantilly",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "lxiv-003",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.france",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Environ combien de temps dure le règne de Louis XIV, l'un des plus longs de l'histoire ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Environ 30 ans",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Environ 50 ans",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Environ 72 ans",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "Environ 90 ans",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "lxiv-004",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.france",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Qui gouverne le royaume pendant la minorité de Louis XIV, en tant que régente ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Marie de Médicis",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Catherine de Médicis",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Marie-Thérèse",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Anne d'Autriche",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "lxiv-005",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.france",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quel cardinal gouverne aux côtés de la régente pendant la jeunesse de Louis XIV ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Mazarin",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "Richelieu",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Fleury",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Dubois",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "lxiv-006",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.france",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Comment se nomme la révolte de nobles contre le pouvoir royal durant la minorité de Louis XIV ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "La Jacquerie",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "La Fronde",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "La Ligue",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "La Praguerie",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "lxiv-007",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.france",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Comment appelle-t-on le système politique où le roi détient tous les pouvoirs, sans partage ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Le parlementarisme",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Le fédéralisme",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "L'absolutisme",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "Le despotisme éclairé",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "lxiv-008",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.france",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Quelle formule résume traditionnellement la conception absolutiste du pouvoir attribuée à Louis XIV ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "« Après moi, le déluge »",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "« Paris vaut bien une messe »",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "« Tout pour le peuple, rien par le peuple »",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "« L'État, c'est moi »",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "lxiv-009",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.france",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quel ministre des Finances organise l'économie du royaume sous Louis XIV ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Jean-Baptiste Colbert",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "Sully",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Necker",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Turgot",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "lxiv-010",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.france",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Comment se nomme la politique économique protectionniste de Colbert, favorisant l'industrie et le commerce français ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Le libre-échangisme",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Le colbertisme",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "Le physiocratisme",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Le corporatisme",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "lxiv-011",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.france",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Quel ingénieur militaire fortifie les frontières de la France sous Louis XIV avec un réseau de citadelles ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Turenne",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Condé",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Vauban",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "Villars",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "lxiv-012",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.france",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quelle infante d'Espagne épouse Louis XIV en 1660 ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Anne d'Autriche",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Marie-Louise d'Orléans",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Élisabeth de France",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Marie-Thérèse d'Autriche",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "lxiv-013",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.france",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Quelle favorite de Louis XIV lui donne plusieurs enfants légitimés dans les années 1670 ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Madame de Montespan",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "Mademoiselle de La Vallière",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Madame de Maintenon",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "La princesse Palatine",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "lxiv-014",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.france",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Qui devient l'épouse secrète de Louis XIV à la fin de son règne, après la mort de la reine ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Madame de Montespan",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Madame de Maintenon",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "La duchesse de Fontanges",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Mademoiselle de Blois",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "lxiv-015",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.france",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Comment se nomme la célèbre galerie du château de Versailles, ornée de miroirs et de fresques ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "La galerie François Ier",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "La galerie d'Apollon",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "La galerie des Glaces",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "La galerie des Batailles",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "lxiv-016",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.france",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "En quelle année Louis XIV révoque-t-il l'édit de Nantes, provoquant l'exil de nombreux protestants ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "1610",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "1715",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "1661",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "1685",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "lxiv-017",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.france",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quel édit, signé par Henri IV en 1598, accordait des droits religieux aux protestants avant d'être révoqué par Louis XIV ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "L'édit de Nantes",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "L'édit de Fontainebleau",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "L'édit de tolérance",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "L'édit de Compiègne",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "lxiv-018",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.france",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Quelle religion pratiquent les Huguenots, persécutés après 1685 ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Le catholicisme",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Le protestantisme",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "Le judaïsme",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Le jansénisme catholique",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "lxiv-019",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.france",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Quel architecte achève l'essentiel du château de Versailles tel qu'on le connaît aujourd'hui ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "François Mansart",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Claude Perrault",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Jules Hardouin-Mansart",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "Robert de Cotte",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "lxiv-020",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.france",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Quel paysagiste conçoit les célèbres jardins à la française du château de Versailles ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Claude Perrault",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Charles Le Brun",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Robert de Cotte",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "André Le Nôtre",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "lxiv-021",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.france",
+      "difficulty": 4,
+      "type": "single",
+      "prompt": "Quel compositeur de musique baroque dirige la musique à la cour de Louis XIV ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Jean-Baptiste Lully",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "François Couperin",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Marc-Antoine Charpentier",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Jean-Philippe Rameau",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "lxiv-022",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.france",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quel dramaturge, auteur de comédies comme « Le Malade imaginaire », est protégé par Louis XIV ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Racine",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Molière",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "Corneille",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Marivaux",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "lxiv-023",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.france",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quelle résidence sert de palais royal à Paris avant l'installation de la cour à Versailles ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Les Tuileries seules",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Le Palais-Royal",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Le Louvre",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "L'hôtel de Sully",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "lxiv-024",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.france",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Comment se nomme la longue et coûteuse guerre menée par Louis XIV entre 1701 et 1714 ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "La guerre de Hollande",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "La guerre de Dévolution",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "La guerre de la Ligue d'Augsbourg",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "La guerre de Succession d'Espagne",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "lxiv-025",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.france",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Quel petit-fils de Louis XIV devient roi d'Espagne, déclenchant la guerre de Succession d'Espagne ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Philippe V",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "Charles II",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Louis, le Grand Dauphin",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Philippe d'Orléans",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "lxiv-026",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.france",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Comment appelle-t-on la période du règne de Louis XIV, marquée par un rayonnement culturel exceptionnel ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Le Siècle des Lumières",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Le Grand Siècle",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "L'âge d'or gaulois",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "La Belle Époque",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "lxiv-027",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.france",
+      "difficulty": 4,
+      "type": "single",
+      "prompt": "Comment appelle-t-on le mystérieux prisonnier d'État, jamais identifié, détenu sous Louis XIV le visage dissimulé ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Le Prisonnier voilé",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "L'Homme sans nom",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Le Masque de fer",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "Le Comte inconnu",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "lxiv-028",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.france",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Comment se nomme l'institution, fondée sous Richelieu et protégée par Louis XIV, chargée de codifier la langue française ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "L'Académie des sciences",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "La Sorbonne",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Le Collège de France",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "L'Académie française",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "lxiv-029",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.france",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Comment se nomme le fils aîné de Louis XIV, héritier du trône mort avant son père ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Le Grand Dauphin",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "Le duc de Bourgogne",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Le duc d'Anjou",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Le comte de Toulouse",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "lxiv-030",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.france",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Qui succède à Louis XIV en 1715, son arrière-petit-fils alors âgé de 5 ans ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Louis XVI",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Louis XV",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "Philippe d'Orléans",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Louis XIII",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "lxiv-031",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.france",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "En quelle année Louis XIV meurt-il ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "1700",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "1723",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "1715",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "1685",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "lxiv-032",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.france",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "En quelle année Louis XIV naît-il ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "1643",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "1620",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "1650",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "1638",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "lxiv-033",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.france",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Quel roi, père de Louis XIV, règne juste avant lui ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Louis XIII",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "Henri IV",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Louis XII",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "François Ier",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "lxiv-034",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.france",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "À partir de quelle année la cour s'installe-t-elle définitivement à Versailles ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "1661",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "1682",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "1700",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "1643",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "lxiv-035",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.france",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Comment appelle-t-on le style de jardin géométrique et symétrique développé à Versailles ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Le jardin à l'anglaise",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Le jardin zen",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Le jardin à la française",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "Le jardin médiéval",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "lxiv-036",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.france",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quel sport, ancêtre du tennis, se pratique à la cour du Roi-Soleil ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Le croquet",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "La soule",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Le mail",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Le jeu de paume",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "lxiv-037",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.france",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Dans quel château, aux environs de Paris, Louis XIV naît-il en 1638 ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Le château de Saint-Germain-en-Laye",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "Le château de Fontainebleau",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Le château de Vincennes",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Le Louvre",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "lxiv-038",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.france",
+      "difficulty": 4,
+      "type": "single",
+      "prompt": "Quel duc et mémorialiste décrit avec verve la vie de cour sous Louis XIV dans ses célèbres « Mémoires » ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Le duc de Sully",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Le duc de Saint-Simon",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "Le cardinal de Retz",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Le duc de Richelieu",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "lxiv-039",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.france",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Comment appelle-t-on la conception selon laquelle le roi tient son pouvoir directement de Dieu ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "La monarchie élective",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "La théocratie parlementaire",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "La monarchie de droit divin",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "Le despotisme éclairé",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "lxiv-040",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.france",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Comment se nomme la guerre menée par Louis XIV contre les Provinces-Unies dans les années 1670 ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "La guerre de Trente Ans",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "La guerre de Sept Ans",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "La guerre de Dévolution",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "La guerre de Hollande",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "lxiv-041",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.france",
+      "difficulty": 4,
+      "type": "single",
+      "prompt": "Quel ministre de la Guerre, rival de Colbert, réorganise et modernise l'armée royale ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Louvois",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "Turenne",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Villeroy",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Chamillart",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "lxiv-042",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.france",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Pourquoi Louis XIV impose-t-il aux grands nobles de résider une partie de l'année à Versailles ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Pour financer la construction du château",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Pour mieux les surveiller et éviter de nouvelles révoltes",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "Pour organiser des tournois militaires réguliers",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Pour leur enseigner l'agriculture",
+          "correct": false
+        }
+      ],
+      "explanation": "Un moyen de neutraliser la noblesse après les troubles de la Fronde."
+    },
+    {
+      "id": "lxiv-043",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.france",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Comment se nomme le grand bassin des jardins de Versailles représentant le dieu Apollon sur son char ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Le bassin de Latone",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Le bassin de Neptune",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Le bassin d'Apollon",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "Le bassin des Nymphes",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "lxiv-044",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.france",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Comment se nomme le frère cadet de Louis XIV, surnommé simplement « Monsieur » à la cour ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Gaston d'Orléans",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Henri de Bourbon",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Charles de Valois",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Philippe d'Orléans",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "lxiv-045",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.france",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Comment se nomme la coalition européenne que Louis XIV affronte entre 1688 et 1697 ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "La guerre de la Ligue d'Augsbourg",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "La guerre de Trente Ans",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "La guerre de Sept Ans",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "La guerre de Hollande",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "lxiv-046",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.france",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Dans quelle ville se déroule traditionnellement le sacre des rois de France ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Paris",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Reims",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "Orléans",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Chartres",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "lxiv-047",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.france",
+      "difficulty": 4,
+      "type": "single",
+      "prompt": "Quelle bataille de 1709, l'une des plus meurtrières du règne, oppose la France à une large coalition ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Rocroi",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Fontenoy",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Malplaquet",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "Denain",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "lxiv-048",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.france",
+      "difficulty": 4,
+      "type": "single",
+      "prompt": "Sur les enfants légitimes qu'il a avec Marie-Thérèse, combien Louis XIV voit-il atteindre l'âge adulte ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Aucun",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Les six",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Trois",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Un seul, le Grand Dauphin",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "lxiv-049",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.france",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Quel roi fait initialement construire un simple pavillon de chasse à Versailles, avant que Louis XIV ne l'agrandisse en palais ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Louis XIII",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "Henri IV",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "François Ier",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Louis XI",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "lxiv-050",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.france",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Comment se nomme le grand plan d'eau des jardins de Versailles, utilisé pour des fêtes nautiques ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Le bassin des Suisses",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Le Grand Canal",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "L'étang des Carpes",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Le miroir d'eau",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "lxiv-051",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.france",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quel âge Louis XIV a-t-il lorsqu'il devient roi, à la mort de son père en 1643 ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "12 ans",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "16 ans",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "4 ans",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "8 ans",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "lxiv-052",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.france",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "À la mort de Mazarin en 1661, quelle décision marquante Louis XIV prend-il concernant le gouvernement ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Il nomme un nouveau Premier ministre",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Il confie le pouvoir à sa mère",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Il partage le pouvoir avec le Parlement",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Il décide de gouverner seul, sans Premier ministre",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "lxiv-053",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.france",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quel surintendant des Finances, arrêté en 1661 pour avoir trop affiché sa richesse, est remplacé par Colbert ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Nicolas Fouquet",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "Sully",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Necker",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Law",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "lxiv-054",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.france",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Quel splendide château de Nicolas Fouquet, jugé trop somptueux, inspire directement Versailles ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Chantilly",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Vaux-le-Vicomte",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "Chambord",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Amboise",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "lxiv-055",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.france",
+      "difficulty": 4,
+      "type": "single",
+      "prompt": "Quelle académie royale, fondée sous Louis XIV, se consacre à l'étude des sciences ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "L'Académie française",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "L'Académie royale de peinture seule",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "L'Académie des sciences",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "Le Collège de France",
+          "correct": false
+        }
+      ]
+    }
+  ]
+}

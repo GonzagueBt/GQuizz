@@ -1,0 +1,1673 @@
+{
+  "id": "grece-antique",
+  "name": "Grèce antique",
+  "description": "Démocratie, philosophes, mythologie et Jeux olympiques : le berceau de la civilisation occidentale.",
+  "emoji": "🏺",
+  "categoryId": "histoire",
+  "subcategoryId": "histoire.antiquite",
+  "tier": "free",
+  "productId": "gquizz.deck.grece_antique",
+  "priceHint": "1,99 €",
+  "questionCount": 55,
+  "averageDifficulty": 3,
+  "releasedAt": "2026-09-15",
+  "tags": [
+    "nouveau"
+  ],
+  "previewQuestionIds": [
+    "gre-001",
+    "gre-003"
+  ],
+  "questions": [
+    {
+      "id": "gre-001",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.antiquite",
+      "difficulty": 1,
+      "type": "single",
+      "prompt": "Quel système politique, gouvernement par le peuple, naît dans l'Athènes antique ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "La démocratie",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "La monarchie",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "L'oligarchie",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "La théocratie",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "gre-002",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.antiquite",
+      "difficulty": 1,
+      "type": "single",
+      "prompt": "Quelle cité grecque antique est réputée pour l'austérité et la discipline militaire de ses citoyens ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Corinthe",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Sparte",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "Thèbes",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Delphes",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "gre-003",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.antiquite",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Sur quelle colline sacrée d'Athènes se dresse le Parthénon ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "L'Aréopage",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Le Pnyx",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "L'Acropole",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "Le Lycabette",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "gre-004",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.antiquite",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "À quelle déesse le Parthénon est-il dédié ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Héra",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Artémis",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Déméter",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Athéna",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "gre-005",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.antiquite",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quel dieu est le roi de tous les dieux dans la mythologie grecque ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Zeus",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "Poséidon",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Apollon",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Arès",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "gre-006",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.antiquite",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quel dieu grec règne sur la mer ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Hadès",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Poséidon",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "Hermès",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Héphaïstos",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "gre-007",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.antiquite",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quel dieu grec règne sur le royaume des morts ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Arès",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Dionysos",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Hadès",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "Pan",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "gre-008",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.antiquite",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Quelle déesse grecque incarne l'amour et la beauté ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Héra",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Artémis",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Hestia",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Aphrodite",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "gre-009",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.antiquite",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quel dieu grec préside au vin et aux festivités ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Dionysos",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "Hermès",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Apollon",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Pan",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "gre-010",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.antiquite",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quel dieu, messager des autres dieux, est représenté avec des sandales ailées ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Apollon",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Hermès",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "Héphaïstos",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Arès",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "gre-011",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.antiquite",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Quel héros grec accomplit douze travaux légendaires pour expier ses fautes ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Achille",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Persée",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Héraclès",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "Jason",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "gre-012",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.antiquite",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Comment se nomme la guerre légendaire entre Grecs et Troyens racontée par Homère ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "La guerre des Titans",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "La guerre de Thèbes",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "La guerre médique",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "La guerre de Troie",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "gre-013",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.antiquite",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Quel stratagème en bois permet aux Grecs de s'infiltrer dans Troie ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Le cheval de Troie",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "Le bouclier de Troie",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "La tour d'Ulysse",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Le taureau d'airain",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "gre-014",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.antiquite",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Quel poète grec, aveugle selon la légende, est l'auteur présumé de l'Iliade et de l'Odyssée ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Hésiode",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Homère",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "Pindare",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Sophocle",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "gre-015",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.antiquite",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Quel philosophe athénien est condamné à mort et boit la ciguë en 399 av. J.-C. ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Platon",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Aristote",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Socrate",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "Diogène",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "gre-016",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.antiquite",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Quel élève de Socrate fonde l'Académie, célèbre école philosophique athénienne ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Aristote",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Xénophon",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Épicure",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Platon",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "gre-017",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.antiquite",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Quel élève de Platon devient le précepteur d'Alexandre le Grand ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Aristote",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "Diogène",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Zénon",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Thalès",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "gre-018",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.antiquite",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quel roi macédonien conquiert un immense empire, de la Grèce jusqu'à l'Inde ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Philippe II",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Alexandre le Grand",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "Antigone",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Ptolémée",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "gre-019",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.antiquite",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Qui est le père d'Alexandre le Grand, roi de Macédoine ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Antipater",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Cassandre",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Philippe II",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "Perdiccas",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "gre-020",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.antiquite",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "À quelle célèbre bataille 300 Spartiates résistent-ils héroïquement face aux Perses en 480 av. J.-C. ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Marathon",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Salamine",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Platées",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Les Thermopyles",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "gre-021",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.antiquite",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Quel roi spartiate mène les 300 aux Thermopyles ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Léonidas",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "Agésilas",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Cléomène",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Lysandre",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "gre-022",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.antiquite",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Quelle bataille navale voit la flotte grecque repousser la flotte perse en 480 av. J.-C. ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Marathon",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Salamine",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "Actium",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Naxos",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "gre-023",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.antiquite",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Comment nomme-t-on l'ensemble des guerres opposant les cités grecques à l'Empire perse au Ve siècle av. J.-C. ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Les guerres puniques",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Les guerres samniques",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Les guerres médiques",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "Les guerres macédoniennes",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "gre-024",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.antiquite",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Comment se nomme la longue guerre du Ve siècle av. J.-C. opposant Athènes et Sparte ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "La guerre de Corinthe",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "La guerre lamiaque",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "La guerre sacrée",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "La guerre du Péloponnèse",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "gre-025",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.antiquite",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quelle course, aujourd'hui disputée aux Jeux olympiques, commémore la course légendaire d'un messager grec vers Athènes ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Le marathon",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "Le décathlon",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Le pentathlon",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Le stade",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "gre-026",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.antiquite",
+      "difficulty": 1,
+      "type": "single",
+      "prompt": "Comment se nomme la grande compétition sportive antique organisée tous les quatre ans en l'honneur de Zeus ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Les Jeux pythiques",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Les Jeux olympiques",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "Les Jeux isthmiques",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Les Jeux néméens",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "gre-027",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.antiquite",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Dans quelle cité grecque se déroulaient les Jeux olympiques antiques ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Delphes",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Corinthe",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Olympie",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "Némée",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "gre-028",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.antiquite",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Dans quel sanctuaire grec la prêtresse rendait-elle de célèbres oracles ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Délos",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Épidaure",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Dodone",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Delphes",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "gre-029",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.antiquite",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Comment se nomme la prêtresse qui rendait les oracles à Delphes ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "La Pythie",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "La Sibylle",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "La Vestale",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "L'Oracle",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "gre-030",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.antiquite",
+      "difficulty": 4,
+      "type": "single",
+      "prompt": "Quel ordre architectural grec, simple et sans base, est utilisé pour le Parthénon ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "L'ordre corinthien",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "L'ordre dorique",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "L'ordre ionique",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "L'ordre toscan",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "gre-031",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.antiquite",
+      "difficulty": 4,
+      "type": "single",
+      "prompt": "Quel ordre architectural grec, le plus orné, se reconnaît à ses chapiteaux en feuilles d'acanthe ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "L'ordre dorique",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "L'ordre ionique",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "L'ordre corinthien",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "L'ordre composite",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "gre-032",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.antiquite",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quelle statue géante, l'une des sept merveilles du monde antique, se dressait à l'entrée du port de Rhodes ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "La statue de Zeus à Olympie",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Le phare d'Alexandrie",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Les jardins suspendus",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Le Colosse de Rhodes",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "gre-033",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.antiquite",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Comment appelle-t-on la place publique, cœur de la vie civique et commerciale d'une cité grecque ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "L'agora",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "Le forum",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Le gymnase",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Le prytanée",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "gre-034",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.antiquite",
+      "difficulty": 4,
+      "type": "single",
+      "prompt": "Comment se nomme la formation de combat grecque, ligne serrée de soldats aux longues lances ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "La légion",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "La phalange",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "La cohorte",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "La manœuvre en tortue",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "gre-035",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.antiquite",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Comment appelle-t-on le soldat grec équipé d'un grand bouclier rond et d'une lance ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Le péltaste",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Le cavalier thessalien",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "L'hoplite",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "L'archer crétois",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "gre-036",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.antiquite",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quelle grande île grecque est le berceau de la civilisation minoenne ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Rhodes",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Chypre",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Eubée",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "La Crète",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "gre-037",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.antiquite",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Quel roi mythique de Crète est associé au palais de Cnossos ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Minos",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "Agamemnon",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Priam",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Ménélas",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "gre-038",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.antiquite",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Quelle créature mythique, mi-homme mi-taureau, est enfermée dans le labyrinthe de Cnossos ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Le Cerbère",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Le Minotaure",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "Le Centaure",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Le Cyclope",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "gre-039",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.antiquite",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Quel héros grec vainc le Minotaure dans le labyrinthe ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Persée",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Bellérophon",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Thésée",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "Jason",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "gre-040",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.antiquite",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Quelle princesse aide Thésée à sortir du labyrinthe grâce à un fil ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Antigone",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Andromaque",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Électre",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Ariane",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "gre-041",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.antiquite",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quel dramaturge grec est l'auteur de la tragédie « Œdipe roi » ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Sophocle",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "Eschyle",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Euripide",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Ménandre",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "gre-042",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.antiquite",
+      "difficulty": 4,
+      "type": "single",
+      "prompt": "Quel auteur grec est célèbre pour ses comédies satiriques, comme « Lysistrata » ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Euripide",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Aristophane",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "Sophocle",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Eschyle",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "gre-043",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.antiquite",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Quel auteur grec, souvent surnommé « le père de l'Histoire », relate les guerres médiques ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Thucydide",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Xénophon",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Hérodote",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "Polybe",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "gre-044",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.antiquite",
+      "difficulty": 4,
+      "type": "single",
+      "prompt": "Quel historien grec est l'auteur de « La Guerre du Péloponnèse » ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Hérodote",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Plutarque",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Diodore de Sicile",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Thucydide",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "gre-045",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.antiquite",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Comment appelle-t-on une cité-État grecque autonome, comme Athènes ou Sparte ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Une polis",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "Une satrapie",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Une ligue",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Une colonie",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "gre-046",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.antiquite",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Quel homme d'État athénien donne son nom à l'âge d'or d'Athènes, au Ve siècle av. J.-C. ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Solon",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Périclès",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "Thémistocle",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Cléisthène",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "gre-047",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.antiquite",
+      "difficulty": 4,
+      "type": "single",
+      "prompt": "Quel sculpteur grec supervise les travaux et les statues du Parthénon ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Praxitèle",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Myron",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Phidias",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "Polyclète",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "gre-048",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.antiquite",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quel mathématicien grec énonce le théorème reliant les côtés d'un triangle rectangle ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Thalès",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Euclide",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Archimède",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Pythagore",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "gre-049",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.antiquite",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Quel savant grec de Syracuse se serait écrié « Eurêka ! » en découvrant le principe de la poussée dans un liquide ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Archimède",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "Pythagore",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Euclide",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Ératosthène",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "gre-050",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.antiquite",
+      "difficulty": 4,
+      "type": "single",
+      "prompt": "Quel savant grec parvient, dès l'Antiquité, à estimer avec une remarquable précision la circonférence de la Terre ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Hipparque",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Ératosthène",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "Ptolémée",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Aristarque de Samos",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "gre-051",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.antiquite",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "L'alphabet latin, comme beaucoup d'alphabets européens, dérive de quel alphabet antique ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "L'alphabet hébreu",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Les hiéroglyphes",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "L'alphabet grec",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "Le cunéiforme",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "gre-052",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.antiquite",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Quel philosophe est célèbre pour avoir vécu dans un tonneau et cherché « un homme honnête » lanterne à la main ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Épicure",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Zénon",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Pythagore",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Diogène",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "gre-053",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.antiquite",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Quelle cité grecque d'Asie Mineure, foyer de nombreux philosophes présocratiques, est le lieu de naissance de Thalès ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Milet",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "Éphèse",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Halicarnasse",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Pergame",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "gre-054",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.antiquite",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Comment appelle-t-on les édifices grecs à colonnes dédiés à une divinité ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Un stade",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Un temple",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "Un odéon",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Un tholos funéraire",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "gre-055",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.antiquite",
+      "difficulty": 4,
+      "type": "single",
+      "prompt": "Quelle ligue militaire, dominée par Athènes après les guerres médiques, finance en partie la construction du Parthénon ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "La ligue du Péloponnèse",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "La ligue béotienne",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "La ligue de Délos",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "La ligue achéenne",
+          "correct": false
+        }
+      ]
+    }
+  ]
+}

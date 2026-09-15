@@ -1,0 +1,1673 @@
+{
+  "id": "cinquieme-republique",
+  "name": "La Ve République",
+  "description": "De Gaulle, Mai 68, cohabitations et présidents : les institutions de la France depuis 1958.",
+  "emoji": "🇫🇷",
+  "categoryId": "histoire",
+  "subcategoryId": "histoire.xxe",
+  "tier": "free",
+  "productId": "gquizz.deck.cinquieme_republique",
+  "priceHint": "1,99 €",
+  "questionCount": 55,
+  "averageDifficulty": 3,
+  "releasedAt": "2026-09-15",
+  "tags": [
+    "nouveau"
+  ],
+  "previewQuestionIds": [
+    "vrep-001",
+    "vrep-002"
+  ],
+  "questions": [
+    {
+      "id": "vrep-001",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.xxe",
+      "difficulty": 1,
+      "type": "single",
+      "prompt": "Qui fonde la Ve République en 1958 ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Charles de Gaulle",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "Georges Pompidou",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Pierre Mendès France",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "René Coty",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "vrep-002",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.xxe",
+      "difficulty": 1,
+      "type": "single",
+      "prompt": "En quelle année la Ve République est-elle fondée ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "1946",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "1958",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "1962",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "1968",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "vrep-003",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.xxe",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quel régime, affaibli par l'instabilité et la crise algérienne, précède la Ve République ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "La Troisième République",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Le régime de Vichy",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "La Quatrième République",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "Le gouvernement provisoire",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "vrep-004",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.xxe",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quel grand mouvement social et étudiant secoue la France en mai 1968 ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Les Gilets jaunes",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "La Commune",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Le Front populaire",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Mai 68",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "vrep-005",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.xxe",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "En 1962, quelle réforme constitutionnelle instaure l'élection du président au suffrage universel direct ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Le référendum de 1962",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "Les accords d'Évian",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "La loi constitutionnelle de 2000",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Le traité de Maastricht",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "vrep-006",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.xxe",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Qui est le premier président de la Ve République ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Vincent Auriol",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Charles de Gaulle",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "René Coty",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Georges Pompidou",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "vrep-007",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.xxe",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Quelle guerre coloniale précipite le retour au pouvoir de De Gaulle en 1958 ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "La guerre d'Indochine",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "La guerre du Rif",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "La guerre d'Algérie",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "La crise de Suez",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "vrep-008",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.xxe",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "En quelle année l'Algérie accède-t-elle à l'indépendance ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "1958",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "1954",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "1968",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "1962",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "vrep-009",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.xxe",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Quels accords, signés en 1962, mettent fin à la guerre d'Algérie ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Les accords d'Évian",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "Les accords de Genève",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Les accords de Grenelle",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Les accords de Matignon",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "vrep-010",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.xxe",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "En quelle année Charles de Gaulle démissionne-t-il de la présidence, après un référendum perdu ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "1965",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "1969",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "1958",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "1972",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "vrep-011",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.xxe",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Sur quel sujet porte le référendum perdu par de Gaulle en 1969, qui le pousse à démissionner ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "L'indépendance de l'Algérie",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "L'entrée dans la CEE",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "La réforme du Sénat et la régionalisation",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "Le quinquennat",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "vrep-012",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.xxe",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Qui succède à Charles de Gaulle à la présidence en 1969 ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Valéry Giscard d'Estaing",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Alain Poher",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "François Mitterrand",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Georges Pompidou",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "vrep-013",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.xxe",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Qui est élu président de la République en 1974 ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Valéry Giscard d'Estaing",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "Jacques Chaban-Delmas",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "François Mitterrand",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Pierre Mauroy",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "vrep-014",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.xxe",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Qui devient, en 1981, le premier président socialiste de la Ve République ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Michel Rocard",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "François Mitterrand",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "Lionel Jospin",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Pierre Mauroy",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "vrep-015",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.xxe",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Avant la réforme de 2000, combien d'années dure un mandat présidentiel français, un « septennat » ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "5 ans",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "9 ans",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "7 ans",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "4 ans",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "vrep-016",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.xxe",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Comment se nomme le mandat présidentiel de 5 ans, instauré par une réforme de 2000 ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Le septennat",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Le mandat court",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Le biennat",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Le quinquennat",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "vrep-017",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.xxe",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Qui succède à François Mitterrand à la présidence en 1995 ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Jacques Chirac",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "Édouard Balladur",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Lionel Jospin",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Nicolas Sarkozy",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "vrep-018",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.xxe",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Qui est élu président de la République en 2007 ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "François Hollande",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Nicolas Sarkozy",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "Ségolène Royal",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Jacques Chirac",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "vrep-019",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.xxe",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Qui est élu président de la République en 2012 ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Nicolas Sarkozy",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Emmanuel Macron",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "François Hollande",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "Jean-Luc Mélenchon",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "vrep-020",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.xxe",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Qui devient, en 2017, le plus jeune président de l'histoire de la Ve République ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "François Fillon",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Marine Le Pen",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Benoît Hamon",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Emmanuel Macron",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "vrep-021",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.xxe",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Comment appelle-t-on la situation où le président et le Premier ministre appartiennent à des camps politiques opposés ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "La cohabitation",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "La dyarchie",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "La coalition",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "La discordance",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "vrep-022",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.xxe",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Quelle est la première cohabitation de la Ve République, en 1986 ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Chirac-Jospin",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Mitterrand-Chirac",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "Mitterrand-Balladur",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "De Gaulle-Pompidou",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "vrep-023",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.xxe",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Comment se nomme la chambre basse du Parlement français, où siègent les députés ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Le Sénat",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Le Conseil d'État",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "L'Assemblée nationale",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "Le Conseil constitutionnel",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "vrep-024",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.xxe",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Comment se nomme la chambre haute du Parlement français ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "L'Assemblée nationale",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Le Conseil économique",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "La Chambre des pairs",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Le Sénat",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "vrep-025",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.xxe",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Quel organe est chargé de vérifier la conformité des lois à la Constitution ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Le Conseil constitutionnel",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "Le Conseil d'État seul",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "La Cour de cassation",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Le Sénat",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "vrep-026",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.xxe",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Dans quel palais parisien réside le président de la République ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Le palais du Luxembourg",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Le palais de l'Élysée",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "Le palais Bourbon",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Le palais Matignon",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "vrep-027",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.xxe",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Dans quel palais siège l'Assemblée nationale ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Le palais du Luxembourg",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Le palais Royal",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Le palais Bourbon",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "L'hôtel de Matignon",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "vrep-028",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.xxe",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Dans quel palais siège le Sénat français ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Le palais Bourbon",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Le palais de l'Élysée",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Le Grand Palais",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Le palais du Luxembourg",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "vrep-029",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.xxe",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quelle est la devise de la République française ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Liberté, Égalité, Fraternité",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "Unité, Travail, Justice",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Ordre et Progrès",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Un pour tous, tous pour un",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "vrep-030",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.xxe",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "À quelle date est célébrée la fête nationale française ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Le 8 mai",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Le 14 juillet",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "Le 11 novembre",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Le 1er mai",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "vrep-031",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.xxe",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Quel événement de 1789 est commémoré par la fête nationale du 14 juillet ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "L'exécution de Louis XVI",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "La proclamation de la République",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "La prise de la Bastille",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "La déclaration des droits de l'homme",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "vrep-032",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.xxe",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Comment se nomme le courant politique fondé par Charles de Gaulle ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Le bonapartisme",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Le radicalisme",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "L'orléanisme",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Le gaullisme",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "vrep-033",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.xxe",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Qui est Premier ministre de De Gaulle au moment des événements de Mai 68 ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Georges Pompidou",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "Michel Debré",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Maurice Couve de Murville",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Jacques Chaban-Delmas",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "vrep-034",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.xxe",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Qui est le premier Premier ministre de François Mitterrand en 1981 ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Laurent Fabius",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Pierre Mauroy",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "Michel Rocard",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Édith Cresson",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "vrep-035",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.xxe",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Quelle réforme emblématique du début du premier septennat de Mitterrand met fin à une pratique séculaire, en 1981 ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "La légalisation du divorce",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "L'instauration du service militaire",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "L'abolition de la peine de mort",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "La nationalisation des banques seule",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "vrep-036",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.xxe",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Quel garde des Sceaux porte la loi abolissant la peine de mort en France en 1981 ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Jean Foyer",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Alain Peyrefitte",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Jacques Toubon",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Robert Badinter",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "vrep-037",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.xxe",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Pendant combien d'années les députés de l'Assemblée nationale sont-ils élus, sauf dissolution ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "5 ans",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "7 ans",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "3 ans",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "9 ans",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "vrep-038",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.xxe",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Sur combien de tours se déroule l'élection présidentielle française lorsqu'aucun candidat n'obtient la majorité absolue au premier tour ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "3 tours",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "2 tours",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "1 tour seulement",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "4 tours",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "vrep-039",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.xxe",
+      "difficulty": 1,
+      "type": "single",
+      "prompt": "À partir de quel âge un citoyen français peut-il voter ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "16 ans",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "21 ans",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "18 ans",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "20 ans",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "vrep-040",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.xxe",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Quelle série d'attentats frappe durement la France en 2015, visant notamment un journal satirique et une salle de concert ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Les attentats de 1995",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Les attentats du RER B seuls",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Les attentats de 2012 seulement",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Les attentats de 2015",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "vrep-041",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.xxe",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Comment se nomme le mouvement de contestation sociale, reconnaissable à un vêtement de sécurité, qui émerge en France fin 2018 ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Les Gilets jaunes",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "Les Bonnets rouges",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Les Foulards rouges",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Les Brassards verts",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "vrep-042",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.xxe",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Qui, selon la Constitution, nomme le Premier ministre en France ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "L'Assemblée nationale",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Le président de la République",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "Le Sénat",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Le Conseil constitutionnel",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "vrep-043",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.xxe",
+      "difficulty": 4,
+      "type": "single",
+      "prompt": "Quel article de la Constitution permet au président de la République de dissoudre l'Assemblée nationale ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "L'article 16",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "L'article 49.3",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "L'article 12",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "L'article 89",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "vrep-044",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.xxe",
+      "difficulty": 4,
+      "type": "single",
+      "prompt": "Quel article de la Constitution permet au président de s'octroyer des pouvoirs exceptionnels en cas de crise grave ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "L'article 5",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "L'article 11",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "L'article 20",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "L'article 16",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "vrep-045",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.xxe",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Quel organe consultatif conseille le gouvernement sur les projets de loi et juge les recours contre l'administration ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Le Conseil d'État",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "Le Conseil constitutionnel",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "La Cour des comptes",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Le Sénat",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "vrep-046",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.xxe",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Quel mode de scrutin est utilisé pour élire les députés à l'Assemblée nationale ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "La proportionnelle intégrale",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Le scrutin majoritaire à deux tours",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "Le scrutin à un tour",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Le tirage au sort",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "vrep-047",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.xxe",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Quel traité européen, ratifié par référendum en France en 1992 sous Mitterrand, fonde l'Union européenne ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Le traité de Rome",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Le traité de Lisbonne",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Le traité de Maastricht",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "Le traité de l'Élysée",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "vrep-048",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.xxe",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quelle monnaie unique européenne la France adopte-t-elle définitivement en 2002 ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "L'écu",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Le franc européen",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Le deutsche mark",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "L'euro",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "vrep-049",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.xxe",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Quel président de la Ve République meurt en fonction en 1974 ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Georges Pompidou",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "Charles de Gaulle",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Valéry Giscard d'Estaing",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "François Mitterrand",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "vrep-050",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.xxe",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Qui est la première femme nommée Premier ministre en France, en 1991 ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Simone Veil",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Édith Cresson",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "Élisabeth Borne",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Ségolène Royal",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "vrep-051",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.xxe",
+      "difficulty": 4,
+      "type": "single",
+      "prompt": "Qui est Premier ministre de Chirac lors de la deuxième cohabitation, entre 1993 et 1995 ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Alain Juppé",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Lionel Jospin",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Édouard Balladur",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "Dominique de Villepin",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "vrep-052",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.xxe",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Quel slogan, parmi d'autres, est resté emblématique des inscriptions murales de Mai 68 ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "« Liberté, Égalité, Fraternité »",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "« La lutte finale »",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "« Vive la Nation »",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "« Il est interdit d'interdire »",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "vrep-053",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.xxe",
+      "difficulty": 4,
+      "type": "single",
+      "prompt": "Comment se nomme le premier grand parti fondé par les soutiens de De Gaulle en 1958 ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "L'Union pour la Nouvelle République (UNR)",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "Le Rassemblement du peuple français (RPF)",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Le Rassemblement pour la République (RPR)",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "L'Union pour la démocratie française (UDF)",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "vrep-054",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.xxe",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Comment se nomme la résidence officielle du Premier ministre français ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Le palais de l'Élysée",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "L'hôtel de Matignon",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "L'hôtel de Lassay",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Le palais du Luxembourg",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "vrep-055",
+      "categoryId": "histoire",
+      "subcategoryId": "histoire.xxe",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Quelle loi de 1974, portée par la ministre de la Santé Simone Veil, légalise l'interruption volontaire de grossesse en France ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "La loi Neuwirth",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "La loi Badinter",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "La loi Veil",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "La loi Roudy",
+          "correct": false
+        }
+      ]
+    }
+  ]
+}
