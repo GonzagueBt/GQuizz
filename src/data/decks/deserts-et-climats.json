@@ -1,0 +1,1673 @@
+{
+  "id": "deserts-et-climats",
+  "name": "Déserts et climats",
+  "description": "Sahara, Atacama, mousson, tropiques : les grands déserts et zones climatiques de la planète.",
+  "emoji": "🏜️",
+  "categoryId": "geographie",
+  "subcategoryId": "geographie.physique",
+  "tier": "free",
+  "productId": "gquizz.deck.deserts_et_climats",
+  "priceHint": "1,99 €",
+  "questionCount": 55,
+  "averageDifficulty": 2,
+  "releasedAt": "2026-09-15",
+  "tags": [
+    "nouveau"
+  ],
+  "previewQuestionIds": [
+    "des-001",
+    "des-002"
+  ],
+  "questions": [
+    {
+      "id": "des-001",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.physique",
+      "difficulty": 1,
+      "type": "single",
+      "prompt": "Quel est le plus grand désert chaud du monde ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Le Sahara",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "Le Gobi",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Le Kalahari",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "L'Atacama",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "des-002",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.physique",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Sur quel continent se trouve le désert du Sahara ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "L'Asie",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "L'Afrique",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "L'Amérique du Sud",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "L'Océanie",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "des-003",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.physique",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quel est, en réalité, le plus grand désert du monde toutes catégories confondues, climats froids inclus ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Le Sahara",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Le Gobi",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "L'Antarctique",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "L'Arabie",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "des-004",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.physique",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quel désert d'Asie, situé entre la Mongolie et la Chine, est célèbre pour ses fossiles de dinosaures ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Le Karakoum",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Le désert du Thar",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Le Rub al-Khali",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Le désert de Gobi",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "des-005",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.physique",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quel désert d'Afrique australe s'étend notamment sur le Botswana ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Le désert du Kalahari",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "Le désert du Namib",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Le Sahara",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Le désert de Sonora",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "des-006",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.physique",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quel désert côtier d'Afrique australe, réputé être le plus ancien désert du monde, borde l'océan Atlantique en Namibie ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Le désert du Kalahari",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Le désert du Namib",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "Le désert d'Atacama",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Le désert du Mojave",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "des-007",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.physique",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quel désert d'Amérique du Sud, au Chili, est considéré comme l'un des endroits les plus arides du monde ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Le désert du Namib",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Le désert de Patagonie",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Le désert d'Atacama",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "Le désert de Sonora",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "des-008",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.physique",
+      "difficulty": 1,
+      "type": "single",
+      "prompt": "Dans quel pays se trouve la Vallée de la Mort, qui détient un record de température ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Le Mexique",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "L'Australie",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Le Chili",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Les États-Unis",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "des-009",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.physique",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quel désert américain abrite la Vallée de la Mort et la ville de Las Vegas ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Le désert du Mojave",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "Le désert de Sonora",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Le désert de Chihuahua",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Le désert du Namib",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "des-010",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.physique",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Comment surnomme-t-on familièrement le vaste intérieur désertique de l'Australie ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Le Bush",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "L'Outback",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "Le Territoire",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Le Backcountry",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "des-011",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.physique",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Comment appelle-t-on une étendue désertique couverte de dunes de sable ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Un reg",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Une hamada",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Un erg",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "Un oued",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "des-012",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.physique",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Comment appelle-t-on une étendue désertique de cailloux et de graviers ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Un erg",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Une hamada",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Une oasis",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Un reg",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "des-013",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.physique",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Comment appelle-t-on un plateau désertique rocheux ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Une hamada",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "Un erg",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Un reg",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Un wadi",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "des-014",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.physique",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Comment appelle-t-on un lit de rivière asséché, typique des zones désertiques, qui ne se remplit qu'en cas de pluie ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Un erg",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Un oued",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "Une hamada",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Un fjord",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "des-015",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.physique",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Comment appelle-t-on une étendue de végétation et d'eau au milieu d'un désert, alimentée par une source ou une nappe phréatique ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Un erg",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Un reg",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Une oasis",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "Un delta",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "des-016",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.physique",
+      "difficulty": 1,
+      "type": "single",
+      "prompt": "Quel animal, surnommé « le vaisseau du désert », est traditionnellement utilisé pour traverser le Sahara ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Le cheval",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "L'âne",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Le lama",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Le dromadaire",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "des-017",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.physique",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Quelle est la principale différence entre un dromadaire et un chameau ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Le nombre de bosses (une pour le dromadaire, deux pour le chameau)",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "La couleur du pelage",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "La taille des oreilles",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Le continent d'origine uniquement",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "des-018",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.physique",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quel peuple nomade est traditionnellement associé au désert du Sahara ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Les Inuits",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Les Touaregs",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "Les Massaïs",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Les Aborigènes",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "des-019",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.physique",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Comment appelle-t-on le phénomène optique qui donne l'illusion d'une étendue d'eau dans le désert ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Un halo",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Une aurore",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Un mirage",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "Un arc-en-ciel",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "des-020",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.physique",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quelle région semi-aride d'Afrique borde le sud du Sahara et souffre régulièrement de sécheresses ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Le Kalahari",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Le Maghreb",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Le Rift",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Le Sahel",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "des-021",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.physique",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Comment appelle-t-on le processus par lequel une terre fertile se transforme progressivement en désert ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "La désertification",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "L'érosion",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "La sédimentation",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "La déforestation",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "des-022",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.physique",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quel désert de la péninsule Arabique, l'un des plus vastes déserts de sable du monde, est surnommé le « Quartier vide » ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Le Karakoum",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Le Rub al-Khali",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "Le désert du Thar",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Le Néguev",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "des-023",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.physique",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "En dessous de quel seuil annuel de précipitations une région est-elle généralement classée comme désertique ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "1000 millimètres par an",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "50 millimètres par an",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "250 millimètres par an",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "2000 millimètres par an",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "des-024",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.physique",
+      "difficulty": 1,
+      "type": "single",
+      "prompt": "Quelle ligne imaginaire, parallèle à l'équateur, traverse le Sahara et marque la limite nord des tropiques ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Le tropique du Capricorne",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Le cercle polaire arctique",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "L'équateur",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Le tropique du Cancer",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "des-025",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.physique",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quelle ligne imaginaire, parallèle à l'équateur, traverse le Kalahari et l'Atacama et marque la limite sud des tropiques ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Le tropique du Capricorne",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "Le tropique du Cancer",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Le cercle polaire antarctique",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "L'équateur",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "des-026",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.physique",
+      "difficulty": 1,
+      "type": "single",
+      "prompt": "Quelle ligne imaginaire divise la Terre en hémisphère nord et hémisphère sud ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Le méridien de Greenwich",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "L'équateur",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "Le tropique du Cancer",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Le cercle polaire",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "des-027",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.physique",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Comment appelle-t-on le vent chaud et sec, chargé de poussière, qui souffle du Sahara vers l'Afrique de l'Ouest ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Le sirocco",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Le mistral",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "L'harmattan",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "Le chinook",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "des-028",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.physique",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Comment appelle-t-on le vent chaud originaire du Sahara qui souffle vers l'Europe du Sud, notamment l'Italie ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "L'harmattan",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Le mistral",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "La tramontane",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Le sirocco",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "des-029",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.physique",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Comment appelle-t-on une tempête de sable violente et soudaine, fréquente dans les régions désertiques ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Un haboob",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "Un blizzard",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Une tornade",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Un ouragan",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "des-030",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.physique",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quel climat, caractérisé par des précipitations abondantes toute l'année et une chaleur constante, domine le bassin amazonien et le bassin du Congo ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Le climat tropical",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Le climat équatorial",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "Le climat de mousson",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Le climat continental",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "des-031",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.physique",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quel climat, marqué par une saison des pluies intense suivie d'une longue saison sèche, caractérise une grande partie de l'Inde et de l'Asie du Sud-Est ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Le climat équatorial",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Le climat méditerranéen",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Le climat de mousson",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "Le climat polaire",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "des-032",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.physique",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Comment appelle-t-on le vent saisonnier qui apporte d'abondantes pluies en Asie du Sud pendant l'été ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "L'harmattan",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Le sirocco",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "L'alizé",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "La mousson",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "des-033",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.physique",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quel climat tempéré, caractérisé par des étés chauds et secs et des hivers doux et humides, se retrouve autour de la mer Méditerranée ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Le climat méditerranéen",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "Le climat océanique",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Le climat continental",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Le climat de mousson",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "des-034",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.physique",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Outre le pourtour méditerranéen, quel État américain est réputé pour son climat de type méditerranéen ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "La Floride",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "La Californie",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "Le Texas",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "L'Alaska",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "des-035",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.physique",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Comment appelle-t-on la vaste plaine herbeuse semi-aride que l'on trouve notamment en Asie centrale et dans les grandes plaines nord-américaines ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "La toundra",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "La taïga",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "La steppe",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "La savane",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "des-036",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.physique",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quel climat, caractérisé par de grands écarts de température entre été et hiver, domine l'intérieur de vastes continents comme la Russie ou le Canada ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Le climat océanique",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Le climat équatorial",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Le climat méditerranéen",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Le climat continental",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "des-037",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.physique",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Comment appelle-t-on la vaste forêt de conifères qui s'étend sur la Russie, la Scandinavie et le Canada ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "La taïga",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "La toundra",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "La steppe",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "La savane",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "des-038",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.physique",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Comment appelle-t-on la région froide et sans arbres située au-delà de la limite des forêts, dans l'Arctique ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "La taïga",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "La toundra",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "La steppe",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "La banquise",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "des-039",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.physique",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Comment appelle-t-on le sol qui reste gelé en permanence, typique des régions polaires ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Le loess",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Le limon",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Le pergélisol",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "La moraine",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "des-040",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.physique",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quel climat se caractérise par des températures glaciales toute l'année et se retrouve au Groenland et en Antarctique ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Le climat continental",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Le climat océanique",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Le climat de montagne",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Le climat polaire",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "des-041",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.physique",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Quel système de classification, très utilisé en géographie, répartit les climats du monde en grandes catégories comme équatorial, désertique, tempéré ou polaire ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "La classification de Köppen",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "L'échelle de Beaufort",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "L'échelle de Richter",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "La classification de Linné",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "des-042",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.physique",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quel phénomène climatique périodique, né dans l'océan Pacifique, peut provoquer sécheresses et inondations à l'échelle mondiale ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "La mousson",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "El Niño",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "L'harmattan",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Le sirocco",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "des-043",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.physique",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Quel désert d'Asie centrale, situé principalement en Ouzbékistan et au Turkménistan, doit son nom à une expression signifiant « sable noir » ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Le Gobi",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Le désert du Thar",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Le Karakoum",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "Le Kyzylkoum",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "des-044",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.physique",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Quel désert australien fait partie des plus vastes du pays, situé entre le désert de Gibson et le désert de Simpson ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Le désert de Tanami",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Le désert de Sturt",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Le désert de Nullarbor",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Le Grand Désert de Victoria",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "des-045",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.physique",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quel désert d'Amérique du Nord, situé principalement en Arizona, est connu pour ses grands cactus saguaros ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Le désert de Sonora",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "Le désert du Mojave",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Le désert de Chihuahua",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Le désert du Namib",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "des-046",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.physique",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Comment appelle-t-on le désert situé au Texas et dans le nord du Mexique, l'un des plus grands déserts chauds d'Amérique du Nord ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Le désert de Sonora",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Le désert de Chihuahua",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "Le désert du Mojave",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Le désert du Namib",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "des-047",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.physique",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Comment se nomme le célèbre champ de dunes orangées, parmi les plus hautes du monde, situé dans le désert du Namib ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Erg Chebbi",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Rub al-Khali",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Sossusvlei",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "Simpson",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "des-048",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.physique",
+      "difficulty": 1,
+      "type": "single",
+      "prompt": "Comment appelle-t-on une plante adaptée à la sécheresse, capable de stocker l'eau dans ses tissus, typique des déserts américains ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Une fougère",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Un conifère",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Une mousse",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Un cactus",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "des-049",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.physique",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Comment appelle-t-on le déplacement progressif d'une dune de sable sous l'effet constant du vent ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "La migration des dunes",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "La subduction",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "La sédimentation glaciaire",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "L'upwelling",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "des-050",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.physique",
+      "difficulty": 1,
+      "type": "single",
+      "prompt": "Quelle est la caractéristique principale d'un climat désertique en matière de précipitations ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Des précipitations abondantes toute l'année",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Des précipitations annuelles très faibles",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "Des précipitations uniquement sous forme de neige",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Des précipitations concentrées en hiver seulement",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "des-051",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.physique",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Dans quel désert se trouve-t-on lorsqu'on affirme qu'il ne serait pas tombé de pluie mesurable pendant des décennies à certains endroits ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Le désert du Namib",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Le Sahara",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Le désert d'Atacama",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "Le désert de Gobi",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "des-052",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.physique",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quel type de climat, à mi-chemin entre climat désertique et climat plus humide, caractérise les vastes steppes d'Asie centrale ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Le climat équatorial",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Le climat océanique",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Le climat de mousson",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Le climat semi-aride",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "des-053",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.physique",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Comment appelle-t-on l'indice mesurant le degré de sécheresse d'un climat, en comparant précipitations et évaporation ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "L'indice d'aridité",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "L'indice de salinité",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "L'indice de fertilité",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "L'indice d'humidité relative",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "des-054",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.physique",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quel désert d'Israël et de Jordanie, aride et rocheux, borde la mer Morte ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Le désert du Thar",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Le désert du Néguev",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "Le Rub al-Khali",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Le Karakoum",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "des-055",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.physique",
+      "difficulty": 1,
+      "type": "single",
+      "prompt": "Pourquoi l'Antarctique est-il classé comme un désert malgré son immense couche de glace ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Parce qu'aucun être vivant n'y habite",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Parce que sa température moyenne dépasse 30°C",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Parce qu'il y tombe très peu de précipitations",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "Parce qu'il ne possède aucun relief",
+          "correct": false
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1673 @@
+{
+  "id": "geographie-asie",
+  "name": "Géographie de l'Asie",
+  "description": "Inde, Japon, route de la soie, péninsule Arabique : un tour du plus vaste continent du monde.",
+  "emoji": "🐉",
+  "categoryId": "geographie",
+  "subcategoryId": "geographie.monde",
+  "tier": "free",
+  "productId": "gquizz.deck.geographie_asie",
+  "priceHint": "1,99 €",
+  "questionCount": 55,
+  "averageDifficulty": 2,
+  "releasedAt": "2026-09-15",
+  "tags": [
+    "nouveau"
+  ],
+  "previewQuestionIds": [
+    "asi-001",
+    "asi-002"
+  ],
+  "questions": [
+    {
+      "id": "asi-001",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.monde",
+      "difficulty": 1,
+      "type": "single",
+      "prompt": "Quel est le pays le plus peuplé du monde aujourd'hui, ayant dépassé la Chine en population ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "L'Inde",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "La Chine",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "L'Indonésie",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Le Pakistan",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "asi-002",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.monde",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quel pays asiatique a longtemps été le plus peuplé du monde, avant d'être dépassé par l'Inde ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "L'Indonésie",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "La Chine",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "Le Bangladesh",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Le Japon",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "asi-003",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.monde",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quel est le plus grand pays du monde par sa superficie, à cheval sur l'Europe et l'Asie ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "La Chine",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Le Canada",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "La Russie",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "Le Kazakhstan",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "asi-004",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.monde",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quelle ville, capitale de la Chine, abrite la Cité interdite ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Shanghai",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Xi'an",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Canton",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Pékin",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "asi-005",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.monde",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quel archipel d'Asie de l'Est, composé de milliers d'îles, est aussi la troisième économie mondiale ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Le Japon",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "Les Philippines",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "L'Indonésie",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Taïwan",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "asi-006",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.monde",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quelle est la plus grande île du Japon, celle où se trouve Tokyo ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Hokkaido",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Honshu",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "Kyushu",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Shikoku",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "asi-007",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.monde",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quelle route commerciale historique reliait la Chine à l'Europe en traversant l'Asie centrale ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "La route des épices",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "La route de l'ambre",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "La route de la soie",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "La route du thé",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "asi-008",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.monde",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quelle ville d'Ouzbékistan, étape emblématique de la route de la soie, est réputée pour son architecture timouride ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Boukhara",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Tachkent",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Khiva",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Samarcande",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "asi-009",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.monde",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quel mur défensif, l'un des plus longs ouvrages construits par l'homme, s'étend sur des milliers de kilomètres en Chine ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "La Grande Muraille de Chine",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "Le mur d'Hadrien",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Le limes romain",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "La muraille de Théodose",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "asi-010",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.monde",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quel fleuve sacré d'Inde prend sa source dans l'Himalaya et se jette dans le golfe du Bengale ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "L'Indus",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Le Gange",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "Le Brahmapoutre",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Le Mékong",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "asi-011",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.monde",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quel fleuve d'Asie du Sud-Est traverse six pays, du plateau tibétain au Vietnam, avant de se jeter en mer de Chine méridionale ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Le Gange",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "L'Irrawaddy",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Le Mékong",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "Le Yangzi",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "asi-012",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.monde",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quel est le plus long fleuve d'Asie, qui traverse la Chine d'ouest en est ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Le fleuve Jaune",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Le Mékong",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "L'Amour",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Le Yangzi (Yangtsé)",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "asi-013",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.monde",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quel archipel d'Asie du Sud-Est, comptant plus de 17 000 îles, est le plus vaste archipel du monde ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "L'Indonésie",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "Les Philippines",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "La Malaisie",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Le Japon",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "asi-014",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.monde",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quel pays d'Asie du Sud-Est, également un archipel, compte environ 7 000 îles et a pour capitale Manille ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "L'Indonésie",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Les Philippines",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "La Malaisie",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Le Vietnam",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "asi-015",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.monde",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quelle organisation régionale regroupe dix pays d'Asie du Sud-Est pour favoriser la coopération économique et politique ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "L'APEC",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Le Commonwealth",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "L'ASEAN",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "L'Union eurasiatique",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "asi-016",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.monde",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quelle cité-État d'Asie du Sud-Est, à la pointe de la péninsule malaise, est l'un des principaux ports et centres financiers du monde ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Hong Kong",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Macao",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Brunei",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Singapour",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "asi-017",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.monde",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quelle grande île est partagée entre l'Indonésie, la Malaisie et le petit sultanat du Brunei ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Bornéo",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "Sumatra",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Java",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Sulawesi",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "asi-018",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.monde",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quel petit sultanat pétrolier d'Asie du Sud-Est se situe sur l'île de Bornéo ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Le Qatar",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Le Brunei",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "Bahreïn",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Oman",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "asi-019",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.monde",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quel est le seul pays d'Asie du Sud-Est à n'avoir jamais été colonisé par une puissance européenne ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Le Vietnam",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Le Myanmar",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "La Thaïlande",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "Le Cambodge",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "asi-020",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.monde",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quel nom portait officiellement la Thaïlande avant 1939 ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "L'Indochine",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Le Champa",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Le Lanna",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Le Siam",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "asi-021",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.monde",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quel site archéologique cambodgien, plus grand complexe religieux du monde, témoigne de l'ancien empire khmer ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Angkor Vat",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "Bagan",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Borobudur",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Sukhothai",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "asi-022",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.monde",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quel pays d'Asie du Sud-Est, enclavé entre la Thaïlande, le Vietnam et la Chine, n'a aucun accès à la mer ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Le Cambodge",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Le Laos",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "Le Myanmar",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Le Vietnam",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "asi-023",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.monde",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quel pays d'Asie du Sud-Est s'appelait autrefois la Birmanie ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Le Laos",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Le Bangladesh",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Le Myanmar",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "Le Bhoutan",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "asi-024",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.monde",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quel pays d'Asie du Sud, traversé par un immense delta formé par le Gange et le Brahmapoutre, est l'un des plus densément peuplés au monde ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Le Népal",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Le Sri Lanka",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Le Bhoutan",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Le Bangladesh",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "asi-025",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.monde",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quelle île, séparée du sud de l'Inde par le détroit de Palk, est surnommée la « larme de l'Inde » en raison de sa forme ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Le Sri Lanka",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "Les Maldives",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Madagascar",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Sumatra",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "asi-026",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.monde",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quel petit royaume himalayen, situé entre l'Inde et la Chine, est connu pour mesurer un « bonheur national brut » plutôt que le seul PIB ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Le Népal",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Le Bhoutan",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "Le Sikkim",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Le Ladakh",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "asi-027",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.monde",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quel royaume himalayen, patrie du mont Everest, se situe entre l'Inde et le Tibet chinois ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Le Bhoutan",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Le Sikkim",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Le Népal",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "Le Cachemire",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "asi-028",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.monde",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Le sommet de l'Everest se trouve exactement à la frontière du Népal et de quel autre territoire ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Le Bhoutan",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Le Pakistan",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Le Myanmar",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Le Tibet (Chine)",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "asi-029",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.monde",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quel pays d'Asie centrale, le plus vaste pays enclavé du monde, est bordé par la Russie et la Chine ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Le Kazakhstan",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "La Mongolie",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "L'Ouzbékistan",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Le Turkménistan",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "asi-030",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.monde",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Combien de pays d'Asie centrale, anciennes républiques soviétiques, portent traditionnellement un nom se terminant par « -stan » ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Trois",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Cinq",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "Sept",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Deux",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "asi-031",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.monde",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quel pays d'Asie de l'Est, vaste et peu peuplé, est enclavé entre la Russie et la Chine ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Le Kazakhstan",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Le Kirghizstan",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "La Mongolie",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "Le Tadjikistan",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "asi-032",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.monde",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quelle péninsule d'Asie de l'Est est aujourd'hui divisée entre deux États séparés par une zone démilitarisée ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "La péninsule d'Indochine",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "La péninsule du Kamtchatka",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "La péninsule du Shandong",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "La péninsule coréenne",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "asi-033",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.monde",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Comment appelle-t-on la zone fortifiée qui sépare la Corée du Nord de la Corée du Sud depuis 1953 ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "La zone démilitarisée (DMZ)",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "La ligne Maginot",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Le rideau de fer",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "La ligne de partage",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "asi-034",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.monde",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quelle île d'Asie de l'Est, séparée de la Chine continentale, possède son propre gouvernement depuis 1949 sans reconnaissance internationale complète ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Hong Kong",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Taïwan",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "Hainan",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Macao",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "asi-035",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.monde",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quel territoire, ancienne colonie britannique rétrocédée à la Chine en 1997, conserve un statut administratif particulier ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Macao",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Taïwan",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Hong Kong",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "Shanghai",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "asi-036",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.monde",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quelle péninsule, bordée par le golfe Persique, concentre plusieurs des plus grands producteurs mondiaux de pétrole ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "La péninsule du Sinaï",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "La péninsule anatolienne",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "La péninsule indienne",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "La péninsule Arabique",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "asi-037",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.monde",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quel pays occupe la majeure partie de la péninsule Arabique et abrite les villes saintes de La Mecque et Médine ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "L'Arabie saoudite",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "Le Yémen",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Oman",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Le Qatar",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "asi-038",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.monde",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quel petit archipel du golfe Persique, riche en pétrole, est l'un des plus petits États du monde ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Le Qatar",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Bahreïn",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "Le Koweït",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Oman",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "asi-039",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.monde",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quelle fédération de sept émirats, dont Dubaï et Abou Dabi, borde le golfe Persique ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "L'Arabie saoudite",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Bahreïn",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Les Émirats arabes unis",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "Le Qatar",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "asi-040",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.monde",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quelle région historique, aussi appelée « berceau de la civilisation », correspond approximativement à l'Irak actuel ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "La Perse",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "La Phénicie",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "L'Anatolie",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "La Mésopotamie",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "asi-041",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.monde",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quel pays, historiquement appelé la Perse jusqu'en 1935, est aujourd'hui une république islamique ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "L'Iran",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "L'Irak",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "L'Afghanistan",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "La Turquie",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "asi-042",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.monde",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quelle ville turque, à cheval sur deux continents, était autrefois appelée Constantinople ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Ankara",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Istanbul",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "Izmir",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Antalya",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "asi-043",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.monde",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Comment appelle-t-on la région montagneuse entre la mer Noire et la mer Caspienne, qui regroupe l'Arménie, la Géorgie et l'Azerbaïdjan ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Les Balkans",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "L'Anatolie",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Le Caucase",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "Le Levant",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "asi-044",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.monde",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Quel pays du Caucase, voisin de la Turquie, fut le premier au monde à adopter le christianisme comme religion d'État, au IVe siècle ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "La Géorgie",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "L'Azerbaïdjan",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Chypre",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "L'Arménie",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "asi-045",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.monde",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quelle grande mer intérieure, la plus vaste étendue d'eau fermée du monde, borde à la fois l'Iran, la Russie et le Kazakhstan ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "La mer Caspienne",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "La mer d'Aral",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Le lac Baïkal",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "La mer Morte",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "asi-046",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.monde",
+      "difficulty": 1,
+      "type": "single",
+      "prompt": "Quel continent forme, avec l'Europe, le vaste ensemble géographique appelé « Eurasie » ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "L'Afrique",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "L'Asie",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "L'Océanie",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "L'Amérique",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "asi-047",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.monde",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quelle chaîne de montagnes sépare traditionnellement la Russie européenne de la Russie asiatique ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Le Caucase",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "L'Altaï",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Les monts Oural",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "Le Pamir",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "asi-048",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.monde",
+      "difficulty": 1,
+      "type": "single",
+      "prompt": "Quel océan borde le sud de l'Asie, entre l'Afrique et l'Australie ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "L'océan Pacifique",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "L'océan Atlantique",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "L'océan Arctique",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "L'océan Indien",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "asi-049",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.monde",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quel détroit stratégique, entre la Malaisie et l'île indonésienne de Sumatra, est l'une des routes maritimes les plus fréquentées du monde ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Le détroit de Malacca",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "Le détroit d'Ormuz",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Le détroit de Béring",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Le détroit de Taïwan",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "asi-050",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.monde",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quel pays insulaire d'Asie de l'Est a pour capitale Séoul et un voisin du nord largement fermé au reste du monde ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Le Japon",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "La Corée du Sud",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "Taïwan",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Les Philippines",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "asi-051",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.monde",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quelle ville portuaire de Chine, ancienne colonie portugaise rétrocédée en 1999, est aujourd'hui célèbre pour ses casinos ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Hong Kong",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Shenzhen",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Macao",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "Xiamen",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "asi-052",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.monde",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quel pays d'Asie du Sud a pour capitale Islamabad et partage une frontière disputée avec l'Inde ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "L'Afghanistan",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Le Bangladesh",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Le Népal",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Le Pakistan",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "asi-053",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.monde",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Quelle région himalayenne, revendiquée à la fois par l'Inde et le Pakistan, est source de tensions depuis la partition de 1947 ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Le Cachemire",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "Le Pendjab",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Le Sikkim",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "L'Assam",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "asi-054",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.monde",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quel pays montagneux d'Asie centrale et du Sud, enclavé et sans accès à la mer, a pour capitale Kaboul ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Le Tadjikistan",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "L'Afghanistan",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "Le Turkménistan",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Le Kirghizstan",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "asi-055",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.monde",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quelle ville sainte, capitale historique du Tibet, abrite le palais du Potala ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Xi'an",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Kashgar",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Lhassa",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "Chengdu",
+          "correct": false
+        }
+      ]
+    }
+  ]
+}

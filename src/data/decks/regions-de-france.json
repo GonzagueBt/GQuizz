@@ -1,0 +1,1673 @@
+{
+  "id": "regions-de-france",
+  "name": "Régions de France",
+  "description": "Bretagne, Grand Est, Occitanie, Nouvelle-Aquitaine : les 13 régions métropolitaines et leurs identités.",
+  "emoji": "🥖",
+  "categoryId": "geographie",
+  "subcategoryId": "geographie.france",
+  "tier": "free",
+  "productId": "gquizz.deck.regions_de_france",
+  "priceHint": "1,99 €",
+  "questionCount": 55,
+  "averageDifficulty": 2,
+  "releasedAt": "2026-09-15",
+  "tags": [
+    "nouveau"
+  ],
+  "previewQuestionIds": [
+    "reg-001",
+    "reg-002"
+  ],
+  "questions": [
+    {
+      "id": "reg-001",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.france",
+      "difficulty": 1,
+      "type": "single",
+      "prompt": "Combien de régions administratives compte la France métropolitaine depuis la réforme territoriale de 2016 ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "13",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "22",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "18",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "9",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "reg-002",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.france",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quelle est la région française la plus peuplée du pays ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "L'Auvergne-Rhône-Alpes",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "L'Île-de-France",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "La Nouvelle-Aquitaine",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Les Hauts-de-France",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "reg-003",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.france",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quel est le chef-lieu de la région Île-de-France ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Versailles",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Créteil",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Paris",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "Nanterre",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "reg-004",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.france",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quelle région, née de la fusion de l'Aquitaine, du Limousin et du Poitou-Charentes, est la plus vaste de France métropolitaine ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "L'Occitanie",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Le Grand Est",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "L'Auvergne-Rhône-Alpes",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "La Nouvelle-Aquitaine",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "reg-005",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.france",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quel est le chef-lieu de la région Nouvelle-Aquitaine ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Bordeaux",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "Limoges",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Poitiers",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "La Rochelle",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "reg-006",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.france",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quelle région est née de la fusion du Languedoc-Roussillon et de Midi-Pyrénées ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "La Nouvelle-Aquitaine",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "L'Occitanie",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "Provence-Alpes-Côte d'Azur",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Le Grand Est",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "reg-007",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.france",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quel est le chef-lieu de la région Occitanie ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Montpellier",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Perpignan",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Toulouse",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "Nîmes",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "reg-008",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.france",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quelle région est née de la fusion de l'Alsace, de la Lorraine et de la Champagne-Ardenne ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Les Hauts-de-France",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "La Bourgogne-Franche-Comté",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "La Normandie",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Le Grand Est",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "reg-009",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.france",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quel est le chef-lieu de la région Grand Est ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Strasbourg",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "Metz",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Nancy",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Reims",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "reg-010",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.france",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quelle région est née de la fusion du Nord-Pas-de-Calais et de la Picardie ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "La Normandie",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Les Hauts-de-France",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "Le Grand Est",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "L'Île-de-France",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "reg-011",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.france",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quel est le chef-lieu de la région Hauts-de-France ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Amiens",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Arras",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Lille",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "Calais",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "reg-012",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.france",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quelle région est née de la fusion de Rhône-Alpes et de l'Auvergne ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "La Bourgogne-Franche-Comté",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "L'Occitanie",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Provence-Alpes-Côte d'Azur",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "L'Auvergne-Rhône-Alpes",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "reg-013",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.france",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quel est le chef-lieu de la région Auvergne-Rhône-Alpes ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Lyon",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "Clermont-Ferrand",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Grenoble",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Saint-Étienne",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "reg-014",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.france",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quelle région est née de la fusion de la Bourgogne et de la Franche-Comté ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Le Grand Est",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "La Bourgogne-Franche-Comté",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "L'Auvergne-Rhône-Alpes",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Le Centre-Val de Loire",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "reg-015",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.france",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quel est le chef-lieu de la région Bourgogne-Franche-Comté ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Besançon",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Auxerre",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Dijon",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "Belfort",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "reg-016",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.france",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quelle région est née de la fusion de la Basse-Normandie et de la Haute-Normandie ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "La Bretagne",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Les Hauts-de-France",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Le Centre-Val de Loire",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "La Normandie",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "reg-017",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.france",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quel est le chef-lieu de la région Normandie ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Rouen",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "Caen",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Le Havre",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Cherbourg",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "reg-018",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.france",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Quelle région française, formée d'une seule île méditerranéenne, est devenue une collectivité territoriale unique en 2018 ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "La Guadeloupe",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "La Corse",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "La Martinique",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "La Réunion",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "reg-019",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.france",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quel est le chef-lieu de la Corse ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Bastia",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Corte",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Ajaccio",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "Porto-Vecchio",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "reg-020",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.france",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quel est le chef-lieu de la région Bretagne ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Brest",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Quimper",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Vannes",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Rennes",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "reg-021",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.france",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quel est le chef-lieu de la région Centre-Val de Loire ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Orléans",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "Tours",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Bourges",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Blois",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "reg-022",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.france",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quel est le chef-lieu de la région Pays de la Loire ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Angers",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Nantes",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "Le Mans",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Laval",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "reg-023",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.france",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quel est le chef-lieu de la région Provence-Alpes-Côte d'Azur ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Nice",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Toulon",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Marseille",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "Avignon",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "reg-024",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.france",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Quelle ville, ancienne capitale historique du duché de Bretagne, est aujourd'hui le chef-lieu de la région Pays de la Loire plutôt que de la Bretagne ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Rennes",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Angers",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Vannes",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Nantes",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "reg-025",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.france",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quelle est la région française la moins peuplée de métropole, aussi une île de Méditerranée ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "La Corse",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "Le Centre-Val de Loire",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "La Bourgogne-Franche-Comté",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Le Limousin",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "reg-026",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.france",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Dans quelle région française se trouve le Mont-Saint-Michel, à la frontière avec la Bretagne ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Les Hauts-de-France",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "La Normandie",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "Le Centre-Val de Loire",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Les Pays de la Loire",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "reg-027",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.france",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Dans quelle région française se trouve Strasbourg, siège du Parlement européen ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Les Hauts-de-France",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "La Bourgogne-Franche-Comté",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Le Grand Est",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "L'Île-de-France",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "reg-028",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.france",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quelle institution européenne siège à Strasbourg, dans la région Grand Est ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "La Commission européenne",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "La Banque centrale européenne",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Le Conseil de l'Union européenne",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Le Parlement européen",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "reg-029",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.france",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Quelle ancienne province française, aujourd'hui intégrée à la région Grand Est, a donné son nom à un célèbre vin effervescent ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "La Champagne",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "L'Alsace",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "La Lorraine",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "La Bourgogne",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "reg-030",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.france",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quelle région française est réputée pour son vignoble bordelais, l'un des plus célèbres au monde ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "L'Occitanie",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "La Nouvelle-Aquitaine",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "Le Grand Est",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "La Bourgogne-Franche-Comté",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "reg-031",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.france",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quelle région, réputée pour ses crêpes et son cidre, forme une péninsule à l'ouest de la France ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "La Normandie",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Les Pays de la Loire",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "La Bretagne",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "Le Centre-Val de Loire",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "reg-032",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.france",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quelle région française est réputée pour ses champs de lavande mauves en été ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "L'Occitanie",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "La Corse",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "L'Auvergne-Rhône-Alpes",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Provence-Alpes-Côte d'Azur",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "reg-033",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.france",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quelle ancienne province française, berceau de la choucroute et du munster, correspond aujourd'hui à une partie de la région Grand Est ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "L'Alsace",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "La Lorraine",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "La Champagne",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "La Bourgogne",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "reg-034",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.france",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quelle région française borde à la fois l'Espagne et la mer Méditerranée ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "La Nouvelle-Aquitaine",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "L'Occitanie",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "Provence-Alpes-Côte d'Azur",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "La Corse",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "reg-035",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.france",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quelle région française borde à la fois l'Espagne et l'océan Atlantique ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "L'Occitanie",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "La Bretagne",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "La Nouvelle-Aquitaine",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "Les Pays de la Loire",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "reg-036",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.france",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quelle région française borde à la fois l'Allemagne, la Suisse et le Luxembourg ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Les Hauts-de-France",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "L'Auvergne-Rhône-Alpes",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "La Bourgogne-Franche-Comté",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Le Grand Est",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "reg-037",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.france",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quelle région française borde la Belgique, au nord du pays ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Les Hauts-de-France",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "Le Grand Est",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "La Normandie",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "L'Île-de-France",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "reg-038",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.france",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quelle région française borde à la fois l'Italie et la Suisse ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Provence-Alpes-Côte d'Azur",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "L'Auvergne-Rhône-Alpes",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "Le Grand Est",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "La Bourgogne-Franche-Comté",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "reg-039",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.france",
+      "difficulty": 1,
+      "type": "single",
+      "prompt": "Quelle région française, en forme de losange au cœur du pays, ne possède aucune façade maritime malgré sa grande taille ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "La Bretagne",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Les Pays de la Loire",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Le Centre-Val de Loire",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "La Normandie",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "reg-040",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.france",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quelle chaîne de montagnes se trouve en grande partie dans la région Auvergne-Rhône-Alpes ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Les Pyrénées",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Les Vosges",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Le Jura",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Les Alpes françaises",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "reg-041",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.france",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Quel massif volcanique éteint, célèbre pour ses puys en forme de dômes, se trouve en Auvergne, dans la région Auvergne-Rhône-Alpes ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "La chaîne des Puys",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "Le massif des Vosges",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Le massif du Jura",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Le massif armoricain",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "reg-042",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.france",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quelle région française abrite le Mont Ventoux, célèbre ascension mythique du Tour de France ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "L'Occitanie",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Provence-Alpes-Côte d'Azur",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "L'Auvergne-Rhône-Alpes",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "La Corse",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "reg-043",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.france",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quelle région littorale du sud-ouest de la France est réputée pour ses huîtres du bassin d'Arcachon ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "L'Occitanie",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "La Bretagne",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "La Nouvelle-Aquitaine",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "Les Pays de la Loire",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "reg-044",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.france",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quelle région française abrite Reims, ville du sacre des rois de France et de son vignoble emblématique ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Les Hauts-de-France",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "L'Île-de-France",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "La Bourgogne-Franche-Comté",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Le Grand Est",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "reg-045",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.france",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quelle région française abrite le Puy du Fou, célèbre parc à thème consacré à l'histoire ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Les Pays de la Loire",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "Le Centre-Val de Loire",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "La Bretagne",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "La Normandie",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "reg-046",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.france",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quelle région française abrite le Futuroscope, célèbre parc à thème consacré à l'image, près de Poitiers ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Les Pays de la Loire",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "La Nouvelle-Aquitaine",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "Le Centre-Val de Loire",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "L'Occitanie",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "reg-047",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.france",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Dans quelle région française se situe le Mont Blanc, point culminant du pays et des Alpes ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Provence-Alpes-Côte d'Azur",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "L'Occitanie",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "L'Auvergne-Rhône-Alpes",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "Le Grand Est",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "reg-048",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.france",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quelle région française abrite Lourdes, haut lieu du pèlerinage catholique au pied des Pyrénées ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "La Nouvelle-Aquitaine",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Provence-Alpes-Côte d'Azur",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "L'Auvergne-Rhône-Alpes",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "L'Occitanie",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "reg-049",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.france",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Dans quelle région française se situe le delta de Camargue, célèbre pour ses flamants roses et ses taureaux ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Provence-Alpes-Côte d'Azur",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "L'Occitanie",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "La Corse",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "L'Auvergne-Rhône-Alpes",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "reg-050",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.france",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quelle région française abrite le célèbre vignoble de Bourgogne et sa route des grands crus ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Le Grand Est",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "La Bourgogne-Franche-Comté",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "L'Auvergne-Rhône-Alpes",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Le Centre-Val de Loire",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "reg-051",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.france",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Quelle région française, frontalière de la Suisse, est réputée pour son horlogerie comtoise et sa production d'absinthe ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "L'Auvergne-Rhône-Alpes",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Le Grand Est",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "La Bourgogne-Franche-Comté",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "Provence-Alpes-Côte d'Azur",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "reg-052",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.france",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quelle région française, la plus septentrionale du pays, borde à la fois la Manche et la mer du Nord ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "La Normandie",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "La Bretagne",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Le Grand Est",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Les Hauts-de-France",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "reg-053",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.france",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quelle région française est traversée par le canal du Midi, reliant Toulouse à la Méditerranée ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "L'Occitanie",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "La Nouvelle-Aquitaine",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Provence-Alpes-Côte d'Azur",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "L'Auvergne-Rhône-Alpes",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "reg-054",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.france",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quelle région française, entourée par la mer sur trois côtés, est parfois surnommée la région aux « mille clochers » ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "La Normandie",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "La Bretagne",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "Les Pays de la Loire",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "L'Occitanie",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "reg-055",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.france",
+      "difficulty": 1,
+      "type": "single",
+      "prompt": "Combien de départements compte, au total, la France métropolitaine ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "101",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "87",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "96",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "13",
+          "correct": false
+        }
+      ]
+    }
+  ]
+}

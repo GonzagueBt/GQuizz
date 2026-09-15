@@ -1,0 +1,1673 @@
+{
+  "id": "oceans-et-mers",
+  "name": "Océans et mers",
+  "description": "Pacifique, Méditerranée, fosse des Mariannes, Gulf Stream : à la découverte des étendues d'eau du globe.",
+  "emoji": "🐋",
+  "categoryId": "geographie",
+  "subcategoryId": "geographie.physique",
+  "tier": "free",
+  "productId": "gquizz.deck.oceans_et_mers",
+  "priceHint": "1,99 €",
+  "questionCount": 55,
+  "averageDifficulty": 2,
+  "releasedAt": "2026-09-15",
+  "tags": [
+    "nouveau"
+  ],
+  "previewQuestionIds": [
+    "oce-001",
+    "oce-002"
+  ],
+  "questions": [
+    {
+      "id": "oce-001",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.physique",
+      "difficulty": 1,
+      "type": "single",
+      "prompt": "Quel est le plus grand océan du monde ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Le Pacifique",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "L'Atlantique",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "L'Indien",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "L'Arctique",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "oce-002",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.physique",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quel est le deuxième plus grand océan du monde ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "L'Indien",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "L'Atlantique",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "Le Pacifique",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "L'Arctique",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "oce-003",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.physique",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quel océan borde l'Inde, l'Afrique de l'Est et l'Australie ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Le Pacifique",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "L'Atlantique",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "L'océan Indien",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "L'Arctique",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "oce-004",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.physique",
+      "difficulty": 1,
+      "type": "single",
+      "prompt": "Quel océan entoure le pôle Nord ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "L'Antarctique",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Le Pacifique",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "L'Indien",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "L'Arctique",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "oce-005",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.physique",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quel océan entoure le continent Antarctique, aussi appelé océan Austral ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "L'océan Antarctique",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "L'Arctique",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "L'Indien",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "L'Atlantique",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "oce-006",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.physique",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quel est l'océan le plus petit et le moins profond ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "L'Indien",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "L'Arctique",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "L'Atlantique",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "L'Austral",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "oce-007",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.physique",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quelle est la fosse océanique la plus profonde du monde ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "La fosse de Porto Rico",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "La fosse des Tonga",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "La fosse des Mariannes",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "La fosse du Japon",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "oce-008",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.physique",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Dans quel océan se trouve la fosse des Mariannes ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "L'Atlantique",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "L'Indien",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "L'Arctique",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Le Pacifique",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "oce-009",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.physique",
+      "difficulty": 1,
+      "type": "single",
+      "prompt": "Quelle mer sépare l'Europe de l'Afrique du Nord ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "La Méditerranée",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "La mer Rouge",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "La mer Noire",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "La mer Baltique",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "oce-010",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.physique",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quel détroit relie la mer Méditerranée à l'océan Atlantique ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Le Bosphore",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Le détroit de Gibraltar",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "Le détroit de Bab-el-Mandeb",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Le détroit de Messine",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "oce-011",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.physique",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quelle mer borde l'Égypte et l'Arabie saoudite, entre l'Afrique et l'Asie ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "La mer Noire",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "La mer Baltique",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "La mer Rouge",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "La mer Caspienne",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "oce-012",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.physique",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quel canal relie la mer Méditerranée à la mer Rouge ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Le canal de Panama",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Le canal de Corinthe",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Le canal de Kiel",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Le canal de Suez",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "oce-013",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.physique",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quel canal relie l'océan Atlantique à l'océan Pacifique en Amérique centrale ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Le canal de Panama",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "Le canal de Suez",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Le canal de Corinthe",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Le canal de Kiel",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "oce-014",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.physique",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quel détroit sépare l'Alaska de la Russie ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Le détroit de Gibraltar",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Le détroit de Béring",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "Le Bosphore",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Le détroit de Malacca",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "oce-015",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.physique",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quelle mer, bordée par la Turquie, l'Ukraine et la Russie, communique avec la Méditerranée via le Bosphore ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "La mer Baltique",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "La mer Rouge",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "La mer Noire",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "La mer Caspienne",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "oce-016",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.physique",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Quel détroit turc relie la mer Noire à la mer de Marmara ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Les Dardanelles",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Le détroit de Gibraltar",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Le détroit de Messine",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Le Bosphore",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "oce-017",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.physique",
+      "difficulty": 1,
+      "type": "single",
+      "prompt": "Quelle mer sépare le Royaume-Uni du continent européen ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "La Manche",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "La mer du Nord",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "La mer d'Irlande",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "La mer Baltique",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "oce-018",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.physique",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quelle mer borde l'Allemagne, le Danemark et plusieurs pays scandinaves ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "La mer du Nord",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "La mer Baltique",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "La mer Noire",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "La Manche",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "oce-019",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.physique",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quelle mer se situe entre la Grande-Bretagne, la Norvège et les Pays-Bas ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "La mer Baltique",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "La Manche",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "La mer du Nord",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "La mer d'Irlande",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "oce-020",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.physique",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quel golfe sépare le sud des États-Unis du Mexique ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Le golfe Persique",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Le golfe d'Aden",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Le golfe de Guinée",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Le golfe du Mexique",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "oce-021",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.physique",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quel golfe riche en pétrole borde l'Iran, l'Irak, le Koweït et l'Arabie saoudite ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Le golfe Persique",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "Le golfe du Mexique",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Le golfe d'Aden",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Le golfe d'Oman",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "oce-022",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.physique",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quelle mer se situe entre le Vietnam, les Philippines et la Chine ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "La mer de Chine orientale",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "La mer de Chine méridionale",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "La mer Jaune",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "La mer du Japon",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "oce-023",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.physique",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quel est le plus grand récif corallien du monde, au large de l'Australie ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Le récif de Belize",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Le Triangle de corail",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "La Grande Barrière de corail",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "Le récif de Ningaloo",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "oce-024",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.physique",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quel courant marin chaud réchauffe le climat de l'Europe de l'Ouest ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Le courant de Humboldt",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Le courant du Labrador",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Le courant des Canaries",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Le Gulf Stream",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "oce-025",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.physique",
+      "difficulty": 1,
+      "type": "single",
+      "prompt": "Quel astre est la principale cause des marées océaniques ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "La Lune",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "Le Soleil",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Mars",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Vénus",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "oce-026",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.physique",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quelle est la salinité moyenne approximative de l'eau de mer ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Environ 10 g de sel par litre",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Environ 35 g de sel par litre",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "Environ 60 g de sel par litre",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Environ 100 g de sel par litre",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "oce-027",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.physique",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Comment appelle-t-on la zone océanique profonde, plongée dans l'obscurité totale ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "La zone pélagique",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "La zone néritique",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "La zone abyssale",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "La zone littorale",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "oce-028",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.physique",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quel est le nom du supercontinent originel dont la fragmentation a peu à peu formé les océans actuels ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "La Laurasie",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Le Gondwana",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "L'Atlantide",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "La Pangée",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "oce-029",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.physique",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quelle mer, presque entièrement fermée, borde la Croatie, l'Italie et l'Albanie ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "La mer Adriatique",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "La mer Égée",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "La mer Ionienne",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "La mer Tyrrhénienne",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "oce-030",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.physique",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quelle mer grecque est parsemée de milliers d'îles, dont les Cyclades ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "La mer Adriatique",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "La mer Égée",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "La mer Ionienne",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "La mer Tyrrhénienne",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "oce-031",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.physique",
+      "difficulty": 1,
+      "type": "single",
+      "prompt": "Quel océan borde la côte est des Amériques et la côte ouest de l'Europe et de l'Afrique ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Le Pacifique",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "L'Indien",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "L'Atlantique",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "L'Arctique",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "oce-032",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.physique",
+      "difficulty": 1,
+      "type": "single",
+      "prompt": "Quel océan borde l'Asie à l'ouest et les Amériques à l'est ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "L'Atlantique",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "L'Indien",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "L'Arctique",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Le Pacifique",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "oce-033",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.physique",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Comment appelle-t-on un mouvement régulier et directionnel des masses d'eau à la surface ou en profondeur de l'océan ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Un courant marin",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "Une marée",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Une vague",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Une houle",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "oce-034",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.physique",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quel océan est traversé par la ligne de changement de date internationale ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "L'Atlantique",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Le Pacifique",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "L'Indien",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "L'Arctique",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "oce-035",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.physique",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Qui a dirigé la première expédition à faire le tour du monde par bateau, au XVIe siècle ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Christophe Colomb",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Vasco de Gama",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Fernand de Magellan",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "James Cook",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "oce-036",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.physique",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "En quelle année une première expédition a-t-elle atteint le point le plus profond de l'océan, dans la fosse des Mariannes ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "1912",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "1985",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "2001",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "1960",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "oce-037",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.physique",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Comment se nomme le point le plus profond connu de la fosse des Mariannes ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Challenger Deep",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "Mariana Point",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Abyss One",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Trench Zero",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "oce-038",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.physique",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quel réalisateur a effectué en 2012 une plongée en solitaire jusqu'au fond de la fosse des Mariannes ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Steven Spielberg",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "James Cameron",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "Jacques Cousteau",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Peter Jackson",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "oce-039",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.physique",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quelle proportion approximative de la surface de la Terre est recouverte par les océans ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Environ 50 %",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Environ 85 %",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Environ 70 %",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "Environ 30 %",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "oce-040",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.physique",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quel est le nom du continent immergé mythique évoqué par le philosophe grec Platon ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "La Lémurie",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Mu",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "L'Hyperborée",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "L'Atlantide",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "oce-041",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.physique",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quelle mer sépare le Japon de la Corée ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "La mer du Japon",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "La mer Jaune",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "La mer de Chine orientale",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "La mer d'Okhotsk",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "oce-042",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.physique",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quel golfe, à l'entrée de la mer Rouge, borde la Somalie et le Yémen ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Le golfe Persique",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Le golfe d'Aden",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "Le golfe d'Oman",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Le golfe de Guinée",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "oce-043",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.physique",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quelle mer sépare l'Australie de la Nouvelle-Zélande ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "La mer de Corail",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "La mer d'Arafura",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "La mer de Tasman",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "La mer de Timor",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "oce-044",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.physique",
+      "difficulty": 1,
+      "type": "single",
+      "prompt": "Quelle mer borde la Floride, Cuba et les Antilles ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Le golfe du Mexique",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "La mer de Chine méridionale",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "La Méditerranée",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "La mer des Caraïbes",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "oce-045",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.physique",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Comment appelle-t-on la remontée d'eaux profondes froides et riches en nutriments vers la surface de l'océan ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "L'upwelling",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "El Niño",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Une marée noire",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Un tsunami",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "oce-046",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.physique",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quel phénomène climatique périodique, né dans le Pacifique équatorial, perturbe les courants marins et le climat mondial ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "La Niña",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "El Niño",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "L'upwelling",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Le Gulf Stream",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "oce-047",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.physique",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Comment surnomme-t-on la vaste zone d'accumulation de déchets plastiques flottants du Pacifique Nord ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "L'Atlantide",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Le triangle des Bermudes",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Le septième continent",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "La grande barrière",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "oce-048",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.physique",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Comment appelle-t-on l'étude scientifique des océans ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "La géologie marine",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "L'hydrologie",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "La bathymétrie",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "L'océanographie",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "oce-049",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.physique",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Comment appelle-t-on l'écosystème marin fragile formé par des colonies de polypes calcaires, abritant une grande biodiversité ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Le récif corallien",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "L'herbier marin",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Le banc de sable",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "La mangrove",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "oce-050",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.physique",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Quelle mer, dépourvue de côtes et délimitée uniquement par des courants marins, est connue pour ses amas d'algues sargasses ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "La mer des Caraïbes",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "La mer des Sargasses",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "La Méditerranée",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Le golfe du Mexique",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "oce-051",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.physique",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quel détroit sépare la Sicile de la péninsule italienne ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Le Bosphore",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Le détroit de Gibraltar",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Le détroit de Messine",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "Le détroit de Bab-el-Mandeb",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "oce-052",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.physique",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Quel détroit, entre Djibouti et le Yémen, relie la mer Rouge au golfe d'Aden ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Le détroit d'Ormuz",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Le détroit de Malacca",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Le détroit de Messine",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Le détroit de Bab-el-Mandeb",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "oce-053",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.physique",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quelle mer se situe entre la Chine et la péninsule coréenne ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "La mer Jaune",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "La mer du Japon",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "La mer de Chine orientale",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "La mer d'Okhotsk",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "oce-054",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.physique",
+      "difficulty": 1,
+      "type": "single",
+      "prompt": "Comment appelle-t-on une vague géante provoquée par un séisme ou un glissement de terrain sous-marin ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Un mascaret",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Un tsunami",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "Une houle",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Une marée noire",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "oce-055",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.physique",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "À combien de milles marins des côtes s'étend généralement la limite des eaux territoriales d'un pays ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "3 milles marins",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "200 milles marins",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "12 milles marins",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "50 milles marins",
+          "correct": false
+        }
+      ]
+    }
+  ]
+}

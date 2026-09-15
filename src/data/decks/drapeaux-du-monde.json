@@ -1,0 +1,1676 @@
+{
+  "id": "drapeaux-du-monde",
+  "name": "Drapeaux du monde",
+  "description": "Couleurs, symboles et formes : reconnais les drapeaux nationaux du monde entier.",
+  "emoji": "🏳️",
+  "categoryId": "geographie",
+  "subcategoryId": "geographie.monde",
+  "tier": "free",
+  "productId": "gquizz.deck.drapeaux_du_monde",
+  "priceHint": "1,99 €",
+  "questionCount": 55,
+  "averageDifficulty": 3,
+  "releasedAt": "2026-09-15",
+  "tags": [
+    "nouveau"
+  ],
+  "previewQuestionIds": [
+    "dra-001",
+    "dra-004"
+  ],
+  "questions": [
+    {
+      "id": "dra-001",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.monde",
+      "difficulty": 1,
+      "type": "single",
+      "prompt": "Quelles sont les trois couleurs du drapeau français ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Bleu, blanc, rouge",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "Bleu, blanc, vert",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Rouge, blanc, noir",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Bleu, jaune, rouge",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "dra-002",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.monde",
+      "difficulty": 1,
+      "type": "single",
+      "prompt": "Quel pays a une feuille d'érable rouge au centre de son drapeau ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Les États-Unis",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Le Canada",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "L'Australie",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "La Nouvelle-Zélande",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "dra-003",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.monde",
+      "difficulty": 1,
+      "type": "single",
+      "prompt": "Quel pays a un simple disque rouge sur fond blanc comme drapeau ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "La Corée du Sud",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "La Thaïlande",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Le Japon",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "Le Bangladesh",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "dra-004",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.monde",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Combien d'étoiles compte le drapeau des États-Unis, une pour chaque État ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "48",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "52",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "13",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "50",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "dra-005",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.monde",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Combien de bandes horizontales rouges et blanches compte le drapeau américain ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "13",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "50",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "9",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "26",
+          "correct": false
+        }
+      ],
+      "explanation": "Elles représentent les 13 colonies fondatrices."
+    },
+    {
+      "id": "dra-006",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.monde",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quel pays a un drapeau orné de l'Union Jack et de la Croix du Sud, une constellation ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Le Canada",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "L'Australie",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "L'Afrique du Sud",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Le Kenya",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "dra-007",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.monde",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Quel autre pays du Pacifique a, comme l'Australie, l'Union Jack et la Croix du Sud sur son drapeau ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Les Fidji",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Le Vanuatu",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "La Nouvelle-Zélande",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "Les Samoa",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "dra-008",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.monde",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quelles sont les trois couleurs du drapeau allemand ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Noir, blanc, rouge",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Bleu, blanc, rouge",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Vert, blanc, rouge",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Noir, rouge, or",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "dra-009",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.monde",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quelles sont les trois couleurs du drapeau italien ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Vert, blanc, rouge",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "Rouge, blanc, bleu",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Vert, jaune, rouge",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Bleu, blanc, vert",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "dra-010",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.monde",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quel pays a une croix blanche sur fond rouge, l'un des rares drapeaux nationaux carrés ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "L'Autriche",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "La Suisse",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "Le Danemark",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Malte",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "dra-011",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.monde",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Quel royaume himalayen a un dragon sur son drapeau ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Le Népal",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Le Tibet",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Le Bhoutan",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "Le Sikkim",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "dra-012",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.monde",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Quel est le seul drapeau national qui n'est pas rectangulaire, composé de deux fanions triangulaires superposés ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Le Bhoutan",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "La Mongolie",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Le Laos",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Le Népal",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "dra-013",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.monde",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quelles sont les deux couleurs du drapeau espagnol ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Rouge et jaune",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "Rouge et vert",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Jaune et bleu",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Rouge et blanc",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "dra-014",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.monde",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quelles sont les trois couleurs du drapeau brésilien ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Vert, blanc, rouge",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Vert, jaune, bleu",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "Jaune, bleu, rouge",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Vert, jaune, rouge",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "dra-015",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.monde",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Que porte le globe bleu figurant au centre du drapeau brésilien ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Une carte du pays",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Un soleil",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Une devise nationale et des étoiles",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "Une croix",
+          "correct": false
+        }
+      ],
+      "explanation": "La devise « Ordem e Progresso » (Ordre et Progrès) est inscrite sur une bannière traversant le globe étoilé."
+    },
+    {
+      "id": "dra-016",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.monde",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Combien d'étoiles jaunes figurent sur le drapeau chinois ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "3",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "7",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "1",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "5",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "dra-017",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.monde",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Combien de croix se superposent pour former l'Union Jack, le drapeau du Royaume-Uni ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "3",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "2",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "4",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "1",
+          "correct": false
+        }
+      ],
+      "explanation": "Les croix de Saint Georges (Angleterre), Saint André (Écosse) et Saint Patrick (Irlande)."
+    },
+    {
+      "id": "dra-018",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.monde",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quelles sont les trois couleurs du drapeau russe, en bandes horizontales ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Rouge, bleu, blanc",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Blanc, bleu, rouge",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "Blanc, rouge, noir",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Bleu, blanc, jaune",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "dra-019",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.monde",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quel pays a un drapeau vert, blanc et orange avec une roue bleue en son centre ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Le Sri Lanka",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Le Nigeria",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "L'Inde",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "L'Irlande",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "dra-020",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.monde",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Comment se nomme la roue à 24 rayons figurant au centre du drapeau indien ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "La roue du dharma tibétaine",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Le mandala solaire",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "La roue de Bombay",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Le chakra d'Ashoka",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "dra-021",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.monde",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quel pays a un croissant et une étoile blancs sur un fond entièrement rouge ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "La Turquie",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "Le Pakistan",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "La Tunisie",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "L'Algérie",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "dra-022",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.monde",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Quel pays d'Asie du Sud a un croissant et une étoile blancs sur un fond vert et blanc ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "L'Afghanistan",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Le Pakistan",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "Le Bangladesh",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "L'Iran",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "dra-023",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.monde",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quelles sont les trois couleurs du drapeau belge, en bandes verticales ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Rouge, jaune, noir",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Noir, rouge, or comme l'Allemagne",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Noir, jaune, rouge",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "Jaune, rouge, noir horizontal",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "dra-024",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.monde",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quelles sont les trois couleurs du drapeau des Pays-Bas, en bandes horizontales ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Orange, blanc, bleu",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Bleu, blanc, rouge vertical",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Rouge, jaune, bleu",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Rouge, blanc, bleu",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "dra-025",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.monde",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quel pays scandinave a une croix bleue sur un fond jaune ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "La Suède",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "Le Danemark",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "La Norvège",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "La Finlande",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "dra-026",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.monde",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quel pays scandinave, l'un des plus anciens drapeaux encore en usage, a une croix blanche sur fond rouge ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "La Suède",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Le Danemark",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "L'Islande",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "La Finlande",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "dra-027",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.monde",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Comment appelle-t-on la croix décentrée vers la hampe, commune à tous les drapeaux scandinaves ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "La croix latine",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "La croix grecque",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "La croix nordique",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "La croix templière",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "dra-028",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.monde",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Quel pays d'Afrique de l'Est, jamais colonisé, a inspiré les couleurs panafricaines vert-jaune-rouge de nombreux autres drapeaux ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Le Ghana",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Le Kenya",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Le Sénégal",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "L'Éthiopie",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "dra-029",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.monde",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Quel pays d'Afrique du Nord a une étoile verte à cinq branches sur un fond rouge ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Le Maroc",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "L'Algérie",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "La Tunisie",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "La Libye",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "dra-030",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.monde",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quel pays d'Asie du Sud-Est a une étoile jaune unique sur un fond rouge ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Le Laos",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Le Vietnam",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "Le Cambodge",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "La Thaïlande",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "dra-031",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.monde",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quelles sont les couleurs principales du drapeau argentin, avec un soleil au centre ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Vert et blanc",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Bleu marine et jaune",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Bleu ciel et blanc",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "Rouge et blanc",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "dra-032",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.monde",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Comment se nomme le soleil doré représenté au centre du drapeau argentin ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Le Soleil incaïque",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Le Soleil d'or",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Le Soleil libertador",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Le Soleil de mai",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "dra-033",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.monde",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quelles sont les trois couleurs du drapeau mexicain, en bandes verticales ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Vert, blanc, rouge",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "Rouge, blanc, vert horizontal",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Vert, jaune, rouge",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Blanc, vert, noir",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "dra-034",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.monde",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Quel emblème, tiré d'une légende aztèque, figure au centre du drapeau mexicain ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Un soleil et une pyramide",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Un aigle dévorant un serpent sur un cactus",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "Un jaguar couronné",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Un condor sur une montagne",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "dra-035",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.monde",
+      "difficulty": 4,
+      "type": "single",
+      "prompt": "Quel pays a eu, de 1977 à 2011, le seul drapeau national totalement uni au monde, entièrement vert ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "L'Algérie",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Le Soudan",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "La Libye",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "La Mauritanie",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "dra-036",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.monde",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Quelle île méditerranéenne a un drapeau représentant la silhouette cuivrée de son propre territoire ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Malte",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "La Sardaigne",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "La Crète",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Chypre",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "dra-037",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.monde",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Quel pays sud-américain a un carré bleu, une étoile blanche et des bandes blanche et rouge ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Le Chili",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "Le Paraguay",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "L'Uruguay",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "La Bolivie",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "dra-038",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.monde",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quelles sont les trois couleurs du drapeau irlandais, en bandes verticales ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Vert, blanc, rouge",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Vert, blanc, orange",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "Orange, blanc, vert inversé seulement",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Vert, jaune, orange",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "dra-039",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.monde",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Que symbolise la bande blanche entre le vert et l'orange du drapeau irlandais ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "La neutralité militaire du pays",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Les falaises blanches du littoral",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "La paix entre catholiques et protestants",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "La pureté de l'eau irlandaise",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "dra-040",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.monde",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quel pays sud-américain a un drapeau jaune, bleu et rouge en bandes horizontales, comme la Colombie ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Le Pérou",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Le Brésil",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "L'Argentine",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Le Venezuela",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "dra-041",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.monde",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Pourquoi la Colombie, le Venezuela et l'Équateur ont-ils des drapeaux jaune-bleu-rouge très proches ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Ils formaient autrefois la Grande Colombie unie",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "Un traité commercial récent les a harmonisés",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Une coïncidence sans lien historique",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Ils ont été colonisés par le même pays européen",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "dra-042",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.monde",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quel pays du Proche-Orient a un cèdre vert au centre de son drapeau ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "La Syrie",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Le Liban",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "La Jordanie",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Israël",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "dra-043",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.monde",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quel pays a une étoile de David bleue entre deux bandes bleues sur fond blanc ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "La Jordanie",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Le Liban",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Israël",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "Chypre",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "dra-044",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.monde",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Jusqu'en 1991, quel pays avait un drapeau rouge orné d'une faucille et d'un marteau dorés ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "La Chine communiste",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Cuba",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "La Yougoslavie",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "L'URSS",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "dra-045",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.monde",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quelle organisation internationale a un drapeau bleu orné d'un cercle d'étoiles dorées ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "L'Union européenne",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "L'ONU",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "L'OTAN",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Le Conseil de l'Europe seul officiellement méconnu",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "dra-046",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.monde",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Combien d'étoiles compte le drapeau européen, un nombre fixe qui ne suit pas le nombre de pays membres ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "27",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "12",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "15",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "6",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "dra-047",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.monde",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Que représente le drapeau des Nations unies, sur fond bleu clair ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Un globe terrestre tenu par des mains",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Une colombe survolant un globe",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Une carte du monde entourée de rameaux d'olivier",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "Une balance de la justice",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "dra-048",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.monde",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quel pays africain a un drapeau vert, jaune, rouge horizontal avec une étoile noire au centre ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Le Cameroun",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Le Sénégal",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Le Mali",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Le Ghana",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "dra-049",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.monde",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Quel pays d'Afrique australe a un drapeau aux six couleurs, l'un des plus complexes au monde, formant un Y ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "L'Afrique du Sud",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "Le Botswana",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "La Namibie",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Le Zimbabwe",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "dra-050",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.monde",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quel pays a un drapeau vert avec un disque rouge décalé vers la hampe ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Le Japon",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Le Bangladesh",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "Le Palaos",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Le Laos",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "dra-051",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.monde",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quel pays scandinave a une croix bleue sur fond blanc ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "La Suède",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "L'Islande",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "La Finlande",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "La Norvège",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "dra-052",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.monde",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Quel pays scandinave a une croix rouge bordée de blanc sur fond bleu ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "La Suède",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "L'Islande",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Le Danemark",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "La Norvège",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "dra-053",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.monde",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quel pays d'Amérique du Nord a un drapeau vert, blanc, rouge avec un aigle, voisin des États-Unis au sud ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Le Mexique",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "Le Guatemala",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Cuba",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Le Belize",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "dra-054",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.monde",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Quelle cité-État d'Asie du Sud-Est a un drapeau rouge et blanc orné d'un croissant et de cinq petites étoiles ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Le Vietnam",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Singapour",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "La Malaisie",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Brunei",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "dra-055",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.monde",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quel pays d'Océanie a un drapeau bleu orné de la Croix du Sud et d'une grande étoile blanche à sept branches ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "La Nouvelle-Zélande",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Les Fidji",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "L'Australie",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "Les Samoa",
+          "correct": false
+        }
+      ]
+    }
+  ]
+}

@@ -24,6 +24,16 @@ import xixeSiecle from './xixe-siecle.json';
 import premiereGuerreMondiale from './premiere-guerre-mondiale.json';
 import guerreFroide from './guerre-froide.json';
 import cinquiemeRepublique from './cinquieme-republique.json';
+import drapeauxDuMonde from './drapeaux-du-monde.json';
+import fleuvesEtLacs from './fleuves-et-lacs.json';
+import montagnesEtVolcans from './montagnes-et-volcans.json';
+import oceansEtMers from './oceans-et-mers.json';
+import desertsEtClimats from './deserts-et-climats.json';
+import geographieAfrique from './geographie-afrique.json';
+import geographieAsie from './geographie-asie.json';
+import geographieAmeriques from './geographie-ameriques.json';
+import regionsDeFrance from './regions-de-france.json';
+import franceOutreMer from './france-outre-mer.json';
 
 /** Forme d'une question dans un fichier de deck (le `deckId` est injecté au chargement). */
 export interface RawQuestion {
@@ -88,4 +98,14 @@ export const RAW_DECKS: RawDeck[] = [
   univers as RawDeck,
   capitalesDuMonde as RawDeck,
   departementsFrancais as RawDeck,
+  drapeauxDuMonde as RawDeck,
+  fleuvesEtLacs as RawDeck,
+  montagnesEtVolcans as RawDeck,
+  oceansEtMers as RawDeck,
+  desertsEtClimats as RawDeck,
+  geographieAfrique as RawDeck,
+  geographieAsie as RawDeck,
+  geographieAmeriques as RawDeck,
+  regionsDeFrance as RawDeck,
+  franceOutreMer as RawDeck,
 ];

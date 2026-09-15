@@ -1,0 +1,1673 @@
+{
+  "id": "montagnes-et-volcans",
+  "name": "Montagnes et volcans",
+  "description": "Everest, Kilimandjaro, Vésuve, ceinture de feu : sommets et volcans qui façonnent la planète.",
+  "emoji": "🌋",
+  "categoryId": "geographie",
+  "subcategoryId": "geographie.physique",
+  "tier": "free",
+  "productId": "gquizz.deck.montagnes_et_volcans",
+  "priceHint": "1,99 €",
+  "questionCount": 55,
+  "averageDifficulty": 2,
+  "releasedAt": "2026-09-15",
+  "tags": [
+    "nouveau"
+  ],
+  "previewQuestionIds": [
+    "mtv-001",
+    "mtv-002"
+  ],
+  "questions": [
+    {
+      "id": "mtv-001",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.physique",
+      "difficulty": 1,
+      "type": "single",
+      "prompt": "Quel est le plus haut sommet du monde ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "L'Everest",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "Le K2",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Le Kilimandjaro",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Le Mont Blanc",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "mtv-002",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.physique",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Dans quelle chaîne de montagnes se trouve l'Everest ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Les Andes",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "L'Himalaya",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "Les Alpes",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "L'Atlas",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "mtv-003",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.physique",
+      "difficulty": 1,
+      "type": "single",
+      "prompt": "Quel est le plus haut sommet des Alpes ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Le Cervin",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "La Jungfrau",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Le Mont Blanc",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "Le Grand Paradis",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "mtv-004",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.physique",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quel est le plus haut sommet d'Afrique ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Le Mont Kenya",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Le Ras Dashen",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Le Toubkal",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Le Kilimandjaro",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "mtv-005",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.physique",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Dans quel pays se trouve la majeure partie du Kilimandjaro ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "La Tanzanie",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "Le Kenya",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "L'Ouganda",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "L'Éthiopie",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "mtv-006",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.physique",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quel est le plus haut sommet d'Amérique du Nord ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Le Mont Logan",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Le Denali",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "Le Pic Orizaba",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Le Mont Whitney",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "mtv-007",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.physique",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quel est le plus haut sommet d'Amérique du Sud ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Le Chimborazo",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Le Huascarán",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "L'Aconcagua",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "Le Cotopaxi",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "mtv-008",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.physique",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Dans quel pays se trouve l'Aconcagua ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Le Chili",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Le Pérou",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "La Bolivie",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "L'Argentine",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "mtv-009",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.physique",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quel est le deuxième plus haut sommet du monde, surnommé « la montagne sauvage » ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Le K2",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "Le Kangchenjunga",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Le Lhotse",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Le Makalu",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "mtv-010",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.physique",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Dans quelle chaîne de montagnes se trouve le K2 ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "L'Himalaya",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Le Karakoram",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "Le Pamir",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "L'Hindou Kouch",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "mtv-011",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.physique",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quelle est la chaîne de montagnes la plus longue du monde ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "L'Himalaya",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Les Rocheuses",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Les Andes",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "La Grande chaîne de partage des eaux",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "mtv-012",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.physique",
+      "difficulty": 1,
+      "type": "single",
+      "prompt": "Sur quel continent se trouve la cordillère des Andes ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "L'Amérique du Nord",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "L'Afrique",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "L'Asie",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "L'Amérique du Sud",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "mtv-013",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.physique",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quelle chaîne de montagnes sépare traditionnellement l'Europe et l'Asie ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Les monts Oural",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "Le Caucase",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Les Alpes",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Les Carpates",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "mtv-014",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.physique",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quel est le plus haut sommet d'Europe, Caucase inclus ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Le Mont Blanc",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "L'Elbrouz",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "Le Mont Kazbek",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Le Grand Ararat",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "mtv-015",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.physique",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Dans quel massif se trouve l'Elbrouz ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "L'Oural",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Les Alpes",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Le Caucase",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "Les Carpates",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "mtv-016",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.physique",
+      "difficulty": 1,
+      "type": "single",
+      "prompt": "Quelle chaîne de montagnes sépare la France et l'Espagne ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Les Alpes",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Les Vosges",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Le Jura",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Les Pyrénées",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "mtv-017",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.physique",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quelle chaîne de montagnes traverse le nord-ouest de l'Afrique (Maroc, Algérie, Tunisie) ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "L'Atlas",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "Le Drakensberg",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "L'Ahaggar",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Le Rwenzori",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "mtv-018",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.physique",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quel est le point culminant du massif de l'Atlas ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Le Mont Kenya",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Le Djebel Toubkal",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "Le Ras Dashen",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Le Mont Cameroun",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "mtv-019",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.physique",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quelle chaîne de montagnes borde la côte ouest des États-Unis et du Canada ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Les Appalaches",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "La Sierra Nevada",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Les montagnes Rocheuses",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "Les Cascades",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "mtv-020",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.physique",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quelle est la plus ancienne grande chaîne de montagnes d'Amérique du Nord ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Les Rocheuses",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Les Cascades",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "La Sierra Madre",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Les Appalaches",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "mtv-021",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.physique",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quel volcan a détruit la ville romaine de Pompéi en 79 apr. J.-C. ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Le Vésuve",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "L'Etna",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Le Stromboli",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Le Vulcano",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "mtv-022",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.physique",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Près de quelle ville italienne se trouve le Vésuve ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Rome",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Naples",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "Palerme",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Catane",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "mtv-023",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.physique",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quel est le volcan le plus actif d'Europe ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Le Vésuve",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Le Stromboli",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "L'Etna",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "Le Teide",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "mtv-024",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.physique",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Sur quelle île se trouve l'Etna ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "La Sardaigne",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "La Corse",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "La Crète",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "La Sicile",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "mtv-025",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.physique",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Quelle île volcanique italienne, en éruption quasi continue depuis des siècles, est surnommée le « phare de la Méditerranée » ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Le Stromboli",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "Le Vulcano",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Lipari",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Ischia",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "mtv-026",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.physique",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Quelle éruption volcanique de 1883 en Indonésie a produit une explosion entendue à des milliers de kilomètres ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Le Tambora",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Le Krakatoa",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "Le Pinatubo",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Le Merapi",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "mtv-027",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.physique",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Quelle éruption volcanique de 1815 en Indonésie a provoqué « l'année sans été » en 1816 ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Le Krakatoa",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "L'Agung",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Le Tambora",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "Le Sinabung",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "mtv-028",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.physique",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quel volcan des Philippines est entré en éruption en 1991, l'une des plus importantes du XXe siècle ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Le Mayon",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Le Taal",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Le Krakatoa",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Le Pinatubo",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "mtv-029",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.physique",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quel volcan de l'État de Washington, aux États-Unis, est entré en éruption en 1980 ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Le Mont St Helens",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "Le Mont Rainier",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Le Mont Shasta",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Le Mont Hood",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "mtv-030",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.physique",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Comment appelle-t-on la zone volcanique et sismique qui entoure l'océan Pacifique ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "La dorsale médio-atlantique",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "La ceinture de feu du Pacifique",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "Le fossé est-africain",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Le rift islandais",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "mtv-031",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.physique",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quel est le plus grand volcan actif du monde en volume, situé à Hawaï ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Le Mauna Kea",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Le Kilauea",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Le Mauna Loa",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "Le Fuji",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "mtv-032",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.physique",
+      "difficulty": 1,
+      "type": "single",
+      "prompt": "Quel volcan emblématique du Japon, aussi son plus haut sommet, est un motif récurrent de l'art japonais ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Le Mont Aso",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Le Mont Unzen",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Le Mont Ontake",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Le Mont Fuji",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "mtv-033",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.physique",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Sous quel parc national américain se trouve un immense supervolcan ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Yellowstone",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "Yosemite",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Grand Canyon",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Glacier",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "mtv-034",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.physique",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Quel volcan islandais, dont l'éruption de 2010 a paralysé une grande partie du trafic aérien européen, est réputé pour son nom difficile à prononcer ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "L'Hekla",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "L'Eyjafjallajökull",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "Le Katla",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Le Bárðarbunga",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "mtv-035",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.physique",
+      "difficulty": 1,
+      "type": "single",
+      "prompt": "Comment surnomme-t-on familièrement le sommet suisse en forme de pyramide, aussi appelé Matterhorn ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "L'Eiger",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "La Jungfrau",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Le Cervin",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "Le Mont Rose",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "mtv-036",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.physique",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Près de quelle ville française se situe le massif du Mont-Blanc, point de départ classique des ascensions ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Grenoble",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Annecy",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Briançon",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Chamonix",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "mtv-037",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.physique",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "En quelle année a eu lieu la première ascension du Mont-Blanc, par Jacques Balmat et Michel-Gabriel Paccard ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "1786",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "1760",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "1808",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "1850",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "mtv-038",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.physique",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Qui furent les deux premiers hommes à atteindre le sommet de l'Everest, en 1953 ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Reinhold Messner et Peter Habeler",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Edmund Hillary et Tenzing Norgay",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "Maurice Herzog et Louis Lachenal",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "George Mallory et Andrew Irvine",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "mtv-039",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.physique",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Quel massif volcanique se trouve au centre de la France, dans le Puy-de-Dôme ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Le Massif armoricain",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Les Vosges",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Le Massif central",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "Le Jura",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "mtv-040",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.physique",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quel est le point culminant du Massif central français ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Le Puy de Dôme",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Le Mont Mézenc",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Le Plomb du Cantal",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Le Puy de Sancy",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "mtv-041",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.physique",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quel vaste plateau, entouré par l'Himalaya, est surnommé le « toit du monde » ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Le plateau tibétain",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "Le plateau du Pamir",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "L'Altiplano",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Le plateau du Deccan",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "mtv-042",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.physique",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Sur quel haut plateau d'Amérique du Sud, partagé entre le Pérou et la Bolivie, se trouve le lac Titicaca ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "La Pampa",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "L'Altiplano",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "La Patagonie",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Le Gran Chaco",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "mtv-043",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.physique",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quel volcan équatorien, culminant à plus de 5 800 mètres, est l'un des plus hauts volcans actifs du monde ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Le Chimborazo",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Le Sangay",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Le Cotopaxi",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "Le Tungurahua",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "mtv-044",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.physique",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quel est le plus haut sommet du Mexique, qui est aussi un volcan ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Le Popocatépetl",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "L'Iztaccíhuatl",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Le Nevado de Toluca",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Le Pico de Orizaba",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "mtv-045",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.physique",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quel volcan actif surplombe Mexico et fait l'objet d'une surveillance constante ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Le Popocatépetl",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "Le Pico de Orizaba",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Le Paricutín",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Le Colima",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "mtv-046",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.physique",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Sur quelle montagne turque l'Arche de Noé se serait échouée, selon la tradition biblique ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Le Mont Nemrut",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Le Mont Ararat",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "Le Mont Erciyes",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Le Mont Cilo",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "mtv-047",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.physique",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quelle montagne au sommet plat surplombe la ville du Cap, en Afrique du Sud ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Le Kilimandjaro",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Le Drakensberg",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Table Mountain",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "Le Mont Kenya",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "mtv-048",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.physique",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quelle chaîne de montagnes borde l'est de l'Afrique du Sud et du Lesotho ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "L'Atlas",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Le Rwenzori",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "L'Ahaggar",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Le Drakensberg",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "mtv-049",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.physique",
+      "difficulty": 1,
+      "type": "single",
+      "prompt": "Quel est le point culminant de l'Australie ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Le Mont Kosciuszko",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "Uluru",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Le Mont Bartle Frere",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Le Mont Ossa",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "mtv-050",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.physique",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quel est le point culminant de la Nouvelle-Zélande ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Le Mont Taranaki",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "L'Aoraki / Mont Cook",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "Le Mont Ruapehu",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Le Mont Tasman",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "mtv-051",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.physique",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Comment appelle-t-on un volcan à pente douce formé par des coulées de lave fluide, comme le Mauna Loa ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Un stratovolcan",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Un volcan gris",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Un volcan bouclier",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "Une caldeira",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "mtv-052",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.physique",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Comment appelle-t-on le vaste cratère effondré qui peut se former après une violente éruption ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Une fumerolle",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Une moraine",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Un cirque",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Une caldeira",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "mtv-053",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.physique",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Comment appelle-t-on le magma une fois qu'il atteint la surface de la Terre ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "La lave",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "Le magma",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Le basalte",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "La cendre",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "mtv-054",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.physique",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quel phénomène géologique, lié au mouvement des plaques tectoniques, explique la formation de nombreux volcans autour du Pacifique ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "L'érosion",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "La subduction",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "La sédimentation",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "La glaciation",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "mtv-055",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.physique",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quel geyser du parc de Yellowstone, célèbre pour la régularité de ses éruptions, porte un nom signifiant qu'il est fidèle au rendez-vous ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Steamboat Geyser",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Castle Geyser",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Old Faithful",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "Grand Geyser",
+          "correct": false
+        }
+      ]
+    }
+  ]
+}

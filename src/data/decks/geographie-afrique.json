@@ -1,0 +1,1673 @@
+{
+  "id": "geographie-afrique",
+  "name": "Géographie de l'Afrique",
+  "description": "Nigeria, Madagascar, Sahel, Union africaine : un tour du continent africain, pays par pays.",
+  "emoji": "🦒",
+  "categoryId": "geographie",
+  "subcategoryId": "geographie.monde",
+  "tier": "free",
+  "productId": "gquizz.deck.geographie_afrique",
+  "priceHint": "1,99 €",
+  "questionCount": 55,
+  "averageDifficulty": 2,
+  "releasedAt": "2026-09-15",
+  "tags": [
+    "nouveau"
+  ],
+  "previewQuestionIds": [
+    "afr-001",
+    "afr-002"
+  ],
+  "questions": [
+    {
+      "id": "afr-001",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.monde",
+      "difficulty": 1,
+      "type": "single",
+      "prompt": "Combien de pays indépendants compte le continent africain ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "54",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "38",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "62",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "47",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "afr-002",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.monde",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quel est le pays le plus vaste d'Afrique par sa superficie ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "L'Égypte",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "L'Algérie",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "Le Nigeria",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "L'Afrique du Sud",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "afr-003",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.monde",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quel est le pays le plus peuplé d'Afrique ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "L'Égypte",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "L'Éthiopie",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Le Nigeria",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "La République démocratique du Congo",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "afr-004",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.monde",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quelle ville, plus grande agglomération du Nigeria, n'est pourtant plus sa capitale depuis 1991 ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Abuja",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Kano",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Ibadan",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Lagos",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "afr-005",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.monde",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quelle ville a été choisie comme nouvelle capitale du Nigeria en 1991, plus centrale que Lagos ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Abuja",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "Lagos",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Kano",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Port Harcourt",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "afr-006",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.monde",
+      "difficulty": 1,
+      "type": "single",
+      "prompt": "Quelle est la plus grande ville d'Égypte, aussi sa capitale, célèbre pour les pyramides voisines de Gizeh ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Alexandrie",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Le Caire",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "Louxor",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Assouan",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "afr-007",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.monde",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Dans quel pays se trouvent les célèbres pyramides de Gizeh ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Le Soudan",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "La Libye",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "L'Égypte",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "L'Éthiopie",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "afr-008",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.monde",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quel pays d'Afrique du Nord-Est, traversé par le Nil, compte davantage de pyramides antiques que l'Égypte elle-même ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "L'Éthiopie",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "L'Érythrée",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Le Tchad",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Le Soudan",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "afr-009",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.monde",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Quel ancien royaume nubien, berceau de pharaons noirs, s'est développé le long du Nil dans l'actuel Soudan ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Le royaume de Koush",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "Le royaume d'Aksoum",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "L'empire du Mali",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Le royaume du Bénin",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "afr-010",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.monde",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quel océan borde la côte est de l'Afrique ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "L'océan Atlantique",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "L'océan Indien",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "L'océan Pacifique",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "L'océan Arctique",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "afr-011",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.monde",
+      "difficulty": 1,
+      "type": "single",
+      "prompt": "Quel océan borde la côte ouest de l'Afrique ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "L'océan Indien",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "L'océan Pacifique",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "L'océan Atlantique",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "L'océan Arctique",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "afr-012",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.monde",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quelle mer borde le nord du continent africain ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "La mer Rouge",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "La mer Noire",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "La mer Baltique",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "La Méditerranée",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "afr-013",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.monde",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quel détroit, large de seulement 14 kilomètres à son point le plus étroit, sépare le Maroc de l'Espagne ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Le détroit de Gibraltar",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "Le détroit de Béring",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Le détroit de Malacca",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Le Bosphore",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "afr-014",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.monde",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quel canal égyptien relie la mer Méditerranée à la mer Rouge, raccourcissant la route maritime vers l'Asie ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Le canal de Panama",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Le canal de Suez",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "Le canal de Corinthe",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Le canal de Kiel",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "afr-015",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.monde",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quelle organisation panafricaine, regroupant la quasi-totalité des États du continent, a son siège à Addis-Abeba ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "La Ligue arabe",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "La CEDEAO",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "L'Union africaine",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "L'ONU",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "afr-016",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.monde",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Dans quel pays se trouve la ville d'Addis-Abeba, siège de l'Union africaine ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Le Kenya",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Le Soudan",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "La Somalie",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "L'Éthiopie",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "afr-017",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.monde",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quel pays d'Afrique de l'Est n'a jamais été durablement colonisé par une puissance européenne ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "L'Éthiopie",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "Le Kenya",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "La Tanzanie",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "L'Ouganda",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "afr-018",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.monde",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quelle grande île, quatrième plus grande île du monde, se trouve au large de l'Afrique de l'Est ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Zanzibar",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Madagascar",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "La Réunion",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Socotra",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "afr-019",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.monde",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quels primates emblématiques et endémiques ne se trouvent à l'état sauvage qu'à Madagascar ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Les gorilles",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Les chimpanzés",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Les lémuriens",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "Les babouins",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "afr-020",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.monde",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quel archipel indépendant de l'océan Indien, réputé pour ses plages, se situe au nord-est de Madagascar ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Les Comores",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Le Cap-Vert",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Les Maldives",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Les Seychelles",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "afr-021",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.monde",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quel État insulaire de l'océan Indien, ancienne colonie britannique, porte le même nom que son île principale et fut le seul habitat connu du dodo ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Maurice",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "Les Seychelles",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Les Comores",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Madagascar",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "afr-022",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.monde",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quel archipel, ancienne colonie portugaise au large de l'Afrique de l'Ouest, est connu pour sa musique morna popularisée par Cesária Évora ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Les Comores",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Le Cap-Vert",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "São Tomé-et-Príncipe",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Les Seychelles",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "afr-023",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.monde",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Quel royaume, entièrement enclavé dans le territoire de l'Afrique du Sud, est surnommé le « royaume dans le ciel » en raison de son altitude ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "L'Eswatini",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Le Botswana",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Le Lesotho",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "Le Malawi",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "afr-024",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.monde",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quel petit royaume d'Afrique australe, anciennement appelé Swaziland, a changé de nom officiel en 2018 ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Le Lesotho",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Le Botswana",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Le Malawi",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "L'Eswatini",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "afr-025",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.monde",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Environ combien de pays africains sont enclavés, sans accès direct à la mer ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Une quinzaine",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "Deux",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Une trentaine",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Aucun",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "afr-026",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.monde",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quelle grande fracture tectonique traverse l'Afrique de l'Est du nord au sud, formant une chaîne de lacs et de volcans ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "L'Atlas",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Le Grand Rift est-africain",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "Le Drakensberg",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Le fossé du Congo",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "afr-027",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.monde",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quel pays d'Afrique de l'Est, traversé par l'équateur, abrite le mont Kenya et donne son nom à un grand lac voisin ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "L'Ouganda",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "La Tanzanie",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Le Kenya",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "La Somalie",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "afr-028",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.monde",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quelle langue bantoue, originaire d'Afrique de l'Est, sert de lingua franca au Kenya, en Tanzanie et en Ouganda ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Le zoulou",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "L'amharique",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Le haoussa",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Le swahili",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "afr-029",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.monde",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quelle langue est officielle dans la quasi-totalité des pays d'Afrique du Nord ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "L'arabe",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "Le berbère",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Le turc",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Le persan",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "afr-030",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.monde",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quel pays d'Afrique centrale a pour particularité d'avoir à la fois le français et l'anglais comme langues officielles ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Le Gabon",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Le Cameroun",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "Le Congo",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Le Tchad",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "afr-031",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.monde",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quel est, par sa superficie, le plus petit pays d'Afrique continentale, hors îles ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Le Togo",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Le Bénin",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "La Gambie",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "Le Burundi",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "afr-032",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.monde",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quel pays d'Afrique de l'Ouest entoure presque entièrement la Gambie sur ses frontières terrestres ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "La Guinée",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "La Guinée-Bissau",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Le Mali",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Le Sénégal",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "afr-033",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.monde",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quel pays d'Afrique australe, réputé pour ses safaris et le désert du Kalahari, a pour capitale Gaborone ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Le Botswana",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "La Namibie",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "La Zambie",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Le Zimbabwe",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "afr-034",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.monde",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quel pays d'Afrique australe partage les chutes Victoria avec la Zambie ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Le Botswana",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Le Zimbabwe",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "Le Malawi",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Le Mozambique",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "afr-035",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.monde",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quel pays d'Afrique de l'Ouest est le premier producteur mondial de cacao ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Le Ghana",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Le Nigeria",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "La Côte d'Ivoire",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "Le Cameroun",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "afr-036",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.monde",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quel pays voisin de la Côte d'Ivoire est le deuxième producteur mondial de cacao ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Le Liberia",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Le Burkina Faso",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Le Mali",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Le Ghana",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "afr-037",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.monde",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Quel pays d'Afrique australe possède trois capitales distinctes : exécutive, législative et judiciaire ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "L'Afrique du Sud",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "La Namibie",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Le Zimbabwe",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Le Botswana",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "afr-038",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.monde",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quelle ville, plus grande agglomération économique d'Afrique du Sud, n'est aucune de ses trois capitales officielles ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Pretoria",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Johannesburg",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "Durban",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Le Cap",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "afr-039",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.monde",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quel fleuve, l'un des plus longs d'Afrique, traverse le Mali et le Niger avant de rejoindre le golfe de Guinée ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Le fleuve Sénégal",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Le fleuve Congo",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Le fleuve Niger",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "Le Nil",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "afr-040",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.monde",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quel pays enclavé d'Afrique de l'Ouest, riche en or, doit son nom à un ancien empire médiéval prospère ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Le Burkina Faso",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Le Niger",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Le Tchad",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Le Mali",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "afr-041",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.monde",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quel grand fleuve, deuxième plus long d'Afrique, traverse la République démocratique du Congo avant de se jeter dans l'Atlantique ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Le fleuve Congo",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "Le Nil",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Le fleuve Niger",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Le Zambèze",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "afr-042",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.monde",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Quel immense bassin forestier tropical, deuxième plus grande forêt tropicale du monde après l'Amazonie, s'étend sur plusieurs pays d'Afrique centrale ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Le bassin du Niger",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Le bassin du Congo",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "Le bassin du Nil",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Le bassin du Zambèze",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "afr-043",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.monde",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quel pays d'Afrique australe, dont le nom vient du désert qui borde sa côte atlantique, a obtenu son indépendance en 1990 ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Le Botswana",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "L'Angola",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "La Namibie",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "La Zambie",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "afr-044",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.monde",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quelle compétition sportive, la plus suivie du continent, désigne tous les deux ans le champion de football des nations africaines ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "La Ligue des champions africaine",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Le Championnat d'Afrique",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "La Coupe panafricaine",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "La Coupe d'Afrique des nations",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "afr-045",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.monde",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quel pays africain a été l'hôte de la Coupe du monde de football en 2010, une première pour le continent ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "L'Afrique du Sud",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "Le Maroc",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "L'Égypte",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Le Nigeria",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "afr-046",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.monde",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quelle chaîne de montagnes d'Afrique du Nord, culminant au Maroc, sépare le climat méditerranéen du Sahara ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Le Drakensberg",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "L'Atlas",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "L'Ahaggar",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Le Rwenzori",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "afr-047",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.monde",
+      "difficulty": 1,
+      "type": "single",
+      "prompt": "Quel est le pays le plus au sud du continent africain ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Le Botswana",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "La Namibie",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "L'Afrique du Sud",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "Le Mozambique",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "afr-048",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.monde",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quel est le pays le plus au nord du continent africain ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Le Maroc",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "L'Algérie",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "L'Égypte",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "La Tunisie",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "afr-049",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.monde",
+      "difficulty": 1,
+      "type": "single",
+      "prompt": "Quel pays, via la péninsule du Sinaï, est le seul pays africain à s'étendre aussi sur le continent asiatique ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "L'Égypte",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "Le Soudan",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "La Libye",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "La Somalie",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "afr-050",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.monde",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Quelle ville malienne, célèbre pour ses mosquées en terre crue et ses anciens manuscrits, symbolise le savoir de l'Afrique médiévale ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Djenné",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Tombouctou",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "Gao",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Ségou",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "afr-051",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.monde",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quel pays d'Afrique de l'Ouest, largement désertique, utilise le franc CFA et a pour capitale Niamey ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Le Mali",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Le Tchad",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Le Niger",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "Le Burkina Faso",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "afr-052",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.monde",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Quelle monnaie commune, utilisée par plusieurs pays d'Afrique de l'Ouest et d'Afrique centrale, est héritée en partie de l'époque coloniale française ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Le rand",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Le cedi",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Le naira",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Le franc CFA",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "afr-053",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.monde",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quel petit pays d'Afrique de l'Est, surnommé « pays des mille collines », borde le lac Kivu ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Le Rwanda",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "Le Burundi",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "L'Ouganda",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Le Malawi",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "afr-054",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.monde",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quel est le plus grand lac d'Afrique par sa superficie, partagé entre le Kenya, l'Ouganda et la Tanzanie ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Le lac Tanganyika",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Le lac Victoria",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "Le lac Malawi",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Le lac Tchad",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "afr-055",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.monde",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quel lac, deuxième plus profond du monde, s'étend le long du Grand Rift entre la RDC, la Tanzanie, le Burundi et la Zambie ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Le lac Victoria",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Le lac Malawi",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Le lac Tanganyika",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "Le lac Tchad",
+          "correct": false
+        }
+      ]
+    }
+  ]
+}

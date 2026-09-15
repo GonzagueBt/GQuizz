@@ -1,0 +1,1678 @@
+{
+  "id": "fleuves-et-lacs",
+  "name": "Fleuves et lacs du monde",
+  "description": "Nil, Amazone, Baïkal, mer Caspienne : les grands cours et plans d'eau de la planète.",
+  "emoji": "🌊",
+  "categoryId": "geographie",
+  "subcategoryId": "geographie.physique",
+  "tier": "free",
+  "productId": "gquizz.deck.fleuves_et_lacs",
+  "priceHint": "1,99 €",
+  "questionCount": 55,
+  "averageDifficulty": 3,
+  "releasedAt": "2026-09-15",
+  "tags": [
+    "nouveau"
+  ],
+  "previewQuestionIds": [
+    "flv-001",
+    "flv-002"
+  ],
+  "questions": [
+    {
+      "id": "flv-001",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.physique",
+      "difficulty": 1,
+      "type": "single",
+      "prompt": "Quel fleuve traverse Paris ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "La Seine",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "La Loire",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Le Rhône",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "La Garonne",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "flv-002",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.physique",
+      "difficulty": 1,
+      "type": "single",
+      "prompt": "Quel grand fleuve traverse l'Égypte du sud au nord ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Le Niger",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Le Nil",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "Le Congo",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Le Zambèze",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "flv-003",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.physique",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quel est le fleuve au débit le plus puissant du monde, en Amérique du Sud ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Le Paraná",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "L'Orénoque",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "L'Amazone",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "Le Magdalena",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "flv-004",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.physique",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quel pays est traversé par la plus grande partie du bassin amazonien ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Le Pérou",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "La Colombie",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "L'Équateur",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Le Brésil",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "flv-005",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.physique",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quel est le plus long fleuve d'Asie, qui traverse la Chine ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Le Yangzi (Chang Jiang)",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "Le Fleuve Jaune",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Le Mékong",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "L'Amour",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "flv-006",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.physique",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Quel fleuve chinois, berceau de civilisation, est surnommé « la peine de la Chine » pour ses crues dévastatrices ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Le Yangzi",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Le Fleuve Jaune (Huang He)",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "Le Mékong",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "La rivière des Perles",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "flv-007",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.physique",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Quel grand fleuve sibérien se jette dans l'océan Arctique après avoir traversé la Russie du sud au nord ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Le Dniepr",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "L'Oural",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "L'Ob",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "Le Don",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "flv-008",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.physique",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quel fleuve d'Europe centrale traverse Vienne, Bratislava, Budapest et Belgrade ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Le Rhin",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "L'Elbe",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "La Vistule",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Le Danube",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "flv-009",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.physique",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Combien de capitales européennes le Danube traverse-t-il ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "4",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "2",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "6",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "1",
+          "correct": false
+        }
+      ],
+      "explanation": "Vienne, Bratislava, Budapest et Belgrade."
+    },
+    {
+      "id": "flv-010",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.physique",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quel fleuve prend sa source en Suisse et se jette dans la mer du Nord aux Pays-Bas ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Le Rhône",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Le Rhin",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "L'Escaut",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "La Meuse",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "flv-011",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.physique",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quel fleuve américain a creusé le Grand Canyon ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Le Mississippi",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Le Rio Grande",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Le Colorado",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "L'Arkansas",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "flv-012",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.physique",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quel long fleuve nord-américain se jette dans le golfe du Mexique ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Le Colorado",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "L'Hudson",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Le Missouri seul",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Le Mississippi",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "flv-013",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.physique",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Quel fleuve marque une partie de la frontière entre les États-Unis et le Mexique ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Le Rio Grande",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "Le Colorado",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Le Pecos",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "L'Arkansas",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "flv-014",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.physique",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Comment appelle-t-on l'ensemble des cinq grands lacs d'Amérique du Nord, entre les États-Unis et le Canada ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Les Cinq Sœurs",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Les Grands Lacs",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "Les Lacs boréaux",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Les Lacs jumeaux",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "flv-015",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.physique",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quel lac, en Sibérie, est le plus profond du monde ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Le lac Ladoga",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Le lac Balkhach",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Le lac Baïkal",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "Le lac Onega",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "flv-016",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.physique",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Environ quel pourcentage de l'eau douce liquide non gelée de la planète le lac Baïkal contient-il à lui seul ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Environ 2 %",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Environ 50 %",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Environ 5 %",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Environ 20 %",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "flv-017",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.physique",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quel grand lac d'Afrique de l'Est est bordé par le Kenya, l'Ouganda et la Tanzanie ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Le lac Victoria",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "Le lac Tanganyika",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Le lac Malawi",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Le lac Tchad",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "flv-018",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.physique",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Comment se nomme la mer salée qui constitue le point le plus bas de la surface terrestre ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "La mer Caspienne",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "La mer Morte",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "La mer d'Aral",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "La mer Noire",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "flv-019",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.physique",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Quels deux pays bordent principalement la mer Morte ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "L'Égypte et Israël",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "La Syrie et le Liban",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Israël et la Jordanie",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "L'Arabie saoudite et la Jordanie",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "flv-020",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.physique",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Comment se nomme le plus grand plan d'eau fermé du monde, entre l'Europe et l'Asie ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Le lac Baïkal",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "La mer d'Aral",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Le lac Victoria",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "La mer Caspienne",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "flv-021",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.physique",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Combien de pays bordent la mer Caspienne ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "5",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "3",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "7",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "2",
+          "correct": false
+        }
+      ],
+      "explanation": "Russie, Kazakhstan, Turkménistan, Iran et Azerbaïdjan."
+    },
+    {
+      "id": "flv-022",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.physique",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quel est le fleuve le plus long de France ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Le Rhône",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "La Loire",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "La Seine",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "La Garonne",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "flv-023",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.physique",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quelle rivière traverse Lyon avant de rejoindre le Rhône ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "La Loire",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "L'Isère",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "La Saône",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "La Durance",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "flv-024",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.physique",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Quel fleuve français se jette dans la mer Méditerranée ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "La Loire",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "La Seine",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "La Garonne",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Le Rhône",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "flv-025",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.physique",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quel fleuve français traverse Bordeaux ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "La Garonne",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "La Dordogne",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "La Charente",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "L'Adour",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "flv-026",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.physique",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Comment se nomme l'estuaire commun formé par la Garonne et la Dordogne ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "L'estuaire de la Loire",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "L'estuaire de la Gironde",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "La baie d'Arcachon",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "L'estuaire de la Charente",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "flv-027",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.physique",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quelles célèbres chutes d'eau se trouvent à la frontière entre les États-Unis et le Canada ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Les chutes Victoria",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Les chutes Angel",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Les chutes du Niagara",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "Les chutes d'Iguaçu",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "flv-028",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.physique",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Où se trouvent les chutes Angel, les plus hautes chutes d'eau ininterrompues du monde ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Au Brésil",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "En Colombie",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Au Pérou",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Au Venezuela",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "flv-029",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.physique",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quelles chutes impressionnantes se trouvent entre le Zimbabwe et la Zambie ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Les chutes Victoria",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "Les chutes Tugela",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Les chutes Murchison",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Les chutes Kalambo",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "flv-030",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.physique",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quel fleuve africain alimente les chutes Victoria ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Le Congo",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Le Zambèze",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "Le Limpopo",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "L'Orange",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "flv-031",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.physique",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quel est le deuxième plus long fleuve d'Afrique, qui traverse la grande forêt équatoriale ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Le Niger",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Le Zambèze",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Le fleuve Congo",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "L'Orange",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "flv-032",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.physique",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Quel pays le fleuve Congo traverse-t-il principalement ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "L'Angola",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Le Gabon",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Le Cameroun",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "La République démocratique du Congo",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "flv-033",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.physique",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quel fleuve traverse Londres ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "La Tamise",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "La Severn",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "L'Avon",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "La Mersey",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "flv-034",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.physique",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quel fleuve traverse Rome ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "L'Arno",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Le Tibre",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "Le Pô",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "L'Adige",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "flv-035",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.physique",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Avec l'Euphrate, quel fleuve a permis l'essor de la civilisation mésopotamienne ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Le Jourdain",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "L'Oronte",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Le Tigre",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "Le Nil",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "flv-036",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.physique",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Avec le Tigre, quel autre grand fleuve traverse la Mésopotamie ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Le Jourdain",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "L'Indus",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Le Nil",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "L'Euphrate",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "flv-037",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.physique",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Comment se nomme la région historique située entre le Tigre et l'Euphrate, littéralement « pays entre les fleuves » ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "La Mésopotamie",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "La Perse",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "La Anatolie",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "La Phénicie",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "flv-038",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.physique",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quel lac d'Amérique du Sud, partagé entre le Pérou et la Bolivie, est le plus haut lac navigable au monde ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Le lac Poopó",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Le lac Titicaca",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "Le lac Maracaibo",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Le lac Nicaragua",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "flv-039",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.physique",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "À quelle altitude approximative se situe le lac Titicaca ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Environ 800 mètres",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Environ 1 500 mètres",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Environ 3 800 mètres",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "Environ 6 000 mètres",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "flv-040",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.physique",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quel fleuve, sacré pour les hindous, traverse le nord de l'Inde ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "L'Indus",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Le Brahmapoutre",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Le Mékong",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Le Gange",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "flv-041",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.physique",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Dans quelle chaîne de montagnes le Gange prend-il sa source ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "L'Himalaya",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "Les Ghâts occidentaux",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Les monts Nilgiri",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Le plateau du Deccan",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "flv-042",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.physique",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quel grand fleuve d'Asie du Sud-Est traverse la Chine, le Laos, la Thaïlande, le Cambodge et le Vietnam ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "L'Irrawaddy",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Le Mékong",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "Le Salouen",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Le Chao Phraya",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "flv-043",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.physique",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Quel est le plus long fleuve d'Australie ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Le Darling",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Le Cooper Creek",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Le Murray",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "Le Fitzroy",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "flv-044",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.physique",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Quel est le plus grand lac situé entièrement à l'intérieur des frontières des États-Unis ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Le lac Supérieur",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Le lac Érié",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Le lac Huron",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Le lac Michigan",
+          "correct": true
+        }
+      ],
+      "explanation": "Les autres Grands Lacs sont partagés avec le Canada."
+    },
+    {
+      "id": "flv-045",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.physique",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quel fleuve traverse Manhattan, à New York ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "L'Hudson",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "Le Potomac",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Le Delaware",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Le Connecticut",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "flv-046",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.physique",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Quel lac d'Afrique de l'Est, le deuxième plus profond du monde, est réputé pour sa biodiversité exceptionnelle de poissons cichlidés ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Le lac Victoria",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Le lac Tanganyika",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "Le lac Tchad",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Le lac Nasser",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "flv-047",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.physique",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quelle ville hongroise est coupée en deux par le Danube, séparant ses deux moitiés historiques ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Vienne",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Belgrade",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Budapest",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "Bratislava",
+          "correct": false
+        }
+      ],
+      "explanation": "Buda et Pest, réunies en une seule ville en 1873."
+    },
+    {
+      "id": "flv-048",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.physique",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quel est le plus long fleuve d'Europe, hors partie asiatique de la Russie ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Le Danube",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Le Dniepr",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Le Don",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "La Volga",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "flv-049",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.physique",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Dans quelle mer se jette la Volga ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "La mer Caspienne",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "La mer Noire",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "La mer Baltique",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "La mer d'Azov",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "flv-050",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.physique",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quel fleuve d'Afrique de l'Ouest traverse le Mali, le Niger et le Nigeria ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Le fleuve Sénégal",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Le fleuve Niger",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "La Volta",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Le fleuve Congo",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "flv-051",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.physique",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Quelle ville malienne, bâtie sur une boucle du fleuve Niger, fut un grand centre commercial et savant islamique ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Bamako",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Gao",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Tombouctou",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "Djenné",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "flv-052",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.physique",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quel lac, autrefois l'un des plus grands lacs du monde, a considérablement rétréci depuis les années 1960 en Asie centrale ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Le lac Balkhach",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Le lac Issyk-Koul",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "La mer Caspienne",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "La mer d'Aral",
+          "correct": true
+        }
+      ],
+      "explanation": "Le détournement des fleuves qui l'alimentaient pour l'irrigation a réduit sa surface de plus de 80 %."
+    },
+    {
+      "id": "flv-053",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.physique",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Quel grand barrage égyptien, achevé en 1970, a créé le lac Nasser sur le Nil ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Le haut barrage d'Assouan",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "Le barrage de la Renaissance",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Le barrage de Merowe",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Le barrage de Kariba",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "flv-054",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.physique",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quel lac est partagé entre la France et la Suisse, au pied des Alpes ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Le lac d'Annecy",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Le lac Léman",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "Le lac du Bourget",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Le lac de Constance",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "flv-055",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.physique",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Quel grand lac d'Amérique centrale, au Nicaragua, est l'un des rares lacs à abriter des requins d'eau douce ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Le lac Atitlán",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Le lac Gatún",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Le lac Nicaragua",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "Le lac Izabal",
+          "correct": false
+        }
+      ]
+    }
+  ]
+}

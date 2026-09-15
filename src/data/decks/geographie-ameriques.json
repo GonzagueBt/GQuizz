@@ -1,0 +1,1673 @@
+{
+  "id": "geographie-ameriques",
+  "name": "Géographie des Amériques",
+  "description": "Empire inca, Grands Lacs, Caraïbes, Statue de la Liberté : un tour des Amériques, du Grand Nord à la Terre de Feu.",
+  "emoji": "🗽",
+  "categoryId": "geographie",
+  "subcategoryId": "geographie.monde",
+  "tier": "free",
+  "productId": "gquizz.deck.geographie_ameriques",
+  "priceHint": "1,99 €",
+  "questionCount": 55,
+  "averageDifficulty": 2,
+  "releasedAt": "2026-09-15",
+  "tags": [
+    "nouveau"
+  ],
+  "previewQuestionIds": [
+    "ame-001",
+    "ame-002"
+  ],
+  "questions": [
+    {
+      "id": "ame-001",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.monde",
+      "difficulty": 1,
+      "type": "single",
+      "prompt": "Environ combien de pays indépendants compte l'ensemble du continent américain ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "35",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "15",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "60",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "24",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "ame-002",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.monde",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quel est le plus grand pays d'Amérique du Sud, à la fois par la superficie et la population ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "L'Argentine",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Le Brésil",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "La Colombie",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Le Pérou",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "ame-003",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.monde",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quelle langue officielle, différente de celle de ses voisins hispanophones, est parlée au Brésil ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Le français",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "L'italien",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Le portugais",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "Le néerlandais",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "ame-004",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.monde",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quel est le pays le plus long du monde du nord au sud, en Amérique du Sud ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "L'Argentine",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Le Pérou",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "La Bolivie",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Le Chili",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "ame-005",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.monde",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quels sont les deux pays d'Amérique du Sud entièrement enclavés, sans accès direct à la mer ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "La Bolivie et le Paraguay",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "L'Équateur et l'Uruguay",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Le Pérou et le Chili",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "La Colombie et le Venezuela",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "ame-006",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.monde",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quel pays d'Amérique du Sud, célèbre pour le site du Machu Picchu, fut le cœur de l'empire inca ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "La Bolivie",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Le Pérou",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "L'Équateur",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Le Chili",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "ame-007",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.monde",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quel empire précolombien, centré sur les Andes péruviennes, fut le plus vaste d'Amérique avant l'arrivée des Européens ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "L'empire aztèque",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "L'empire maya",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "L'empire inca",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "L'empire olmèque",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "ame-008",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.monde",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quel pays d'Amérique du Sud tire son nom de la ligne imaginaire qui le traverse presque en son centre ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "La Colombie",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Le Venezuela",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Le Brésil",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "L'Équateur",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "ame-009",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.monde",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Quel archipel du Pacifique, appartenant à l'Équateur, est réputé pour avoir inspiré les travaux de Charles Darwin ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Les îles Galápagos",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "L'archipel Juan Fernández",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "L'île de Pâques",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Les îles Malouines",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "ame-010",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.monde",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quel pays d'Amérique du Sud a la particularité d'avoir deux capitales : La Paz, siège du gouvernement, et Sucre, capitale constitutionnelle ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Le Pérou",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "La Bolivie",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "L'Équateur",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Le Paraguay",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "ame-011",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.monde",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quel territoire d'Amérique du Sud n'est pas un État indépendant mais un département français à part entière ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Le Suriname",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Le Guyana",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "La Guyane",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "Les Malouines",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "ame-012",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.monde",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quel petit pays anglophone d'Amérique du Sud, ancienne colonie britannique, a pour capitale Georgetown ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Le Suriname",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "La Guyane",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Le Belize",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Le Guyana",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "ame-013",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.monde",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quel pays d'Amérique du Sud, voisin du Guyana, était autrefois une colonie néerlandaise ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Le Suriname",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "Le Guyana",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "La Guyane",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Le Venezuela",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "ame-014",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.monde",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quel grand pays d'Amérique du Sud a pour capitale Buenos Aires et est indissociable du tango ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "L'Uruguay",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "L'Argentine",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "Le Chili",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Le Paraguay",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "ame-015",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.monde",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quelle vaste plaine herbeuse, propice à l'élevage, s'étend autour de Buenos Aires en Argentine ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "La savane",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "La toundra",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "La pampa",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "La prairie",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "ame-016",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.monde",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quel pays enclavé d'Amérique du Sud partage avec le Brésil et la Bolivie le Pantanal, la plus grande zone humide du monde ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "L'Uruguay",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "L'Équateur",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Le Guyana",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Le Paraguay",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "ame-017",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.monde",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quelle immense forêt tropicale, la plus grande du monde, recouvre une grande partie du Brésil et de plusieurs pays voisins ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "La forêt amazonienne",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "La forêt du Pantanal",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "La forêt patagonienne",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "La forêt du Yucatán",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "ame-018",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.monde",
+      "difficulty": 1,
+      "type": "single",
+      "prompt": "Combien d'États composent officiellement les États-Unis d'Amérique ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "48",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "50",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "52",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "45",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "ame-019",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.monde",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quel est le plus vaste État des États-Unis par sa superficie ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Le Texas",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "La Californie",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "L'Alaska",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "Le Montana",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "ame-020",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.monde",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Auprès de quel pays les États-Unis ont-ils acheté le territoire de l'Alaska en 1867 ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Le Royaume-Uni",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Le Danemark",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "La France",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "La Russie",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "ame-021",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.monde",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quelle ville, capitale fédérale des États-Unis, ne fait partie d'aucun des 50 États et forme son propre district ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Washington",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "New York",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Philadelphie",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Boston",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "ame-022",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.monde",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quel est le pays voisin des États-Unis au nord, deuxième plus grand pays du monde par sa superficie ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Le Groenland",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Le Canada",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "L'Islande",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Le Mexique",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "ame-023",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.monde",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Combien de provinces et territoires compte le Canada au total ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "10",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "16",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "13",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "8",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "ame-024",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.monde",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quelle langue est officielle, aux côtés de l'anglais, dans l'ensemble du Canada et majoritaire au Québec ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "L'espagnol",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Le néerlandais",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Le portugais",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Le français",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "ame-025",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.monde",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quel pays d'Amérique du Nord, voisin sud des États-Unis, fut le cœur de l'empire aztèque ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Le Mexique",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "Le Guatemala",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Le Belize",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Le Honduras",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "ame-026",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.monde",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quelle ville mexicaine fut bâtie sur les ruines de Tenochtitlan, l'ancienne capitale aztèque ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Guadalajara",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Mexico",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "Puebla",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Cancún",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "ame-027",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.monde",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quelle péninsule du sud-est du Mexique abrite de nombreux sites archéologiques mayas, comme Chichén Itzá ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "La Basse-Californie",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "La péninsule d'Alaska",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Le Yucatán",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "La péninsule de Floride",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "ame-028",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.monde",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quel pays d'Amérique centrale, seul de la région à avoir l'anglais comme langue officielle, s'appelait autrefois le Honduras britannique ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Le Honduras",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Le Nicaragua",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Le Panama",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Le Belize",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "ame-029",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.monde",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quel pays d'Amérique centrale est réputé pour ne plus avoir d'armée depuis 1948, investissant plutôt dans l'éducation et l'environnement ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Le Costa Rica",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "Le Panama",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Le Belize",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Le Guatemala",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "ame-030",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.monde",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quel pays d'Amérique centrale, traversé par un isthme stratégique, relie littéralement l'Amérique du Nord à l'Amérique du Sud ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Le Costa Rica",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Le Panama",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "Le Nicaragua",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Le Honduras",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "ame-031",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.monde",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quel est le plus grand lac d'Amérique centrale, situé au Nicaragua ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Le lac Atitlán",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Le lac Izabal",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Le lac Nicaragua",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "Le lac Yojoa",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "ame-032",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.monde",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Combien de pays composent l'isthme d'Amérique centrale, entre le Mexique et la Colombie ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Cinq",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Neuf",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Quatre",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Sept",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "ame-033",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.monde",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quelle grande région insulaire, entre les États-Unis, le Mexique et l'Amérique du Sud, regroupe Cuba, la Jamaïque et Haïti ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Les Antilles (Caraïbes)",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "Les Bahamas",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Les Petites Antilles seules",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Les Keys",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "ame-034",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.monde",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quel pays des Caraïbes, indépendant depuis 1804 après une révolte d'esclaves, occupe l'ouest de l'île d'Hispaniola ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "La République dominicaine",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Haïti",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "Cuba",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "La Jamaïque",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "ame-035",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.monde",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quel pays partage l'île d'Hispaniola avec Haïti, à l'est de celle-ci ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Cuba",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Porto Rico",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "La République dominicaine",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "La Jamaïque",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "ame-036",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.monde",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quelle plus grande île des Caraïbes, dirigée par un régime communiste depuis 1959, est séparée des États-Unis par le détroit de Floride ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Haïti",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "La Jamaïque",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Porto Rico",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Cuba",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "ame-037",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.monde",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quel territoire des Caraïbes, associé aux États-Unis sans être un État à part entière, a pour capitale San Juan ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Porto Rico",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "Cuba",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Les Îles Vierges",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Les Bahamas",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "ame-038",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.monde",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quel pays des Caraïbes, ancienne colonie britannique et membre du Commonwealth, a pour capitale Kingston ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Haïti",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "La Jamaïque",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "Cuba",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "La Barbade",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "ame-039",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.monde",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quelle statue emblématique, offerte par la France aux États-Unis en 1886, se dresse à l'entrée du port de New York ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Le Colosse de Rhodes",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Le Christ Rédempteur",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "La Statue de la Liberté",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "Le Mont Rushmore",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "ame-040",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.monde",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Sur quelle île de la baie de New York se dresse la Statue de la Liberté ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Ellis Island",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Roosevelt Island",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Coney Island",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Liberty Island",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "ame-041",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.monde",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Quelle vaste région agricole du centre des États-Unis, traversée par le Mississippi, est surnommée le « grenier à blé » du pays ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Les Grandes Plaines",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "La Nouvelle-Angleterre",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "La Sun Belt",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "La Silicon Valley",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "ame-042",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.monde",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quel pays d'Amérique du Sud, riche en pétrole, borde à la fois la mer des Caraïbes et l'embouchure de l'Orénoque ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "La Colombie",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Le Venezuela",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "Le Guyana",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "L'Équateur",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "ame-043",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.monde",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quel long fleuve d'Amérique du Sud, deuxième plus long du continent après l'Amazone, traverse le Venezuela ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Le Paraná",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Le Magdalena",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "L'Orénoque",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "Le Purus",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "ame-044",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.monde",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quel pays d'Amérique du Sud, voisin du Venezuela, doit une partie de son nom au navigateur Christophe Colomb ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "L'Équateur",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Le Panama",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Le Costa Rica",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "La Colombie",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "ame-045",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.monde",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Comment nomme-t-on la bande de terre reliant l'Amérique du Nord et l'Amérique du Sud, aujourd'hui traversée par un canal ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "L'isthme de Panama",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "L'isthme de Corinthe",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "L'isthme de Suez",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "L'isthme de Tehuantepec",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "ame-046",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.monde",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quelles chutes d'eau, à la frontière entre l'Argentine et le Brésil, sont réputées plus larges que les chutes du Niagara ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Les chutes Angel",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Les chutes d'Iguaçu",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "Les chutes du Zambèze",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Les chutes de Kaieteur",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "ame-047",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.monde",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Quelle capitale sud-américaine, siège du gouvernement bolivien, est considérée comme la capitale la plus haute en altitude du monde ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Quito",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Bogotá",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "La Paz",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "Sucre",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "ame-048",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.monde",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quel pays d'Amérique du Sud, indépendant depuis 1825, doit son nom au héros de l'indépendance Simón Bolívar ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Le Venezuela",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "La Colombie",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "L'Équateur",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "La Bolivie",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "ame-049",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.monde",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Quel héros de l'indépendance sud-américaine, surnommé « le Libérateur », a donné son nom à la Bolivie et à la monnaie du Venezuela ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Simón Bolívar",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "José de San Martín",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Bernardo O'Higgins",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Miguel Hidalgo",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "ame-050",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.monde",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quelle mer borde la façade est de l'Amérique centrale et des Grandes Antilles ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "L'océan Pacifique",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "La mer des Caraïbes",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "La mer de Cortés",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Le golfe du Mexique",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "ame-051",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.monde",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quel pays d'Amérique centrale est le seul de la région à n'avoir aucune côte sur la mer des Caraïbes ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Le Honduras",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Le Guatemala",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Le Salvador",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "Le Nicaragua",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "ame-052",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.monde",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quel pays d'Amérique centrale, marqué par une longue guerre civile au XXe siècle, a pour capitale Guatemala Ciudad ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Le Honduras",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Le Nicaragua",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Le Salvador",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Le Guatemala",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "ame-053",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.monde",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quelle civilisation précolombienne, connue pour ses pyramides et son calendrier, s'est développée principalement au Guatemala, au Mexique et au Belize ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Les Mayas",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "Les Aztèques",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Les Incas",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Les Olmèques",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "ame-054",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.monde",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quel est, par sa population, le pays le plus peuplé de l'ensemble des Amériques ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Le Brésil",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Les États-Unis",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "Le Mexique",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Le Canada",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "ame-055",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.monde",
+      "difficulty": 1,
+      "type": "single",
+      "prompt": "Sur quel continent se situe géographiquement le Groenland, bien qu'il soit politiquement rattaché au Danemark, un pays européen ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "L'Europe",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "L'Asie",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "L'Amérique du Nord",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "L'Océanie",
+          "correct": false
+        }
+      ]
+    }
+  ]
+}

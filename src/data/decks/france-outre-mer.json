@@ -1,0 +1,1673 @@
+{
+  "id": "france-outre-mer",
+  "name": "La France d'outre-mer",
+  "description": "Guadeloupe, Polynésie, Nouvelle-Calédonie, TAAF : la France présente sur tous les océans du globe.",
+  "emoji": "🏝️",
+  "categoryId": "geographie",
+  "subcategoryId": "geographie.france",
+  "tier": "free",
+  "productId": "gquizz.deck.france_outre_mer",
+  "priceHint": "1,99 €",
+  "questionCount": 55,
+  "averageDifficulty": 2,
+  "releasedAt": "2026-09-15",
+  "tags": [
+    "nouveau"
+  ],
+  "previewQuestionIds": [
+    "out-001",
+    "out-002"
+  ],
+  "questions": [
+    {
+      "id": "out-001",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.france",
+      "difficulty": 1,
+      "type": "single",
+      "prompt": "Comment appelle-t-on l'ensemble des territoires français situés hors de la métropole, comme la Guadeloupe ou La Réunion ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "L'outre-mer",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "Les provinces",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Les protectorats",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Les mandats",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "out-002",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.france",
+      "difficulty": 1,
+      "type": "single",
+      "prompt": "Combien de départements et régions d'outre-mer (DROM) compte la France ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "3",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "5",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "8",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "12",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "out-003",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.france",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quel DROM des Caraïbes a pour chef-lieu Basse-Terre ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "La Martinique",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Saint-Martin",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "La Guadeloupe",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "La Guyane",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "out-004",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.france",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quel DROM des Caraïbes a pour chef-lieu Fort-de-France ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "La Guadeloupe",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Saint-Barthélemy",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "La Guyane",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "La Martinique",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "out-005",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.france",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quel DROM d'Amérique du Sud, sur le continent, abrite le centre spatial de Kourou ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "La Guyane",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "La Martinique",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "La Guadeloupe",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "La Réunion",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "out-006",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.france",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quel DROM de l'océan Indien, situé à l'est de Madagascar, a pour chef-lieu Saint-Denis ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Mayotte",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "La Réunion",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "Les Comores",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Madagascar",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "out-007",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.france",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quel DROM de l'océan Indien, le plus récent, a rejoint ce statut en 2011 ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "La Réunion",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "La Guyane",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Mayotte",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "La Martinique",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "out-008",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.france",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quel volcan actif de l'île de La Réunion est l'un des plus actifs du monde ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Le Piton des Neiges",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "La Soufrière",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "La montagne Pelée",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Le Piton de la Fournaise",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "out-009",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.france",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quel volcan martiniquais, entré en éruption en 1902, a détruit la ville de Saint-Pierre ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "La montagne Pelée",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "Le Piton de la Fournaise",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "La Soufrière",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Le Piton des Neiges",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "out-010",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.france",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quelle base de lancement spatiale européenne se trouve en Guyane française ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "La base de Cayenne",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Le centre spatial de Kourou",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "Le centre de Fort-de-France",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "La base de Saint-Laurent",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "out-011",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.france",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quelle monnaie est utilisée dans les départements et régions d'outre-mer, comme en métropole ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Le franc CFP",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Le dollar",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "L'euro",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "Le franc CFA",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "out-012",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.france",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quelle monnaie particulière est utilisée en Polynésie française et en Nouvelle-Calédonie ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "L'euro",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Le dollar australien",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Le franc CFA",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Le franc CFP",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "out-013",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.france",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quel territoire français du Pacifique, connu pour Tahiti et Bora Bora, est une collectivité d'outre-mer ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "La Polynésie française",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "La Nouvelle-Calédonie",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Wallis-et-Futuna",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Les TAAF",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "out-014",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.france",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quelle ville, sur l'île de Tahiti, est le chef-lieu de la Polynésie française ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Bora Bora",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Papeete",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "Moorea",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Nouméa",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "out-015",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.france",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quel territoire français du Pacifique, riche en nickel, dispose d'un statut lui donnant une large autonomie ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "La Polynésie française",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Wallis-et-Futuna",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "La Nouvelle-Calédonie",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "La Guyane",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "out-016",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.france",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quel est le chef-lieu de la Nouvelle-Calédonie ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Papeete",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Mata-Utu",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Cayenne",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Nouméa",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "out-017",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.france",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quel petit archipel français du Pacifique, entre les Fidji et le Samoa, donne son nom à une collectivité d'outre-mer ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Wallis-et-Futuna",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "La Polynésie française",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Clipperton",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "La Nouvelle-Calédonie",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "out-018",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.france",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quel petit archipel français, situé au large du Canada près de Terre-Neuve, est le dernier vestige de la Nouvelle-France en Amérique du Nord ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Saint-Martin",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Saint-Pierre-et-Miquelon",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "Saint-Barthélemy",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Clipperton",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "out-019",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.france",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quelles îles antillaises, autrefois rattachées à la Guadeloupe, sont devenues des collectivités d'outre-mer distinctes en 2007 ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "La Martinique et la Dominique",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Sainte-Lucie et la Grenade",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Saint-Martin et Saint-Barthélemy",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "Aruba et Curaçao",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "out-020",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.france",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Avec quel royaume la France partage-t-elle l'île de Saint-Martin, aux Antilles ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Le Royaume-Uni",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "L'Espagne",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Le Danemark",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Les Pays-Bas",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "out-021",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.france",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Comment appelle-t-on l'ensemble des districts français isolés en Antarctique et dans les îles subantarctiques, sans population permanente hors scientifiques ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Les Terres australes et antarctiques françaises (TAAF)",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "Les DROM polaires",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Le territoire de Kerguelen",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "La Terre-Adélie seule",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "out-022",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.france",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Quel atoll corallien inhabité du Pacifique, au large du Mexique, est un territoire français isolé ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Wallis",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Clipperton",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "Futuna",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Rapa Nui",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "out-023",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.france",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Grâce à ses territoires d'outre-mer répartis sur tous les océans, la France possède la deuxième plus grande zone de quoi au monde ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Forêt tropicale protégée",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Réserve de biosphère terrestre",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Zone économique exclusive maritime",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "Espace aérien contrôlé",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "out-024",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.france",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quel ancien sigle, aujourd'hui largement remplacé par DROM-COM, désignait autrefois les territoires français d'outre-mer ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "POM-COM",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "TOM-DROM",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "DFA",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "DOM-TOM",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "out-025",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.france",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Sur quel continent se situe géographiquement la Guyane française ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "L'Amérique du Sud",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "L'Amérique centrale",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "L'Afrique",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "L'Océanie",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "out-026",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.france",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quels deux pays partagent une frontière terrestre avec la Guyane française ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Le Venezuela et la Colombie",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Le Brésil et le Suriname",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "Le Guyana et le Venezuela",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Le Pérou et l'Équateur",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "out-027",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.france",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quelle grande île voisine de La Réunion et de Mayotte n'est pas un territoire français mais un État indépendant ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Les Comores",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Maurice",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Madagascar",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "Les Seychelles",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "out-028",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.france",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Quel volcan éteint de La Réunion, plus haut que le Piton de la Fournaise, est le point culminant de l'île ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Le Piton de la Fournaise",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "La Soufrière",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "La montagne Pelée",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Le Piton des Neiges",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "out-029",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.france",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quelle langue, en plus du français, est très largement parlée en Polynésie française ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Le tahitien",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "Le créole antillais",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Le wallisien",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Le malgache",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "out-030",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.france",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quelle langue créole est parlée aux côtés du français en Martinique et en Guadeloupe ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Le tahitien",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Le créole antillais",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "Le wallisien",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Le créole réunionnais",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "out-031",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.france",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quel sport nautique traditionnel, originaire de Polynésie, est aujourd'hui pratiqué dans le monde entier ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "La voile",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Le kitesurf",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Le surf",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "L'aviron",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "out-032",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.france",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quelle collectivité d'outre-mer française de l'océan Indien fait l'objet d'un litige territorial avec les Comores, qui la revendiquent ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "La Réunion",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Madagascar",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Les Seychelles",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Mayotte",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "out-033",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.france",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quel est le chef-lieu de la Guyane française ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Cayenne",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "Kourou",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Saint-Laurent-du-Maroni",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Rémire-Montjoly",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "out-034",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.france",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quel est le chef-lieu de La Réunion ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Saint-Pierre",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Saint-Denis",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "Saint-Paul",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Le Tampon",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "out-035",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.france",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quel est le chef-lieu de Mayotte ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Dzaoudzi",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Koungou",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Mamoudzou",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "Sada",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "out-036",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.france",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "En raison de l'étendue de ses territoires d'outre-mer, combien de fuseaux horaires différents la France couvre-t-elle à travers le monde ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "5",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "24",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "8",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "12",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "out-037",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.france",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quel peuple autochtone est originaire de la Nouvelle-Calédonie, avant la colonisation française ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Les Kanaks",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "Les Maoris",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Les Aborigènes",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Les Polynésiens marquisiens",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "out-038",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.france",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quelle ressource minière abondante fait de la Nouvelle-Calédonie l'un des premiers producteurs mondiaux ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "L'or",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Le nickel",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "Le cuivre",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Le charbon",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "out-039",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.france",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quel DROM antillais a donné son nom à un célèbre rhum agricole réputé dans le monde entier ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "La Réunion",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Mayotte",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "La Martinique",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "La Guyane",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "out-040",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.france",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quel DROM antillais est surnommé « l'île papillon » en raison de la forme de ses deux ailes, Basse-Terre et Grande-Terre ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "La Martinique",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Saint-Martin",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "La Dominique",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "La Guadeloupe",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "out-041",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.france",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quel fleuve sépare une partie de la Guyane française du Suriname voisin ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Le Maroni",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "L'Oyapock",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "L'Amazone",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "L'Orénoque",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "out-042",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.france",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quel fleuve sépare la Guyane française du Brésil, à l'est du territoire ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Le Maroni",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "L'Oyapock",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "L'Amazone",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Le Rio Negro",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "out-043",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.france",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quelle immense forêt tropicale recouvre plus de 90 % du territoire de la Guyane française ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "La forêt du Congo",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "La forêt de Bornéo",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "La forêt amazonienne",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "La forêt boréale",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "out-044",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.france",
+      "difficulty": 1,
+      "type": "single",
+      "prompt": "Quel océan borde la Guyane française ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "L'océan Pacifique",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "L'océan Indien",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "L'océan Arctique",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "L'océan Atlantique",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "out-045",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.france",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quel est le point culminant de la Guadeloupe, un volcan actif surveillé en permanence ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "La Soufrière",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "La montagne Pelée",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Le Piton des Neiges",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Le Piton de la Fournaise",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "out-046",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.france",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quel statut politique particulier caractérise la Nouvelle-Calédonie, différent de celui des DROM classiques ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Un département d'outre-mer classique",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Une collectivité à statut particulier (sui generis)",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "Un territoire sous mandat de l'ONU",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Une province métropolitaine",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "out-047",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.france",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Environ combien d'îles compte l'archipel de la Polynésie française ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Environ 20",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Environ 500",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Environ 118",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "Environ 60",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "out-048",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.france",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quel célèbre lagon polynésien, entouré d'un récif corallien, est l'un des plus photographiés au monde ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Le lagon de Mayotte",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Le lagon de Nouméa",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Le lagon de Wallis",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Le lagon de Bora Bora",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "out-049",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.france",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quel navigateur britannique du XVIIIe siècle explora en profondeur l'océan Pacifique, y compris certaines îles françaises actuelles ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "James Cook",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "Francis Drake",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Henry Hudson",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Walter Raleigh",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "out-050",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.france",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quel territoire d'outre-mer français, proche du Canada, se situe dans un fuseau horaire proche de celui de la côte est nord-américaine ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "La Guadeloupe",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Saint-Pierre-et-Miquelon",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "La Martinique",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "La Guyane",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "out-051",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.france",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quelle langue polynésienne locale est co-officielle avec le français dans l'archipel de Wallis-et-Futuna ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Le tahitien",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Le malgache",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Le wallisien",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "Le créole réunionnais",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "out-052",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.france",
+      "difficulty": 3,
+      "type": "single",
+      "prompt": "Quelle collectivité d'outre-mer française du Pacifique a organisé plusieurs référendums d'autodétermination entre 2018 et 2021 ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "La Polynésie française",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Wallis-et-Futuna",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Saint-Pierre-et-Miquelon",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "La Nouvelle-Calédonie",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "id": "out-053",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.france",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Quelle petite île antillaise française, prisée pour son tourisme haut de gamme, est réputée pour ne pas prélever de TVA ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Saint-Barthélemy",
+          "correct": true
+        },
+        {
+          "id": "b",
+          "text": "Saint-Martin",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "La Guadeloupe",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "La Martinique",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "out-054",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.france",
+      "difficulty": 2,
+      "type": "single",
+      "prompt": "Comment appelle-t-on le statut commun à la Guadeloupe, la Martinique, la Guyane, La Réunion et Mayotte ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Collectivité sui generis",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Département et région d'outre-mer (DROM)",
+          "correct": true
+        },
+        {
+          "id": "c",
+          "text": "Territoire sous mandat",
+          "correct": false
+        },
+        {
+          "id": "d",
+          "text": "Pays d'outre-mer",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "out-055",
+      "categoryId": "geographie",
+      "subcategoryId": "geographie.france",
+      "difficulty": 1,
+      "type": "single",
+      "prompt": "Quel est le point commun entre tous les territoires français d'outre-mer, malgré leur éloignement parfois de plusieurs milliers de kilomètres de Paris ?",
+      "answers": [
+        {
+          "id": "a",
+          "text": "Ils ont chacun leur propre monnaie nationale",
+          "correct": false
+        },
+        {
+          "id": "b",
+          "text": "Ils ne dépendent d'aucun ministère français",
+          "correct": false
+        },
+        {
+          "id": "c",
+          "text": "Ils font partie intégrante de la République française",
+          "correct": true
+        },
+        {
+          "id": "d",
+          "text": "Ils sont tous membres de l'Union européenne à part entière",
+          "correct": false
+        }
+      ]
+    }
+  ]
+}
